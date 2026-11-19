@@ -1,0 +1,9 @@
+# Dados de alunos e financeiros não vão para o repositório (LGPD)
+dados/*
+!dados/README.md
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+~$*
+.claude/settings.local.json
