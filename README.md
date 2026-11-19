@@ -5,36 +5,39 @@ Inspirar: Polo Unicesumar, Inspirar Idiomas, Inspirar Informática e novas frent
 
 ## A equipe
 
+Cada agente tem nome e personalidade. A inicial do nome é a inicial da área, para facilitar lembrar.
+
 ```
-                         👤 DONO (decide)
-                               │
-                 🧭 DIREÇÃO GERAL (sessão principal)
-          coordena, consolida, prioriza, cobra pendências
-                               │
-   ┌───────────────┬───────────┴───────────┬────────────────────┐
- RADAR E VISÃO   ÁREAS FUNCIONAIS        UNIDADES DE NEGÓCIO   
- 🛡️ sentinela     💼 comercial            🎓 polo-unicesumar    
- ♟️ estrategista   📣 marketing            🌎 inspirar-idiomas   
-                 💰 financeiro           💻 inspirar-informatica
-                 📚 pedagogico           🚀 novos-negocios     
-                 🤝 sucesso-aluno                              
-                 ⚙️ pessoas-operacoes                          
+                          👤 DONO (decide)
+                                │
+                 🧭 DAVI — Diretor Geral (sessão principal)
+           coordena, consolida, prioriza, cobra pendências
+                                │
+   ┌────────────────┬───────────┴────────────┬──────────────────────┐
+ RADAR E VISÃO    ÁREAS                      UNIDADES DE NEGÓCIO
+ 🛡️ Vera           💼 Camila (Comercial)      🎓 Ulisses (Unicesumar)
+ ♟️ Estevão        📣 Marina (Marketing)      🌎 Isabela (Idiomas)
+                  💰 Fernando (Financeiro)   💻 Tiago (Informática)
+                  📚 Paula (Pedagógico)      🚀 Nina (Novos Negócios)
+                  🤝 Sara (Sucesso do Aluno)
+                  ⚙️ Otávio (Pessoas e Operações)
 ```
 
-| Agente | Papel em uma frase |
-|---|---|
-| **sentinela** | Vigia tudo: metas, caixa, evasão, prazos, números estranhos. Dá o alerta. |
-| **estrategista** | Pensa melhorias e cenários, faz o papel de advogado do diabo. |
-| **comercial** | Funil, metas de matrícula, scripts, follow-up, parcerias B2B, cross-sell. |
-| **marketing** | Campanhas, conteúdo pronto, anúncios, presença local. |
-| **financeiro** | Caixa, DRE por unidade, inadimplência, preço, ponto de equilíbrio, repasses. |
-| **pedagogico** | Qualidade de ensino, cursos, professores, avaliação, aula experimental. |
-| **sucesso-aluno** | Retenção, evasão, rematrícula, satisfação, atendimento. |
-| **pessoas-operacoes** | Equipe, processos (POPs), contratos, infraestrutura, LGPD. |
-| **polo-unicesumar** | Dono da operação do polo EAD: metas, ciclos, alunos ativos, mantenedora. |
-| **inspirar-idiomas** | Dono da escola de idiomas: turmas, produtos, rematrícula, resultado. |
-| **inspirar-informatica** | Dono da unidade de informática: portfólio atual, laboratório, empregabilidade. |
-| **novos-negocios** | Encontra e testa novas fontes de receita ("outras opções"). |
+| Nome | Cargo | Papel em uma frase |
+|---|---|---|
+| **Davi** | Diretor Geral | Coordena a equipe, junta as opiniões e te entrega uma recomendação. |
+| **Vera** | Sentinela da Controladoria | Vigia tudo: metas, caixa, evasão, prazos, números estranhos. Dá o alerta. |
+| **Estevão** | Estrategista | Pensa melhorias e cenários, faz o papel de advogado do diabo. |
+| **Camila** | Diretora Comercial | Funil, metas de matrícula, scripts, follow-up, parcerias B2B, cross-sell. |
+| **Marina** | Gerente de Marketing | Campanhas, conteúdo pronto, anúncios, presença local. |
+| **Fernando** | Diretor Financeiro | Caixa, DRE por unidade, inadimplência, preço, ponto de equilíbrio, repasses. |
+| **Paula** | Coordenadora Pedagógica | Qualidade de ensino, cursos, professores, avaliação, aula experimental. |
+| **Sara** | Gerente de Sucesso do Aluno | Retenção, evasão, rematrícula, satisfação, atendimento. |
+| **Otávio** | Gerente de Pessoas e Operações | Equipe, processos (POPs), contratos, infraestrutura, LGPD. |
+| **Ulisses** | Gestor do Polo Unicesumar | Operação do polo EAD: metas, ciclos, alunos ativos, mantenedora. |
+| **Isabela** | Gestora da Inspirar Idiomas | Turmas, produtos, rematrícula e resultado da escola de idiomas. |
+| **Tiago** | Gestor da Inspirar Informática | Portfólio atual, laboratório, empregabilidade. |
+| **Nina** | Gerente de Novos Negócios | Encontra e testa novas fontes de receita ("outras opções"). |
 
 ## Como usar
 
@@ -55,13 +58,13 @@ Inspirar: Polo Unicesumar, Inspirar Idiomas, Inspirar Informática e novas frent
 | Uma vez por mês (ou quando quiser crescer) | `/ideias` |
 
 ### Ou simplesmente converse
-Escreva normalmente, por exemplo:
-- *"A inadimplência do inglês está alta, o que fazemos?"*
-- *"Quero lançar um curso de IA para empresas. Vale a pena?"*
-- *"Monta a campanha de matrícula da Unicesumar para janeiro."*
-- *"Fala com o comercial e o financeiro: posso dar 20% de desconto na matrícula?"*
+Escreva normalmente e chame a equipe pelo nome, por exemplo:
+- *"Isabela, a inadimplência do inglês está alta, o que fazemos?"*
+- *"Nina, quero lançar um curso de IA para empresas. Vale a pena?"*
+- *"Ulisses e Marina, montem a campanha de matrícula da Unicesumar para janeiro."*
+- *"Davi, pergunta à Camila e ao Fernando: posso dar 20% de desconto na matrícula?"*
 
-A Direção Geral decide quais agentes chamar, junta as respostas e te entrega uma recomendação.
+O Davi decide quais agentes chamar, junta as respostas e te entrega uma recomendação.
 
 ## Memória do negócio
 - `gestao/pendencias.md` — o que precisa ser feito, por quem, até quando

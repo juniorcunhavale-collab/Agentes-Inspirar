@@ -1,6 +1,6 @@
 # Quadro de pendências (ações em andamento)
 
-> Atualizado pelos agentes e pela Direção. Toda ação tem responsável e prazo.
+> Atualizado pelos agentes e pelo Davi (Direção Geral). Toda ação tem responsável e prazo.
 > Status: ⬜ a fazer · 🔄 em andamento · ⛔ travada · ✅ concluída (mover para "Concluídas")
 
 ## Ativas
@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|---|
 | 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Dono | [definir] | ⬜ | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
-| 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Direção | [definir] | ⬜ | Implantação |
+| 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Davi | [definir] | ⬜ | Implantação |
 
 ## Concluídas
 | # | Ação | Concluída em | Resultado |
