@@ -8,14 +8,14 @@
 | Indicador | Unidade | Meta | Alerta 🟡 | Crítico 🔴 | Fonte do dado |
 |---|---|---|---|---|---|
 | Novas matrículas no mês | Unicesumar | [PREENCHER] | < 90% da meta | < 70% | dados/matriculas |
-| Alunos ativos | Unicesumar | [PREENCHER] | | | |
+| Alunos ativos | Unicesumar | [PREENCHER] (hoje ~100) | | | |
 | Evasão mensal (%) | Unicesumar | [PREENCHER] | | | |
 | Novas matrículas no mês | Idiomas | [PREENCHER] | < 90% da meta | < 70% | |
-| Alunos ativos | Idiomas | [PREENCHER] | | | |
+| Alunos ativos | Idiomas | [PREENCHER] (hoje 85) | | | |
 | Ocupação média das turmas (%) | Idiomas | [PREENCHER] | < 70% | < 50% | |
 | Rematrícula (%) | Idiomas | [PREENCHER] | | | |
 | Novas matrículas no mês | Informática | [PREENCHER] | < 90% da meta | < 70% | |
-| Alunos ativos | Informática | [PREENCHER] | | | |
+| Alunos ativos | Informática | [PREENCHER] (lançamento 2027) | | | |
 | Ocupação do laboratório (%) | Informática | [PREENCHER] | | | |
 | Faturamento | Grupo | [PREENCHER] | | | |
 | Inadimplência > 30 dias (%) | Grupo | [PREENCHER] | > meta | > 1,5× meta | |
@@ -28,9 +28,12 @@
 *(Os limites de alerta acima são sugestões iniciais — ajuste à realidade do negócio.)*
 
 ## Metas anuais / de ciclo
-- [PREENCHER]
+- Polo Unicesumar — meta para o início de 2027: existe; números [PREENCHER]
+- Demais frentes: [PREENCHER]
 
 ## Histórico mensal (realizado)
 | Mês | Unidade | Matrículas | Ativos | Evasão | Faturamento | Inadimplência | Observações |
 |---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| 2026-11 (ponto de partida) | Unicesumar | — | ~100 | — | ~R$ 6.000 (estim.: 100 × R$ 60) | — | Estimativa do dono |
+| 2026-11 (ponto de partida) | Idiomas | — | 85 | — | R$ 10,2–16,9 mil (faixa teórica) | — | Mensalidades R$ 120–199 |
+| 2026-11 (ponto de partida) | Informática | — | 0 | — | — | — | Em lançamento |

@@ -16,7 +16,9 @@
 ## Próximos prazos e eventos
 | Data | Frente | Evento / prazo | Responsável | Status |
 |---|---|---|---|---|
-| [PREENCHER] | | | | |
+| Dez/2026 | Informática | Lançamento da Inspirar Informática (divulgação e pré-matrícula) | Sócios + Telchar | A planejar |
+| Início/2027 | Informática | Início das primeiras turmas | Sócios + Telchar | A planejar |
+| Início/2027 | Unicesumar | Ciclo de captação com meta para o início de 2027 | Indianara + Ulmo | Datas [PREENCHER] |
 
 ## Obrigações recorrentes
 | Todo dia/mês | O quê | Responsável |
