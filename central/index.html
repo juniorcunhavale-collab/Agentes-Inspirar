@@ -1,0 +1,123 @@
+<title>Documentos Instituto Inspirar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: lista de documentos por categoria; ao tocar, o documento abre na mesma página (leitura confortável no celular) */
+:root{
+  --bg:#f5f7fb; --surface:#ffffff; --ink:#152238; --muted:#56637a; --line:#dbe2ee;
+  --accent:#1f6feb; --accent-soft:#e3edff; --code:#eef2f8;
+  --display:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+  --body:"Inter","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1522; --surface:#172034; --ink:#e7ecf5; --muted:#a3afc4; --line:#2a3550;
+  --accent:#6ea8ff; --accent-soft:#1c2b4a; --code:#1d2840; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1522; --surface:#172034; --ink:#e7ecf5; --muted:#a3afc4; --line:#2a3550;
+  --accent:#6ea8ff; --accent-soft:#1c2b4a; --code:#1d2840; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:820px;margin:0 auto;padding-block:24px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:clamp(1.5rem,4.5vw,2rem);line-height:1.15}
+.eyebrow{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lede{color:var(--muted);margin:6px 0 0}
+label.search{display:block}
+#q{width:100%;box-sizing:border-box;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+#q:focus{outline:2px solid var(--accent);outline-offset:1px}
+.cat{display:flex;flex-direction:column;gap:8px}
+.cat h2{font-size:1rem;color:var(--muted);font-weight:700}
+.doc{display:flex;flex-direction:column;gap:2px;text-align:left;width:100%;font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer}
+.doc:hover,.doc:focus-visible{border-color:var(--accent);outline:none}
+.doc b{font-family:var(--display);font-size:1rem}
+.doc span{color:var(--muted);font-size:.85rem}
+.meta{font-size:.75rem;color:var(--muted)}
+.ext{display:inline-block;margin-top:2px;font-size:.8rem;color:var(--accent);font-weight:600}
+#viewer{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;min-width:0}
+.back{font:inherit;font-weight:600;color:var(--accent);background:none;border:0;padding:6px 0;cursor:pointer}
+.md{min-width:0;overflow-wrap:anywhere}
+.md h1{font-size:1.4rem;margin:8px 0 10px}
+.md h2{font-size:1.15rem;margin:22px 0 8px}
+.md h3{font-size:1rem;margin:18px 0 6px}
+.md p,.md ul,.md ol{margin:8px 0}
+.md table{border-collapse:collapse;font-size:.85rem;font-variant-numeric:tabular-nums}
+.md th,.md td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+.md th{background:var(--bg)}
+.tbl{overflow-x:auto;margin:10px 0}
+.md code{background:var(--code);padding:1px 5px;border-radius:5px;font-size:.88em}
+.md pre{background:var(--code);padding:10px;border-radius:8px;overflow-x:auto}
+.md pre code{background:none;padding:0}
+.md blockquote{margin:10px 0;padding:6px 12px;border-left:3px solid var(--accent);color:var(--muted)}
+.md a{color:var(--accent)}
+.empty{color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Instituto Inspirar · Pinhão/PR</div>
+    <h1>Central de Documentos</h1>
+    <p class="lede">Relatórios, planos, pendências e dados do negócio produzidos pela equipe de agentes. Toque em um documento para ler. Para alterar algo, peça ao Durin.</p>
+  </header>
+
+  <label class="search" for="q"><span class="meta">Buscar documento</span>
+    <input id="q" type="search" placeholder="Ex.: informática, pendências, caixa" autocomplete="off">
+  </label>
+
+  <div id="list"></div>
+  <section id="viewer" hidden>
+    <button class="back" id="back" type="button">← Voltar para a lista</button>
+    <div class="md" id="md"></div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<script>
+// Cada documento: id (usado no link #id), categoria, título, data, resumo, arquivo publicado junto (md) ou link externo (url)
+const DOCS=[
+ {id:"cronograma-informatica",cat:"Relatórios e planos",t:"Cronograma da Informática (nov/26 a jan/28)",d:"20/11/2026",s:"Mês a mês: alunos, computadores, horários, investimentos e receita.",url:"https://claude.ai/artifact/8UDoQK6Rwh1CBWRD4eHofG"},
+ {id:"plano-informatica-2027",cat:"Relatórios e planos",t:"Plano 2027 da Informática",d:"20/11/2026",s:"Níveis de máquina, Fundo de Equipamentos e projetos correlatos.",md:"docs/2026-11-20-informatica-plano-2027.md"},
+ {id:"colonia-digital",cat:"Relatórios e planos",t:"Colônia Digital e grade da Informática",d:"20/11/2026",s:"Colônia de janeiro e grade sem choque com o inglês.",md:"docs/2026-11-20-colonia-digital-e-grade-informatica.md"},
+ {id:"plano-equipamento",cat:"Relatórios e planos",t:"Plano de equipamento da Informática",d:"20/11/2026",s:"Quantas pré-matrículas pagam cada computador; compra em ondas.",md:"docs/2026-11-20-plano-equipamento-informatica.md"},
+ {id:"pendencias",cat:"Gestão",t:"Pendências",d:"atualizado sempre",s:"O que precisa ser feito, por quem e até quando.",md:"docs/pendencias.md"},
+ {id:"riscos",cat:"Gestão",t:"Mapa de riscos",d:"atualizado sempre",s:"Riscos do negócio, nível e plano de resposta.",md:"docs/riscos.md"},
+ {id:"decisoes",cat:"Gestão",t:"Decisões",d:"atualizado sempre",s:"Decisões tomadas pelos sócios, com motivo.",md:"docs/decisoes.md"},
+ {id:"ideias",cat:"Gestão",t:"Banco de ideias",d:"atualizado sempre",s:"Ideias em avaliação, aprovadas e descartadas.",md:"docs/ideias.md"},
+ {id:"negocio",cat:"O negócio",t:"O negócio",d:"entrevista de 20/11/2026",s:"Frentes, endereço, sócios, mercado, dores e oportunidades.",md:"docs/negocio.md"},
+ {id:"financeiro",cat:"O negócio",t:"Retrato financeiro",d:"entrevista de 20/11/2026",s:"Receitas, custos fixos, caixa e dívidas.",md:"docs/financeiro.md"},
+ {id:"metas",cat:"O negócio",t:"Metas e indicadores",d:"entrevista de 20/11/2026",s:"Meta de 2027 e como chegar aos +R$ 10 mil.",md:"docs/metas-e-indicadores.md"},
+ {id:"calendario",cat:"O negócio",t:"Calendário",d:"entrevista de 20/11/2026",s:"Prazos e eventos das três frentes.",md:"docs/calendario.md"},
+ {id:"portfolio",cat:"O negócio",t:"Cursos e preços",d:"entrevista de 20/11/2026",s:"Portfólio e preços de cada frente.",md:"docs/portfolio-e-precos.md"},
+ {id:"equipe",cat:"O negócio",t:"Equipe",d:"entrevista de 20/11/2026",s:"Sócios, colaboradores e quem cobre quem.",md:"docs/equipe.md"}
+];
+const list=document.getElementById('list'),viewer=document.getElementById('viewer'),md=document.getElementById('md'),q=document.getElementById('q');
+function renderList(){
+  const term=q.value.trim().toLowerCase();list.innerHTML='';
+  const cats=[...new Set(DOCS.map(x=>x.cat))];let shown=0;
+  for(const c of cats){
+    const items=DOCS.filter(x=>x.cat===c&&(!term||(x.t+' '+x.s).toLowerCase().includes(term)));
+    if(!items.length)continue;shown+=items.length;
+    const sec=document.createElement('section');sec.className='cat';sec.innerHTML=`<h2>${c}</h2>`;
+    for(const x of items){
+      if(x.url){const a=document.createElement('a');a.className='doc';a.href=x.url;a.target='_blank';a.rel='noopener';a.style.textDecoration='none';
+        a.innerHTML=`<b>${x.t}</b><span>${x.s}</span><span class="meta">${x.d}</span><span class="ext">Abrir página ↗</span>`;sec.appendChild(a);}
+      else{const b=document.createElement('button');b.type='button';b.className='doc';
+        b.innerHTML=`<b>${x.t}</b><span>${x.s}</span><span class="meta">${x.d}</span>`;b.onclick=()=>{location.hash=x.id};sec.appendChild(b);}
+    }
+    list.appendChild(sec);
+  }
+  if(!shown)list.innerHTML='<p class="empty">Nenhum documento encontrado com essa busca.</p>';
+}
+async function open(id){
+  const x=DOCS.find(d=>d.id===id&&d.md);
+  if(!x){viewer.hidden=true;list.hidden=false;q.parentElement.hidden=false;return}
+  list.hidden=true;q.parentElement.hidden=true;viewer.hidden=false;md.innerHTML='<p class="empty">Carregando…</p>';
+  try{const r=await fetch(x.md);if(!r.ok)throw 0;const txt=await r.text();
+    md.innerHTML=window.marked?marked.parse(txt):'<pre>'+txt.replace(/</g,'&lt;')+'</pre>';
+    md.querySelectorAll('table').forEach(t=>{const w=document.createElement('div');w.className='tbl';t.parentNode.insertBefore(w,t);w.appendChild(t)});
+  }catch(e){md.innerHTML='<p class="empty">Não foi possível abrir este documento agora. Tente novamente em instantes.</p>'}
+  window.scrollTo(0,0);
+}
+document.getElementById('back').onclick=()=>{history.replaceState(null,'',location.pathname+location.search);open('')};
+q.addEventListener('input',renderList);
+window.addEventListener('hashchange',()=>open(location.hash.slice(1)));
+renderList();open(location.hash.slice(1));
+</script>

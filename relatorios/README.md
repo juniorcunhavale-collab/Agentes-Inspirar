@@ -9,4 +9,7 @@ Saídas geradas pelos agentes e rotinas. Padrão de nome: `AAAA-MM-DD-<tipo>-<ar
 - `*-plano-captacao-<unidade>.md` — planos de captação (`/plano-captacao`)
 - `*-radar.md` — radar da Sentinela
 
+Todos os relatórios também aparecem na **Central de Documentos**:
+https://claude.ai/artifact/1v4zCXHe8ZnAwgvMEYEcun (ver `CLAUDE.md`, seção 6).
+
 Relatórios antigos são a memória do negócio: o Estrategista os lê para ver tendências.

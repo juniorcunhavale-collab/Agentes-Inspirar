@@ -86,7 +86,8 @@ reais da equipe são identificadas pela função ou pelo nome real, nunca confun
    - `gestao/riscos.md` → riscos novos ou que mudaram de nível;
    - `gestao/decisoes.md` → decisões tomadas pelo dono (com data e motivo);
    - `gestao/ideias.md` → ideias que surgiram e ainda não viraram ação.
-6. **Relatórios** vão em `relatorios/` com nome `AAAA-MM-DD-<tipo>-<area>.md`.
+6. **Relatórios** vão em `relatorios/` com nome `AAAA-MM-DD-<tipo>-<area>.md` **e entram na
+   Central de Documentos** (ver seção 6). Nenhum relatório fica só na conversa.
 7. **Ações externas** (enviar e-mail, publicar, contatar cliente, gastar dinheiro) exigem
    confirmação explícita do dono. Rascunhe, não envie.
 8. **Dados pessoais de alunos** (CPF, telefone, notas, situação financeira) são sensíveis (LGPD):
@@ -120,4 +121,26 @@ relatorios/ → saídas dos agentes (diários, semanais, mensais, diagnósticos)
 modelos/    → modelos de documentos (plano de ação, relatório, proposta B2B)
 .claude/agents/   → definição dos subagentes
 .claude/commands/ → rotinas (slash commands)
+central/          → página da Central de Documentos (publicada como artifact)
 ```
+
+---
+
+## 6. Central de Documentos (onde o dono lê tudo)
+
+Página única, fixada na barra lateral do dono no claude.ai:
+**https://claude.ai/artifact/1v4zCXHe8ZnAwgvMEYEcun** (arquivo-fonte: `central/index.html`).
+
+Ela mostra os relatórios, a gestão (`gestao/*.md`) e o negócio (`contexto/*.md`), lidos dos arquivos
+publicados junto com a página em `docs/`. **Sempre que a Direção (Durin):**
+- **criar um relatório** → salvar em `relatorios/`, acrescentar uma linha no array `DOCS` de
+  `central/index.html` (id, categoria, título, data, resumo e `md: "docs/<arquivo>.md"`) e incluir o
+  arquivo no `files` da publicação;
+- **criar uma página visual** (artifact próprio, como o cronograma) → acrescentar uma linha em
+  `DOCS` com `url` em vez de `md`;
+- **alterar `gestao/` ou `contexto/`** → republicar a Central para os documentos ficarem atualizados.
+
+Republicar: Artifact tool com `file_path` = `central/index.html` e `files` mapeando cada
+`docs/<nome>.md` para o arquivo do repositório. Em outra sessão, passar também
+`url: "https://claude.ai/artifact/1v4zCXHe8ZnAwgvMEYEcun"` (ler a página antes) para manter o
+mesmo link — nunca criar uma Central nova.
