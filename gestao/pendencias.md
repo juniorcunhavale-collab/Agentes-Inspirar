@@ -66,6 +66,12 @@
 | 59 | Cotar fotógrafo (diária e por sessão), becas (compra × aluguel), painel, letreiro, balões, moldura e impressões para as sessões de fotos (3 cotações de cada) | Comercial | Celeborn | 2026-12-15 | ⬜ | Plano de formaturas |
 | 60 | Contador e advogado: tributação da venda antecipada, nota fiscal, CNAE, rendimento e minuta do contrato de formatura | Financeiro | Júnior + Fíli | 2026-12-15 | ⬜ | Plano de formaturas |
 | 61 | Classificar formandos 2027 (apto / pendência / inadimplente) e pesquisa de interesse (texto aprovado pelo Júnior) | Sucesso do aluno | Sam + Pelennor | 2026-12-18 | ⬜ | Plano de formaturas |
+| 62 | **Plataforma:** corrigir as aulas 4.5 (Word, "centralizar imagem" não conclui) e 5.5 (Excel, tarefas contraditórias) e o clique duplo do Excel | Informática | Júnior (Telchar apoia) | 2026-11-29 | ⬜ | Check-up da plataforma |
+| 63 | **Plataforma:** criar a "Trilha Colônia" (5 missões liberadas pela tutora) e o backup do progresso | Informática | Júnior (Telchar apoia) | 2026-12-06 | ⬜ | Check-up da plataforma |
+| 64 | Teste com 2–3 crianças no notebook real com Windows 11 (ficha de teste do Telchar até 01/12); medir quanto tempo dura cada aula | Informática | Júnior + Giovana | 2026-12-12 | ⬜ | Check-up da plataforma |
+| 65 | Termo LGPD da Informática adaptado (o atual é de outro projeto) e revisado por advogado | Operações | Telchar → Orthanc → advogado | 2026-12-18 | ⬜ | Check-up da plataforma |
+| 66 | Decidir hospedagem (Supabase + Vercel) e colocar no ar banco de dados, painel dos pais e da tutora | Informática | Júnior | 2027-01-31 | ⬜ | Check-up da plataforma |
+| 67 | Ensaio geral da Colônia com a Giovana; congelar a versão da plataforma até 27/12 | Informática | Júnior + Giovana | 2027-01-03 | ⬜ | Check-up da plataforma |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

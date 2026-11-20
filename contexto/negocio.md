@@ -128,11 +128,14 @@
   há também "Ementa do curso de informática básica (8 a 12 anos)" e o "Rascunho do termo de
   consentimento dos pais (LGPD)".
 
-- **Status da plataforma:** **pronta**, em fase de **teste prático**.
-- **Acompanhamento dos pais:** a plataforma **mostra o progresso do aluno para os pais** — ponto
-  considerado importantíssimo pelo dono (argumento de venda e de retenção).
+- **Status da plataforma (check-up do Telchar, 20/11/2026):** a parte do aluno tem **40 aulas e 7 testes** e roda até
+  offline, mas **funciona como demonstração**: o progresso fica salvo só no navegador de cada notebook. **Não está pronta
+  para lançar** — ver `relatorios/2026-11-20-checkup-plataforma-informatica.md`.
+- **Acompanhamento dos pais:** ponto considerado importantíssimo pelo dono, **mas ainda não existe de verdade** — a
+  tela dos pais só mostra alunos fictícios. Depende de banco de dados com login (meta: 31/01/2027). **Não prometer
+  na venda até estar no ar.**
 - **Word e Excel:** são **simulações dentro da plataforma** (evita custo e questões de licença).
-- **Gabaritos e apoio à tutora:** a plataforma oferece gabaritos e o que a tutora precisar.
+- **Gabaritos e apoio à tutora:** previstos, ainda **não implementados** (a tela da tutora usa dados fictícios).
 - **Substituto da tutora:** o próprio Júnior cobre as faltas da Giovana (no dia a dia ele não fica
   em sala).
 
