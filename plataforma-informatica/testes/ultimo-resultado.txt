@@ -1,8 +1,8 @@
-Bateria da plataforma · 2026-11-20T20:55:54.750Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
+Bateria da plataforma · 2026-11-20T21:08:54.481Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
 
 === Ponta a ponta · aluno · 1366x768 ===
 PASSOU · aluno 1366: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o gato bebe leite na cozinha"
+PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "a fada mora perto do lago"
 PASSOU · aluno 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 1366: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -12,7 +12,7 @@ PASSOU · aluno 1366: nenhum erro de console · []
 
 === Ponta a ponta · gestao · 1366x768 ===
 PASSOU · gestao 1366: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · gestao 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o computador ajuda a escrever e a pesquisar"
+PASSOU · gestao 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "a turma vai fazer um projeto muito legal"
 PASSOU · gestao 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · gestao 1366: aluno automático passa nos 7 testes · 7/7
 PASSOU · gestao 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -22,7 +22,7 @@ PASSOU · gestao 1366: nenhum erro de console · []
 
 === Ponta a ponta · aluno · 390x844 ===
 PASSOU · aluno 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a casa tem uma sala grande"
+PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "eu gosto de jogar bola"
 PASSOU · aluno 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -32,7 +32,7 @@ PASSOU · aluno 390: nenhum erro de console · []
 
 === Ponta a ponta · gestao · 390x844 ===
 PASSOU · gestao 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a turma vai fazer um projeto muito legal"
+PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "eu gosto de aprender coisas novas no computador"
 PASSOU · gestao 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · gestao 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · gestao 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0

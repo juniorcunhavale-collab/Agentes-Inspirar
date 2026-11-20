@@ -1265,7 +1265,7 @@ async function doBackup(tipo){const list=tipo==='aluno'?[me()]:realStudents();co
   V.modal={kind:'code',title:tipo==='aluno'?'Progresso guardado':'Cópia de segurança deste computador',file:ok?name:'',code,n:list.length};render()}
 function modalHtml(){const m=V.modal;let inner='';
   if(m.kind==='code')inner=`<h2 id="mdt">${esc(m.title)}</h2>
-    <p class="muted" style="margin:8px 0">${m.file?`O arquivo <b>${esc(m.file)}</b> foi baixado (pasta Downloads). Guarde num pen drive ou na pasta da Colônia.`:'Este navegador não deixou baixar o arquivo.'} ${m.n} aluno(s). Se preferir, copie o código abaixo e guarde (por exemplo, mandando para você mesma no WhatsApp).</p>
+    <p class="muted" style="margin:8px 0">${m.file?`O arquivo <b>${esc(m.file)}</b> foi enviado para a pasta Downloads. Guarde num pen drive ou na pasta da Colônia.`:'Este navegador não deixou baixar o arquivo.'} ${m.n} aluno(s). <b>Se o arquivo não aparecer em Downloads</b> (por exemplo, quando a plataforma está aberta dentro do claude.ai), copie o código abaixo e guarde, por exemplo mandando para você mesma no WhatsApp.</p>
     <textarea id="codeout" class="sel" readonly rows="5" style="font-family:monospace;font-size:.8rem">${esc(m.code)}</textarea>
     <div class="row" style="margin-top:12px;justify-content:flex-end"><button class="btn ghost" data-act="copycode">Copiar código</button><button class="btn" data-act="modalx">Fechar</button></div>`;
   if(m.kind==='restore')inner=`<h2 id="mdt">Trazer progresso</h2>
