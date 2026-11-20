@@ -51,9 +51,12 @@
 | 44 | Calcular preço e custo da formação e das oficinas (referência: R$ 1.900–2.750/mês pagos hoje na jornada ampliada) e confirmar o teto vigente de dispensa | Financeiro | Fíli | 2026-12-10 | ⬜ | Pesquisa Pinhão |
 | 45 | **Decidir se seguimos com os Produtos A (oficinas na jornada ampliada) e B (formação de professores)** para a prefeitura | Informática | Sócios | 2026-11-27 | ⬜ | Pesquisa Pinhão v2 |
 | 46 | ~~Rascunhar o pedido de audiência~~ → pronto; falta o Júnior aprovar e preencher telefone, e-mail e nº do ofício do Instituto | Comercial | Celeborn → Júnior aprova | 2026-11-30 | 🔄 | Pesquisa Pinhão v2 |
-| 47 | **URGENTE: retorno aos leads do polo** — 34 leads, 33 ainda como "Novo" (26 pré-inscrições antigas, de abr a set, + 7 de 18/11). Começar pelos 7 de 18/11; definir quem faz contato todo dia; preencher origem, responsável e próximo follow-up | Unicesumar | Indianara + Giovana (Celeborn acompanha) | 2026-11-25 | ⬜ | Status comercial 20/11 |
+| 47 | **URGENTE: retorno aos leads do polo** — 34 leads, 33 ainda como "Novo" (26 pré-inscrições antigas, de abr a set, + 7 de 18/11). Começar pelos 7 de 18/11; definir quem faz contato todo dia; preencher origem, responsável e próximo follow-up | Unicesumar | Indianara + Giovana (Celeborn acompanha) | **2026-11-23** | ⬜ | Status comercial 20/11 (antecipado pela Black Week) |
 | 48 | Reunião de 30 min dos sócios: Hora do Código, preço do Pacote Fundador e da Colônia, Produtos A/B da prefeitura | Grupo | Júnior + Indianara | 2026-11-24 | ⬜ | Status comercial 20/11 |
 | 49 | Indicar quem faz a ligação de cliente oculto no Raniel (roteiro do Celeborn) | Comercial | Júnior | 2026-11-27 | ⬜ | Status comercial 20/11 |
+| 50 | **HOJE:** consultor da Unicesumar — vigência da Black Week 2026, 1ª mensalidade de aluno novo, desconto vale o curso todo?, peças oficiais, frequência dos encontros das licenciaturas, repasse sobre o valor com desconto, reabertura conta na meta? | Unicesumar | Giovana (Ulmo acompanha) | 2026-11-20 | ⬜ | Plano Black Week |
+| 51 | Reabertura de matrícula para ex-alunos (1ª mensalidade R$ 19,90) — chamar os evadidos do polo | Unicesumar | Giovana + Indianara (Sam acompanha) | **2026-11-23** | ⬜ | Plano Black Week |
+| 52 | Aprovar o plano Black Week, as mensagens e as publicações; combinar as artes com a Tânia | Unicesumar | Júnior | 2026-11-21 | ⬜ | Plano Black Week |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

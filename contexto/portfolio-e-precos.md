@@ -7,6 +7,7 @@
 > Repasse ao polo: **30% da mensalidade** (contrato atual — vai mudar). Média ≈ **R$ 60 por aluno/mês**.
 > Sem taxa de matrícula: o aluno paga a 1ª mensalidade (valor promocional) ao se matricular.
 > Mais vendidos: Administração e Pedagogia.
+> **Preços do polo Pinhão (site oficial, 20/11/2026, Black Week):** Pedagogia R$ 541,99 → R$ 243,90; demais licenciaturas R$ 502,99 → R$ 226,35; Administração EAD R$ 525,99 → R$ 236,70. Tabela completa: `relatorios/2026-11-20-precos-black-week-pinhao.md`. Os preços de Pinhão são ~25% maiores que a tabela nacional.
 
 | Curso / modalidade | Duração | Mensalidade (tabela) | Condição/desconto vigente | Observações |
 |---|---|---|---|---|
