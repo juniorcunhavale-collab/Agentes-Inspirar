@@ -6,7 +6,7 @@
 ## Ativas
 | # | Ação | Frente | Responsável | Prazo | Status | Origem |
 |---|---|---|---|---|---|---|
-| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 5 de 7 feitos | Implantação |
+| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 6 de 7 feitos | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
 | 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática — já definidos: público 8–12 anos, conteúdo básico (Word/Excel), plataforma própria, tutora Giovana, contrato anual, início em jan/2027. Falta: preço, compra dos notebooks, campanha de pré-matrícula | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
 | 5 | ~~Informar os números da meta Unicesumar~~ → 69 matrículas até 22/03/2027 | Unicesumar | Júnior | — | ✅ | Entrevista bloco 1 |
@@ -18,11 +18,14 @@
 | 11 | Levantar a grade de horários do inglês (turmas, dias, aulas por semana) e as horas semanais do Júnior em sala | Idiomas | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 3 |
 | 12 | Planejar a rematrícula 2027 do inglês (quem renova, quando vencem os contratos, condição de renovação e reajuste) | Idiomas | Isengard + Fíli → sócios | 2026-12-05 | ⬜ | Entrevista bloco 3 |
 | 13 | Compartilhar o acesso/link da plataforma de informática para a equipe ajudar a melhorá-la | Informática | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 4 |
-| 14 | Definir a compra dos notebooks (quantos agora, orçamento, prazo de entrega até o início de janeiro) | Informática | Sócios (Fíli calcula o retorno) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
+| 14 | Calcular quantas matrículas antecipadas pagam cada notebook novo e a capacidade real com 2 computadores (horários × alunos) | Informática | Fíli + Telchar | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 15 | Definir vínculo, horários e custo da Giovana (tutora) | Informática | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 16 | Criar uma planilha simples de interessados (data, nome, frente/curso, origem, status, próximo contato) usada por Indianara e Giovana | Grupo | Celeborn monta → Indianara e Giovana usam | 2026-11-27 | ⬜ | Entrevista bloco 5 |
 | 17 | Levantar preço e formato dos concorrentes (Censpeg, Unifacvest, Raniel) | Grupo | Nori + Celeborn (a equipe faz ligações/pesquisa) | 2026-12-05 | ⬜ | Entrevista bloco 5 |
 | 18 | Confirmar o @ do Instagram, a função da Diana e o gasto mensal médio com marketing | Marketing | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 5 |
+| 19 | **Descobrir para onde vai a "sobra" aparente de ~R$ 12 mil/mês**: listar dívidas (valor, parcela, prazo), retiradas dos sócios, custo do material, água/luz e marketing | Financeiro | Júnior + Indianara → Fíli analisa | 2026-12-05 | ⬜ | Entrevista bloco 6 |
+| 20 | Medir a inadimplência do inglês: lista de quem está em atraso e há quanto tempo (exportar a planilha para `dados/`) | Financeiro | Júnior → Fíli | 2026-11-27 | ⬜ | Entrevista bloco 6 |
+| 21 | Confirmar se os ~R$ 12 mil do inglês são o valor cobrado ou o efetivamente recebido | Financeiro | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 6 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

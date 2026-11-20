@@ -4,7 +4,8 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 5)
+Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 6)
+> Números financeiros detalhados: `contexto/financeiro.md`.
 
 ## Identidade
 - **Nome:** Instituto Inspirar

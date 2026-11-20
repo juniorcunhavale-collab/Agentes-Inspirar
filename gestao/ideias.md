@@ -21,4 +21,7 @@
 | 14 | Programa de indicação **permanente** (regra fixa e conhecida por todos), no lugar de campanhas pontuais, para as 3 frentes | Grupo | Entrevista bloco 5 | — | 💡 | Complementa a ideia 2 |
 | 15 | Pegar carona nas campanhas nacionais da Unicesumar: postar no mesmo período com o "aqui em Pinhão, na Rua XV de Novembro" | Unicesumar | Entrevista bloco 5 | — | 💡 | Merry + Ulmo; respeitar a marca |
 | 16 | Posicionamento contra a Unifacvest (mais barata): vender o que ela não tem — atendimento presencial, acompanhamento no polo, reputação da Inspirar | Unicesumar | Entrevista bloco 5 | — | 💡 | Celeborn + Ulmo |
+| 17 | Régua de cobrança simples e padronizada (lembrete 3 dias antes, no dia, D+3, D+10, contato pessoal D+20) e Pix recorrente ou boleto automático | Financeiro | Entrevista bloco 6 | — | 💡 | Fíli + Sam; mensagens prontas |
+| 18 | Trocar parte dos descontos por **desconto de pontualidade** (paga até o vencimento, ganha X%) | Financeiro | Entrevista bloco 6 | — | 💡 | Fíli calcula |
+| 19 | Usar a entrada do material (início e meio do ano) para criar a primeira reserva de caixa e/ou comprar notebooks | Financeiro | Entrevista bloco 6 | — | 💡 | ~R$ 13,7 mil por troca, menos o custo do material |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |

@@ -34,6 +34,6 @@
 ## Histórico mensal (realizado)
 | Mês | Unidade | Matrículas | Ativos | Evasão | Faturamento | Inadimplência | Observações |
 |---|---|---|---|---|---|---|---|
-| 2026-11 (ponto de partida) | Unicesumar | — | ~100 | — | ~R$ 6.000 (estim.: 100 × R$ 60) | — | Estimativa do dono |
-| 2026-11 (ponto de partida) | Idiomas | — | 86 | — | R$ 10,2–16,9 mil (faixa teórica) | — | Mensalidades R$ 120–199 |
+| 2026-11 (ponto de partida) | Unicesumar | — | ~100 | — | ~R$ 5.000–5.200 (repasse informado) | — | Estimativa do dono |
+| 2026-11 (ponto de partida) | Idiomas | — | 86 | — | ~R$ 12.000 (informado) | "muito alta" | + material R$ 13.760 no início e no meio do ano |
 | 2026-11 (ponto de partida) | Informática | — | 0 | — | — | — | Em lançamento |

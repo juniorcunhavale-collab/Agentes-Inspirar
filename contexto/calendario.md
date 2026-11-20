@@ -25,4 +25,5 @@
 ## Obrigações recorrentes
 | Todo dia/mês | O quê | Responsável |
 |---|---|---|
-| [PREENCHER] (ex.: dia 20 — impostos) | | |
+| Mensal | Aluguel (R$ 1.050), Giovana (R$ 962), Tânia (R$ 450), contabilidade (R$ 100), impostos/parcelamentos (~R$ 1.700) — datas de vencimento [PREENCHER] | Sócios |
+| Início do ano e meio do ano | Troca e venda do material do inglês (R$ 160/aluno) — pico de entrada de caixa | Isengard + Fíli |
