@@ -46,6 +46,9 @@
 | 39 | Cliente oculto no Raniel (preço, formato, idade, carga horária) | Comercial | Celeborn | 2026-11-27 | ⬜ | Plano 2027 da Informática |
 | 40 | Definir quem dá aula no B2B (escolas/prefeitura) e o custo-hora | Operações | Orthanc + Fíli | 2026-12-10 | ⬜ | Plano 2027 da Informática |
 | 41 | Revisar a lotação da Colônia (8 Fundadores + pagantes com 2–3 máquinas = 2–3 turnos; à tarde a Giovana está no polo) | Informática | Telchar + Orthanc | 2026-12-10 | ⬜ | Plano 2027 da Informática |
+| 42 | Ligar para a Secretaria Municipal de Educação e responder 5 perguntas: Robótica Kids? Chromebooks do Educa Juntos? Referencial PR com computação? Recebe VAAR? Quantos professores do 1º ao 5º ano? | Comercial | Celeborn → Júnior liga | 2026-12-05 | ⬜ | Pesquisa Pinhão |
+| 43 | Desenhar a formação de 20 h para professores do 1º ao 3º ano e a oficina-piloto de 4 h (Referencial PR, Vol. 2) | Pedagógico | Pelennor + Júnior | 2026-12-10 | ⬜ | Pesquisa Pinhão |
+| 44 | Calcular preço e custo da formação e confirmar o teto vigente de dispensa | Financeiro | Fíli | 2026-12-10 | ⬜ | Pesquisa Pinhão |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
