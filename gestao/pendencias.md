@@ -63,7 +63,7 @@
 | 56 | Régua de retenção dos primeiros 90 dias do aluno EAD (acolhida, AVA, 1ª avaliação) | Unicesumar | Sam + Pelennor | 2026-12-15 | ⬜ | Projeção do Fíli |
 | 57 | Planejar o 2º ciclo de captação de 2027.2 (~40 matrículas) | Unicesumar | Ulmo + Celeborn | 2027-01-31 | ⬜ | Projeção do Fíli |
 | 58 | **Formaturas:** perguntar à Unicesumar se o polo pode vender produtos de formatura, se há exclusividade, regras de marca e de uso de dados, datas da colação 2027 e lista de concluintes | Unicesumar | Giovana (Ulmo acompanha) | 2026-12-04 | ⬜ | Plano de formaturas |
-| 59 | Cotar fotógrafo, beca, espaço, buffet e álbum para as formaturas (3 cotações de cada) | Comercial | Celeborn | 2026-12-15 | ⬜ | Plano de formaturas |
+| 59 | Cotar fotógrafo (diária e por sessão), becas (compra × aluguel), painel, letreiro, balões, moldura e impressões para as sessões de fotos (3 cotações de cada) | Comercial | Celeborn | 2026-12-15 | ⬜ | Plano de formaturas |
 | 60 | Contador e advogado: tributação da venda antecipada, nota fiscal, CNAE, rendimento e minuta do contrato de formatura | Financeiro | Júnior + Fíli | 2026-12-15 | ⬜ | Plano de formaturas |
 | 61 | Classificar formandos 2027 (apto / pendência / inadimplente) e pesquisa de interesse (texto aprovado pelo Júnior) | Sucesso do aluno | Sam + Pelennor | 2026-12-18 | ⬜ | Plano de formaturas |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |

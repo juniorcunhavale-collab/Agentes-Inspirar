@@ -110,3 +110,59 @@
 | 3 | Cotar fotógrafo, beca, espaço, buffet e álbum (3 cotações de cada) | Celeborn | 15/12/2026 |
 | 4 | Contador (tributos, nota, CNAE, rendimento) e advogado (minuta do contrato) | Júnior + Fíli | 15/12/2026 |
 | 5 | Classificar formandos em apto / pendência / inadimplente; pesquisa de interesse (texto aprovado pelo Júnior) | Sam + Pelennor | 18/12/2026 |
+
+---
+
+## 🔄 Versão simplificada — decisão do Júnior (20/11/2026)
+**Só sessão de fotos + aluguel de beca + cenário decorado no Instituto. Sem festa, sem buffet.** Os convidados
+podem participar das fotos. Pacotes com mais ou menos fotos. (Substitui os pacotes B e C e o evento de dezembro.)
+
+### Pacotes (preços e custos são HIPÓTESES — cotar)
+| Pacote | O que entra | Preço sugerido | Parcelamento |
+|---|---|---|---|
+| **Essencial** | Beca, capelo, faixa e canudo · 20 min de ensaio · **10 fotos tratadas** (digitais) · até 2 convidados | R$ 190–250 | até 5x |
+| **Clássico** | Tudo do Essencial · 30 min · **20 fotos tratadas** · 1 ampliação 20x30 · até 4 convidados | R$ 350–450 | até 8x |
+| **Família** | Tudo do Clássico · 45 min · **35 fotos tratadas** · fotos de grupo com os convidados · 1 ampliação + 5 fotos 15x21 · álbum digital | R$ 550–690 | até 10x |
+Extras avulsos: foto adicional tratada, ampliação, quadro com moldura, vídeo curto (reels) do ensaio.
+
+### Pontos positivos
+1. **Risco muito menor:** sem espaço, buffet nem custo fixo de evento; não há o gatilho de 30/06 nem risco de
+   "a festa não acontecer".
+2. **Entrega ao longo do ano:** as sessões acontecem em lotes (mar, jun, set, nov) — o dinheiro adiantado vira
+   serviço entregue mais cedo, reduzindo o passivo com o aluno e o risco de PROCON.
+3. **Ticket menor = mais adesão:** cabe no bolso do aluno EAD; dá para vender também a quem conclui no meio do ano.
+4. **Usa o que já temos:** a sala única fica livre às sextas e aos sábados.
+5. **Acervo reaproveitável:** becas, capelos e cenário servem para todos os anos e para o English Day do inglês.
+6. **Prova social para o marketing:** fotos (com autorização) viram conteúdo para a captação de 2028.
+7. **Mais simples de contratar e cobrar:** contrato curto, menos cláusulas, menos inadimplência acumulada.
+
+### Pontos negativos
+1. **Receita por aluno menor** que nos pacotes com festa; o resultado depende de volume (polo + inglês).
+2. **Menos "emoção coletiva":** sem a cerimônia, perde-se o rito de turma (que ajudava na retenção). Mitigação:
+   "Dia do Formando" — lote de fotos no mesmo dia para a turma, com mural e mensagem da equipe.
+3. **Sala pequena:** limita convidados (sugestão: até 2, 4 ou 6 conforme o pacote) e exige agendamento em horários.
+4. **Concorrência:** fotógrafos locais e empresas de formatura; a Unicesumar pode ter fornecedor próprio na colação.
+5. **Investimento inicial:** comprar becas e montar o cenário antes de vender (ou alugar no começo).
+6. **Higiene e tamanhos das becas:** lavagem entre usos e grade P/M/G/GG.
+7. **Qualidade depende do fotógrafo terceirizado:** contrato com prazo de entrega e padrão de edição.
+
+### O cenário (Pelennor)
+Montado na própria sala às sextas e aos sábados, desmontável e guardado em armário:
+- **Painel de fundo** (2 x 2,5 m) com "Formandos 2027 · Instituto Inspirar" — lona ou tecido, cor neutra
+  (azul-marinho ou off-white) que combina com todas as faixas.
+- **Letreiro** "FORMANDOS 2027" (letras grandes ou neon de LED) e **arco de balões** nas cores do curso
+  (troca por lote).
+- **Canto "biblioteca":** estante com livros, poltrona ou banco, planta, tapete — para fotos sentadas e com família.
+- **Moldura gigante** (vazada) para fotos em grupo com os convidados.
+- **Plaquinhas:** "Eu me formei!", "Missão cumprida", "Mãe, consegui!", "Professor(a) formado(a)".
+- **Mesa de objetos:** capelo extra, canudos simbólicos, livros do curso, "diploma de homenagem Inspirar"
+  (sem imitar o diploma oficial).
+- **Iluminação:** 2 softboxes ou iluminação contínua do fotógrafo.
+- **Para o inglês:** a mesma estrutura com troca de painel ("I did it! · Inspirar English") e capelos infantis.
+
+### O que muda no plano
+- Sai: festa, buffet, custo fixo de evento, gatilho de 30/06.
+- Fica: venda antecipada com contrato, caixinha separada, aviso de que não substitui a colação, autorização de
+  imagem, sinal verde da Unicesumar antes de vender.
+- **Novo investimento a cotar (Celeborn):** becas (compra × aluguel), painel, letreiro, balões, moldura,
+  plaquinhas e fotógrafo por diária ou por sessão.
