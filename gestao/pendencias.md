@@ -6,9 +6,9 @@
 ## Ativas
 | # | Ação | Frente | Responsável | Prazo | Status | Origem |
 |---|---|---|---|---|---|---|
-| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 3 de 7 feitos | Implantação |
+| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 4 de 7 feitos | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
-| 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática (cursos, preços, instrutor, laboratório, campanha de pré-matrícula) — o lançamento é no fim de 2026 | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
+| 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática — já definidos: público 8–12 anos, conteúdo básico (Word/Excel), plataforma própria, tutora Giovana, contrato anual, início em jan/2027. Falta: preço, compra dos notebooks, campanha de pré-matrícula | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
 | 5 | ~~Informar os números da meta Unicesumar~~ → 69 matrículas até 22/03/2027 | Unicesumar | Júnior | — | ✅ | Entrevista bloco 1 |
 | 7 | **Enviar a planilha dos ~100 alunos do polo** (curso, modalidade, situação) — Durin vai cobrar | Unicesumar | Júnior | 2026-11-25 | ⬜ | Entrevista bloco 2 |
 | 8 | Informar quantas matrículas do ciclo (meta 69) já foram feitas, por modalidade | Unicesumar | Indianara | 2026-11-25 | ⬜ | Entrevista bloco 2 |
@@ -17,6 +17,9 @@
 | 6 | Plano de captação para as licenciaturas semipresenciais (incluindo material que explique o semipresencial) | Unicesumar | Ulmo + Celeborn + Merry | Após a entrevista | ⬜ | Entrevista bloco 1 |
 | 11 | Levantar a grade de horários do inglês (turmas, dias, aulas por semana) e as horas semanais do Júnior em sala | Idiomas | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 3 |
 | 12 | Planejar a rematrícula 2027 do inglês (quem renova, quando vencem os contratos, condição de renovação e reajuste) | Idiomas | Isengard + Fíli → sócios | 2026-12-05 | ⬜ | Entrevista bloco 3 |
+| 13 | Compartilhar o acesso/link da plataforma de informática para a equipe ajudar a melhorá-la | Informática | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 4 |
+| 14 | Definir a compra dos notebooks (quantos agora, orçamento, prazo de entrega até o início de janeiro) | Informática | Sócios (Fíli calcula o retorno) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
+| 15 | Definir vínculo, horários e custo da Giovana (tutora) | Informática | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

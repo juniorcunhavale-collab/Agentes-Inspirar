@@ -16,8 +16,9 @@
 ## Próximos prazos e eventos
 | Data | Frente | Evento / prazo | Responsável | Status |
 |---|---|---|---|---|
-| Dez/2026 | Informática | Lançamento da Inspirar Informática (divulgação e pré-matrícula) | Sócios + Telchar | A planejar |
-| Início/2027 | Informática | Início das primeiras turmas | Sócios + Telchar | A planejar |
+| Dez/2026 | Informática | Lançamento da Inspirar Informática (divulgação e pré-matrícula) | Sócios + Telchar + Merry | A planejar |
+| Dez/2026 | Informática | Compra dos notebooks (de 2 para até 10 máquinas) | Sócios (Fíli analisa) | A decidir |
+| **Jan/2027** | Informática | **Início das aulas** (entrada contínua; fevereiro no máximo) | Giovana + Telchar | Planejado |
 | **22/03/2027** | Unicesumar | **Fim do ciclo de captação — meta de 69 matrículas** (já em andamento) | Indianara + Ulmo | 🔄 Em andamento |
 | Todo mês, ~dia 5 | Unicesumar | Repasse da Unicesumar ao polo [confirmar data] | Fíli confere | Recorrente |
 

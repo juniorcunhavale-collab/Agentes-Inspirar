@@ -12,10 +12,11 @@
 | Pessoa (nome ou função) | Função | Frente(s) | Carga horária | Vínculo | Substituto |
 |---|---|---|---|---|---|
 | Júnior (sócio) | **Único professor de inglês** (11 turmas + 1 particular; 12ª turma em 2027) | Idiomas | [PREENCHER] h/semana em sala | Sócio | ⚠️ Nenhum |
+| Giovana | **Tutora** da Inspirar Informática (acompanha os alunos na plataforma) | Informática | [PREENCHER] | [PREENCHER] | [PREENCHER] |
 | [PREENCHER] | | | | | |
 
 ## Tarefas que hoje dependem só dos sócios
 - [PREENCHER]
 
 ## Necessidades de contratação / treinamento
-- Inspirar Informática (lançamento 2027): instrutor(es) — [PREENCHER]
+- Inspirar Informática: Giovana como tutora — definir vínculo, horários, custo e treinamento na plataforma

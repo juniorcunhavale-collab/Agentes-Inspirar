@@ -23,11 +23,13 @@
 | Aula particular | [PREENCHER] | | [PREENCHER] | | 1 |
 
 ## Inspirar Informática
-> 🚀 Em lançamento — cursos e preços ainda a definir (turmas a partir de 2027).
+> 🚀 Em lançamento — início em jan/2027. Público inicial: crianças de 8 a 12 anos. Contrato anual.
+> Plataforma própria com aulas individuais e tutora (Giovana). Até 10 alunos por horário (10 notebooks).
 
 | Curso | Público | Duração | Matrícula | Mensalidade/valor total | Alunos/turma (mín–máx) |
 |---|---|---|---|---|---|
-| [PREENCHER] | | | | | |
+| Inspirar Informática — informática básica, Word, Excel | 8–12 anos | Contrato anual | [definir] | [definir] | até 10 por horário |
+| (futuro) Programação / robótica | 8–15 anos | [definir] | | | |
 
 ## Outros produtos
 | Produto | Público | Preço | Observações |

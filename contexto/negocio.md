@@ -4,7 +4,7 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 3)
+Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 4)
 
 ## Identidade
 - **Nome:** Instituto Inspirar
@@ -102,9 +102,37 @@
 ### 3. Inspirar Informática — 🚀 EM LANÇAMENTO
 - **Status:** projeto novo; **lançamento no final de 2026**, com **turmas a partir de 2027**
 - **Alunos ativos:** 0 (ainda não começou)
-- Formato, cursos, preços e estrutura: **ainda a definir** (ver plano de lançamento em
-  `gestao/pendencias.md`)
 - O dono vê a informática como um **possível diferencial** do Instituto atualmente.
+
+#### Modelo pedagógico
+- **Plataforma própria**, montada pelo Júnior. As aulas são **individuais dentro da plataforma**:
+  cada aluno avança no seu ritmo.
+- **Giovana** acompanha os alunos como **tutora** em sala (não é aula expositiva).
+- **Entrada contínua:** o aluno pode começar a qualquer momento, sem esperar formar turma.
+  "Turma" aqui significa **horário de atendimento** com tutora presente.
+- Melhorias na plataforma: o dono quer desenvolvê-la junto com a equipe de agentes
+  (acesso/link da plataforma: [PREENCHER]).
+
+#### Público (em fases)
+1. **Fase 1:** crianças de **8 a 12 anos** (público inicial)
+2. **Fase 2:** ampliar até ~**15 anos**
+3. **Talvez depois:** adultos
+
+#### Conteúdo (em fases)
+1. **Fase 1 — Inspirar Informática:** informática básica, **Word**, **Excel** etc.
+2. **Futuro:** programação e, possivelmente, robótica (a definir junto com a equipe)
+
+#### Estrutura
+- Hoje: **2 computadores** disponíveis
+- Plano: comprar notebooks até chegar a **10 notebooks** (= até 10 alunos simultâneos por horário)
+
+#### Formato comercial
+- **Contrato anual**, como no inglês
+- **Mensalidade:** preço atrativo e que dê lucro — valor ainda a definir (Fíli + Telchar)
+
+#### Meta e calendário
+- **2 turmas (horários) em 2027** para começar
+- **Início em janeiro de 2027** (entrada contínua); fevereiro no máximo
 
 ### 4. Outras frentes
 - [PREENCHER]
