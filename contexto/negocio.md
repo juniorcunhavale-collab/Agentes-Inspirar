@@ -128,6 +128,14 @@
   há também "Ementa do curso de informática básica (8 a 12 anos)" e o "Rascunho do termo de
   consentimento dos pais (LGPD)".
 
+- **Status da plataforma:** **pronta**, em fase de **teste prático**.
+- **Acompanhamento dos pais:** a plataforma **mostra o progresso do aluno para os pais** — ponto
+  considerado importantíssimo pelo dono (argumento de venda e de retenção).
+- **Word e Excel:** são **simulações dentro da plataforma** (evita custo e questões de licença).
+- **Gabaritos e apoio à tutora:** a plataforma oferece gabaritos e o que a tutora precisar.
+- **Substituto da tutora:** o próprio Júnior cobre as faltas da Giovana (no dia a dia ele não fica
+  em sala).
+
 #### Público (em fases)
 1. **Fase 1:** crianças de **8 a 12 anos** (público inicial)
 2. **Fase 2:** ampliar até ~**15 anos**
@@ -135,10 +143,12 @@
 
 #### Conteúdo (em fases)
 1. **Fase 1 — Inspirar Informática:** informática básica, **Word**, **Excel** etc.
-2. **Futuro:** programação e, possivelmente, robótica (a definir junto com a equipe)
+2. **Futuro (2º ano em diante):** programação e/ou outras trilhas — o dono quer sugestões da equipe
 
 #### Estrutura
-- Hoje: **2 computadores** disponíveis
+- Hoje: **2 notebooks HP** (bons) e internet boa
+- Próximas compras: **notebooks Dell recondicionados**, ~R$ 900 cada (não foi encontrado o mesmo
+  modelo HP recondicionado)
 - Plano: comprar notebooks até chegar a **10 notebooks** (= até 10 alunos simultâneos por horário)
 
 #### Formato comercial

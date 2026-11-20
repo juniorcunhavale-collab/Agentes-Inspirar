@@ -36,8 +36,9 @@
 | 29 | Verificar a licença do Office (Microsoft 365 Education / por máquina) | Informática | Telchar | 2026-12-10 | ⬜ | Plano de equipamento |
 | 30 | Conversar com a Giovana sobre vir de manhã (Colônia 04–15/01 e Turma Manhã a partir de fevereiro) e o impacto na carga horária e no salário | Operações | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Colônia Digital |
 | 31 | Calcular o Kit do Aluno (preço, custo de impressão, quantos kits pagam 1 notebook) | Financeiro | Fíli + Pelennor | 2026-12-05 | ⬜ | Colônia Digital |
-| 32 | Adaptar as 8 missões da Colônia à ementa existente de informática básica (8 a 12 anos) | Pedagógico | Pelennor + Telchar + Júnior | 2026-12-10 | ⬜ | Colônia Digital |
+| 32 | **Montar as missões da Colônia (1 semana, 11–15/01)** a partir da ementa existente de informática básica (8 a 12 anos) — o dono delegou à equipe | Pedagógico | Telchar + Pelennor → Júnior aprova | 2026-12-10 | ⬜ | Colônia Digital |
 | 33 | Confirmar o horário de quinta à noite do inglês (entrevista: até 20h; grade: última turma 15h10–16h40) | Idiomas | Júnior | 2026-11-27 | ⬜ | Colônia Digital |
+| 34 | Propor a trilha do 2º ano da Informática (programação/Scratch e alternativas) | Informática | Telchar + Nori | 2026-12-15 | 🔄 | Conversa com Telchar |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

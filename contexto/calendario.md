@@ -17,7 +17,7 @@
 | Data | Frente | Evento / prazo | Responsável | Status |
 |---|---|---|---|---|
 | **até 15/12/2026** | Informática | **Pacote Fundador** (10 primeiras vagas) | Indianara + Celeborn | Aprovado |
-| **04/01 a 15/01/2027** | Informática | **Colônia Digital** (9h–11h; Mostra Digital em 15/01) | Giovana + Júnior + Telchar | Proposta |
+| **11/01 a 15/01/2027** | Informática | **Colônia Digital** — 1 semana (o dono achou 04/01 cedo demais, logo após o Ano-Novo); Mostra Digital em 15/01 | Giovana + Júnior + Telchar | Proposta |
 | **18/01/2027** | Idiomas | **Início do 1º semestre do inglês** | Júnior | Definido |
 | 08/02/2027 | Idiomas | Recesso de Carnaval | — | Definido |
 | Fev/2027 | Informática | Início da grade regular (Turma Manhã + Turma Tarde) | Giovana + Telchar | Proposta |
