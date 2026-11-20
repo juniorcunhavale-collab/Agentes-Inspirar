@@ -4,7 +4,9 @@
 > equilíbrio, campanhas e cross-sell.
 
 ## Polo Unicesumar
-> Repasse médio ao polo: **~R$ 60 por aluno/mês** (estimativa do dono; varia por curso).
+> Repasse ao polo: **30% da mensalidade** (contrato atual — vai mudar). Média ≈ **R$ 60 por aluno/mês**.
+> Sem taxa de matrícula: o aluno paga a 1ª mensalidade (valor promocional) ao se matricular.
+> Mais vendidos: Administração e Pedagogia.
 
 | Curso / modalidade | Duração | Mensalidade (tabela) | Condição/desconto vigente | Observações |
 |---|---|---|---|---|

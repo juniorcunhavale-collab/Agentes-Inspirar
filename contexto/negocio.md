@@ -4,7 +4,7 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-19 (entrevista inicial — bloco 1)
+Última atualização: 2026-11-20 (entrevista inicial — blocos 1 e 2)
 
 ## Identidade
 - **Nome:** Instituto Inspirar
@@ -28,15 +28,47 @@
 - Modalidades oferecidas: graduação, pós-graduação, cursos técnicos e profissionalizantes
 - **Alunos ativos:** ~100 (estimativa do dono), divididos entre graduação, pós, técnicos e
   profissionalizantes — divisão exata: [PREENCHER]
-- **Repasse médio ao polo:** ~R$ 60 por aluno/mês (estimativa do dono; varia conforme o curso)
+- **Repasse médio ao polo:** ~R$ 60 por aluno/mês (estimativa do dono; 30% da mensalidade, que varia conforme o curso)
 - **Receita estimada do polo:** ~100 alunos × R$ 60 ≈ **R$ 6.000/mês** (estimativa, antes de
   evasão/inadimplência — conferir com os repasses reais)
 - **Ponto forte:** graduações da área de **negócios/gestão**
 - **Ponto a melhorar:** **licenciaturas** de modo geral
-- **Meta para o início de 2027:** existe ("bem razoável") — números: [PREENCHER]
-- Regras de repasse/comissão (conforme contrato): [PREENCHER]
-- Datas de repasse: [PREENCHER]
-- Contato na mantenedora (cargo): [PREENCHER]
+- **Cursos que mais vendem:** **Administração** e **Pedagogia** (os dois principais)
+- Divisão detalhada dos ~100 alunos: o dono tem planilha — **aguardando envio** (ver pendências)
+
+#### Meta do ciclo atual (captação já em andamento)
+**69 matrículas até 22/03/2027**
+
+| Modalidade | Meta |
+|---|---|
+| Graduação EAD — demais cursos | 42 |
+| Graduação — licenciaturas | 20 |
+| Cursos técnicos | 4 |
+| Pós-graduação | 3 |
+| **Total** | **69** |
+
+- Ritmo necessário (a partir de 20/11/2026, ~17 semanas): **~4 matrículas por semana** no
+  total, sem descontar o que já foi feito no ciclo e considerando que dezembro costuma ser mais fraco.
+- Impacto se a meta for batida e os alunos permanecerem: 69 × ~R$ 60 ≈ **+R$ 4.100/mês** de
+  repasse recorrente (≈ +70% sobre a receita atual estimada do polo).
+
+#### Regras financeiras (contrato atual)
+- **Repasse ao polo: 30%** da mensalidade paga pelo aluno. ⚠️ **O contrato vai mudar** — atualizar
+  este campo assim que as novas condições forem conhecidas.
+- Mensalidade varia conforme o curso. Conferência: R$ 60 de repasse médio ÷ 30% ≈ mensalidade
+  média de ~R$ 200.
+- **Não existe taxa de matrícula.** Na matrícula, o aluno já paga a **1ª mensalidade, sempre com
+  valor promocional**. Repasse sobre essa 1ª mensalidade: [CONFIRMAR]
+- Data do repasse: por volta do **dia 5** de cada mês [CONFIRMAR]
+
+#### Evasão — causas
+- **Motivo declarado pelos alunos:** "falta de tempo".
+- **Leitura do dono (hipóteses):**
+  1. **Pedagógica** — o aluno não consegue entender o conteúdo ou se adaptar ao modelo EAD.
+  2. **Financeira** — perda de emprego ou dificuldade financeira em casa.
+
+#### Relação com a mantenedora
+- Contato direto com os consultores da Unicesumar, **disponíveis o tempo todo**.
 - Regras de marca/comunicação/descontos da mantenedora: [PREENCHER]
 
 ### 2. Inspirar Idiomas

@@ -7,7 +7,7 @@
 
 | Indicador | Unidade | Meta | Alerta 🟡 | Crítico 🔴 | Fonte do dado |
 |---|---|---|---|---|---|
-| Novas matrículas no mês | Unicesumar | [PREENCHER] | < 90% da meta | < 70% | dados/matriculas |
+| Matrículas no ciclo (até 22/03/2027) | Unicesumar | **69** (42 grad. EAD · 20 licenc. · 4 técnico · 3 pós) — ritmo ~4/semana | < 90% da meta | < 70% | dados/matriculas |
 | Alunos ativos | Unicesumar | [PREENCHER] (hoje ~100) | | | |
 | Evasão mensal (%) | Unicesumar | [PREENCHER] | | | |
 | Novas matrículas no mês | Idiomas | [PREENCHER] | < 90% da meta | < 70% | |
@@ -28,7 +28,7 @@
 *(Os limites de alerta acima são sugestões iniciais — ajuste à realidade do negócio.)*
 
 ## Metas anuais / de ciclo
-- Polo Unicesumar — meta para o início de 2027: existe; números [PREENCHER]
+- Polo Unicesumar — **69 matrículas até 22/03/2027**: 42 graduação EAD (demais cursos), 20 licenciaturas, 4 técnicos, 3 pós-graduação
 - Demais frentes: [PREENCHER]
 
 ## Histórico mensal (realizado)

@@ -18,7 +18,8 @@
 |---|---|---|---|---|
 | Dez/2026 | Informática | Lançamento da Inspirar Informática (divulgação e pré-matrícula) | Sócios + Telchar | A planejar |
 | Início/2027 | Informática | Início das primeiras turmas | Sócios + Telchar | A planejar |
-| Início/2027 | Unicesumar | Ciclo de captação com meta para o início de 2027 | Indianara + Ulmo | Datas [PREENCHER] |
+| **22/03/2027** | Unicesumar | **Fim do ciclo de captação — meta de 69 matrículas** (já em andamento) | Indianara + Ulmo | 🔄 Em andamento |
+| Todo mês, ~dia 5 | Unicesumar | Repasse da Unicesumar ao polo [confirmar data] | Fíli confere | Recorrente |
 
 ## Obrigações recorrentes
 | Todo dia/mês | O quê | Responsável |
