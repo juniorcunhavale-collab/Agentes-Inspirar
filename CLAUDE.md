@@ -108,6 +108,7 @@ reais da equipe são identificadas pela função ou pelo nome real, nunca confun
 | `/ideias <tema opcional>` | Quando quiser crescer/melhorar | Estrategista + Novos Negócios geram e avaliam oportunidades |
 | `/plano-captacao <unidade>` | Antes de cada ciclo de matrícula | Plano comercial + marketing + financeiro para captação |
 | `/atualizar-contexto` | Quando algo mudar no negócio | Entrevista o dono e atualiza `contexto/` |
+| `/radar-legislativo` | **Toda terça de manhã (agendado)** | Nori varre leis de Pinhão, do Paraná e do Brasil em busca de oportunidades e riscos |
 
 ---
 

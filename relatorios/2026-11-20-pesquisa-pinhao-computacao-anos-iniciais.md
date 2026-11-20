@@ -107,3 +107,33 @@ Estimativa: ~56 professores regentes do 1º ao 3º ano (hipótese de turmas de ~
 - SESI/FIEP: https://www.pinhao.pr.gov.br/%f0%9f%91%8f-projeto-de-capacitacao-e-apresentado-pelo-colegio-sesi-em-pinhao/
 - PNCP (órgão CNPJ 76.178.011/0001-28): https://pncp.gov.br/
 - Seed-PR: https://www.educacao.pr.gov.br/Noticia/Escolas-publicas-paranaenses-contarao-com-aulas-de-Robotica-e-Ingles-para-os-anos-iniciais
+
+---
+
+## Adendo (20/11/2026) — Câmara e INEP, conferidos na fonte ✅
+**Câmara (SAPL — 1.390 normas e 2.929 matérias de 2021 a 2026, via API):**
+- **Nenhuma lei** sobre informática, computação, robótica ou tempo integral na rede municipal.
+- **Indicação 772/2023** (04/05/2023, vereador Vinícius): estudo para compra de computadores ou
+  notebooks para alunos e professores — encerrada. https://sapl.pinhao.pr.leg.br/materia/1191
+- **Indicação 848/2023** (11/08/2023, vereador Elias Prestes): reforma da quadra e **ampliação de sala
+  de informática** na EM do Campo Norberto Serapio Ferreira — em tramitação. https://sapl.pinhao.pr.leg.br/materia/1345
+- **Indicação 865/2023** (15/09/2023, vereador Vinícius): estudo para incluir **robótica educacional**
+  como atividade extracurricular — em tramitação. https://sapl.pinhao.pr.leg.br/materia/1394
+- Relacionados: Indicação 243/2021 (internet nas unidades), Indicação 15/2026 (Sandbox da Anatel),
+  Moção 46/2025 (Colégio Estadual Julio Moreira, 1º lugar no Agrinho 2025 em Robótica).
+- Gancho: **Lei 2.475, de 21/07/2026 — Política Municipal de Alfabetização.** https://sapl.pinhao.pr.leg.br/norma/3554
+
+**INEP — Microdados do Censo Escolar 2025 (15 escolas municipais com anos iniciais):**
+- **Matrículas:** 2.315 (1º = 468 · 2º = 472 · 3º = 463 · 4º = 470 · 5º = 442). Rede privada: 190.
+- **Tempo integral:** 133 matrículas (92 só na EM Maristella Tussi).
+- **Maiores escolas:** EM Maristella Tussi (450), EM Eroni Santos Ferreira (415), EM Frei Francisco (216).
+- **Docentes:** 185 vínculos nos anos iniciais, 123 turmas. **Só 1 docente** tem especialização em
+  educação e tecnologia. **Nenhuma turma** com "Informática/Computação" registrada.
+- **Infraestrutura:** as 15 têm internet, mas **só 3 liberam para os alunos** e 6 têm banda larga;
+  **laboratório de informática em 5 escolas** (Maristella, Eroni, Santa Terezinha, Água Verde, Nova
+  Divinéia); **77 desktops, 22 portáteis e 1 tablet** para alunos — **~1 computador para 23 alunos**.
+- Fonte: https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip
+
+**Leitura (hipóteses):** o tema já tem padrinho na Câmara (vereador Vinícius); com tão pouco
+equipamento, a oferta precisa trazer kits ou usar computação desplugada; a Indicação 848 abre uma
+porta na EM Norberto (149 alunos, sem laboratório).

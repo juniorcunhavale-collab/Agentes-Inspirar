@@ -39,4 +39,6 @@
 | 32 | Piloto de 2–3 kits micro:bit para o 2º ano | Informática | Telchar | — | 💡 | ~R$ 300 por kit (RoboCore) |
 | 33 | Robótica em escala, Jovem Aprendiz, licenciar a plataforma, franquia | Informática | Nori | — | ❌ não agora | Custo/burocracia; plataforma ainda em teste |
 | 34 | Vender robótica para a prefeitura | Informática | Nori | — | ❌ | O Estado já oferece de graça (Robótica Paraná Kids) |
+| 35 | Procurar o vereador Vinícius (autor das indicações de computadores e robótica nas escolas) como aliado da proposta à prefeitura | Informática | Nori (adendo INEP/Câmara) | — | 💡 | Só depois da conversa com a SMEC; tom institucional |
+| 36 | Oferta para escolas sem laboratório (ex.: EM Norberto, Indicação 848/2023): oficina com kits próprios ou computação desplugada | Informática | Nori | — | 💡 | Rede tem ~1 computador para 23 alunos |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |
