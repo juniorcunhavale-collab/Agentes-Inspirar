@@ -32,7 +32,7 @@
 | 25 | **Hora do Código Inspirar** (dez/2026, grátis) como gancho do Pacote Fundador | Informática | Nori (2026-11-20) | 23/25 | 🔍 | Decidir até 24/11 |
 | 26 | Colônia Digital também em julho (férias 12–25/07) | Informática | Nori | 21/25 | 💡 | |
 | 27 | B2B escolas particulares: "Computação BNCC" (aula na escola ou contraturno na Inspirar) | Informática | Nori | 20/25 | 💡 | Gargalo: quem dá a aula. Mercado pequeno em Pinhão (só 1 particular encontrada) |
-| 28 | **B2B prefeitura: formação de professores do 1º ao 3º ano em Computação (Referencial PR)**, com piloto gratuito de 4 h; oficinas no contraturno e na escola integral São Roque | Informática / Unicesumar | Nori (revisada após pesquisa) | — | 🔍 | O Estado já cobre robótica do 4º e 5º ano; gancho para pós e 2ª licenciatura (Ulmo) |
+| 28 | **B2B prefeitura: (A) oficinas de computação na jornada ampliada das 4 escolas integrais, com os 45 notebooks comprados em out/2026; (B) formação de professores do 1º ao 3º ano** (Referencial PR), com piloto gratuito | Informática / Unicesumar | Nori (revisada após pesquisa) | — | 🔍 | O Estado já cobre robótica do 4º e 5º ano; gancho para pós e 2ª licenciatura (Ulmo) |
 | 29 | Clube Scratch de sábado (modelo Code Club) | Informática | Nori | 20/25 | 💡 | Funil do 2º ano |
 | 30 | Turma preparatória para a OBI (Iniciação) | Informática | Nori | 19/25 | 💡 | |
 | 31 | Celular e internet seguros 60+ | Informática | Nori | 18/25 | 💡 | Concorre com cursos gratuitos da Celepar |

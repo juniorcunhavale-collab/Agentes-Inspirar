@@ -1,106 +1,109 @@
 # Pesquisa: Pinhão/PR e a computação nos anos iniciais (1º ao 5º ano)
-**Data:** 2026-11-20 · **Autor:** Nori (Novos Negócios) · registrado por Durin
-
-> **Limitação:** a rede desta sessão bloqueou a leitura direta dos sites (lista no fim). Os dados
-> de Pinhão vêm dos trechos devolvidos pela busca. Confirmar antes de citar em qualquer proposta.
+**Data:** 2026-11-20 · **Autor:** Nori (Novos Negócios) · **versão 2, conferida na fonte** · registrado por Durin
+Legenda: ✅ confirmado na fonte · 🔄 corrigido em relação à versão 1 · (sem marca) = não reconferido
 
 ## Resumo
-1. **O Estado do Paraná já faz boa parte do que pensávamos vender:**
-   - **Deliberação CEE-PR nº 04/2025** (08/08/2025): computação é componente curricular também
-     nos anos iniciais; o Referencial Curricular do Paraná tem caderno de Computação do 1º ao 5º ano.
-   - **Robótica Paraná Kids** (4º e 5º ano, com kits, material e formação): em 368 dos 399
-     municípios em jun/2026.
-   - **Educa Juntos:** laboratórios móveis com 30 Chromebooks para pelo menos 1 escola municipal
-     por cidade (entregas a partir de mar/2026).
-2. **Pinhão aderiu ao Educa Juntos** (termo de 30/11/2020). Adesão ao Robótica Kids e recebimento
-   dos Chromebooks: **não confirmados** (chance alta — hipótese).
-3. **Nenhuma notícia, licitação ou contrato municipal** encontrado sobre informática, robótica ou
-   plataformas digitais para o 1º ao 5º ano.
-4. **Espaço real para a Inspirar:** formação de professores do **1º ao 3º ano** (fora da robótica
-   estadual), apoio ao uso dos Chromebooks/kits, oficinas na jornada ampliada e na futura escola de
-   tempo integral São Roque.
-5. **Recomendação:** **não vender robótica** (o Estado dá de graça). Levar à Secretaria uma
-   **formação em Computação para professores**, alinhada ao Referencial do PR, começando por um
-   piloto gratuito.
+1. 🔄 **A prefeitura já compra tecnologia para a educação:** 50 Chromebooks com headset (convênio
+   com a Seed, 2024–25) e **45 notebooks para as escolas de tempo integral — contrato de
+   R$ 153.765 assinado em 20/10/2026**. Nada de robótica, plataforma, sistema de ensino, lousa
+   digital ou formação de professores em computação.
+2. 🔄 **Já existem 4 escolas municipais em tempo integral** (Maristella Tussi, Nova Divinéia, Frei
+   Francisco e N. Sra. da Glória) + a nova São Roque em obra. A jornada ampliada já contrata
+   serviços (música) — computação ainda não.
+3. ✅ **Rede municipal (Censo Escolar 2025):** **2.315 alunos** do 1º ao 5º ano, **179 professores**,
+   **15 escolas**.
+4. ✅ **Deliberação CEE-PR 04/2025:** computação é componente curricular nos anos iniciais; a
+   formação continuada de professores é estratégia prioritária e as parcerias são incentivadas.
+   **Não fixa prazo nem carga horária.** O município pode aderir à deliberação ou fazer norma própria.
+5. **Recomendação:** não vender robótica nem equipamento. Oferecer **oficinas de computação na
+   jornada ampliada das escolas integrais, usando os 45 notebooks recém-comprados**, e **formação de
+   professores do 1º ao 3º ano**.
 
-## O que a prefeitura já faz (fatos com fonte)
-- **SMEC** (Secretaria Municipal de Educação e Cultura): 7 CMEIs, 7 escolas urbanas e 8 do campo
-  (22 unidades, segundo o site).
-- **Secretária:** Selenita Barbosa dos Santos (citada em abr e ago/2025 — confirmar se segue no
-  cargo). Prefeito: Valdecir Biasebetti.
-- **Tempo integral:** pedra fundamental da Escola Rural Municipal em Tempo Integral do Campo São
-  Roque (Faxinal dos Coutos) em 26/08/2025, parceria federal, até 350 alunos.
-- **IDEB 2025:** a prefeitura comemorou "resultados históricos" (Nova Divinéia 7,3; Eroni Santos
-  Ferreira 6,9; João José Zattar 6,8; Água Verde 6,8). O texto **não menciona tecnologia**.
-- **Tecnologia:** só registros antigos e pontuais (internet em Pocinhos; doação de computadores
-  usados pela Câmara em 2021).
+## O que a prefeitura já faz
+- ✅ **Secretária de Educação e Cultura:** Profa. Selenita do Belém Barbosa dos Santos (página da
+  SMEC atualizada em 01/07/2026; citada em fev e ago/2026). Prefeito: Valdecir Biasebetti.
+- ✅ **Rede:** 22 unidades (7 CMEIs, 7 escolas urbanas, 8 do campo), EJA e Polo UAB. A missão da
+  SMEC cita a "formação continuada de nossos professores".
+- ✅ **15 escolas municipais:** na sede — Água Verde, Cecília Meireles, Prof. Eroni, Frei Francisco,
+  N. Sra. da Glória, Maristela Tussi, Santa Terezinha; no interior — Nova Divinéia, Norberto Serápio
+  Ferreira, Cipriano de Paula, João José Zattar, São Roque, Pocinhos, Rocio, Todos os Santos,
+  XV de Dezembro.
+- ✅ **Escola São Roque:** já existe; o que está em obra é o prédio novo em tempo integral (Faxinal
+  dos Coutos), R$ 7.396.000, até 350 alunos (175 em período integral).
+- ✅ **Educa Juntos (2024):** material de Português e Matemática (1º ao 3º ano) e formação
+  "Formadores em Ação". Sem computação.
+- **Possível concorrente ou parceiro:** em 11/12/2024 o Sistema FIEP (SESI/SENAI) apresentou ao
+  prefeito um projeto de robótica para a rede municipal. Execução não confirmada.
+- Buscas no site por robótica, Chromebook, computação, Paraná Kids e programação em 2025–26: nada.
 
-## Contexto estadual e federal
-- **VAAR (Fundeb):** pela Resolução CIF nº 24/2026, o município perde o VAAR de 2027 se o
-  currículo não contemplar computação (alternativa: aderir ao Referencial do Estado). Prazo no
-  Simec era 31/08/2026, com notícia de prorrogação. **Não se sabe se Pinhão recebe VAAR.**
-- **Alerta do TCE-PR:** Pinhão estava entre os municípios com pendência de dados para o **VAAT**
-  em 2026 — sinal de gestão sobrecarregada e atenção ao Fundeb.
-- **Kits Educa Juntos (fev/2026):** 1.006 kits de 30 Chromebooks (R$ 60.358,89 cada).
+## Contratações de tecnologia e educação, 2024–2026 (✅ PNCP)
+| Data | Objeto | Valor | Fornecedor |
+|---|---|---|---|
+| 11/07/2024 | 50 Chromebooks + 50 headsets (Convênio Seed nº 202402009) | estimado R$ 101.211,50 | Vanguarda Informática; Catiano Azeredo Ott; Colorsisthem do Brasil (2025) |
+| 04/06/2024 | Informática para escolas de tempo integral (PE 88/2024) | contratos R$ 214.811 | 18 fornecedores |
+| 14/11/2024 | Idem (PE 185/2024) | contratos R$ 275.224 | 17 fornecedores |
+| 13/02/2025 | Educação musical na jornada ampliada (inexigibilidade) | R$ 37.800 (R$ 1.250 e R$ 1.900/mês) | MEI |
+| 31/03/2025 | Maestro + iniciação musical na jornada ampliada | R$ 105.600 (R$ 6.050 + R$ 2.750/mês) | Sociedade Musical |
+| 05/08/2025 | Materiais do Programa Escola em Tempo Integral | contratos R$ 161.675 | 12 fornecedores |
+| 29/10/2026 | Materiais pedagógicos para escolas integrais (PE 107/2026) | contratos R$ 226.614 | 17 fornecedores |
+| **20/10/2026** | **45 notebooks (Windows 11, 15") para as escolas de tempo integral** | **R$ 153.765** | Auzec & Ariosi |
 
-## Números-chave
-| Dado | Valor | Tipo |
+- Hipótese: os Chromebooks parecem ter sido recontratados em 2025 (soma acima do estimado). Confirmar.
+- **Referência de preço (fato):** a prefeitura paga **R$ 1.900 a R$ 2.750 por mês** por serviços
+  semelhantes na jornada ampliada.
+
+## Números-chave (✅ API do IBGE, Censo Escolar)
+| Dado | 2024 | 2025 |
 |---|---|---|
-| População (Censo 2022) | 29.886 | Fato |
-| Unidades da SMEC | 22 | Fato (site da prefeitura) |
-| Matrículas do 1º ao 5º ano na rede municipal | ~2.000 a 2.400 | Estimativa — conferir no INEP/QEdu |
-| Professores do 1º ao 5º ano | ~100 a 150 | Hipótese |
-| Internet e laboratório por escola | não obtido | Lacuna |
+| Matrículas do 1º ao 5º ano (rede municipal) | 2.351 | **2.315** (1º–3º: 1.403 · 4º–5º: 912) |
+| Professores dos anos iniciais (rede municipal) | 190 | **179** |
+| Escolas municipais com anos iniciais | 15 | **15** |
+| Rede particular, anos iniciais | 3 escolas | **3 escolas, 190 alunos, 36 professores** 🔄 |
 
-## Região
-- **Guarapuava:** Guarabot (4º e 5º ano), kits de robótica em 44 escolas, R$ 4,3 milhões em
-  tecnologia, formação de professores com o NRE, prêmio Prefeito Inovador 2026.
-- **Irati** (micro:bit) e **Inácio Martins** (sala de informática e robótica).
-- **CIEDEPAR:** pregão de robótica de R$ 110 milhões suspenso pelo TCE-PR (nov/2025).
-- Reserva do Iguaçu, Bituruna, Foz do Jordão e Candói: nada encontrado.
-- **Escolas particulares em Pinhão:** só o Colégio Expressão (sem menção a informática; anos
-  iniciais não confirmados) — o B2B com particulares parece pequeno.
+Estimativa: ~56 professores regentes do 1º ao 3º ano (hipótese de turmas de ~25 alunos).
 
-## Contatos institucionais
-- **SMEC Pinhão:** (42) 3677-8440 · educacao@pinhao.pr.gov.br (confirmar grafia) · Av. Trifon
-  Hanycz, 220, Centro.
-- **NRE Guarapuava (Seed-PR):** responde sobre Robótica Kids e kits de Chromebooks.
+## Normas
+- ✅ **CEE-PR 04/2025:** art. 6º (componente curricular nos anos iniciais e finais), art. 3º I
+  (formação continuada é prioridade) e VII (parcerias), art. 16 (município adere ou faz norma
+  própria). Sem prazo nem carga horária. Fonte:
+  https://www.cee.pr.gov.br/sites/cee/arquivos_restritos/files/documento/2025-08/deliberacao_04_25_ok.pdf
+- ✅ **Seed-PR (23/09/2025):** Robótica Paraná Kids (4º e 5º ano) e Inglês Paraná Kids (1º ao 5º
+  ano), por adesão nos Núcleos Regionais. **Adesão de Pinhão não encontrada.**
+- Não reconferidos: VAAR (Resolução CIF 24/2026), alerta do TCE-PR sobre o VAAT, números estaduais
+  da Robótica Kids e dos kits Educa Juntos, Guarapuava e CIEDEPAR (ver versão 1 no histórico do Git).
 
 ## Riscos
-1. Concorrência gratuita do Estado (robótica, Chromebooks, material, formação).
-2. Orçamento e gestão municipal apertados (pendência do VAAT; obra de São Roque).
-3. Compra pública (Lei 14.133): dispensa por valor (teto anual, confirmar), certidões, cadastro de
-   fornecedor — validar com contador/advogado.
-4. Quem dá a formação em horário escolar continua sendo o gargalo.
-5. Dados não lidos direto da fonte.
+1. Concorrência gratuita do Estado; o SESI/FIEP já ofereceu robótica à rede.
+2. Orçamento da SMEC concentrado em transporte (~R$ 15 milhões em 2026), material e obra.
+3. Compra pública: inexigibilidade (serviço singular) ou dispensa (teto anual por decreto) —
+   confirmar com contador ou advogado.
+4. A página de escolas expõe contatos das diretoras: usar só o canal institucional da SMEC.
 
 ## Abordagem recomendada
-- **Produto:** "Formação em Computação (Referencial PR) para professores do 1º ao 3º ano" — 20 h em
-  5 encontros, atividades desplugadas e uso dos Chromebooks, material pronto e um relatório de
-  alinhamento curricular útil à Secretaria (evidência para o Simec/VAAR). Opcional: oficinas no
-  contraturno.
-- **Como:** audiência de 30 minutos com a secretária → **oficina-piloto gratuita de 4 h** para os
-  professores de 1 escola → proposta paga por dispensa.
-- **Quando:** contato em **dez/2026**, mirando a **semana pedagógica de fev/2027**.
-- **Perguntas para a Secretaria antes da reunião:** (1) aderiu ao Robótica Kids? (2) recebeu os
-  Chromebooks do Educa Juntos? (3) adotou o Referencial do PR com computação? (4) recebe VAAR?
-  (5) quantos professores do 1º ao 5º ano?
+- **Produto A — "Computação na Jornada Ampliada":** oficinas semanais nas 4 escolas integrais com
+  os 45 notebooks, alinhadas ao Referencial do PR. Referência: R$ 1.900–2.750/mês por serviço.
+- **Produto B — Formação de 20 h** para professores do 1º ao 3º ano, com relatório de alinhamento
+  curricular para a Secretaria.
+- **Como:** audiência com a Profa. Selenita → oficina-piloto gratuita em 1 escola integral →
+  proposta paga.
+- **Quando:** contato em dez/2026, mirando o início do ano letivo e a semana pedagógica de fev/2027.
+- **Perguntas para a reunião:** (1) quem vai usar os 45 notebooks e há plano pedagógico? (2) a rede
+  aderiu à Robótica e ao Inglês Paraná Kids? (3) os 50 Chromebooks foram entregues? (4) adotou o
+  Referencial do PR com computação ou tem norma própria? (5) o projeto SESI/FIEP foi executado?
+- **Contato institucional:** SMEC — (42) 3677-8440.
+
+## Ainda inacessível
+- **download.inep.gov.br:** erro de certificado (o intermediário fica em secure.globalsign.com).
+- **sapl.pinhao.pr.leg.br:** leis e indicações da Câmara.
+- **Portal da Transparência (Elotech):** aplicativo em JavaScript; pagamentos não verificados.
+- **gov.br/mec:** limite de requisições (429); VAAR não reconferido.
 
 ## Fontes principais
-- SMEC Pinhão: https://www.pinhao.pr.gov.br/home/governo-municipal/educacao/
-- Termo de adesão ao Educa Juntos: https://www.educacao.pr.gov.br/sites/default/arquivos_restritos/files/documento/2022-06/dioe_10953_20210611_extrato_termo_adesao.pdf
-- Escola integral São Roque: https://www.pinhao.pr.gov.br/a-primeira-escola-nova-em-tempo-integral-a-ser-construida-no-parana-esta-em-pinhao/
-- IDEB 2025 Pinhão: https://www.pinhao.pr.gov.br/%F0%9F%8E%93%F0%9F%93%9A-educacao-de-pinhao-celebra-resultados-historicos-no-ideb-2025-%F0%9F%91%8F%E2%9C%A8/
-- Deliberação CEE-PR 04/2025: https://www.cee.pr.gov.br/sites/cee/arquivos_restritos/files/documento/2025-08/deliberacao_04_25_ok.pdf
-- Referencial PR, Vol. 2 (Computação): https://www.referencialcurriculardoparana.pr.gov.br/sites/referencial-curricular/arquivos_restritos/files/documento/2025-09/referencial_vol2_educacao_digital_computacao.pdf
-- VAAR e computação (Undime-MG): https://undimemg.org.br/mec-define-bncc-computacao-como-criterio-para-o-vaar-e-redes-terao-prazo-ate-agosto-para-comprovacao/
-- TCE-PR e Fundeb 2026: https://www1.tce.pr.gov.br/noticias/115-municipios-do-parana-correm-risco-de-perder-recursos-do-fundeb-em-2026/12206/N.htm
-- Robótica e Inglês nos anos iniciais (Seed-PR): https://www.educacao.pr.gov.br/Noticia/Escolas-publicas-paranaenses-contarao-com-aulas-de-Robotica-e-Ingles-para-os-anos-iniciais
-- 368 municípios (jun/2026): https://www.gazetadopovo.com.br/conteudo-publicitario/alep-pr/economia-da-assembleia-legislativa-leva-ingles-e-robotica-aos-municipios-e-beneficia-milhares-de-alunos-no-parana/
-- Kits tecnológicos (fev/2026): https://diariodosudoeste.com.br/r-635-mi-em-kits-tecnologicos-para-escolas-municipais/
-- Guarapuava, R$ 4,3 milhões: https://gmaisnoticias.com/guarapuava-investe-r-4-3-milhoes-em-tecnologia-educacional-e-amplia-inovacao-nas-escolas-municipais
-- NRE Guarapuava: https://nreguarapuava.educacao.pr.gov.br/municipios-instituicoes-ensino
-
-**Domínios bloqueados nesta sessão:** pinhao.pr.gov.br, transparencia.pinhao.pr.gov.br,
-pinhao.pr.leg.br, opresente.com.br, qedu.org.br, pncp.gov.br, download.inep.gov.br, cee.pr.gov.br,
-cidades.ibge.gov.br, servicodados.ibge.gov.br.
+- SMEC: https://www.pinhao.pr.gov.br/governo-e-secretarias/governo-municipal/educacao/
+- Escolas municipais: https://www.pinhao.pr.gov.br/educacao-e-cultura/escolas-municipais/
+- Mostra Pedagógica (escolas integrais): https://www.pinhao.pr.gov.br/3a-mostra-pedagogica-reune-criatividade-e-troca-de-experiencias-entre-escolas-e-cmeis/
+- Escola São Roque: https://www.pinhao.pr.gov.br/nova-escola-rural-do-campo-em-tempo-integral-sao-roque/
+- Educa Juntos: https://www.pinhao.pr.gov.br/pinhao-educacao-a-todo-vapor/
+- SESI/FIEP: https://www.pinhao.pr.gov.br/%f0%9f%91%8f-projeto-de-capacitacao-e-apresentado-pelo-colegio-sesi-em-pinhao/
+- PNCP (órgão CNPJ 76.178.011/0001-28): https://pncp.gov.br/
+- Seed-PR: https://www.educacao.pr.gov.br/Noticia/Escolas-publicas-paranaenses-contarao-com-aulas-de-Robotica-e-Ingles-para-os-anos-iniciais
