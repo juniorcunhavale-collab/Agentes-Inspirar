@@ -6,7 +6,7 @@
 ## Ativas
 | # | Ação | Frente | Responsável | Prazo | Status | Origem |
 |---|---|---|---|---|---|---|
-| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 4 de 7 feitos | Implantação |
+| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 5 de 7 feitos | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
 | 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática — já definidos: público 8–12 anos, conteúdo básico (Word/Excel), plataforma própria, tutora Giovana, contrato anual, início em jan/2027. Falta: preço, compra dos notebooks, campanha de pré-matrícula | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
 | 5 | ~~Informar os números da meta Unicesumar~~ → 69 matrículas até 22/03/2027 | Unicesumar | Júnior | — | ✅ | Entrevista bloco 1 |
@@ -20,6 +20,9 @@
 | 13 | Compartilhar o acesso/link da plataforma de informática para a equipe ajudar a melhorá-la | Informática | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 4 |
 | 14 | Definir a compra dos notebooks (quantos agora, orçamento, prazo de entrega até o início de janeiro) | Informática | Sócios (Fíli calcula o retorno) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 15 | Definir vínculo, horários e custo da Giovana (tutora) | Informática | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
+| 16 | Criar uma planilha simples de interessados (data, nome, frente/curso, origem, status, próximo contato) usada por Indianara e Giovana | Grupo | Celeborn monta → Indianara e Giovana usam | 2026-11-27 | ⬜ | Entrevista bloco 5 |
+| 17 | Levantar preço e formato dos concorrentes (Censpeg, Unifacvest, Raniel) | Grupo | Nori + Celeborn (a equipe faz ligações/pesquisa) | 2026-12-05 | ⬜ | Entrevista bloco 5 |
+| 18 | Confirmar o @ do Instagram, a função da Diana e o gasto mensal médio com marketing | Marketing | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 5 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

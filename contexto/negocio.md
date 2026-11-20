@@ -4,7 +4,7 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 4)
+Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 5)
 
 ## Identidade
 - **Nome:** Instituto Inspirar
@@ -145,14 +145,37 @@
   **licenciaturas**. Educar o público sobre isso é parte do trabalho comercial e de marketing.
   (Detalhes da regulação: confirmar nos comunicados oficiais da Unicesumar/MEC antes de usar em
   materiais.)
-- Concorrentes por frente (nome, preço, ponto forte/fraco): [PREENCHER]
+- **Concorrentes:**
+
+  | Frente | Concorrente | Preço vs. Inspirar | Observações |
+  |---|---|---|---|
+  | Inglês | **Nenhum** concorrente direto em Pinhão (segundo o dono) | — | Posição de referência |
+  | Ensino superior | **Censpeg** | Parecido | Principal concorrente |
+  | Ensino superior | **Unifacvest** | **Mais barata** que a Inspirar | Principal concorrente |
+  | Informática | **Raniel** | Desconhecido | Levantar preço e formato |
 - Público-alvo e perfil socioeconômico da região: [PREENCHER]
+
+## Comercial e marketing (como funciona hoje)
+- **Canais de captação:** indicação, Instagram, anúncios pagos (campanhas pontuais), quem passa
+  em frente (passantes), canal no YouTube, WhatsApp. A **divulgação nacional da Unicesumar**
+  também ajuda a marca do polo.
+- **Atendimento:** balcão, telefone e WhatsApp.
+  - Inglês: **Indianara** (principalmente)
+  - Unicesumar: **Giovana** (principalmente)
+- **Registro de interessados (leads):** não há CRM nem planilha informada [CONFIRMAR]
+- **Redes sociais:**
+  - Inglês: Instagram **@inspirar.idioma** [confirmar o @ exato] e canal no YouTube
+  - Polo: Instagram próprio e página no Facebook **"Unicesumar Pinhão"**
+- **Social media:** **Tânia** (Inspirar Idiomas). Artes produzidas em conversa com o Júnior
+  (participação da Diana: [CONFIRMAR função])
+- **Investimento:** tráfego pago em campanhas pontuais; poucos impressos; brindes pontuais.
+  Valor mensal: [PREENCHER]
+- **Indicação:** campanhas pontuais que presenteiam o aluno que indica.
 
 ## Sistemas e ferramentas
 - Sistema acadêmico/secretaria: [PREENCHER]
 - Financeiro: [PREENCHER]
-- CRM / atendimento (WhatsApp Business, etc.): [PREENCHER]
-- Redes sociais: [PREENCHER]
+- CRM / atendimento: WhatsApp (Business? [CONFIRMAR]); sem CRM informado
 
 ## Maiores dores e oportunidades (visão do dono)
 - **Dores:**

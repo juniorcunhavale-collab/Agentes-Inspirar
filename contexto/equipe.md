@@ -12,7 +12,10 @@
 | Pessoa (nome ou função) | Função | Frente(s) | Carga horária | Vínculo | Substituto |
 |---|---|---|---|---|---|
 | Júnior (sócio) | **Único professor de inglês** (11 turmas + 1 particular; 12ª turma em 2027) | Idiomas | [PREENCHER] h/semana em sala | Sócio | ⚠️ Nenhum |
-| Giovana | **Tutora** da Inspirar Informática (acompanha os alunos na plataforma) | Informática | [PREENCHER] | [PREENCHER] | [PREENCHER] |
+| Indianara (sócia) | Atendimento comercial do **inglês** | Idiomas | — | Sócia | [PREENCHER] |
+| Giovana | Atendimento do **polo Unicesumar** (principal) **+ tutora da Inspirar Informática** a partir de jan/2027 | Unicesumar / Informática | [PREENCHER] | [PREENCHER] | [PREENCHER] |
+| Tânia | Social media (Inspirar Idiomas) | Idiomas / marketing | [PREENCHER] | [PREENCHER] | — |
+| Diana | [CONFIRMAR função — artes?] | Marketing | | | |
 | [PREENCHER] | | | | | |
 
 ## Tarefas que hoje dependem só dos sócios

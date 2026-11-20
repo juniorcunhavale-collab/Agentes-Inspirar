@@ -18,4 +18,7 @@
 | 11 | **Primeiro público da Informática = alunos kids/teens do inglês e irmãos deles** (pré-matrícula exclusiva com condição especial para quem já é aluno) | Informática | Entrevista bloco 4 | — | 💡 | Celeborn + Isengard; desconto família já existe |
 | 12 | Lançar em janeiro como "férias produtivas": criança começa nas férias escolares e segue no contrato anual | Informática | Entrevista bloco 4 | — | 💡 | Entrada contínua permite isso |
 | 13 | Combo Inglês + Informática para a mesma criança (o "pacote Inspirar") | Grupo | Entrevista bloco 4 | — | 💡 | Fíli calcula a condição |
+| 14 | Programa de indicação **permanente** (regra fixa e conhecida por todos), no lugar de campanhas pontuais, para as 3 frentes | Grupo | Entrevista bloco 5 | — | 💡 | Complementa a ideia 2 |
+| 15 | Pegar carona nas campanhas nacionais da Unicesumar: postar no mesmo período com o "aqui em Pinhão, na Rua XV de Novembro" | Unicesumar | Entrevista bloco 5 | — | 💡 | Merry + Ulmo; respeitar a marca |
+| 16 | Posicionamento contra a Unifacvest (mais barata): vender o que ela não tem — atendimento presencial, acompanhamento no polo, reputação da Inspirar | Unicesumar | Entrevista bloco 5 | — | 💡 | Celeborn + Ulmo |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |
