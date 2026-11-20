@@ -1,0 +1,152 @@
+<title>Cronograma Inspirar Informática</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: uma coluna de leitura no celular; linha do tempo mês a mês com "fichas" de números iguais em todos os meses */
+:root{
+  --bg:#f5f7fb; --surface:#ffffff; --ink:#152238; --muted:#56637a; --line:#dbe2ee;
+  --accent:#1f6feb; --accent-soft:#e3edff; --money:#b25e00; --money-soft:#fff1de;
+  --ok:#1a7f4b; --warn:#a15c00;
+  --display:"Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --body:"Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1522; --surface:#172034; --ink:#e7ecf5; --muted:#a3afc4; --line:#2a3550;
+  --accent:#6ea8ff; --accent-soft:#1c2b4a; --money:#f2a65a; --money-soft:#33261a;
+  --ok:#5fd39a; --warn:#f2b45a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1522; --surface:#172034; --ink:#e7ecf5; --muted:#a3afc4; --line:#2a3550;
+  --accent:#6ea8ff; --accent-soft:#1c2b4a; --money:#f2a65a; --money-soft:#33261a;
+  --ok:#5fd39a; --warn:#f2b45a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:clamp(1.6rem,4.5vw,2.2rem);line-height:1.15}
+h2{font-size:1.2rem}
+.lede{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.eyebrow{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.kpi b{display:block;font-family:var(--display);font-size:1.45rem;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:.82rem}
+.chart-box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;overflow-x:auto}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem;color:var(--muted);margin-top:6px}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px}
+.timeline{display:flex;flex-direction:column;gap:12px}
+.month{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:110px 1fr;gap:6px 16px}
+.month.buy{border-color:var(--money)}
+.mname{font-family:var(--display);font-weight:700;font-size:1.05rem}
+.phase{font-size:.78rem;color:var(--muted)}
+.content{min-width:0;display:flex;flex-direction:column;gap:8px}
+.facts{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.fact{background:var(--bg);border-radius:8px;padding:6px 8px}
+.fact b{display:block;font-variant-numeric:tabular-nums;font-size:.98rem}
+.fact span{font-size:.7rem;color:var(--muted);letter-spacing:.02em}
+.fact.money{background:var(--money-soft)}
+.fact.money b{color:var(--money)}
+ul.acts{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:2px}
+.tag{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);margin-right:4px}
+.tag.money{background:var(--money-soft);color:var(--money)}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.note ul{margin:6px 0 0;padding-left:18px}
+.muted{color:var(--muted)}
+@media (max-width:620px){
+  .month{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Inspirar Informática · cenário realista</div>
+    <h1>Cronograma de novembro/2026 a janeiro/2028</h1>
+    <p class="lede">Quantos alunos, computadores e horários de aula a Informática deve ter a cada mês, e quando é preciso investir. Os números vêm do plano do Fíli (Financeiro) e do Telchar (Informática) e são estimativas, não resultados.</p>
+  </header>
+
+  <section class="kpis" aria-label="Resumo">
+    <div class="kpi"><b>32 alunos</b><span>meta para dez/2027</span></div>
+    <div class="kpi"><b>2 → 6</b><span>computadores (compras em mar e set)</span></div>
+    <div class="kpi"><b>R$ 3.920</b><span>investido em máquinas no ano</span></div>
+    <div class="kpi"><b>~R$ 4.320/mês</b><span>receita em dez/2027 (meta: R$ 4.700)</span></div>
+  </section>
+
+  <section class="chart-box" aria-label="Gráfico de alunos e vagas">
+    <h2>Alunos × vagas</h2>
+    <svg id="chart" role="img" aria-label="Alunos crescem de 14 em fevereiro para 32 em dezembro de 2027; as vagas sobem de 22 para 44 em março e para 66 em setembro" viewBox="0 0 640 230" style="width:100%;min-width:520px;height:auto;display:block;margin-top:8px"></svg>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--accent)"></i>alunos ativos</span>
+      <span><i class="sw" style="background:var(--money)"></i>vagas (computadores × 11 horários)</span>
+    </div>
+  </section>
+
+  <section class="timeline" aria-label="Mês a mês" id="timeline"></section>
+
+  <section class="note">
+    <h2>Como ler</h2>
+    <ul>
+      <li><b>Turmas:</b> são 2 blocos fixos, a Turma Manhã (seg a qui 10h45–11h45 e sex 9h–10h) e a Turma Tarde (seg, ter e sex 14h–16h), somando 11 horários por semana. Nenhum choca com o inglês.</li>
+      <li><b>Horários em uso:</b> quantos dos 11 horários precisam ter aula para atender os alunos com até 70% de lotação. Quando chega perto de 11, é hora de comprar computadores.</li>
+      <li><b>Investimento:</b> cada lote de 2 notebooks Dell recondicionados custa cerca de R$ 1.960 com fone, mouse e filtro de linha. Sai do Fundo de Equipamentos, nunca do caixa do inglês ou do polo.</li>
+      <li><b>Fundo:</b> saldo da caixinha "Fundo de Equipamentos" no fim do mês, já descontadas as compras. O excedente acima do teto vai para a reserva do Instituto (cerca de R$ 20 mil no ano).</li>
+      <li><b>Premissas a confirmar:</b> mensalidade de R$ 150, matrícula de R$ 100, 8 vendas do Pacote Fundador, 10% de inadimplência, imposto de 6% e metade do salário da Giovana na Informática.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const M=[
+ {m:"Nov/26",f:"Preparação",al:"0",n:0,pc:2,vag:"—",hr:"—",inv:"—",rec:"—",fun:"R$ 0",acts:["Decidir a regra do Fundo e a Hora do Código (até 24/11)","Abrir as 2 caixinhas Pix (até 25/11)","Começar a venda do Pacote Fundador","Cliente oculto no Raniel (até 27/11)"]},
+ {m:"Dez/26",f:"Pré-venda",al:"8 Fundadores",n:0,pc:2,vag:"—",hr:"—",inv:"—",rec:"R$ 2.800",fun:"R$ 376",acts:["Hora do Código grátis (01 a 12/12)","Pacote Fundador fecha em 15/12 (10 vagas)","Missões da Colônia prontas (até 05/12)","Orçar o Kit do Aluno e testar 1 Dell com a plataforma"]},
+ {m:"Jan/27",f:"Colônia Digital",al:"~6 na Colônia",n:0,pc:2,vag:"—",hr:"5 encontros",inv:"opcional R$ 980",rec:"R$ 720",fun:"R$ 1.053",acts:["Colônia de 11 a 15/01, das 9h às 11h, com Mostra em 15/01","Oferta de matrícula na Mostra","Inglês volta em 18/01","Se o Fundador vender bem: antecipar 1 notebook (R$ 980)"],tag:"opt"},
+ {m:"Fev/27",f:"Grade regular",al:"14",n:14,pc:2,vag:"22",hr:"10 de 11",inv:"—",rec:"R$ 1.010",fun:"R$ 1.316",acts:["Início da Turma Manhã e da Turma Tarde","Mês mais apertado: os Fundadores já pagaram jan e fev","Grade quase cheia com 2 computadores"]},
+ {m:"Mar/27",f:"1ª compra",al:"18",n:18,pc:4,vag:"44",hr:"7 de 11",inv:"R$ 1.960",rec:"R$ 2.830",fun:"R$ 569",acts:["Comprar 2 notebooks Dell (de 2 para 4)","Fim da captação do polo em 22/03: a Giovana fica mais livre"],buy:true},
+ {m:"Abr/27",f:"Crescimento",al:"21",n:21,pc:4,vag:"44",hr:"8 de 11",inv:"—",rec:"R$ 3.135",fun:"R$ 1.878",acts:["Avaliar abrir mais horários à tarde"]},
+ {m:"Mai/27",f:"Crescimento",al:"23",n:23,pc:4,vag:"44",hr:"9 de 11",inv:"—",rec:"R$ 3.305",fun:"R$ 3.219",acts:["Visitas a escolas e à prefeitura (Computação BNCC)"]},
+ {m:"Jun/27",f:"Crescimento",al:"24",n:24,pc:4,vag:"44",hr:"9 de 11",inv:"—",rec:"R$ 3.340",fun:"R$ 4.531",acts:["Divulgar a Colônia de julho"]},
+ {m:"Jul/27",f:"Férias",al:"24 + Colônia",n:24,pc:4,vag:"44",hr:"9 de 11",inv:"opcional R$ 600–900",rec:"R$ 3.240",fun:"R$ 5.748",acts:["Colônia Digital de julho (férias de 12 a 25/07)","Opcional: 2 a 3 kits micro:bit para testar o 2º ano"],tag:"opt"},
+ {m:"Ago/27",f:"Crescimento",al:"27",n:27,pc:4,vag:"44",hr:"10 de 11",inv:"—",rec:"R$ 3.945",fun:"R$ 6.030",acts:["Grade enche de novo: preparar a 2ª compra"]},
+ {m:"Set/27",f:"2ª compra",al:"29",n:29,pc:6,vag:"66",hr:"7 de 11",inv:"R$ 1.960",rec:"R$ 4.115",fun:"R$ 4.258",acts:["Comprar mais 2 notebooks (de 4 para 6)","Com 6 máquinas, o limite passa a ser a Giovana"],buy:true},
+ {m:"Out/27",f:"Consolidação",al:"31",n:31,pc:6,vag:"66",hr:"8 de 11",inv:"—",rec:"R$ 4.385",fun:"R$ 6.107",acts:["Montar a trilha do 2º ano (Scratch)","Decidir sobre uma 2ª tutora antes da 7ª máquina"]},
+ {m:"Nov/27",f:"Consolidação",al:"32",n:32,pc:6,vag:"66",hr:"8 de 11",inv:"—",rec:"R$ 4.420",fun:"R$ 6.201",acts:["Campanha de renovação dos contratos anuais","Venda da Colônia de janeiro de 2028"]},
+ {m:"Dez/27",f:"Fechamento",al:"32",n:32,pc:6,vag:"66",hr:"8 de 11",inv:"—",rec:"R$ 4.320",fun:"R$ 6.201",acts:["Renovação dos primeiros Fundadores","Balanço do ano e meta de 2028"]},
+ {m:"Jan/28",f:"Novo ciclo",al:"~32 (projeção)",n:0,pc:6,vag:"66",hr:"—",inv:"—",rec:"—",fun:"—",acts:["Colônia Digital 2028","Abrir a turma do 2º ano (Scratch) para quem completou o 1º"]}
+];
+const tl=document.getElementById('timeline');
+for(const r of M){
+  const el=document.createElement('article');
+  el.className='month'+(r.buy?' buy':'');
+  el.innerHTML=`<div><div class="mname">${r.m}</div><div class="phase">${r.f}</div>${r.buy?'<span class="tag money">compra</span>':''}${r.tag==='opt'?'<span class="tag">opcional</span>':''}</div>
+  <div class="content">
+   <div class="facts">
+    <div class="fact"><b>${r.al}</b><span>alunos</span></div>
+    <div class="fact"><b>${r.pc}</b><span>computadores</span></div>
+    <div class="fact"><b>${r.hr}</b><span>horários em uso</span></div>
+    <div class="fact money"><b>${r.inv}</b><span>investimento</span></div>
+    <div class="fact"><b>${r.rec}</b><span>receita do mês</span></div>
+   </div>
+   <ul class="acts">${r.acts.map(a=>`<li>${a}</li>`).join('')}</ul>
+   <div class="muted" style="font-size:.78rem">Vagas: ${r.vag} · Fundo de Equipamentos: ${r.fun}</div>
+  </div>`;
+  tl.appendChild(el);
+}
+// gráfico: fev/27 a dez/27
+const svg=document.getElementById('chart');const ns='http://www.w3.org/2000/svg';
+const data=M.filter(r=>r.n>0);const W=640,H=230,L=36,R=10,T=12,B=30,max=70;
+const x=i=>L+(i+.5)*(W-L-R)/data.length;const y=v=>T+(H-T-B)*(1-v/max);
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+function add(t,a){const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);svg.appendChild(e);return e}
+function draw(){
+ svg.innerHTML='';
+ for(const v of [0,20,40,60]){add('line',{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:css('--line'),'stroke-width':1});
+  const t=add('text',{x:L-6,y:y(v)+4,'text-anchor':'end','font-size':11,fill:css('--muted')});t.textContent=v;}
+ const bw=(W-L-R)/data.length*.55;
+ data.forEach((r,i)=>{add('rect',{x:x(i)-bw/2,y:y(r.n),width:bw,height:y(0)-y(r.n),rx:3,fill:css('--accent')});
+  const v=add('text',{x:x(i),y:y(r.n)-4,'text-anchor':'middle','font-size':11,fill:css('--ink')});v.textContent=r.n;
+  const m=add('text',{x:x(i),y:H-10,'text-anchor':'middle','font-size':11,fill:css('--muted')});m.textContent=r.m.slice(0,3);});
+ let d='';data.forEach((r,i)=>{const v=+r.vag,x0=L+i*(W-L-R)/data.length,x1=L+(i+1)*(W-L-R)/data.length;d+=(i?'L':'M')+x0+','+y(v)+'L'+x1+','+y(v);});
+ add('path',{d,fill:'none',stroke:css('--money'),'stroke-width':2.5});
+}
+draw();
+try{matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw)}catch(e){}
+new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+</script>
