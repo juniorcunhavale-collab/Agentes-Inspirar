@@ -46,11 +46,11 @@
 | 39 | Cliente oculto no Raniel (preço, formato, idade, carga horária) | Comercial | Celeborn | 2026-11-27 | ⬜ | Plano 2027 da Informática |
 | 40 | Definir quem dá aula no B2B (escolas/prefeitura) e o custo-hora | Operações | Orthanc + Fíli | 2026-12-10 | ⬜ | Plano 2027 da Informática |
 | 41 | Revisar a lotação da Colônia (8 Fundadores + pagantes com 2–3 máquinas = 2–3 turnos; à tarde a Giovana está no polo) | Informática | Telchar + Orthanc | 2026-12-10 | ⬜ | Plano 2027 da Informática |
-| 42 | Pedir audiência à Secretaria Municipal de Educação (Profa. Selenita) e levar 5 perguntas: uso dos 45 notebooks; adesão à Robótica/Inglês Paraná Kids; entrega dos 50 Chromebooks; Referencial PR com computação; projeto SESI/FIEP | Comercial | Celeborn → Júnior liga | 2026-12-05 | ⬜ | Pesquisa Pinhão |
+| 42 | **Pedido de audiência à SMEC (Profa. Selenita)** — rascunho e plano de acompanhamento prontos em `relatorios/2026-11-20-pedido-audiencia-smec.md`. Passos: 30/11 confirmar o e-mail da SMEC por telefone; 01/12 enviar; D+3 ligação; D+7 reforço; D+14 ofício no protocolo. **Celeborn acompanha** | Comercial | Celeborn → Júnior liga | 2026-12-05 | ⬜ | Pesquisa Pinhão |
 | 43 | Desenhar a formação de 20 h para professores do 1º ao 3º ano e a oficina-piloto de 4 h (Referencial PR, Vol. 2) | Pedagógico | Pelennor + Júnior | 2026-12-10 | ⬜ | Pesquisa Pinhão |
 | 44 | Calcular preço e custo da formação e das oficinas (referência: R$ 1.900–2.750/mês pagos hoje na jornada ampliada) e confirmar o teto vigente de dispensa | Financeiro | Fíli | 2026-12-10 | ⬜ | Pesquisa Pinhão |
 | 45 | **Decidir se seguimos com os Produtos A (oficinas na jornada ampliada) e B (formação de professores)** para a prefeitura | Informática | Sócios | 2026-11-27 | ⬜ | Pesquisa Pinhão v2 |
-| 46 | Rascunhar o pedido de audiência à SMEC (sem enviar; dono aprova) | Comercial | Celeborn | 2026-12-05 | ⬜ | Pesquisa Pinhão v2 |
+| 46 | ~~Rascunhar o pedido de audiência~~ → pronto; falta o Júnior aprovar e preencher telefone, e-mail e nº do ofício do Instituto | Comercial | Celeborn → Júnior aprova | 2026-11-30 | 🔄 | Pesquisa Pinhão v2 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
