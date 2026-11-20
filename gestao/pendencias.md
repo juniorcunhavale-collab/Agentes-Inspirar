@@ -57,6 +57,11 @@
 | 50 | **HOJE:** consultor da Unicesumar — vigência da Black Week 2026, 1ª mensalidade de aluno novo, desconto vale o curso todo?, peças oficiais, frequência dos encontros das licenciaturas, repasse sobre o valor com desconto, reabertura conta na meta? | Unicesumar | Giovana (Ulmo acompanha) | 2026-11-20 | ⬜ | Plano Black Week |
 | 51 | Reabertura de matrícula para ex-alunos (1ª mensalidade R$ 19,90) — chamar os evadidos do polo | Unicesumar | Giovana + Indianara (Sam acompanha) | **2026-11-23** | ⬜ | Plano Black Week |
 | 52 | Aprovar o plano Black Week, as mensagens e as publicações; combinar as artes com a Tânia | Unicesumar | Júnior | 2026-11-21 | ⬜ | Plano Black Week |
+| 53 | Perguntar ao consultor: repasse sobre a 1ª mensalidade, se o desconto vale o curso todo, condições do contrato novo | Unicesumar | Giovana/Júnior (Ulmo acompanha) | 2026-11-25 | ⬜ | Projeção do Fíli |
+| 54 | Enviar a planilha dos ~100 alunos e os repasses reais dos últimos meses (separar formandos de evadidos) | Unicesumar | Júnior → Fíli | 2026-11-30 | ⬜ | Projeção do Fíli |
+| 55 | Priorizar cursos de 48 meses (Administração, Pedagogia, licenciaturas, Contábeis) na abordagem dos leads | Comercial | Celeborn | contínuo | 🔄 | Projeção do Fíli |
+| 56 | Régua de retenção dos primeiros 90 dias do aluno EAD (acolhida, AVA, 1ª avaliação) | Unicesumar | Sam + Pelennor | 2026-12-15 | ⬜ | Projeção do Fíli |
+| 57 | Planejar o 2º ciclo de captação de 2027.2 (~40 matrículas) | Unicesumar | Ulmo + Celeborn | 2027-01-31 | ⬜ | Projeção do Fíli |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
