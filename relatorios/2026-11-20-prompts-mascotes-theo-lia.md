@@ -29,13 +29,16 @@ Personalidade: é ele quem pergunta "e se a gente tentar…?". Está sempre com 
 Personalidade: vibra com cada acerto, sorri com o rosto todo e puxa o colega para comemorar junto. Tem energia alegre e acolhedora.
 
 **PT:**
-> LIA: menina brasileira de 10 anos, pele clara (branca) com tom quente e bochechas rosadas, cabelo loiro dourado, liso com leve ondulação nas pontas, preso em um rabo de cavalo alto com um elástico simples amarelo (#ffc43d), algumas mechinhas soltas emoldurando o rosto; olhos castanho-claros grandes e brilhantes; rosto redondo, sorriso largo; meio palmo mais baixa que o Theo. Roupa padrão: moletom liso coral-alaranjado (#ff7a45) sem capuz e sem estampa, mangas levemente dobradas, gola de camiseta amarela (#ffc43d) aparecendo por baixo, calça jeans azul-média, tênis brancos com detalhes amarelos (#ffc43d). Sem outros acessórios, sem logotipos, sem estampas.
+> LIA: menina brasileira de 10 anos, pele clara (branca) com tom quente e bochechas rosadas, sem sardas, cabelo loiro dourado, liso com leve ondulação nas pontas, preso em um rabo de cavalo alto com um elástico simples amarelo (#ffc43d), algumas mechinhas soltas emoldurando o rosto; olhos castanho-claros grandes e brilhantes; rosto redondo, sorriso largo; meio palmo mais baixa que o Theo. Roupa padrão: moletom liso coral-alaranjado (#ff7a45) sem capuz e sem estampa, mangas levemente dobradas, camiseta amarela (#ffc43d) aparecendo na gola e na barra, calça jeans azul-média com a barra dobrada, tênis amarelos (#ffc43d) com sola e biqueira brancas. Sem outros acessórios, sem logotipos, sem estampas.
 
 **EN:**
-> LIA: a 10-year-old Brazilian girl with fair (white) skin with a warm tone and rosy cheeks, golden blonde hair, straight with a slight wave at the ends, tied in a high ponytail with a simple yellow hair tie (#ffc43d), a few loose strands framing her face, big bright light-brown eyes, round face with a wide smile, about a hand's width shorter than Theo. Default outfit: plain coral-orange crewneck sweatshirt (#ff7a45) with no hood and no print, sleeves slightly pushed up, the collar of a yellow t-shirt (#ffc43d) peeking out underneath, medium-blue jeans, white sneakers with yellow accents (#ffc43d). No other accessories, no logos, no prints.
+> LIA: a 10-year-old Brazilian girl with fair (white) skin with a warm tone and rosy cheeks, no freckles, golden blonde hair, straight with a slight wave at the ends, tied in a high ponytail with a simple yellow hair tie (#ffc43d), a few loose strands framing her face, big bright light-brown eyes, round face with a wide smile, about a hand's width shorter than Theo. Default outfit: plain coral-orange crewneck sweatshirt (#ff7a45) with no hood and no print, sleeves slightly pushed up, a yellow t-shirt (#ffc43d) peeking out at the collar and at the hem, medium-blue jeans with rolled-up cuffs, yellow sneakers (#ffc43d) with white soles and white toe caps. No other accessories, no logos, no prints.
 
 ---
 
+> ✅ **Referência oficial da Lia aprovada pelo Júnior em 20/11/2026:** `plataforma-informatica/mascotes/lia-referencia-oficial.jpg`
+> (1ª versão gerada no Gemini). Ficha ajustada: tênis amarelos com sola branca, sem sardas, barra amarela da camiseta.
+>
 > ✅ **Referência oficial do Theo aprovada pelo Júnior em 20/11/2026:** `plataforma-informatica/mascotes/theo-referencia-oficial.jpg`
 > (2ª versão gerada no Gemini). A ficha acima foi ajustada para descrever exatamente essa imagem. Anexe-a em todo prompt com o Theo.
 
