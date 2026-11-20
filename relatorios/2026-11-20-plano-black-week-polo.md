@@ -9,15 +9,16 @@
 
 > **🔄 Atualização (20/11, Durin):** os preços abaixo foram corrigidos para os **valores do polo Pinhão**,
 > conferidos no site oficial com os filtros Graduação · Paraná · Pinhão
-> (https://www.unicesumar.edu.br/cursos/graduacao/?vestibular=s&uf=pr&cidadePolo=polo-1602). Em Pinhão os
-> preços são **~25% mais altos** que a tabela nacional usada na primeira versão. Não há Técnico em
+> (https://www.unicesumar.edu.br/cursos/graduacao/?vestibular=s&uf=pr&cidadePolo=polo-636 — polo Pinhão, código 636;
+> uma versão anterior usou por engano outro polo). Em Pinhão os preços são **~27% mais altos** que a tabela nacional
+> usada na primeira versão. Regra: valor integral − 50% da campanha − 10% de pontualidade (Pedagogia: R$ 546,99 → R$ 246,15). Não há Técnico em
 > Administração em Pinhão; foi trocado pelo Técnico em Agronegócios. Tabela completa em
 > `relatorios/2026-11-20-precos-black-week-pinhao.md`.
 
 ## 1. Resumo do plano e meta da semana
 
 **Resumo (5 linhas)**
-1. Vamos surfar a **Black Week UniCesumar** (campanha nacional, no ar desde 16/11) em três frentes: **licenciaturas semipresenciais a R$ 226,35**, **Administração e gestão a R$ 236,70** e **técnicos a partir de R$ 99** (valores do site para o polo Pinhão em 20/11).
+1. Vamos surfar a **Black Week UniCesumar** (campanha nacional, no ar desde 16/11) em três frentes: **licenciaturas semipresenciais a R$ 228,15**, **Administração e gestão a R$ 238,95** e **técnicos a partir de R$ 99** (valores do site para o polo Pinhão em 20/11).
 2. O dinheiro mais rápido está no que já temos: os **34 leads parados** (33 sem contato) e os **ex-alunos**, que têm a reabertura com 1ª mensalidade de R$ 19,90 **só até segunda, 23/11**.
 3. As publicações (1 peça de feed por dia + stories + status) trazem leads novos para o WhatsApp com palavras-chave: **PROFESSOR, GESTÃO, TÉCNICO**.
 4. Como não há regulamento nem data de término, **nenhuma peça fala em prazo**; o "60%" sempre vem com a explicação da pontualidade.
@@ -45,7 +46,7 @@
 | **Total novas** | | | **≈ 5,8 → meta 6** |
 | Ex-alunos (reabertura) | [N a levantar] | hipótese | 2 (à parte) |
 
-Impacto em receita (estimativa, repasse de 30% sobre o valor com desconto, a confirmar): Adm. R$ 236,70 × 30% = **R$ 71,01/mês**; licenciatura R$ 226,35 × 30% = **R$ 67,91/mês** (Pedagogia R$ 243,90 × 30% = R$ 73,17); técnico R$ 99 × 30% = **R$ 29,70/mês**. As 6 matrículas na divisão acima ≈ 3 × 71,01 + 2 × 67,91 + 1 × 29,70 ≈ **R$ 379/mês de repasse recorrente**, se o aluno ficar e pagar em dia. **Fíli precisa validar** se o repasse é sobre o valor com desconto.
+Impacto em receita (estimativa, repasse de 30% sobre o valor com desconto, a confirmar): Adm. R$ 238,95 × 30% = **R$ 71,69/mês**; licenciatura R$ 228,15 × 30% = **R$ 68,45/mês** (Pedagogia R$ 246,15 × 30% = R$ 73,85); técnico R$ 99 × 30% = **R$ 29,70/mês**. As 6 matrículas na divisão acima ≈ 3 × 71,69 + 2 × 68,45 + 1 × 29,70 ≈ **R$ 382/mês de repasse recorrente**, se o aluno ficar e pagar em dia. **Fíli precisa validar** se o repasse é sobre o valor com desconto.
 
 **Decisão sobre a recomendação do Ulmo:** concordo com as três frentes e com a ordem dele. Acrescento duas coisas: (a) a primeira semana é de **contato com quem já levantou a mão** (leads e ex-alunos), porque custa zero e converte mais que post; (b) peso das publicações: **40% licenciaturas, 40% gestão, 20% técnicos**.
 
@@ -140,7 +141,7 @@ Horário do polo: seg a sex 8h30–12h e 13h30–18h; sábado 8h–12h.
 ## 3. Calendário de publicações (20/11 a 27/11)
 
 **Regras para todas as peças (checar antes de publicar):**
-- "Black Week UniCesumar" e "até 60% off" só aparecem junto com Pedagogia (R$ 243,90), demais licenciaturas (R$ 226,35), Administração (R$ 236,70), Ciências Contábeis (R$ 248,40) e tecnólogos de 24 meses (R$ 236,70; Marketing R$ 208,35). Os cursos de ~R$ 189 a R$ 199 (faixa de 70%) e os técnicos **só entram com o preço confirmado**, e técnico entra **sem percentual** (o site não deu o percentual).
+- "Black Week UniCesumar" e "até 60% off" só aparecem junto com Pedagogia (R$ 246,15), demais licenciaturas (R$ 228,15), Administração (R$ 238,95), Ciências Contábeis (R$ 250,65) e tecnólogos de 24 meses (R$ 238,95; Marketing R$ 209,70). Os cursos de ~R$ 189 a R$ 199 (faixa de 70%) e os técnicos **só entram com o preço confirmado**, e técnico entra **sem percentual** (o site não deu o percentual).
 - Toda peça com preço leva a nota: *"Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade."*
 - **Nada de prazo de término.** Usamos "enquanto a campanha estiver no ar".
 - Licenciatura = **semipresencial, com encontros presenciais no polo**. Nunca "100% EAD" ou "100% online". Não informar a frequência dos encontros até o consultor confirmar.
@@ -161,11 +162,11 @@ Horário do polo: seg a sex 8h30–12h e 13h30–18h; sábado 8h–12h.
 - **Instagram feed: carrossel de 5 telas** + Facebook + status
   - Tela 1: "Quer ser professor(a)? Black Week UniCesumar: licenciaturas semipresenciais com até 60% off."
   - Tela 2: "Pedagogia, Letras Português/Inglês, Matemática, História, Geografia, Biologia, Educação Física, Educação Especial, Artes e outras."
-  - Tela 3: "Por R$ 226,35/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
+  - Tela 3: "Por R$ 228,15/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
   - Tela 4: "Semipresencial: aulas on-line, ao vivo e gravadas, pelo celular, e encontros presenciais aqui no polo."
   - Tela 5: "Mande PROFESSOR no WhatsApp. Rua XV de Novembro, nº 54, Sala 2, Centro."
   - **Legenda:**
-    > Sempre quis dar aula? A Black Week UniCesumar chegou com as licenciaturas semipresenciais com até 60% off: R$ 226,35 por mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
+    > Sempre quis dar aula? A Black Week UniCesumar chegou com as licenciaturas semipresenciais com até 60% off: R$ 228,15 por mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
     > O modelo oferece a flexibilidade das aulas on-line aliada à vivência prática nos polos, um espaço de acolhimento humano. E o polo é aqui em Pinhão, pertinho de você.
     > Mande **PROFESSOR** no WhatsApp [WHATSAPP DO POLO] e veja como começar.
     > *Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade. Condição válida enquanto a campanha estiver no ar.*
@@ -176,15 +177,15 @@ Horário do polo: seg a sex 8h30–12h e 13h30–18h; sábado 8h–12h.
   - Roteiro: (1) "Você sabe como funciona a licenciatura semipresencial da UniCesumar?" (2) "As aulas são on-line, ao vivo e gravadas, pelo celular, em um aplicativo que não consome o seu pacote de dados." (3) "E você tem encontros presenciais aqui no polo, com acolhimento e prática." (4) "Material didático digital 100% gratuito." (5) "Manda PROFESSOR no WhatsApp."
   - **Legenda:**
     > Licenciatura semipresencial: aulas ao vivo e gravadas pelo seu celular, através de um aplicativo educacional que não consome o seu pacote de dados, e encontros presenciais aqui no Polo Pinhão.
-    > Na Black Week UniCesumar, Pedagogia sai por R$ 243,90/mês e as demais licenciaturas por R$ 226,35/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
+    > Na Black Week UniCesumar, Pedagogia sai por R$ 246,15/mês e as demais licenciaturas por R$ 228,15/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
     > Mande **PROFESSOR** no WhatsApp [WHATSAPP DO POLO].
     > *Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade.*
 
 ### Segunda 23/11: Administração e gestão
 - **Instagram feed: arte única** + Facebook + status
-  - Arte: "Black Week UniCesumar · Administração EAD com até 60% off · R$ 236,70/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)".
+  - Arte: "Black Week UniCesumar · Administração EAD com até 60% off · R$ 238,95/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)".
   - **Legenda:**
-    > Quer crescer no trabalho ou organizar o seu próprio negócio sem sair de Pinhão? Administração EAD na Black Week UniCesumar: de R$ 525,99 por R$ 236,70/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
+    > Quer crescer no trabalho ou organizar o seu próprio negócio sem sair de Pinhão? Administração EAD na Black Week UniCesumar: de R$ 530,99 por R$ 238,95/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência).
     > Estude pelo celular, no seu horário, com o apoio do polo aqui na Rua XV de Novembro, nº 54.
     > Mande **GESTÃO** no WhatsApp [WHATSAPP DO POLO].
     > *Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade. Condição válida enquanto a campanha estiver no ar.*
@@ -200,20 +201,20 @@ Horário do polo: seg a sex 8h30–12h e 13h30–18h; sábado 8h–12h.
     > *Valores com desconto da campanha promocional e desconto por pontualidade. Condição válida enquanto a campanha estiver no ar.*
 - **Lista de transmissão nº 1** (só contatos que salvaram o número do polo e pediram informação; sem disparo em massa):
   > Oi! Aqui é o Polo UniCesumar de Pinhão. A Black Week UniCesumar está no ar e separei as condições que mais procuram aqui no polo:
-  > *Pedagogia semipresencial:* R$ 243,90/mês · *demais licenciaturas semipresenciais:* R$ 226,35/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)
-  > *Administração EAD:* R$ 236,70/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)
+  > *Pedagogia semipresencial:* R$ 246,15/mês · *demais licenciaturas semipresenciais:* R$ 228,15/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)
+  > *Administração EAD:* R$ 238,95/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)
   > *Técnicos:* a partir de R$ 99/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)
   > Valores com 10% de desconto por pontualidade. Quer saber o do seu curso? Responda esta mensagem com PROFESSOR, GESTÃO ou TÉCNICO.
 
 ### Quarta 25/11: Gestão com mais opções
 - **Instagram feed: carrossel de 4 telas** + Facebook + status
   - Tela 1: "Black Week UniCesumar: cursos de gestão com até 60% off."
-  - Tela 2: "Ciências Contábeis EAD: R$ 248,40/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
-  - Tela 3: "Tecnólogos de 24 meses: Gestão de RH, Logística, Gestão Comercial: R$ 236,70/mês; Marketing: R$ 208,35/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
+  - Tela 2: "Ciências Contábeis EAD: R$ 250,65/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
+  - Tela 3: "Tecnólogos de 24 meses: Gestão de RH, Logística, Gestão Comercial: R$ 238,95/mês; Marketing: R$ 209,70/mês (valor do site para o polo Pinhão em 20/11; confirmar vigência)."
   - Tela 4: "Mande GESTÃO no WhatsApp."
-  - (Gestão Financeira, Gestão Pública, Agronegócio, Secretariado e Processos Gerenciais, de R$ 189,36 a R$ 198,72 em Pinhão (Secretariado R$ 166,68), podem entrar usando "até 70% off", como no banner oficial.)
+  - (Gestão Financeira, Gestão Pública, Agronegócio, Secretariado e Processos Gerenciais, de R$ 191,16 a R$ 200,52 em Pinhão (Secretariado R$ 167,76), podem entrar usando "até 70% off", como no banner oficial.)
   - **Legenda:**
-    > Dá para fazer uma graduação em 2 anos? Dá: os tecnólogos de gestão da UniCesumar têm 24 meses. Na Black Week UniCesumar, Gestão de RH, Logística, Gestão Comercial saem por R$ 236,70/mês, Marketing por R$ 208,35/mês, e Ciências Contábeis por R$ 248,40/mês (valores do site para o polo Pinhão em 20/11; confirmar vigência).
+    > Dá para fazer uma graduação em 2 anos? Dá: os tecnólogos de gestão da UniCesumar têm 24 meses. Na Black Week UniCesumar, Gestão de RH, Logística, Gestão Comercial saem por R$ 238,95/mês, Marketing por R$ 209,70/mês, e Ciências Contábeis por R$ 250,65/mês (valores do site para o polo Pinhão em 20/11; confirmar vigência).
     > Mande **GESTÃO** no WhatsApp [WHATSAPP DO POLO].
     > *Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade. Condição válida enquanto a campanha estiver no ar.*
 - **Stories:** responder 2 perguntas da caixinha de segunda, com a Giovana falando 15 s cada.
@@ -230,10 +231,10 @@ Horário do polo: seg a sex 8h30–12h e 13h30–18h; sábado 8h–12h.
 
 ### Sexta 27/11: Black Friday
 - **Instagram feed: arte "3 caminhos"** + Facebook + status
-  - Arte: "Black Week UniCesumar · Licenciaturas semipresenciais R$ 226,35 · Administração EAD R$ 236,70 · Técnicos a partir de R$ 99" (valores do site para o polo Pinhão em 20/11).
+  - Arte: "Black Week UniCesumar · Licenciaturas semipresenciais R$ 228,15 · Administração EAD R$ 238,95 · Técnicos a partir de R$ 99" (valores do site para o polo Pinhão em 20/11).
   - **Legenda:**
     > Hoje é Black Friday e o Polo UniCesumar Pinhão está aberto até as 20h.
-    > Licenciaturas semipresenciais: R$ 226,35/mês. Administração EAD: R$ 236,70/mês. Técnicos: a partir de R$ 99/mês (valores do site para o polo Pinhão em 20/11; confirmar vigência).
+    > Licenciaturas semipresenciais: R$ 228,15/mês. Administração EAD: R$ 238,95/mês. Técnicos: a partir de R$ 99/mês (valores do site para o polo Pinhão em 20/11; confirmar vigência).
     > Passe aqui na Rua XV de Novembro, nº 54, Sala 2, Centro, ou mande **PROFESSOR**, **GESTÃO** ou **TÉCNICO** no WhatsApp [WHATSAPP DO POLO].
     > *Valor final considerando 50% de desconto da campanha promocional + 10% de desconto por pontualidade, nos cursos de graduação. Condição válida enquanto a campanha estiver no ar.*
 - **Stories ao longo do dia:** 9h "Bom dia, hoje atendemos até as 20h"; 14h bastidor da equipe atendendo (sem mostrar aluno sem autorização); 18h "Ainda dá tempo de tirar a sua dúvida hoje: estamos aqui até as 20h".
