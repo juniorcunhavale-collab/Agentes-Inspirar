@@ -129,8 +129,10 @@
   consentimento dos pais (LGPD)".
 
 - **Status da plataforma (check-up do Telchar, 20/11/2026):** a parte do aluno tem **40 aulas e 7 testes** e roda até
-  offline, mas **funciona como demonstração**: o progresso fica salvo só no navegador de cada notebook. **Não está pronta
-  para lançar** — ver `relatorios/2026-11-20-checkup-plataforma-informatica.md`.
+  offline, mas **funciona como demonstração**: o progresso fica salvo só no navegador de cada notebook. **Correções de 20/11:** as 40 aulas e os 7 testes passam na bateria automática;
+  Trilha Colônia com Área da tutora (PIN) pronta; backup do progresso por arquivo ou código; conteúdo ampliado
+  (110 → 191 passos). Ainda faltam o painel real dos pais/tutora (banco de dados) e mais conteúdo para o ano. Ver
+  `relatorios/2026-11-20-correcoes-plataforma-informatica.md`. Código-fonte versionado em `plataforma-informatica/`.
 - **Acompanhamento dos pais:** ponto considerado importantíssimo pelo dono, **mas ainda não existe de verdade** — a
   tela dos pais só mostra alunos fictícios. Depende de banco de dados com login (meta: 31/01/2027). **Não prometer
   na venda até estar no ar.**
