@@ -1,0 +1,2 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage();await p.route(/fonts/,r=>r.abort());await p.goto('file://'+process.argv[2]);
+console.log(await p.evaluate(()=>{const d={};let words=0;for(const k in LES)LES[k].forEach(s=>{if(s.t==='quiz')d[s.a]=(d[s.a]||0)+1;if(s.x)words+=(s.x.y||'').split(' ').length;});return JSON.stringify({dist:d,palavrasTextoInfo8a10:words})}));await b.close()})();
