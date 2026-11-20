@@ -17,7 +17,7 @@
 | 6 | Plano de captação para as licenciaturas semipresenciais (incluindo material que explique o semipresencial) | Unicesumar | Ulmo + Celeborn + Merry | Após a entrevista | ⬜ | Entrevista bloco 1 |
 | 11 | Levantar a grade de horários do inglês (turmas, dias, aulas por semana) e as horas semanais do Júnior em sala | Idiomas | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 3 |
 | 12 | Planejar a rematrícula 2027 do inglês (quem renova, quando vencem os contratos, condição de renovação e reajuste) | Idiomas | Isengard + Fíli → sócios | 2026-12-05 | ⬜ | Entrevista bloco 3 |
-| 13 | Compartilhar o acesso/link da plataforma de informática para a equipe ajudar a melhorá-la | Informática | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 4 |
+| 13 | ~~Compartilhar o link da plataforma~~ → encontrada nos artifacts "Inspirar Informática" e "Inspirar Informática Aluno" | Informática | Júnior | — | ✅ | Entrevista bloco 4 |
 | 14 | ~~Calcular matrículas antecipadas por notebook e capacidade~~ → ver `relatorios/2026-11-20-plano-equipamento-informatica.md` | Informática | Fíli + Telchar | — | ✅ | Entrevista bloco 4 |
 | 15 | Definir vínculo, horários e custo da Giovana (tutora) | Informática | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 16 | Criar uma planilha simples de interessados (data, nome, frente/curso, origem, status, próximo contato) usada por Indianara e Giovana | Grupo | Celeborn monta → Indianara e Giovana usam | 2026-11-27 | ⬜ | Entrevista bloco 5 |
@@ -29,11 +29,15 @@
 | 22 | **Conversar sobre a visão de 3 anos** com os sócios (o dono pediu para ser perguntado depois) | Grupo | Durin puxa o assunto | 2026-12-10 | ⬜ | Entrevista bloco 7 |
 | 23 | Confirmar se a meta de +R$ 10 mil é **por mês** e desdobrá-la em metas por frente | Grupo | Júnior + Fíli | 2026-11-27 | ⬜ | Entrevista bloco 7 |
 | 24 | Mapear o que depende só da Indianara (e quem a substitui) | Operações | Indianara + Orthanc | 2026-12-05 | ⬜ | Entrevista bloco 7 |
-| 25 | **Decidir:** preço (R$ 150 ou 160), carga (1 aula/semana), Pacote Fundador até 15/12, Colônia Digital em janeiro | Informática | Sócios | 2026-11-27 | ⬜ | Plano de equipamento |
+| 25 | **Decidir:** preço (R$ 150 + matrícula ou kit de material), formato e preço da Colônia Digital (ver `relatorios/2026-11-20-colonia-digital-e-grade-informatica.md`). Pacote Fundador já aprovado | Informática | Sócios | 2026-11-27 | 🔄 | Plano de equipamento |
 | 26 | Abrir conta/caixinha Pix separada para as pré-matrículas antes da 1ª venda | Financeiro | Sócios | 2026-11-30 | ⬜ | Plano de equipamento |
 | 27 | Testar 1 computador de ~R$ 900 com a plataforma (Windows 11, 8 GB, SSD, teclado ABNT2) e confirmar se a plataforma roda no navegador | Informática | Júnior | 2026-12-05 | ⬜ | Plano de equipamento |
 | 28 | Bloquear os horários de tutoria da Giovana e definir quem cobre o polo nesses horários | Operações | Orthanc → sócios | 2026-12-05 | ⬜ | Plano de equipamento |
 | 29 | Verificar a licença do Office (Microsoft 365 Education / por máquina) | Informática | Telchar | 2026-12-10 | ⬜ | Plano de equipamento |
+| 30 | Conversar com a Giovana sobre vir de manhã (Colônia 04–15/01 e Turma Manhã a partir de fevereiro) e o impacto na carga horária e no salário | Operações | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Colônia Digital |
+| 31 | Calcular o Kit do Aluno (preço, custo de impressão, quantos kits pagam 1 notebook) | Financeiro | Fíli + Pelennor | 2026-12-05 | ⬜ | Colônia Digital |
+| 32 | Adaptar as 8 missões da Colônia à ementa existente de informática básica (8 a 12 anos) | Pedagógico | Pelennor + Telchar + Júnior | 2026-12-10 | ⬜ | Colônia Digital |
+| 33 | Confirmar o horário de quinta à noite do inglês (entrevista: até 20h; grade: última turma 15h10–16h40) | Idiomas | Júnior | 2026-11-27 | ⬜ | Colônia Digital |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

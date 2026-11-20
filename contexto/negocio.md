@@ -97,8 +97,20 @@
   - **Adultos** (maioria das saídas): incompatibilidade de horário
   - **Crianças:** falta de adaptação nos primeiros meses
 - **Posição de mercado:** o dono considera que a Inspirar **já é referência em idiomas** na cidade
-- Metodologia / material didático (qual): [PREENCHER]
-- Grade de horários e nº de aulas por semana por turma: [PREENCHER]
+- Metodologia / material didático: método próprio, com apostilas e materiais criados pelo Júnior
+  (ver artifacts do dono, ex.: "Método de ensino de inglês", "Apostila A1 Adultos")
+- **Aulas:** 1 encontro de **1h30 por semana** por turma (36 horas por semestre)
+- **Calendário 2027.1:** início em **18/01/2027**, término em 09/07; férias de 12/07 a 25/07;
+  2º semestre a partir de 26/07; recesso de Carnaval em 08/02
+- **Grade (sala única — horários ocupados):**
+  - Seg: 9h00–10h30
+  - Ter: 9h00–10h30 · 18h00–19h30 · 19h40–21h10
+  - Qua: 9h00–10h30 · 13h30–15h00 · 18h00–19h30 · 19h40–21h10
+  - Qui: 9h00–10h30 · 13h30–15h00 · 15h10–16h40
+  - Sex e sáb: sem turmas
+  - Fonte: artifact "Horário das Turmas – Inspirar Idiomas" (os nomes dos alunos ficam só lá — LGPD)
+  - ⚠️ Confirmar: na entrevista a quinta ia "até as 20h"; a grade mostra a última turma às 16h40
+- **Espaço físico:** **uma sala só**, compartilhada por todas as frentes
 
 ### 3. Inspirar Informática — 🚀 EM LANÇAMENTO
 - **Status:** projeto novo; **lançamento no final de 2026**, com **turmas a partir de 2027**
@@ -111,8 +123,10 @@
 - **Giovana** acompanha os alunos como **tutora** em sala (não é aula expositiva).
 - **Entrada contínua:** o aluno pode começar a qualquer momento, sem esperar formar turma.
   "Turma" aqui significa **horário de atendimento** com tutora presente.
-- Melhorias na plataforma: o dono quer desenvolvê-la junto com a equipe de agentes
-  (acesso/link da plataforma: [PREENCHER]).
+- Melhorias na plataforma: o dono quer desenvolvê-la junto com a equipe de agentes.
+  A plataforma está nos artifacts do dono: "Inspirar Informática" e "Inspirar Informática Aluno";
+  há também "Ementa do curso de informática básica (8 a 12 anos)" e o "Rascunho do termo de
+  consentimento dos pais (LGPD)".
 
 #### Público (em fases)
 1. **Fase 1:** crianças de **8 a 12 anos** (público inicial)
@@ -163,7 +177,8 @@
 - **Atendimento:** balcão, telefone e WhatsApp.
   - Inglês: **Indianara** (principalmente)
   - Unicesumar: **Giovana** (principalmente)
-- **Registro de interessados (leads):** não há CRM nem planilha informada [CONFIRMAR]
+- **Registro de interessados (leads):** existe o artifact "Leads Polo Pinhão: matrículas 2026/27"
+  (polo). Para o inglês e a informática: [CONFIRMAR]
 - **Redes sociais:**
   - Inglês: Instagram **@inspirar.idioma** [confirmar o @ exato] e canal no YouTube
   - Polo: Instagram próprio e página no Facebook **"Unicesumar Pinhão"**

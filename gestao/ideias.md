@@ -26,4 +26,5 @@
 | 19 | Usar a entrada do material (início e meio do ano) para criar a primeira reserva de caixa e/ou comprar notebooks | Financeiro | Entrevista bloco 6 | — | 💡 | ~R$ 13,7 mil por troca, menos o custo do material |
 | 20 | Contratos digitais com assinatura eletrônica (mais rápido na matrícula, menos papel, fácil de achar) | Operações | Entrevista bloco 7 | — | 💡 | Orthanc; validar a validade jurídica com o contador ou advogado |
 | 21 | Sistema simples de gestão escolar (alunos, contratos, cobrança) em vez de várias planilhas — avaliar quando a base crescer | Operações | Entrevista bloco 7 | — | 💡 | Orthanc + Fíli; custo × benefício |
+| 22 | **Kit do Aluno Inspirar Informática** (caderno de atividades + guia de consulta em casa) no lugar da taxa de matrícula | Informática | Júnior (2026-11-20) | — | 🔍 | Fíli calcula custo × preço; Pelennor cria |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |
