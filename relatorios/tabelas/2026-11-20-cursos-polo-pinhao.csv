@@ -1,0 +1,633 @@
+﻿Categoria;Tipo;Área;Curso;Modalidade;Duração;Taxa de entrada (1ª mensalidade);Valor integral;Valor com bolsa (pagando em dia);Desconto total %
+Graduação;Licenciaturas;Artes e Design;Artes visuais;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Ciências biológicas;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Artes e Design;Dança;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Educação especial;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Educação Física - Licenciatura;Semipresencial;48 meses;R$ 19,47;R$ 546,99;R$ 246,15;55
+Graduação;Licenciaturas;Educação;Geografia;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Geografia - Segunda Licenciatura;EAD;24 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;História;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;História - Segunda Licenciatura;EAD;24 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Letras - libras;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Letras português-inglês;Semipresencial;60 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Matemática;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Matemática - Segunda Licenciatura;EAD;24 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Artes e Design;Música;Semipresencial;48 meses;R$ 19,47;R$ 546,99;R$ 246,15;55
+Graduação;Licenciaturas;Educação;Pedagogia;Semipresencial;48 meses;R$ 19,47;R$ 546,99;R$ 246,15;55
+Graduação;Licenciaturas;Educação;Sociologia;Semipresencial;48 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Licenciaturas;Educação;Sociologia - Segunda Licenciatura;EAD;24 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Bacharelados;Gestão e Negócios;Administração;EAD;48 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Bacharelados;Tecnologia;Biblioteconomia;EAD;36 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Bacharelados;Artes e Design;Cinema e Audiovisual;EAD;42 meses;R$ 19,47;R$ 568,99;R$ 204,84;64
+Graduação;Bacharelados;Tecnologia;Ciência da Computação;EAD;48 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Bacharelados;Gestão e Negócios;Ciências Contábeis;EAD;48 meses;R$ 19,47;R$ 556,99;R$ 250,65;55
+Graduação;Bacharelados;Gestão e Negócios;Ciências Econômicas;EAD;48 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Bacharelados;Tecnologia;Engenharia de Software;EAD;48 meses;R$ 19,47;R$ 750,99;R$ 337,95;55
+Graduação;Bacharelados;Tecnologia;Inteligência Artificial;EAD;48 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Bacharelados;Comunicação;Jornalismo;EAD;48 meses;R$ 19,47;R$ 568,99;R$ 204,84;64
+Graduação;Bacharelados;Educação;Psicopedagogia;Semipresencial;48 meses;R$ 19,47;R$ 546,99;R$ 246,15;55
+Graduação;Bacharelados;Comunicação;Publicidade E Propaganda;EAD;42 meses;R$ 19,47;R$ 568,99;R$ 204,84;64
+Graduação;Bacharelados;Comunicação;Relações Públicas;EAD;48 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Bacharelados;Educação;Teologia;EAD;36 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Educação;Acompanhamento do transtorno do espectro autista;Semipresencial;36 meses;R$ 19,47;R$ 506,99;R$ 228,15;55
+Graduação;Tecnólogos;Tecnologia;Análise e Desenvolvimento de Sistemas;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Tecnologia;Banco de Dados;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Tecnólogos;Comunicação;Ciência da Criatividade;EAD;24 meses;R$ 19,47;R$ 556,99;R$ 175,45;69
+Graduação;Tecnólogos;Artes e Design;Ciência da Felicidade;EAD;24 meses;R$ 19,47;R$ 565,99;R$ 178,29;68
+Graduação;Tecnólogos;Gestão e Negócios;Comércio Exterior;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 167,76;64
+Graduação;Tecnólogos;Jurídico e Segurança;Criminologia;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Artes e Design;Design de Animação;EAD;24 meses;R$ 19,47;R$ 556,99;R$ 175,45;69
+Graduação;Tecnólogos;Artes e Design;Design de Interiores;EAD;24 meses;R$ 19,47;R$ 685,99;R$ 246,96;64
+Graduação;Tecnólogos;Artes e Design;Design de Moda;EAD;24 meses;R$ 19,47;R$ 685,99;R$ 246,96;64
+Graduação;Tecnólogos;Artes e Design;Design de Produto;EAD;24 meses;R$ 19,47;R$ 685,99;R$ 216,09;68
+Graduação;Tecnólogos;Artes e Design;Design Gráfico;EAD;24 meses;R$ 19,47;R$ 556,99;R$ 200,52;64
+Graduação;Tecnólogos;Artes e Design;Design Musical;EAD;24 meses;R$ 19,47;R$ 556,99;R$ 175,45;69
+Graduação;Tecnólogos;Comunicação;Fotografia;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 167,76;64
+Graduação;Tecnólogos;Alimentos e Bebidas;Gastronomia;EAD;24 meses;R$ 19,47;R$ 685,99;R$ 308,70;55
+Graduação;Tecnólogos;Gestão e Negócios;Gestão Comercial;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Engenharias e Arquitetura;Gestão da Produção Industrial;EAD;36 meses;R$ 19,47;R$ 685,99;R$ 246,96;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão da Qualidade;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 167,76;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão da Saúde Mental no Trabalho;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Tecnologia;Gestão da Tecnologia da Informação;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Cooperativas;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 146,79;68
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Farmácia;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Investimentos e Mercado Financeiro;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Negócios Imobiliários;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Recursos Humanos;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Jurídico e Segurança;Gestão de Segurança Privada;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Jurídico e Segurança;Gestão de Serviços Judiciais e Notariais;EAD;24 meses;R$ 19,47;R$ 568,99;R$ 204,84;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão de Turismo;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Tecnólogos;Agrárias e Meio Ambiente;Gestão do Agronegócio;EAD;36 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão Financeira;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Gestão Pública;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 191,16;64
+Graduação;Tecnólogos;Gestão e Negócios;Inteligência Artificial e Machine Learning;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Jurídico e Segurança;Investigação e Perícia Judicial;EAD;36 meses;R$ 19,47;R$ 568,99;R$ 256,05;55
+Graduação;Tecnólogos;Tecnologia;Jogos Digitais;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Tecnólogos;Gestão e Negócios;Logística;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Gestão e Negócios;Marketing;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 209,70;55
+Graduação;Tecnólogos;Gestão e Negócios;Mídias Sociais Digitais;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Tecnólogos;Gestão e Negócios;Negócios e Customer Experience;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 146,79;68
+Graduação;Tecnólogos;Gestão e Negócios;Processos Gerenciais;EAD;24 meses;R$ 19,47;R$ 556,99;R$ 200,52;64
+Graduação;Tecnólogos;Gestão e Negócios;Psicologia Aplicada às Organizações e Inovação Humana;EAD;24 meses;R$ 19,47;R$ 533,99;R$ 168,21;68
+Graduação;Tecnólogos;Tecnologia;Redes De Computadores;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Graduação;Tecnólogos;Gestão e Negócios;Secretariado;EAD;24 meses;R$ 19,47;R$ 465,99;R$ 167,76;64
+Graduação;Tecnólogos;Tecnologia;Segurança Cibernética;EAD;30 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Engenharias e Arquitetura;Segurança no Trabalho;EAD;36 meses;R$ 19,47;R$ 530,99;R$ 238,95;55
+Graduação;Tecnólogos;Jurídico e Segurança;Segurança Pública;EAD;24 meses;R$ 19,47;R$ 530,99;R$ 167,26;69
+Técnico;Técnicos;Negócios;Agronegócios;EAD;18 meses;R$ 19,46;R$ 318,14;R$ 114,53;64
+Técnico;Técnicos;Tecnologia e Inovação;Computação Gráfica;EAD;18 meses;R$ 19,46;R$ 312,89;R$ 99,00;68
+Técnico;Técnicos;Negócios;Contabilidade;EAD;12 meses;R$ 19,46;R$ 355,94;R$ 99,00;72
+Técnico;Técnicos;Negócios;Cooperativismo;EAD;12 meses;R$ 19,46;R$ 312,89;R$ 99,00;68
+Técnico;Técnicos;Tecnologia e Inovação;Desenvolvimento de Sistemas;EAD;18 meses;R$ 19,46;R$ 312,89;R$ 99,00;68
+Técnico;Técnicos;Tecnologia e Inovação;Informática para Internet;EAD;18 meses;R$ 19,46;R$ 312,89;R$ 112,64;64
+Técnico;Técnicos;Negócios;Recursos Humanos;EAD;12 meses;R$ 19,46;R$ 312,89;R$ 99,00;68
+Técnico;Técnicos;Educação;Secretaria Escolar;EAD;12 meses;R$ 19,46;R$ 302,39;R$ 99,00;67
+Técnico;Técnicos;Tecnologia e Inovação;Segurança do Trabalho;EAD;18 meses;R$ 49,40;R$ 495,48;R$ 178,37;64
+Técnico;Técnicos;Negócios;Serviços Jurídicos;EAD;12 meses;R$ 19,46;R$ 312,89;R$ 112,64;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Agricultura de Precisão;EAD;8 meses;R$ 19,35;R$ 359,66;R$ 129,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Agronegócio 4.0: Dados e Tecnologia;EAD;8 meses;R$ 19,35;R$ 359,66;R$ 129,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Bem-Estar Animal e Produção Sustentável;EAD;8 meses;R$ 19,35;R$ 359,66;R$ 129,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Certificações Ambientais e Agro (Orgânicos, CAR/CRA, FSC/PEFC);EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Energias Renováveis no Campo (Bioenergia, Solar e Eólica);EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Fitossanidade e Manejo Integrado de Pragas (MIP);EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Geoprocessamento e Sensoriamento Remoto no Meio Rural;EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Gestão da Cadeia do Agronegócio;EAD;8 meses;R$ 19,35;R$ 359,66;R$ 129,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Licenciamento Ambiental e Compliance;EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Agrárias e Meio Ambiente;Manejo e Fertilidade do Solo;EAD;8 meses;R$ 19,35;R$ 356,88;R$ 128,48;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ADMINISTRAÇÃO, POLÍTICAS PÚBLICAS E CIDADANIA;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ANÁLISE DE PROCESSOS, QUALIDADE E MELHORIA CONTÍNUA;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ARQUITETURA DE CIBERSEGURANÇA E ENGENHARIA DE PLATAFORMA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Arquitetura de Sistemas e Engenharia de Software;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ARQUITETURA DE SISTEMAS RESILIENTES E MODERNIZAÇÃO DE LEGADO;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ARQUITETURA DE SOLUÇÕES E TRANSFORMAÇÃO DIGITAL;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ARQUITETURA E ENGENHARIA DE CLOUD COMPUTING (MULTI-CLOUD);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;AUDITORIA, FISCALIZAÇÃO E GESTÃO DE TI COM FOCO EM GRC;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;BANCOS DE DADOS E TECNOLOGIAS EMERGENTES;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;BRANDING, GESTÃO DE MARCA E COMUNICAÇÃO CORPORATIVA;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;BUSINESS HACKING E CRIAÇÃO DE VALOR EM NEGÓCIOS DIGITAIS;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Cibersegurança Avançada - Defesa, Threat Intelligence e Resposta a Incidentes;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CIBERSEGURANÇA COM ZERO TRUST E GESTÃO DE IDENTIDADES (IAM);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CLOUD FINOPS E OTIMIZAÇÃO DE CUSTOS EM AMBIENTES HÍBRIDOS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Compliance Digital, Auditoria e Prevenção à Fraudes Financeiras;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;COMPLIANCE, GOVERNANÇA E GESTÃO DE RISCOS CORPORATIVOS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;COMPORTAMENTO ORGANIZACIONAL, CLIMA E ENGAJAMENTO DE PESSOAS;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;COMPUTAÇÃO DE ALTO DESEMPENHO E SISTEMAS DISTRIBUÍDOS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;COMÉRCIO EXTERIOR E MARKETING INTERNACIONAL;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Comércio Exterior, Logística Internacional e Negócios Globais;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONSULTORIA EMPRESARIAL, DIAGNÓSTICO E PLANEJAMENTO DE SOLUÇÕES;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTABILIDADE PREVIDENCIÁRIA, PERÍCIA E CÁLCULOS JUDICIAIS;EAD;8 meses;R$ 19,35;R$ 379,99;R$ 136,80;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTABILIDADE PÚBLICA, ORÇAMENTO E FINANÇAS NO SETOR PÚBLICO;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTABILIDADE, FINANÇAS E TRIBUTOS;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTROLADORIA E FINANÇAS CORPORATIVAS;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTROLADORIA, PLANEJAMENTO FINANCEIRO E ORÇAMENTO EMPRESARIAL;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CONTROLE INTERNO, TRANSPARÊNCIA E COMBATE À CORRUPÇÃO;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CUSTOMER EXPERIENCE (CX) E ESTRATÉGIAS OMNICHANNEL;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CYBER THREAT INTELLIGENCE (CTI) E INTELIGÊNCIA ARTIFICIAL NA CIBERSEGURANÇA;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;CÂMBIO, IMPORTAÇÃO, EXPORTAÇÃO E ANÁLISE DE MERCADOS INTERNACIONAIS;EAD;8 meses;R$ 19,35;R$ 371,99;R$ 133,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DATA ANALYTICS E ESTRATÉGIAS DATA-DRIVEN;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DATA GOVERNANCE & RESPONSIBLE AI (LGPD, ÉTICA, MRM);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Data Product Manager - Produtos de Dados, BI e Estratégia Analítica;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DATA SCIENCE APLICADA À INDÚSTRIA 4.0;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DATAOPS E MLOPS PARA ENGENHARIA DE DADOS E MODELOS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DEFESA CIBERNÉTICA, SOC E RESPOSTA A INCIDENTES;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO .NET PARA MICROSSERVIÇOS (C#, ASP.NET, AZURE);EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO BACKEND COM NODE.JS E NESTJS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO DE APLICAÇÕES LOW-CODE E CITIZEN DEVELOPMENT;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO DE JOGOS DIGITAIS COM UNITY E UNREAL ENGINE;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO HUMANO E COACHING PARA LIDERANÇA;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO MOBILE E APLICAÇÕES HÍBRIDAS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO MOBILE NATIVO (KOTLIN PARA ANDROID E SWIFT PARA IOS);EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO NO CODE E LOW CODE;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESENVOLVIMENTO WEB FULL STACK;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESIGN CRIATIVO E IA GENERATIVA;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DESIGN DE EXPERIÊNCIA E UI/UX PARA APLICAÇÕES DIGITAIS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DETECÇÃO DE FAKE NEWS E FALSIFICAÇÕES DIGITAIS COM IA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;DEVSECOPS, AUTOMAÇÃO E INFRAESTRUTURA COMO CÓDIGO (IAC);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ECONOMIA CRIATIVA, BRANDING E GESTÃO DE PROPRIEDADE INTELECTUAL;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ECONOMIA TOKENIZADA, DEFI E WEB3;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;EMPREENDEDORISMO, GROWTH HACKING E ESCALABILIDADE EMPRESARIAL;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE CONFIABILIDADE E OBSERVABILIDADE (SRE);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE DADOS, DATA WAREHOUSING E BIG DATA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE PROMPT E PROCESSAMENTO DE LINGUAGEM NATURAL;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE PROMPT, LLMOPS E RAG PARA MODELOS DE LINGUAGEM;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE REDES 5G/6G E CONECTIVIDADE INDUSTRIAL;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE REDES DE ALTA PERFORMANCE E DATA CENTER;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE REQUISITOS E UX COLABORATIVO;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA DE SOFTWARE ÁGIL: DDD, CLEAN ARCHITECTURE E TDD;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA E ARQUITETURA DE DADOS: ANALYTICS, BIG DATA E IA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ENGENHARIA ELETRÔNICA E ROBÓTICA APLICADA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ESTATÍSTICA APLICADA PARA DATA SCIENCE (DO BÁSICO AO EXPERIMENTAL DESIGN);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ESTRATÉGIA EMPRESARIAL E INTELIGÊNCIA COMPETITIVA;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;ESTRATÉGIAS COMERCIAIS, VENDAS DIGITAIS E CUSTOMER EXPERIENCE;EAD;8 meses;R$ 19,35;R$ 371,99;R$ 133,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Ethical Hacking, Análise de Vulnerabilidades e Testes de Invasão;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Executivo em Gestão de Segurança da Informação e Cibersegurança;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;FINANÇAS CORPORATIVAS, CONTROLADORIA E ANÁLISE DE PERFORMANCE;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;FINANÇAS EMPRESARIAIS E MERCADO DE CAPITAIS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;FINANÇAS, VALUATION E FUSÕES & AQUISIÇÕES (M&A);EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;FINOPS E GESTÃO DE CUSTOS EM CLOUD: OTIMIZAÇÃO FINANCEIRA EM TI;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Fintechs, Meios de Pagamento e Inovação no Setor Financeiro;EAD;8 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GAME DESIGN E PROTOTIPAGEM INTERATIVA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO AMBIENTAL E ECONOMIA CIRCULAR;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DA INOVAÇÃO E TECNOLOGIAS DISRUPTIVAS;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DA QUALIDADE, EXCELÊNCIA EM PROCESSOS E CERTIFICAÇÕES (ISO);EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE BLOCKCHAIN E ATIVOS DIGITAIS PARA NEGÓCIOS (WEB3);EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE CARREIRAS, SUCESSÃO E TREINAMENTO E DESENVOLVIMENTO (T&D);EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Gestão de Data Center e Infraestrutura On-Premise e Híbrida;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE EQUIPES COMERCIAIS E ALTA PERFORMANCE EM VENDAS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE ESTOQUES, ARMAZENAGEM E CENTROS DE DISTRIBUIÇÃO;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE IDENTIDADE E ACESSO (IAM) E GOVERNANÇA DE CLOUD;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE OPERAÇÕES, PRODUTIVIDADE E CADEIA DE VALOR;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE PROCESSOS E EXCELÊNCIA OPERACIONAL;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Gestão de Produtos Digitais, Liderança e Estratégias de Inovação;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE PROJETOS EM DATA SCIENCE E IA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE PROJETOS ÁGEIS E ENGENHARIA DEVOPS;EAD;8 meses;R$ 19,35;R$ 405,99;R$ 146,16;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE PROJETOS, PMO ESTRATÉGICO E METODOLOGIAS ÁGEIS (SCRUM/LEAN);EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE RISCOS E NÃO CONFORMIDADES E QUALIDADE TOTAL (TQM);EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE RISCOS FINANCEIROS, CRÉDITO E GARANTIAS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO DE TRANSPORTES, FRETES E MOVIMENTAÇÃO DE CARGAS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO E FISCALIZAÇÃO DE CONTRATOS E LICITAÇÕES PÚBLICAS;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO E LIDERANÇA TECH-DRIVEN;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO EMPRESARIAL ESTRATÉGICA E TOMADA DE DECISÃO;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO ESTRATÉGICA DE CUSTOS E PRECIFICAÇÃO;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO ESTRATÉGICA DE PESSOAS, LIDERANÇA E TALENTOS;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO ESTRATÉGICA DE STARTUPS E ECOSSISTEMAS DE INOVAÇÃO;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO PÚBLICA, GOVERNANÇA E AUDITORIA GOVERNAMENTAL;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GESTÃO TRIBUTÁRIA ESTRATÉGICA E PLANEJAMENTO FISCAL AVANÇADO;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Gestão Ágil de Projetos, Produtos Digitais e Transformação Organizacional;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GOVERNANÇA DE TI, RISCOS E COMPLIANCE;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GOVERNANÇA E PROTEÇÃO DE DADOS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GOVERNANÇA ÉTICA E REGULAÇÃO GLOBAL DE IA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GOVERNANÇA, SUSTENTABILIDADE E PROJETOS ESG 5.0;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;GREEN TECH: IOT E IA APLICADAS À EFICIÊNCIA ENERGÉTICA E CLIMA;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Hiperautomação com IA - RPA, Bots e Automação de Processos;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;IA APLICADA À NEGÓCIOS E TOMADA DE DECISÃO;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INFRAESTRUTURA DE REDES E TELECOMUNICAÇÕES 5G/6G;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INFRAESTRUTURA E COMPUTAÇÃO PARA IA E DEEP LEARNING;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INOVAÇÃO DISRUPTIVA, DESIGN THINKING E MODELAGEM DE NOVOS NEGÓCIOS;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA ARTIFICIAL E AUTOMAÇÃO DE NEGÓCIOS;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA ARTIFICIAL E PEOPLE ANALYTICS PARA RH ESTRATÉGICO;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA ARTIFICIAL GENERATIVA E MODELOS DE LINGUAGEM;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA ARTIFICIAL PARA DESENVOLVEDORES;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA ARTIFICIAL, INOVAÇÃO E SAÚDE DIGITAL;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTELIGÊNCIA DE VENDAS 5.0, GESTÃO COMERCIAL E E-COMMERCE;EAD;8 meses;R$ 19,35;R$ 371,99;R$ 133,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;INTERNET DAS COISAS (IOT), SISTEMAS CIBERFÍSICOS (CPS), ROBÓTICA INDUSTRIAL E SISTEMAS EMBARCADOS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LIDERANÇA DIGITAL E DESENVOLVIMENTO EXECUTIVO;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LIDERANÇA E DESENVOLVIMENTO EXECUTIVO;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LIDERANÇA E ESTRATÉGIAS DE VENDAS, NEGOCIAÇÃO E GESTÃO DE CLIENTES (CRM);EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LIDERANÇA ÁGIL E GESTÃO DE TIMES DE ALTO DESEMPENHO;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LOGÍSTICA REVERSA, SUSTENTABILIDADE E GESTÃO DE RESÍDUOS;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;LOGÍSTICA, SUPPLY CHAIN E DISTRIBUIÇÃO ESTRATÉGICA 4.0;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MARKETING DIGITAL, IA GENERATIVA E ESTRATÉGIAS DE AUTOMAÇÃO DE VENDAS;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MARKETING E VENDAS DIGITAIS, FUNIL DE VENDAS E INBOUND MARKETING;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MELHORIA CONTÍNUA, LEAN MANUFACTURING E SEIS SIGMA;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MERCADO FINANCEIRO, BANKING E INVESTIMENTOS DIGITAIS;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MÉTRICAS DE EXPERIÊNCIA (UX) E DESIGN ORIENTADO A DADOS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;MÍDIAS SOCIAIS, CONTEÚDO ESTRATÉGICO E INFLUÊNCIA DIGITAL;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;NANOTECNOLOGIA E INOVAÇÃO APLICADA;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Negócios Digitais, Plataformas e Estratégias de Crescimento (Growth);EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;OPERAÇÕES DE DRONES E VANTS: LEGISLAÇÃO E APLICAÇÕES SETORIAIS;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;PEOPLE & CULTURE, BUSINESS PARTNER E GESTÃO DE TALENTOS 5.0;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;PERÍCIA FORENSE COMPUTACIONAL E INVESTIGAÇÃO DE CRIMES DIGITAIS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;POWER BI E DATA VISUALIZATION AVANÇADA (STORYTELLING E DAX);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;PROCESSOS DE NEGÓCIO (BPM), MAPEAMENTO E OTIMIZAÇÃO;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;PRODUTOS BANCÁRIOS, CRÉDITO E ANÁLISE DE RISCO DE CRÉDITO;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;PROGRAMAÇÃO ORIENTADA A OBJETOS COM JAVA E SPRING BOOT;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Recrutamento, Seleção e Estratégia de Aquisição de Talentos;EAD;8 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;REDES NEURAIS E COMPUTAÇÃO DE BORDA (EDGE COMPUTING);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;REMUNERAÇÃO ESTRATÉGICA, BENEFÍCIOS E RELAÇÕES DO TRABALHO;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;Resiliência Cibernética, Continuidade de Negócios e Disaster Recovery;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;SEGURANÇA DE APLICAÇÕES E SERVIÇOS NA NUVEM;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;SEGURANÇA DE INFRAESTRUTURAS CRÍTICAS E REDES INDUSTRIAIS;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;SEGURANÇA DE REDES, INFRAESTRUTURA E SISTEMAS CRÍTICOS;EAD;8 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;SITE RELIABILITY ENGINEERING (SRE): ALTA DISPONIBILIDADE E SISTEMAS RESILIENTES;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;STARTUPS, BUSINESS HACKING E VENTURE CAPITAL;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;STORYTELLING ESTRATÉGICO, NARRATIVAS DE MARCA E CONTENT MARKETING;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;SUSTENTABILIDADE E ESG (ENVIRONMENTAL, SOCIAL AND GOVERNANCE);EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;TECH LEADERSHIP & GESTÃO DE TIMES ÁGEIS;EAD;8 meses;R$ 19,35;R$ 405,99;R$ 146,16;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;TESTES ÁGEIS E AUTOMAÇÃO DE QUALIDADE DE SOFTWARE (QA);EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;TI SUSTENTAVEL, GREEN COMPUTING E RELATÓRIOS ESG;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;UX METRICS, DATA ANALYTICS E PERSONALIZAÇÃO COM IA;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;UX RESEARCH, USABILIDADE E VALIDAÇÃO DE SOFTWARE;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciência e Tecnologia;VISÃO COMPUTACIONAL E INTELIGÊNCIA ARTIFICIAL NA BORDA (EDGE AI);EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Accountability, Governabilidade e Governança Pública;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Administração Pública e Gerência de Cidades;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Assessoria Executiva e Secretariado;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Cidades Sustentáveis e Mobilidade Urbana;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Ciência Política: Relação Institucional e Governamental;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Comunicação Pública;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Curadoria Digital;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Design Gráfico e Multimídia;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Diplomacia, Políticas Públicas e Cooperação Internacional;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Direitos Humanos e Enfrentamento à Violência: Perspectivas de Gênero e Inclusão;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Direitos Humanos e Movimentos Sociais;EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Direção de Arte para Audiovisual;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Diversidade Humana e Inclusão;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Edição e Pós-Produção de Vídeo;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Educação para Cidadania Global;EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Enogastronomia e Coquetelaria;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Fotografia e Iluminação para Audiovisual;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gastronomia Contemporânea;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gastronomia Vegetariana e Vegana;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gestão de Comunidades & Social CRM;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gestão de Mídias Sociais para Jornalistas;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gestão de Projetos Socioambientais (Terceiro Setor e ESG);EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gestão Social: Políticas Públicas, Redes e Defesa de Direitos;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Gênero e Sexualidade;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;História da Arte;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Inclusão Social e Educacional da População LGBTQIA+;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Influenciador Digital & Personal Branding para Negócios;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Instrumentalidade em Serviço Social;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Inteligência Governamental, Advocacy e Análise de Dados Públicos;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Jornalismo de Dados e Fact-Checking;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Jornalismo Digital;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Liderança Comportamental, Psicologia Social e Estratégias de Influência Política;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Mudanças Climáticas e Agenda 2030 (ODS);EAD;8 meses;R$ 19,35;R$ 279,99;R$ 100,80;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Podcasting & Branded Content;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Política de Assistência Social (PNAS/LOAS e Vigilância Socioassistencial);EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Políticas Públicas para Mulheres em Situação de Violência Doméstica;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Produção Audiovisual para TV, Cinema e Mídias Digitais;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Produção Audiovisual para Web e Mídias Digitais;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Produção Editorial e Edição Jornalística;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Relações Internacionais;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Roteiro para Cinema, TV e Streaming;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Saneamento Básico, Saúde e Meio Ambiente;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Secretariado Executivo Bilíngue;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Serviço Social e Previdência;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Serviço Social em Oncologia;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Serviço Social em Saúde Coletiva;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Serviço Social na Educação;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Serviço Social no Campo Sociojurídico;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Storytelling e Narrativas Jornalísticas;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Ciências Sociais e Serviços;Ética, Cidadania e Direitos Humanos;EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Ciências Forenses e Perícia Criminal: Investigação e Análise de Evidências Jurídicas;EAD;8 meses;R$ 19,35;R$ 379,99;R$ 136,80;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Compliance, Governança (ESG) e Direito Empresarial Estratégico;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Contabilidade Forense e Investigação de Fraudes Jurídico-Financeiras;EAD;8 meses;R$ 19,35;R$ 379,99;R$ 136,80;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Contratos e Negócios Digitais (Legal Techs e Fintechs);EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Ambiental, ESG e Economia Circular;EAD;8 meses;R$ 19,35;R$ 301,99;R$ 108,72;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Civil;EAD;—;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Civil e Processual Civil: Teoria e Prática da Advocacia Contenciosa;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Civil e Responsabilidade Civil: Dano Moral e o Ambiente Digital;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Civil: Sucessões, Holding Familiar e Planejamento Patrimonial;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Constitucional e Políticas Públicas;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Contratual: Negociação, Redação e Gestão de Contratos Cíveis;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito de Família e Sucessões Aplicado - Contencioso e Extrajudicial;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Digital, Cibersegurança e LGPD;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito do Consumidor, Relações de Consumo e E-commerce;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Eleitoral e Prática de Legislação Partidária;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Notarial, Registral e Prática Extrajudicial;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Penal;EAD;8 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Societário, M&A e Venture Capital;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Direito Trabalhista;EAD;—;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Inteligência Artificial, Automação e Legal Analytics no Direito;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Legal Tech, Inteligência Artificial e Transformação Digital no Direito;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Licitações, Contratos Administrativos e Consórcios Públicos;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Perícia Digital e Data Forensics: Cibercrimes e Evidências Jurídicas;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Perícia Judicial e Extrajudicial: Produção de Laudos e Atuação Técnica no Judiciário;EAD;8 meses;R$ 19,35;R$ 379,99;R$ 136,80;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Propriedade Intelectual, Inovação e Proteção de Dados;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Ciência Política;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Direito Imobiliário;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 99,00;76
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Direitos Humanos e Realidades Regionais;EAD;10 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Educação Social e Cidadania;EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Estudos Bíblicos no Antigo Testamento;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Estudos Bíblicos no Novo Testamento;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Fashion Law Direito da Moda;EAD;10 meses;R$ 19,35;R$ 424,99;R$ 153,00;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Gestão do Sistema Único da Assistência Social;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 129,60;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Governança Corporativa e Responsabilidade Social;EAD;8 meses;R$ 19,35;R$ 269,99;R$ 97,20;64
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Meio Ambiente e Sustentabilidade;EAD;10 meses;R$ 19,35;R$ 425,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Direito e Humanidades;Pós-Graduação em Políticas Públicas e Municipalidade;EAD;8 meses;R$ 19,35;R$ 359,99;R$ 99,00;72
+Pós-graduação;Pós-graduação;Educação;Administração escolar, supervisão e orientação;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Avaliação Online e Analíticas de Aprendizagem;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Comunidades Virtuais de Aprendizagem e Tutoria Ativa;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Desenho Instrucional para EAD com Microlearning;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Design de Trilhas e Itinerários em Ambientes Virtuais de Aprendizagem;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Educação Científica Criativa: Práticas Pedagógicas no Ensino das Ciências Naturais;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Educação Especial Inclusiva;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Educação Especial: Transtorno do Espectro Autista;EAD;—;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Educação Física Escolar por Competências e Projetos;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Educação Inclusiva: Braille, Tecnologias e Letramento;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Educação Matemática Criativa: Metodologias Ativas na Resolução de Problemas e Modelagem;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Educação Midiática, Cidadania Digital e Segurança Online;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Educação;Gamificação na Educação;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Gestão Escolar;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;MBA em Educação Executiva e Análise Organizacional;EAD;10 meses;R$ 19,35;R$ 387,99;R$ 99,00;74
+Pós-graduação;Pós-graduação;Educação;MBA em Pedagogia não Formal: Novos Espaços para a Atuação do Pedagogo;EAD;10 meses;R$ 19,35;R$ 384,99;R$ 138,60;64
+Pós-graduação;Pós-graduação;Educação;Neuroeducação, inteligência artificial e inovação digital na aprendizagem;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Neuropsicopedagogia;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Orientação Educacional;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Podcast Educacional e Narrativas Sonoras;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Educação;Práticas Criativas no Ensino de Línguas: Materiais Didáticos e Tarefas;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Psicologia Educacional;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Alfabetização e Letramento;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Ambiente Escolar e Familiar;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Arte, Cultura e Educação;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Atendimento Educacional Especializado Educação Especial e Inclusiva;EAD;10 meses;R$ 19,35;R$ 387,99;R$ 139,68;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Coordenação Pedagógica;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Didática Inovadora na Educação Básica;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Docência Aplicada a Questões Socioeducativas;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Docência no Ensino Superior;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em EAD e as Novas Tecnologias Educacionais;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Educação de Jovens e Adultos e Ludopedagogia;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Educação do Campo;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 99,00;63
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Educação Financeira e o Ensino da Matemática;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Educação Física Escolar;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 99,00;63
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Educação Infantil e Anos Iniciais do Ensino Fundamental;EAD;10 meses;R$ 19,35;R$ 387,99;R$ 139,68;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Ensino de História e Geografia e suas Linguagens;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Gestão da Aprendizagem e Educação Cognitiva;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Gestão do Conhecimento na Educação;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Gestão Educacional;EAD;10 meses;R$ 19,35;R$ 367,99;R$ 132,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em História, Cultura e Literatura Afro-Brasileira e Indígena;EAD;10 meses;R$ 19,35;R$ 387,99;R$ 139,68;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Inovações no Ensino de Matemática;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Leitura e Produção Textual;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 99,00;73
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Ludicidade no Currículo Escolar;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Língua Portuguesa e Literatura no Contexto Educacional;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Metodologias e Processos em EAD;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Neuroaprendizagem;EAD;10 meses;R$ 19,35;R$ 387,99;R$ 139,68;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Pedagogia e Novo Cenário da Home Education;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Pedagogia Empresarial e Desenvolvimento do Conhecimento;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Políticas e Educação Democrática;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Práticas Inovadoras em Educação;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Psicopedagogia;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Psicopedagogia Clínica e Institucional;EAD;12 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Pós-Graduação em Teatro, Expressividade e Dinamismo no Ambiente Escolar;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Educação;Tempo Integral e Itinerários Formativos;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Uso Pedagógico de IA Generativa com Ética e Referências;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Educação;Videoaulas e Estúdio para Autonomia Docente;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Gestão e Negócios;Gestão, Educação e Segurança no Trânsito;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Administração de Pessoas;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Gestão Estratégica de Esportes;EAD;8 meses;R$ 19,35;R$ 301,99;R$ 108,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Agronegócio;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Negócios;MBA em Coaching aplicado à Gestão de Pessoas;EAD;10 meses;R$ 19,35;R$ 424,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Negócios;MBA em Coaching com Ênfase em Mentoring para Gestão de Pessoas;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão Comercial e Inteligência de Mercado;EAD;10 meses;R$ 19,35;R$ 371,99;R$ 133,92;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão da Comunicação Organizacional;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão de Negócios e Inovação;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão de Projetos;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão de Projetos e Negócios Sociais;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Negócios;MBA em Gestão do Conhecimento nas Organizações;EAD;10 meses;R$ 19,35;R$ 424,99;R$ 153,00;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Planejamento e Estratégia Organizacional;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Recursos Humanos;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Negócios;MBA em Supply Chain Management: Gerenciamento da Cadeia de Suprimentos;EAD;10 meses;R$ 19,35;R$ 426,99;R$ 153,72;64
+Pós-graduação;Pós-graduação;Negócios;Psicologia Positiva e Coaching;EAD;8 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Administração Financeira;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 99,00;76
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Administração Pública;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Auditoria, Contabilidade e Perícia Contábil;EAD;8 meses;R$ 19,35;R$ 379,99;R$ 136,80;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Comunicação Empresarial e Marketing Digital;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Desenvolvimento Profissional;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Design Thinking e Criatividade;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Empreendimentos e Negócios Imobiliários;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Engenharia e Gestão da Produção;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gastronomia Funcional e Natural;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão da Qualidade;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão de Cooperativas de Crédito;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão de Custos e Planejamento Estratégico;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão de Pessoas na Administração Pública;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão de Pessoas: Treinamento e Desenvolvimento;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão de Projetos;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão do Comportamento e da Interatividade em Organizações;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão e Planejamento;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão Estratégica de Negócios;EAD;8 meses;R$ 19,35;R$ 361,99;R$ 130,32;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão Estratégica de Pessoas;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão Estratégica do Varejo;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Gestão Estratégica em Negócios Gastronômicos;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Governança Corporativa e Gestão Estratégica;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Inovação e Empreendedorismo Social;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Liderança e Gestão de Equipes;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Liderança Inovadora;EAD;10 meses;R$ 19,35;R$ 419,99;R$ 151,20;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Logística;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 99,00;73
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Marketing;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Marketing Digital;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Marketing e Mídias Digitais;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Mercado Financeiro e Banking;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Moda e Negócio;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Negócios Digitais e Inovação;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Negócios Ágeis;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Planejamento e Gestão de Trânsito;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Planejamento e Organização de Eventos;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Projeto de Interiores;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Negócios;Pós-Graduação em Sistema Financeiro e Mercado de Capitais;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Psicologia;ABA-Análise do Comportamento Aplicada à Educação Inclusiva;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Gestalt-Terapia;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Gestão de Pessoas e Psicologia Organizacional;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Gestão em Saúde Mental e Atenção Psicossocial;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Habilidades Socioemocionais: Neurociência e Formação Docente;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Inteligência Emocional e Promoção da Saúde Integral;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Inteligência Emocional e Psicologia Positiva;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Intervenções Psicológicas em Cirurgia da Obesidade;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociência do Comportamento Alimentar Aplicada à Promoção da Saúde;EAD;8 meses;R$ 19,35;R$ 320,99;R$ 115,56;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociência do Desenvolvimento: Da Infância à Senescência;EAD;8 meses;R$ 19,35;R$ 320,99;R$ 115,56;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociência e a Comunicação em Ambientes Corporativos;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociência e Aprendizagem;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociência, Música e Educação;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociências Cognitivas e Processos Psicológicos;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neurociências e Comportamento Humano;EAD;8 meses;R$ 19,35;R$ 320,99;R$ 115,56;64
+Pós-graduação;Pós-graduação;Psicologia;Neurogestão Organizacional: Neurociência e Gestão de Empresa;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neuroliderança;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neuromarketing e Neurociência do Consumo;EAD;8 meses;R$ 19,35;R$ 327,99;R$ 118,08;64
+Pós-graduação;Pós-graduação;Psicologia;Neuropsicanálise;EAD;8 meses;R$ 19,35;R$ 320,99;R$ 115,56;64
+Pós-graduação;Pós-graduação;Psicologia;Neuropsicofarmacologia e Saúde Mental;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Neuropsicologia e Intervenções no Trauma, Crise e Luto;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicanálise e a Clínica da Angústia e do Trauma;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psicanálise e a Clínica dos Casos Difíceis: Transtornos de Personalidade;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psicanálise e os Desafios da Contemporaneidade;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psicanálise, Psicoterapia e Psicopatologia do Adolescente;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psico-Oncologia Clínica e Hospitalar;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicogerontologia;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia de Orientação Vocacional e Profissional no Desenvolvimento de Carreira;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia do Comportamento Alimentar e Nutrição Humana;EAD;8 meses;R$ 19,35;R$ 360,32;R$ 129,72;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia em Contextos de Violência e Conflitos;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia em Home Care: Gestão e Intervenção Domiciliar;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia em Reabilitação Neuropsicológica;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia Forense e Jurídica;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia na Atenção Básica - SUS;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia Organizacional e Saúde Mental no Trabalho;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicologia Transpessoal e Espiritualidade;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicomotricidade;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Psicoterapia Online;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Rede de Atenção Psicossocial com Enfoque em Centros de Atenção Psicossocial;EAD;8 meses;R$ 19,35;R$ 320,99;R$ 115,56;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental com Ênfase em Dependência Química;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental e Competências Socioemocionais nas Escolas;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental e Desenvolvimento Humano;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental e Terapias Cognitivas;EAD;8 meses;R$ 19,35;R$ 347,79;R$ 125,20;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental, Diversidade e Inclusão;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Saúde Mental, Psicopatologia e Atenção Psicossocial;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Psicologia;Sexologia e Sexualidade Humana;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Terapia Cognitivo-Comportamental e Terapias Contextuais para Intervenção no TEA;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Terapia Familiar;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Terapia Interpessoal (TIP) Individual e de Grupos;EAD;8 meses;R$ 19,35;R$ 359,35;R$ 129,37;64
+Pós-graduação;Pós-graduação;Psicologia;Terapia Ocupacional em Saúde Mental;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Acupuntura e técnicas complementares;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Análises clínicas;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Análises Clínicas e Diagnóstico Laboratorial;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Análises Clínicas e Toxicológicas;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Assistência Social e Saúde Pública;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Auditoria e governança clínica em saúde;EAD;10 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Auditoria em saúde;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Captação, Doação e Transplante de Órgãos e Tecidos;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Cuidados paliativos e tanatologia;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Diagnóstico e Interpretação de Exames Oculares;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Diagnóstico e Interpretação em Imagenologia;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem Clínica;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem Com Foco em Oncologia;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem Dermatológica Com Ênfase em Feridas;EAD;8 meses;R$ 19,35;R$ 389,99;R$ 140,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Assistência Materno-Infantil;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em cardiologia e hemodinâmica;EAD;10 meses;R$ 19,35;R$ 392,99;R$ 141,48;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Centro Cirúrgico e Central de Materiais;EAD;8 meses;R$ 19,35;R$ 389,99;R$ 140,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em cuidados intensivos neonatais e pediátricos;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Emergência e Cuidados Críticos;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em estomaterapia;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Home Care;EAD;8 meses;R$ 19,35;R$ 389,99;R$ 140,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em nefrologia;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Saúde da Mulher;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em Saúde Mental e Psiquiátrica;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem em unidade de terapia intensiva;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem Ginecológica;EAD;8 meses;R$ 19,35;R$ 389,99;R$ 140,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem na Saúde da Criança e do Adolescente;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Enfermagem na Saúde Mental e Comunitária;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Farmacologia aplicada à clínica e prescrição farmacêutica;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Farmácia hospitalar e clínica;EAD;10 meses;R$ 19,35;R$ 301,99;R$ 108,72;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia cardiorrespiratória;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia em gerontologia e reabilitação do idoso;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia em reabilitação neurológica;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia em terapia intensiva;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia pélvica funcional;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fisioterapia traumato-ortopédica funcional;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fonoaudiologia com ênfase em audiologia e reabilitação auditiva;EAD;10 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Fonoaudiologia hospitalar e reabilitação;EAD;10 meses;R$ 19,35;R$ 392,99;R$ 141,48;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão da Farmacoterapia em Terapia Intensiva;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão da qualidade e segurança do paciente;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão da Reabilitação e Suporte Funcional ao Paciente Oncológico;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão de Riscos e Auditoria em Saúde;EAD;8 meses;R$ 19,35;R$ 454,99;R$ 163,80;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão e Consultoria Obstétrica;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão em Enfermagem;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão em Saúde;EAD;8 meses;R$ 19,35;R$ 433,99;R$ 156,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Gestão Hospitalar;EAD;8 meses;R$ 19,35;R$ 301,99;R$ 108,72;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Hematologia clínica;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Higiene e inspeção de alimentos;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Imagenologia Digital e Tecnologias de Imagem Seccional TC RM;EAD;8 meses;R$ 19,35;R$ 437,99;R$ 157,68;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Infectologia;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Inteligência artificial aplicada à saúde;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Literacia em Saúde;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Medicina Tropical;EAD;8 meses;R$ 19,35;R$ 498,99;R$ 179,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Microbiologia Clínica, Ambiental e Alimentos;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Microbiologia e Parasitologia Clínica;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Multiprofissional em Oncologia;EAD;8 meses;R$ 19,35;R$ 364,99;R$ 131,40;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Neurociências aplicadas à saúde e bem-estar;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Neuropedagogia e Desenvolvimento do Comportamento;EAD;8 meses;R$ 19,35;R$ 378,99;R$ 136,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição Aplicada à Estética;EAD;8 meses;R$ 19,35;R$ 491,99;R$ 177,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição Aplicada à Saúde da Mulher;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição clínica;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição Clínica Ambulatorial e Hospitalar;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição Clínica, Obesidade e Situações Especiais;EAD;8 meses;R$ 19,35;R$ 458,99;R$ 165,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição e Dietoterapia;EAD;8 meses;R$ 19,35;R$ 458,99;R$ 165,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição e Políticas de Nutrição;EAD;8 meses;R$ 19,35;R$ 458,99;R$ 165,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição em Gerontologia;EAD;8 meses;R$ 19,35;R$ 433,99;R$ 156,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição em Pediatria;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição estética funcional e marketing estratégico;EAD;8 meses;R$ 19,35;R$ 453,99;R$ 163,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição materno infantil;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição no Esporte e no Exercício;EAD;8 meses;R$ 19,35;R$ 433,99;R$ 156,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição Nos Ciclos de Vida;EAD;8 meses;R$ 19,35;R$ 416,99;R$ 150,12;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Nutrição, Qualidade de Vida e Empreendedorismo;EAD;8 meses;R$ 19,35;R$ 433,99;R$ 156,24;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Oncologia e Hematologia;EAD;8 meses;R$ 19,35;R$ 343,99;R$ 123,84;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Práticas integrativas e complementares (pics);EAD;10 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Psicanálise;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Psicologia clínica;EAD;10 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Biotecnologia Ambiental;EAD;8 meses;R$ 19,35;R$ 398,99;R$ 143,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Educação Ambiental e Sustentabilidade;EAD;8 meses;R$ 19,35;R$ 279,99;R$ 100,80;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Enfermagem do Trabalho;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 99,00;69
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Estética e Cosmética: Mercado e Procedimentos;EAD;10 meses;R$ 19,35;R$ 432,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Fisiologia do Exercício;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Gestão Ambiental;EAD;8 meses;R$ 19,35;R$ 398,99;R$ 143,64;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Gestão da Qualidade em Saúde;EAD;8 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Gestão Estratégica de Organizações da Saúde;EAD;8 meses;R$ 19,35;R$ 432,99;R$ 155,88;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Higiene Ocupacional;EAD;8 meses;R$ 19,35;R$ 392,99;R$ 141,48;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Nutrição e Alta Performance Esportiva;EAD;10 meses;R$ 19,35;R$ 453,99;R$ 163,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Nutrição Funcional;EAD;10 meses;R$ 19,35;R$ 453,99;R$ 163,44;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Personal Training;EAD;10 meses;R$ 19,35;R$ 432,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Perícia e Auditoria Ambiental;EAD;8 meses;R$ 19,35;R$ 301,99;R$ 108,72;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Pós-Graduação em Saúde Pública;EAD;8 meses;R$ 19,35;R$ 315,99;R$ 99,00;69
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde coletiva;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde da Família;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde do idoso e gerontologia;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde e Segurança do Trabalho;EAD;8 meses;R$ 19,35;R$ 395,99;R$ 142,56;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde mental e atenção psicossocial;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde mental na infância e adolescência;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Saúde multidisciplinar em oncologia;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Telemedicina e saúde digital;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Terapia cognitivo comportamental;EAD;10 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Vigilância sanitária;EAD;10 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Saúde e Bem-Estar;Ética e regulação na saúde digital;EAD;10 meses;R$ 19,35;R$ 315,99;R$ 113,76;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Construção de narrativas e copywriting;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Economia Criativa, Cultura e Inovação (MBA);EAD;10 meses;R$ 19,35;R$ 441,99;R$ 159,12;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Inclusão e acessibilidade na era digital;EAD;8 meses;R$ 19,35;R$ 267,99;R$ 96,48;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Inteligência artificial aplicada a growth marketing;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;MBA em Inovação e Criatividade no Ambiente Empresarial;EAD;10 meses;R$ 19,35;R$ 437,99;R$ 99,00;77
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;MBA em Marketing, Criatividade e Inovação;EAD;10 meses;R$ 19,35;R$ 437,99;R$ 157,68;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Ciência de Dados;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Desenvolvimento de Sistemas com JAVA;EAD;10 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Desenvolvimento de Sistemas com Python;EAD;10 meses;R$ 19,35;R$ 446,99;R$ 99,00;78
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Design de UX;EAD;10 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Engenharia de Segurança do Trabalho;EAD;12 meses;R$ 19,35;R$ 446,99;R$ 160,92;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Inovação e Gestão de Conteúdo para a Economia Criativa;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Inovação e Negócios Disruptivos;EAD;8 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Pós-Graduação em Prática de Metodologias Ágeis;EAD;8 meses;R$ 19,35;R$ 405,99;R$ 146,16;64
+Pós-graduação;Pós-graduação;Tecnologia e Inovação;Qualidade e teste de software;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Vazio;Auditoria e Finanças;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Vazio;Big Data e Análise De Dados Organizacionais;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Vazio;Comunicação Corporativa Estratégica e Gestão De Crise;EAD;8 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Vazio;Direito médico e compliance;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Vazio;Docência Em Serviço Social;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Vazio;Educação Corporativa e Gestão Do Conhecimento;EAD;10 meses;R$ 19,35;R$ 274,99;R$ 99,00;64
+Pós-graduação;Pós-graduação;Vazio;Educação Especial e Inclusiva: Tecnologia Assistiva e Comunicação Alternativa;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Vazio;Enfermagem em pediatria e neonatologia;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Vazio;Enfermagem em urgência e emergência;EAD;10 meses;R$ 19,35;R$ 373,99;R$ 134,64;64
+Pós-graduação;Pós-graduação;Vazio;Gestão De Tecnologia Da Informação Corporativa;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
+Pós-graduação;Pós-graduação;Vazio;Inteligência Artificial e Machine Learning;EAD;10 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Vazio;Inteligência artificial na educação;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Vazio;Neurociências Aplicada à Educação e Aprendizagem;EAD;8 meses;R$ 19,35;R$ 387,99;R$ 139,68;64
+Pós-graduação;Pós-graduação;Vazio;Neuroeducação;EAD;8 meses;R$ 19,35;R$ 360,99;R$ 129,96;64
+Pós-graduação;Pós-graduação;Vazio;Neuromarketing;EAD;8 meses;R$ 19,35;R$ 366,99;R$ 132,12;64
+Pós-graduação;Pós-graduação;Vazio;Neuropsicologia;EAD;8 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Vazio;Podologia clínica;EAD;10 meses;R$ 19,35;R$ 284,99;R$ 102,60;64
+Pós-graduação;Pós-graduação;Vazio;Psicologia Organizacional;EAD;8 meses;R$ 19,35;R$ 411,99;R$ 148,32;64
+Pós-graduação;Pós-graduação;Vazio;Sociologia Da Educação e Cultura;EAD;8 meses;R$ 19,35;R$ 280,99;R$ 101,16;64
+Pós-graduação;Pós-graduação;Vazio;Tecnologia e Cultura Digital Aplicadas à Educação;EAD;8 meses;R$ 19,35;R$ 311,99;R$ 112,32;64
