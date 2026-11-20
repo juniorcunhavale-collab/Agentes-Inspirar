@@ -11,6 +11,7 @@
 ## Colaboradores
 | Pessoa (nome ou função) | Função | Frente(s) | Carga horária | Vínculo | Substituto |
 |---|---|---|---|---|---|
+| Júnior (sócio) | **Único professor de inglês** (11 turmas + 1 particular; 12ª turma em 2027) | Idiomas | [PREENCHER] h/semana em sala | Sócio | ⚠️ Nenhum |
 | [PREENCHER] | | | | | |
 
 ## Tarefas que hoje dependem só dos sócios

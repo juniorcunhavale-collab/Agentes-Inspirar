@@ -12,4 +12,7 @@
 | 5 | Trabalhar a marca "Instituto Inspirar" como guarda-chuva, levando a reputação dos idiomas para o polo e a informática | Grupo | Entrevista (dor nº 1) | — | 💡 | Idiomas já é referência na cidade |
 | 6 | "Primeiras semanas no EAD": acolhida e oficina de adaptação para calouros (como estudar, usar o AVA, organizar o tempo) e plantão de dúvidas no polo | Unicesumar | Entrevista (causa pedagógica da evasão) | — | 💡 | Pelennor + Sam |
 | 7 | Protocolo para o aluno com dificuldade financeira: orientar sobre trancamento, renegociação e opções da mantenedora antes de ele cancelar | Unicesumar | Entrevista (causa financeira da evasão) | — | 💡 | Sam + Ulmo (validar regras da Unicesumar) |
+| 8 | Na rematrícula, aproximar gradualmente os contratos antigos (base R$ 150) do preço atual (R$ 199), com regra clara e comunicada com antecedência | Idiomas | Entrevista bloco 3 | — | 💡 | Fíli calcula o impacto; cuidado com a retenção |
+| 9 | Opções para o adulto com problema de horário (horário alternativo, aula online/híbrida, trancamento com volta garantida) antes de ele cancelar | Idiomas | Entrevista bloco 3 | — | 💡 | Isengard + Sam |
+| 10 | Acolhida dos primeiros meses do kids (aula de adaptação, contato com os pais nas semanas 1, 4 e 8) | Idiomas | Entrevista bloco 3 | — | 💡 | Pelennor + Sam |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |

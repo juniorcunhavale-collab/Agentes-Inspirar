@@ -4,7 +4,7 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-20 (entrevista inicial — blocos 1 e 2)
+Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 3)
 
 ## Identidade
 - **Nome:** Instituto Inspirar
@@ -73,15 +73,31 @@
 
 ### 2. Inspirar Idiomas
 - **Desde:** outubro de 2015
-- **Alunos ativos:** 85 (inglês)
-- **Mensalidades:** de R$ 120 a R$ 199, conforme o produto/plano
-- **Receita estimada:** 85 alunos × R$ 120 a R$ 199 ≈ **R$ 10.200 a R$ 16.900/mês** (faixa
-  teórica, antes de descontos/inadimplência — o valor real depende do mix de planos)
+- **Idioma:** somente **inglês**
+- **Produtos:** turmas **kids** (a partir de ~5–6 anos), **teens** e **adultos**, mais **1 aluno particular**
+- **Alunos ativos:** **86** (85 em turmas + 1 particular)
+- **Turmas:** **11** hoje (média ≈ 7,7 alunos por turma) + **12ª turma confirmada para o início de 2027**
+- **Contratos:** **anuais**; parte deles está em andamento e precisa de rematrícula/renovação
+- **Preços:**
+  - Aula de **1h** (kids, ~5–6 anos): **R$ 120/mês**
+  - Aula de **1h30**: valor maior, que depende da época do contrato — contratos antigos com base
+    de **R$ 150**; contratos mais novos a **R$ 199**
+  - **Desconto família:** 10% para dois alunos da mesma família
+  - **Taxa de matrícula:** R$ 100 (fixa)
+  - **Material didático:** R$ 160 por **semestre**
+- **Receita estimada de mensalidades:** entre ~R$ 10 mil e ~R$ 17 mil/mês (faixa teórica; o valor
+  real depende do mix de contratos — conferir com a planilha/financeiro)
+- **Receita de material:** 86 × R$ 160 × 2 semestres ≈ R$ 27,5 mil/ano bruto (≈ R$ 2,3 mil/mês),
+  antes do custo do material [custo: PREENCHER]
+- **Professor:** **apenas um — o próprio Júnior (sócio)**. Hoje não há custo de professor na
+  conta, mas o tempo do Júnior é o limite de crescimento da unidade (ver riscos).
+- **Retenção:** renovação de um ano para o outro **muito alta** (percentual exato: [PREENCHER])
+- **Motivos de saída:**
+  - **Adultos** (maioria das saídas): incompatibilidade de horário
+  - **Crianças:** falta de adaptação nos primeiros meses
 - **Posição de mercado:** o dono considera que a Inspirar **já é referência em idiomas** na cidade
-- Outros idiomas além do inglês: [PREENCHER]
-- Metodologia / material didático: [PREENCHER]
-- Turmas: [PREENCHER]
-- Público predominante: [PREENCHER]
+- Metodologia / material didático (qual): [PREENCHER]
+- Grade de horários e nº de aulas por semana por turma: [PREENCHER]
 
 ### 3. Inspirar Informática — 🚀 EM LANÇAMENTO
 - **Status:** projeto novo; **lançamento no final de 2026**, com **turmas a partir de 2027**

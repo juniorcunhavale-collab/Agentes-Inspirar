@@ -11,7 +11,7 @@
 | Alunos ativos | Unicesumar | [PREENCHER] (hoje ~100) | | | |
 | Evasão mensal (%) | Unicesumar | [PREENCHER] | | | |
 | Novas matrículas no mês | Idiomas | [PREENCHER] | < 90% da meta | < 70% | |
-| Alunos ativos | Idiomas | [PREENCHER] (hoje 85) | | | |
+| Alunos ativos | Idiomas | [PREENCHER] (hoje 86; 11 turmas → 12 em 2027) | | | |
 | Ocupação média das turmas (%) | Idiomas | [PREENCHER] | < 70% | < 50% | |
 | Rematrícula (%) | Idiomas | [PREENCHER] | | | |
 | Novas matrículas no mês | Informática | [PREENCHER] | < 90% da meta | < 70% | |
@@ -35,5 +35,5 @@
 | Mês | Unidade | Matrículas | Ativos | Evasão | Faturamento | Inadimplência | Observações |
 |---|---|---|---|---|---|---|---|
 | 2026-11 (ponto de partida) | Unicesumar | — | ~100 | — | ~R$ 6.000 (estim.: 100 × R$ 60) | — | Estimativa do dono |
-| 2026-11 (ponto de partida) | Idiomas | — | 85 | — | R$ 10,2–16,9 mil (faixa teórica) | — | Mensalidades R$ 120–199 |
+| 2026-11 (ponto de partida) | Idiomas | — | 86 | — | R$ 10,2–16,9 mil (faixa teórica) | — | Mensalidades R$ 120–199 |
 | 2026-11 (ponto de partida) | Informática | — | 0 | — | — | — | Em lançamento |

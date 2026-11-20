@@ -6,7 +6,7 @@
 ## Ativas
 | # | Ação | Frente | Responsável | Prazo | Status | Origem |
 |---|---|---|---|---|---|---|
-| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 e 2 de 7 feitos | Implantação |
+| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 3 de 7 feitos | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
 | 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática (cursos, preços, instrutor, laboratório, campanha de pré-matrícula) — o lançamento é no fim de 2026 | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
 | 5 | ~~Informar os números da meta Unicesumar~~ → 69 matrículas até 22/03/2027 | Unicesumar | Júnior | — | ✅ | Entrevista bloco 1 |
@@ -15,6 +15,8 @@
 | 9 | Atualizar as regras de repasse quando o novo contrato com a Unicesumar sair | Unicesumar | Júnior → Fíli | Quando sair | ⬜ | Entrevista bloco 2 |
 | 10 | Confirmar a data do repasse (~dia 5) e se há repasse sobre a 1ª mensalidade promocional | Unicesumar | Júnior | 2026-11-25 | ⬜ | Entrevista bloco 2 |
 | 6 | Plano de captação para as licenciaturas semipresenciais (incluindo material que explique o semipresencial) | Unicesumar | Ulmo + Celeborn + Merry | Após a entrevista | ⬜ | Entrevista bloco 1 |
+| 11 | Levantar a grade de horários do inglês (turmas, dias, aulas por semana) e as horas semanais do Júnior em sala | Idiomas | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 3 |
+| 12 | Planejar a rematrícula 2027 do inglês (quem renova, quando vencem os contratos, condição de renovação e reajuste) | Idiomas | Isengard + Fíli → sócios | 2026-12-05 | ⬜ | Entrevista bloco 3 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
