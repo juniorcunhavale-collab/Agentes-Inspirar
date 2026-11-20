@@ -27,4 +27,6 @@
 | 20 | Contratos digitais com assinatura eletrônica (mais rápido na matrícula, menos papel, fácil de achar) | Operações | Entrevista bloco 7 | — | 💡 | Orthanc; validar a validade jurídica com o contador ou advogado |
 | 21 | Sistema simples de gestão escolar (alunos, contratos, cobrança) em vez de várias planilhas — avaliar quando a base crescer | Operações | Entrevista bloco 7 | — | 💡 | Orthanc + Fíli; custo × benefício |
 | 22 | **Kit do Aluno Inspirar Informática** (caderno de atividades + guia de consulta em casa) no lugar da taxa de matrícula | Informática | Júnior (2026-11-20) | — | 🔍 | Fíli calcula custo × preço; Pelennor cria |
+| 23 | **2º ano da Informática = programação com Scratch** (gratuito, do MIT, blocos de encaixar), com comandos e vocabulário em inglês; criação digital (design e vídeo) como módulo futuro para 13–15 anos | Informática | Telchar (2026-11-20) | — | 🔍 | Atenção à LGPD: conta de menor de 13 anos pede e-mail dos pais; dá para usar a versão instalada, sem conta |
+| 24 | Comunicar a simulação com honestidade ("simulador que ensina os mesmos comandos do Word e do Excel") e, no 2º semestre, praticar no LibreOffice (gratuito) | Informática | Telchar (2026-11-20) | — | 💡 | |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |
