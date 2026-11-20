@@ -19,7 +19,9 @@
 | [PREENCHER] | | | | | |
 
 ## Tarefas que hoje dependem só dos sócios
-- [PREENCHER]
+- **Júnior:** todas as aulas de inglês (não pode faltar por causa delas). Fora das aulas, trabalha
+  remotamente de casa, conciliando o pedagógico e a gestão.
+- **Indianara:** [PREENCHER]
 
 ## Necessidades de contratação / treinamento
 - Inspirar Informática: Giovana como tutora — definir vínculo, horários, custo e treinamento na plataforma

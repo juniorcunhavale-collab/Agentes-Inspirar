@@ -29,7 +29,28 @@
 
 ## Metas anuais / de ciclo
 - Polo Unicesumar — **69 matrículas até 22/03/2027**: 42 graduação EAD (demais cursos), 20 licenciaturas, 4 técnicos, 3 pós-graduação
-- Demais frentes: [PREENCHER]
+- **Meta-mãe de 2027: +R$ 10 mil de faturamento (no mínimo)** sobre a base de ~R$ 17,1 mil/mês,
+  ou seja, chegar a **~R$ 27 mil/mês** [CONFIRMAR que o aumento é mensal]
+- Demais metas por frente: a desdobrar a partir da meta-mãe (ver cenário abaixo)
+
+### Como chegar aos +R$ 10 mil/mês — cenário inicial (estimativas, a validar pelo Fíli)
+| Alavanca | Conta | Ganho/mês |
+|---|---|---|
+| Polo: bater as 69 matrículas e manter os alunos | 69 × ~R$ 60 | ~R$ 4.140 |
+| Inglês: 12ª turma | ~8 alunos × ~R$ 140 (ticket médio = R$ 12.000 ÷ 86) | ~R$ 1.120 |
+| **Subtotal** | | **~R$ 5.260** |
+| **Falta (Informática + cobrança + reajuste dos contratos antigos)** | | **~R$ 4.740** |
+
+Quantos alunos de Informática cobrem a diferença, conforme o preço (ainda não definido):
+| Mensalidade | Alunos necessários |
+|---|---|
+| R$ 120 | ~40 |
+| R$ 150 | ~32 |
+| R$ 180 | ~27 |
+| R$ 200 | ~24 |
+
+Alavancas sem custo que reduzem essa necessidade: **recuperar a inadimplência** (hoje "muito
+alta") e **reajustar os contratos antigos do inglês** na rematrícula.
 
 ## Histórico mensal (realizado)
 | Mês | Unidade | Matrículas | Ativos | Evasão | Faturamento | Inadimplência | Observações |

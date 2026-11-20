@@ -4,7 +4,7 @@
 > Campos `[PREENCHER]` ainda não foram informados — os agentes não devem inventá-los.
 > Valores marcados como **(estimativa do dono)** são aproximações informadas na entrevista.
 
-Última atualização: 2026-11-20 (entrevista inicial — blocos 1 a 6)
+Última atualização: 2026-11-20 (entrevista inicial concluída — blocos 1 a 7)
 > Números financeiros detalhados: `contexto/financeiro.md`.
 
 ## Identidade
@@ -173,9 +173,19 @@
   Valor mensal: [PREENCHER]
 - **Indicação:** campanhas pontuais que presenteiam o aluno que indica.
 
+## Funcionamento
+| Dia | Horário |
+|---|---|
+| Segunda a sexta | 8h30–12h e 13h30–18h |
+| Terça e quarta | + período noturno de aulas de inglês, até **21h10** |
+| Quinta | + período noturno de aulas de inglês, até **20h** |
+| Sábado | 8h–12h |
+
 ## Sistemas e ferramentas
-- Sistema acadêmico/secretaria: [PREENCHER]
-- Financeiro: [PREENCHER]
+- **Gestão em geral:** somente **planilhas** (e algumas anotações à mão)
+- **Contratos:** **em papel**
+- Sistema acadêmico/secretaria: nenhum
+- Financeiro: planilha
 - CRM / atendimento: WhatsApp (Business? [CONFIRMAR]); sem CRM informado
 
 ## Maiores dores e oportunidades (visão do dono)
@@ -184,6 +194,9 @@
   2. Fazer as pessoas entenderem o semipresencial e o novo marco regulatório, sobretudo nas
      licenciaturas.
   3. Desempenho mais fraco nas licenciaturas do que nas graduações de negócios.
+- **Meta de 2027:** aumentar o faturamento em **no mínimo R$ 10 mil** (ver
+  `contexto/metas-e-indicadores.md`)
+- **Visão de 3 anos:** a conversar com os sócios (o Durin deve puxar o assunto)
 - **Oportunidades:**
   1. **Licenciaturas semipresenciais** — vista pelo dono como a grande oportunidade.
   2. **Inspirar Informática** como diferencial do Instituto.

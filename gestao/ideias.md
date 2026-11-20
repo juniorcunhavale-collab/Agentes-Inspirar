@@ -24,4 +24,6 @@
 | 17 | Régua de cobrança simples e padronizada (lembrete 3 dias antes, no dia, D+3, D+10, contato pessoal D+20) e Pix recorrente ou boleto automático | Financeiro | Entrevista bloco 6 | — | 💡 | Fíli + Sam; mensagens prontas |
 | 18 | Trocar parte dos descontos por **desconto de pontualidade** (paga até o vencimento, ganha X%) | Financeiro | Entrevista bloco 6 | — | 💡 | Fíli calcula |
 | 19 | Usar a entrada do material (início e meio do ano) para criar a primeira reserva de caixa e/ou comprar notebooks | Financeiro | Entrevista bloco 6 | — | 💡 | ~R$ 13,7 mil por troca, menos o custo do material |
+| 20 | Contratos digitais com assinatura eletrônica (mais rápido na matrícula, menos papel, fácil de achar) | Operações | Entrevista bloco 7 | — | 💡 | Orthanc; validar a validade jurídica com o contador ou advogado |
+| 21 | Sistema simples de gestão escolar (alunos, contratos, cobrança) em vez de várias planilhas — avaliar quando a base crescer | Operações | Entrevista bloco 7 | — | 💡 | Orthanc + Fíli; custo × benefício |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |

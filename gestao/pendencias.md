@@ -6,7 +6,7 @@
 ## Ativas
 | # | Ação | Frente | Responsável | Prazo | Status | Origem |
 |---|---|---|---|---|---|---|
-| 1 | Preencher `contexto/` (rodar `/atualizar-contexto` ou responder o questionário inicial) | Grupo | Júnior | [definir] | 🔄 blocos 1 a 6 de 7 feitos | Implantação |
+| 1 | ~~Entrevista inicial para preencher `contexto/`~~ — concluída (7 blocos); restam campos [PREENCHER] pontuais | Grupo | Júnior | — | ✅ | Implantação |
 | 2 | Exportar primeiras planilhas para `dados/` (alunos, financeiro, leads) — ver `dados/README.md` | Grupo | Dono / secretaria | [definir] | ⬜ | Implantação |
 | 4 | **URGENTE:** montar o plano de lançamento da Inspirar Informática — já definidos: público 8–12 anos, conteúdo básico (Word/Excel), plataforma própria, tutora Giovana, contrato anual, início em jan/2027. Falta: preço, compra dos notebooks, campanha de pré-matrícula | Informática | Telchar + Nori + Fíli → sócios aprovam | 2026-11-30 | ⬜ | Entrevista bloco 1 |
 | 5 | ~~Informar os números da meta Unicesumar~~ → 69 matrículas até 22/03/2027 | Unicesumar | Júnior | — | ✅ | Entrevista bloco 1 |
@@ -26,6 +26,9 @@
 | 19 | **Descobrir para onde vai a "sobra" aparente de ~R$ 12 mil/mês**: listar dívidas (valor, parcela, prazo), retiradas dos sócios, custo do material, água/luz e marketing | Financeiro | Júnior + Indianara → Fíli analisa | 2026-12-05 | ⬜ | Entrevista bloco 6 |
 | 20 | Medir a inadimplência do inglês: lista de quem está em atraso e há quanto tempo (exportar a planilha para `dados/`) | Financeiro | Júnior → Fíli | 2026-11-27 | ⬜ | Entrevista bloco 6 |
 | 21 | Confirmar se os ~R$ 12 mil do inglês são o valor cobrado ou o efetivamente recebido | Financeiro | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 6 |
+| 22 | **Conversar sobre a visão de 3 anos** com os sócios (o dono pediu para ser perguntado depois) | Grupo | Durin puxa o assunto | 2026-12-10 | ⬜ | Entrevista bloco 7 |
+| 23 | Confirmar se a meta de +R$ 10 mil é **por mês** e desdobrá-la em metas por frente | Grupo | Júnior + Fíli | 2026-11-27 | ⬜ | Entrevista bloco 7 |
+| 24 | Mapear o que depende só da Indianara (e quem a substitui) | Operações | Indianara + Orthanc | 2026-12-05 | ⬜ | Entrevista bloco 7 |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
