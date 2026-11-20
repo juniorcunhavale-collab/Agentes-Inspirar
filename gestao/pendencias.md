@@ -18,7 +18,7 @@
 | 11 | Levantar a grade de horários do inglês (turmas, dias, aulas por semana) e as horas semanais do Júnior em sala | Idiomas | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 3 |
 | 12 | Planejar a rematrícula 2027 do inglês (quem renova, quando vencem os contratos, condição de renovação e reajuste) | Idiomas | Isengard + Fíli → sócios | 2026-12-05 | ⬜ | Entrevista bloco 3 |
 | 13 | Compartilhar o acesso/link da plataforma de informática para a equipe ajudar a melhorá-la | Informática | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 4 |
-| 14 | Calcular quantas matrículas antecipadas pagam cada notebook novo e a capacidade real com 2 computadores (horários × alunos) | Informática | Fíli + Telchar | 2026-12-05 | ⬜ | Entrevista bloco 4 |
+| 14 | ~~Calcular matrículas antecipadas por notebook e capacidade~~ → ver `relatorios/2026-11-20-plano-equipamento-informatica.md` | Informática | Fíli + Telchar | — | ✅ | Entrevista bloco 4 |
 | 15 | Definir vínculo, horários e custo da Giovana (tutora) | Informática | Sócios (Orthanc apoia) | 2026-12-05 | ⬜ | Entrevista bloco 4 |
 | 16 | Criar uma planilha simples de interessados (data, nome, frente/curso, origem, status, próximo contato) usada por Indianara e Giovana | Grupo | Celeborn monta → Indianara e Giovana usam | 2026-11-27 | ⬜ | Entrevista bloco 5 |
 | 17 | Levantar preço e formato dos concorrentes (Censpeg, Unifacvest, Raniel) | Grupo | Nori + Celeborn (a equipe faz ligações/pesquisa) | 2026-12-05 | ⬜ | Entrevista bloco 5 |
@@ -29,6 +29,11 @@
 | 22 | **Conversar sobre a visão de 3 anos** com os sócios (o dono pediu para ser perguntado depois) | Grupo | Durin puxa o assunto | 2026-12-10 | ⬜ | Entrevista bloco 7 |
 | 23 | Confirmar se a meta de +R$ 10 mil é **por mês** e desdobrá-la em metas por frente | Grupo | Júnior + Fíli | 2026-11-27 | ⬜ | Entrevista bloco 7 |
 | 24 | Mapear o que depende só da Indianara (e quem a substitui) | Operações | Indianara + Orthanc | 2026-12-05 | ⬜ | Entrevista bloco 7 |
+| 25 | **Decidir:** preço (R$ 150 ou 160), carga (1 aula/semana), Pacote Fundador até 15/12, Colônia Digital em janeiro | Informática | Sócios | 2026-11-27 | ⬜ | Plano de equipamento |
+| 26 | Abrir conta/caixinha Pix separada para as pré-matrículas antes da 1ª venda | Financeiro | Sócios | 2026-11-30 | ⬜ | Plano de equipamento |
+| 27 | Testar 1 computador de ~R$ 900 com a plataforma (Windows 11, 8 GB, SSD, teclado ABNT2) e confirmar se a plataforma roda no navegador | Informática | Júnior | 2026-12-05 | ⬜ | Plano de equipamento |
+| 28 | Bloquear os horários de tutoria da Giovana e definir quem cobre o polo nesses horários | Operações | Orthanc → sócios | 2026-12-05 | ⬜ | Plano de equipamento |
+| 29 | Verificar a licença do Office (Microsoft 365 Education / por máquina) | Informática | Telchar | 2026-12-10 | ⬜ | Plano de equipamento |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
