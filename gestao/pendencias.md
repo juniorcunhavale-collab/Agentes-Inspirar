@@ -39,6 +39,13 @@
 | 32 | **Montar as missões da Colônia (1 semana, 11–15/01)** a partir da ementa existente de informática básica (8 a 12 anos) — o dono delegou à equipe | Pedagógico | Telchar + Pelennor → Júnior aprova | 2026-12-10 | ⬜ | Colônia Digital |
 | 33 | Confirmar o horário de quinta à noite do inglês (entrevista: até 20h; grade: última turma 15h10–16h40) | Idiomas | Júnior | 2026-11-27 | ⬜ | Colônia Digital |
 | 34 | Propor a trilha do 2º ano da Informática (programação/Scratch e alternativas) | Informática | Telchar + Nori | 2026-12-15 | 🔄 | Conversa com Telchar |
+| 35 | **Decidir:** regra do Fundo de Equipamentos, Hora do Código em dezembro, destino da sobra (reserva + micro:bit) | Informática | Sócios | 2026-11-24 | ⬜ | Plano 2027 da Informática |
+| 36 | Abrir 2 caixinhas Pix ("Fundo de Equipamentos" e "Operacional Informática") antes da 1ª venda do Pacote Fundador | Financeiro | Júnior | 2026-11-25 | ⬜ | Plano 2027 da Informática |
+| 37 | Contador: regime e alíquota da receita nova + cláusula de reembolso do Pacote Fundador | Financeiro | Fíli + Júnior | 2026-12-05 | ⬜ | Plano 2027 da Informática |
+| 38 | Informar modelo e configuração dos 2 HP e do Dell cotado (validar slot de memória e SSD M.2) | Informática | Júnior → Telchar | Antes da 1ª compra | ⬜ | Plano 2027 da Informática |
+| 39 | Cliente oculto no Raniel (preço, formato, idade, carga horária) | Comercial | Celeborn | 2026-11-27 | ⬜ | Plano 2027 da Informática |
+| 40 | Definir quem dá aula no B2B (escolas/prefeitura) e o custo-hora | Operações | Orthanc + Fíli | 2026-12-10 | ⬜ | Plano 2027 da Informática |
+| 41 | Revisar a lotação da Colônia (8 Fundadores + pagantes com 2–3 máquinas = 2–3 turnos; à tarde a Giovana está no polo) | Informática | Telchar + Orthanc | 2026-12-10 | ⬜ | Plano 2027 da Informática |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas

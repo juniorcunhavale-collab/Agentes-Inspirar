@@ -29,4 +29,13 @@
 | 22 | **Kit do Aluno Inspirar Informática** (caderno de atividades + guia de consulta em casa) no lugar da taxa de matrícula | Informática | Júnior (2026-11-20) | — | 🔍 | Fíli calcula custo × preço; Pelennor cria |
 | 23 | **2º ano da Informática = programação com Scratch** (gratuito, do MIT, blocos de encaixar), com comandos e vocabulário em inglês; criação digital (design e vídeo) como módulo futuro para 13–15 anos | Informática | Telchar (2026-11-20) | — | 🔍 | Atenção à LGPD: conta de menor de 13 anos pede e-mail dos pais; dá para usar a versão instalada, sem conta |
 | 24 | Comunicar a simulação com honestidade ("simulador que ensina os mesmos comandos do Word e do Excel") e, no 2º semestre, praticar no LibreOffice (gratuito) | Informática | Telchar (2026-11-20) | — | 💡 | |
+| 25 | **Hora do Código Inspirar** (dez/2026, grátis) como gancho do Pacote Fundador | Informática | Nori (2026-11-20) | 23/25 | 🔍 | Decidir até 24/11 |
+| 26 | Colônia Digital também em julho (férias 12–25/07) | Informática | Nori | 21/25 | 💡 | |
+| 27 | B2B escolas particulares: "Computação BNCC" (aula na escola ou contraturno na Inspirar) | Informática | Nori | 20/25 | 💡 | Gargalo: quem dá a aula |
+| 28 | B2B prefeitura: formação de professores em BNCC Computação + oficinas na Jornada Ampliada | Informática / Unicesumar | Nori | 20/25 | 💡 | Gancho para pós e 2ª licenciatura (Ulmo) |
+| 29 | Clube Scratch de sábado (modelo Code Club) | Informática | Nori | 20/25 | 💡 | Funil do 2º ano |
+| 30 | Turma preparatória para a OBI (Iniciação) | Informática | Nori | 19/25 | 💡 | |
+| 31 | Celular e internet seguros 60+ | Informática | Nori | 18/25 | 💡 | Concorre com cursos gratuitos da Celepar |
+| 32 | Piloto de 2–3 kits micro:bit para o 2º ano | Informática | Telchar | — | 💡 | ~R$ 300 por kit (RoboCore) |
+| 33 | Robótica em escala, Jovem Aprendiz, licenciar a plataforma, franquia | Informática | Nori | — | ❌ não agora | Custo/burocracia; plataforma ainda em teste |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |

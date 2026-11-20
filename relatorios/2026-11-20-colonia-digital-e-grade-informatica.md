@@ -23,6 +23,11 @@ entre uma atividade e outra.
 
 ## 2. Colônia Digital — janeiro de 2027
 
+> ⚠️ **Atualização (mesmo dia):** o Júnior pediu **uma semana só, de 11 a 15/01/2027**. Formato
+> ajustado pelo Telchar: **5 encontros de 2h (9h–11h), de segunda a sexta**, com 5 missões
+> (computador e teclado · Word · internet segura · Excel · projeto final) e **Mostra na sexta às
+> 10h30**. A versão de 8 encontros abaixo fica só como referência.
+
 ### Por que funciona
 - De **04/01 a 15/01** a sala está **100% livre** (o inglês só volta em 18/01).
 - As crianças estão de **férias**: é o melhor momento para experimentar.
