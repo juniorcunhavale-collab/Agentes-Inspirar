@@ -20,10 +20,10 @@
 Personalidade: é ele quem pergunta "e se a gente tentar…?". Está sempre com cara de quem teve uma ideia: sobrancelha levemente erguida e sorriso de canto.
 
 **PT:**
-> THEO: menino brasileiro de 10 anos, pele clara (branca) com tom quente e bochechas levemente rosadas, cabelo preto liso, curto, com franja leve caindo para o lado direito; olhos castanho-escuros grandes e expressivos; rosto oval; meio palmo mais alto que a Lia, corpo esguio. Roupa padrão: camiseta lisa azul-turquesa clara (#6cc3de) sem estampa, jaqueta leve com zíper azul-turquesa escura (#237f9f) aberta e com as mangas até o pulso, calça jeans azul-marinho escura (#1c2452), tênis brancos com cadarço azul-marinho. Sem acessórios, sem logotipos, sem estampas.
+> THEO: menino brasileiro de 10 anos, pele clara (branca) com tom quente e bochechas rosadas, cabelo preto liso, cheio e brilhante, num corte arredondado com franja reta cobrindo a testa até as sobrancelhas; olhos castanho-escuros grandes e expressivos; rosto arredondado e suave, sorriso simpático; meio palmo mais alto que a Lia, corpo esguio. Roupa padrão: camiseta lisa azul-turquesa clara (#6cc3de) sem estampa, jaqueta de moletom com zíper e capuz baixo azul-turquesa escura (#237f9f), aberta, com bolsos laterais e mangas dobradas até a metade do antebraço, calça jeans azul-marinho escura (#1c2452), tênis brancos de cano baixo com cadarço azul-marinho. Sem acessórios, sem logotipos, sem estampas.
 
 **EN:**
-> THEO: a 10-year-old Brazilian boy with fair (white) skin with a warm tone and slightly rosy cheeks, short straight black hair with a soft side-swept fringe falling to his right, big expressive dark-brown eyes, oval face, slim build, about a hand's width taller than Lia. Default outfit: plain light turquoise t-shirt (#6cc3de) with no print, open lightweight dark turquoise zip jacket (#237f9f) with wrist-length sleeves, dark navy blue jeans (#1c2452), white sneakers with navy laces. No accessories, no logos, no prints.
+> THEO: a 10-year-old Brazilian boy with fair (white) skin with a warm tone and rosy cheeks, thick glossy straight black hair in a rounded cut with a full straight fringe down to his eyebrows, big expressive dark-brown eyes, soft rounded face with a friendly smile, slim build, about a hand's width taller than Lia. Default outfit: plain light turquoise t-shirt (#6cc3de) with no print, open dark turquoise zip-up hoodie jacket (#237f9f) with a low hood, side pockets and sleeves pushed up to mid-forearm, dark navy blue jeans (#1c2452), white low-top sneakers with navy laces. No accessories, no logos, no prints.
 
 ### LIA (menina, "a que comemora cada descoberta")
 Personalidade: vibra com cada acerto, sorri com o rosto todo e puxa o colega para comemorar junto. Tem energia alegre e acolhedora.
@@ -35,6 +35,9 @@ Personalidade: vibra com cada acerto, sorri com o rosto todo e puxa o colega par
 > LIA: a 10-year-old Brazilian girl with fair (white) skin with a warm tone and rosy cheeks, golden blonde hair, straight with a slight wave at the ends, tied in a high ponytail with a simple yellow hair tie (#ffc43d), a few loose strands framing her face, big bright light-brown eyes, round face with a wide smile, about a hand's width shorter than Theo. Default outfit: plain coral-orange crewneck sweatshirt (#ff7a45) with no hood and no print, sleeves slightly pushed up, the collar of a yellow t-shirt (#ffc43d) peeking out underneath, medium-blue jeans, white sneakers with yellow accents (#ffc43d). No other accessories, no logos, no prints.
 
 ---
+
+> ✅ **Referência oficial do Theo aprovada pelo Júnior em 20/11/2026:** `plataforma-informatica/mascotes/theo-referencia-oficial.jpg`
+> (2ª versão gerada no Gemini). A ficha acima foi ajustada para descrever exatamente essa imagem. Anexe-a em todo prompt com o Theo.
 
 ## 2. PROMPT BASE de estilo (colar no início de TODO prompt)
 
