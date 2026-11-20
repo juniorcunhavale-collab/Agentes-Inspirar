@@ -1,0 +1,8 @@
+/* ===== acréscimos de 20/11/2026: desafio bônus, ouvir, imagem escolhida, área da tutora, impressão ===== */
+.bonusbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--warn-bg);border-radius:16px;padding:8px 12px;margin-bottom:12px}
+.bubble .say{margin-top:10px}
+.paper svg.wsel{outline:3px solid #3a86ff;outline-offset:2px;border-radius:6px}
+.paper svg{cursor:pointer}
+.demo-note{border:2px dashed var(--line)}
+.gab h3{font-size:1.05rem}.gab li{margin:3px 0}
+@media print{.top,footer,.noprint,.toast{display:none!important}body{background:#fff;color:#000}.card{box-shadow:none;break-inside:avoid}}

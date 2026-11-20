@@ -203,8 +203,14 @@ const WARM=[
  T('O sol brilha no céu azul','A tecnologia ajuda as pessoas a aprender e criar coisas novas.'),
  T('Eu gosto de aprender','Praticar todos os dias melhora a velocidade e a precisão.'),
  T('A casa tem uma sala','Digitar sem olhar para o teclado é uma habilidade muito útil.'),
- T('Nosso time é muito legal','Errar faz parte do aprendizado, o importante é tentar de novo.')
+ T('Nosso time é muito legal','Errar faz parte do aprendizado, o importante é tentar de novo.'),
+ T('O gato pulou o muro','Quem treina um pouco todo dia digita cada vez melhor.'),
+ T('A bola rolou na grama','Olhe para a tela e deixe os dedos encontrarem as teclas.'),
+ T('Minha mãe faz bolo','Costas retas, pulsos relaxados e respiração tranquila.'),
+ T('Hoje vai ter festa','Cada erro corrigido é um passo a mais no aprendizado.')
 ];
+/* antes da aula 2.4 (Shift e acentos), o aquecimento usa só minúsculas e sem acento */
+const easyTxt=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
 /* ===== CONTEÚDO 2: módulos 3 a 7 (completa as aulas), simuladores de Excel e PowerPoint, bancos extras ===== */
 const XL=(sim,title)=>({t:'xl',sim,title});
@@ -531,7 +537,10 @@ const PATHS={
  time:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
  cert:'<rect x="3" y="4" width="18" height="13" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 21l3-3 3 3"/>',
  eye:'<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
- undo:'<path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5"/>'
+ undo:'<path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5"/>',
+ sound:'<path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>',
+ save:'<path d="M5 3h11l3 3v15H5z"/><path d="M8 3v6h8V3M8 21v-7h8v7"/>',
+ flag:'<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>'
 };
 const ic=(n,fill)=>`<svg class="i${fill?' fill':''}" viewBox="0 0 24 24" aria-hidden="true">${PATHS[n]}</svg>`;
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -553,33 +562,38 @@ function seed(){
   const S=[
    mkStudent('ana','Ana Souza',9,'Ter 14h','Polo Pinhão','mia',9,[1],9,h([1,1,1,1,1,0,1,1])),
    mkStudent('bruno','Bruno Lima',11,'Ter 14h','Polo Pinhão','teo',3,[],16,h([1,1,0,1,1,1,1,1])),
-   mkStudent('carla','Carla Dias',10,'Qua 14h','Polo Pinhão','mia',13,[1],10,h([1,0,1,1,0,1,1,1])),
-   mkStudent('davi','Davi Rocha',12,'Qua 14h','Polo Pinhão','teo',0,[],0,h([1,1,1,1,1,1,1,1])),
-   mkStudent('elisa','Elisa Prado',8,'Qui 14h','Polo Pinhão','mia',5,[1],7,h([1,1,1,0,1,1,1,1])),
-   mkStudent('felipe','Felipe Nunes',10,'Qui 14h','Polo Pinhão','teo',14,[1],11,h([1,1,1,1,0,1,1,1])),
+   mkStudent('carla','Carla Dias',10,'Qua 10h45','Polo Pinhão','mia',13,[1],10,h([1,0,1,1,0,1,1,1])),
+   mkStudent('davi','Davi Rocha',12,'Qua 10h45','Polo Pinhão','teo',0,[],0,h([1,1,1,1,1,1,1,1])),
+   mkStudent('elisa','Elisa Prado',8,'Qui 10h45','Polo Pinhão','mia',5,[1],7,h([1,1,1,0,1,1,1,1])),
+   mkStudent('felipe','Felipe Nunes',10,'Qui 10h45','Polo Pinhão','teo',14,[1],11,h([1,1,1,1,0,1,1,1])),
    mkStudent('gabi','Gabriela Melo',12,'Sex 14h','Polo Pinhão','mia',24,[1,2],19,h([1,1,1,1,1,1,1,1])),
    mkStudent('heitor','Heitor Alves',9,'Sex 14h','Polo Pinhão','teo',2,[],6,h([0,1,0,1,1,0,1,1])),
    mkStudent('iris','Íris Campos',11,'Seg 14h','Polo Pinhão','mia',10,[1],14,h([1,1,1,1,1,1,0,1])),
-   mkStudent('joao','João Pedro',10,'Sáb 9h','Polo Exemplo (expansão)','teo',6,[1],8,h([1,1,1,1,0,1,1,1])),
-   mkStudent('kaue','Kauê Ramos',8,'Sáb 9h','Polo Exemplo (expansão)','teo',1,[],5,h([1,0,1,1,1,0,1,1])),
-   mkStudent('lia','Lia Torres',12,'Sáb 9h','Polo Exemplo (expansão)','mia',8,[1],17,h([1,1,1,1,1,1,1,0]))
+   mkStudent('joao','João Pedro',10,'Sáb 9h','Polo Exemplo (demonstração)','teo',6,[1],8,h([1,1,1,1,0,1,1,1])),
+   mkStudent('kaue','Kauê Ramos',8,'Sáb 9h','Polo Exemplo (demonstração)','teo',1,[],5,h([1,0,1,1,1,0,1,1])),
+   mkStudent('lia','Lia Torres',12,'Sáb 9h','Polo Exemplo (demonstração)','mia',8,[1],17,h([1,1,1,1,1,1,1,0]))
   ];
   const students={};S.forEach(s=>students[s.id]=s);
   const t=dayKey();
   const wd=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'][new Date().getDay()];
   const pres={};S.filter(x=>x.polo==='Polo Pinhão'&&x.slot.startsWith(wd)).forEach((x,i)=>{pres[x.id]={in:(i?'14:06':'14:03'),ok:i===0}});
   const presence={[t]:pres};
-  const config={polos:{'Polo Pinhão':{pcs:2,slots:['Seg 14h','Ter 14h','Qua 14h','Qui 14h','Sex 14h','Ter 9h','Qui 9h']},'Polo Exemplo (expansão)':{pcs:4,slots:['Sáb 9h','Sáb 14h']}}};
-  return {students,presence,config};
+  /* grade proposta para fev/2027: Turma Manhã (seg-qui 10h45, sex 9h) e Turma Tarde (seg, ter, sex 14h e 15h) */
+  const config={polos:{'Polo Pinhão':{pcs:2,slots:['Seg 10h45','Ter 10h45','Qua 10h45','Qui 10h45','Sex 9h','Seg 14h','Seg 15h','Ter 14h','Ter 15h','Sex 14h','Sex 15h']},'Polo Exemplo (demonstração)':{pcs:4,slots:['Sáb 9h','Sáb 14h']}},tutora:'Giovana'};
+  return {students,presence,config,seedV:2};
 }
 let DB=null;
-function load(){try{const r=localStorage.getItem(KEY);if(r)DB=JSON.parse(r)}catch(e){}if(!DB||!DB.config)DB=seed()}
+function load(){try{const r=localStorage.getItem(KEY);if(r)DB=JSON.parse(r)}catch(e){}if(!DB||!DB.config||!DB.students)DB=seed();
+  /* atualização da versão de 20/11: se só há alunos fictícios, troca pela demonstração nova; alunos reais (t*, m*) são mantidos */
+  if(!DB.seedV){const real=Object.values(DB.students).filter(x=>/^[tm]/.test(x.id));if(!real.length)DB=seed();else{DB.seedV=2;DB.config.tutora=DB.config.tutora||'Giovana'}save()}
+  DB.config.tutora=DB.config.tutora||'Giovana'}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){}}
 const cfgP=p=>DB.config.polos[p]||{pcs:1,slots:[]};
+const tutorName=()=>(DB.config&&DB.config.tutora)||'Giovana';
 const occ=(p,sl)=>Object.values(DB.students).filter(s=>s.polo===p&&s.slot===sl).length;
 const WD=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 const SKEY=KEY+'-sessao';
-function saveSess(){try{if(!V.role){localStorage.removeItem(SKEY);return}const v=['lesson','test','lessonend','cert'].includes(V.view)?(V.view==='lesson'||V.view==='test'||V.view==='lessonend'?'module':'home'):V.view;localStorage.setItem(SKEY,JSON.stringify({role:V.role,sid:V.sid,parentSid:V.parentSid,view:v,mod:V.mod,tutorTurma:V.tutorTurma,poloSel:V.poloSel,demo:V.demo}))}catch(e){}}
+function saveSess(){try{if(!V.role){localStorage.removeItem(SKEY);return}const v=['lesson','test','lessonend','cert','tutora','colcert'].includes(V.view)?(V.view==='lesson'||V.view==='test'||V.view==='lessonend'?'module':'home'):V.view;localStorage.setItem(SKEY,JSON.stringify({role:V.role,sid:V.sid,parentSid:V.parentSid,view:v,mod:V.mod,tutorTurma:V.tutorTurma,poloSel:V.poloSel,demo:V.demo}))}catch(e){}}
 function loadSess(){try{const r=JSON.parse(localStorage.getItem(SKEY)||'null');if(r&&r.role&&(r.role!=='aluno'||DB.students[r.sid])&&(r.role!=='pais'||DB.students[r.parentSid])){Object.assign(V,r);if(V.view==='module'&&!V.mod)V.view='home'}}catch(e){}}
 load();
 
@@ -598,7 +612,10 @@ const typOk=(s,m)=>!!(s.tests[m]&&s.tests[m].typOk);
 const METAM={y:[4,8,10,12,13,14,15],o:[8,15,17,19,21,23,25]},ACCM={y:[85,88,90,90,92,92,92],o:[88,90,92,92,94,95,95]};
 const TESTL={y:['Eu gosto de aprender com o computador e descobrir coisas novas todos os dias','A minha aula é muito legal e eu me divirto na aula de informática','O gato dorme na sala e o cachorro brinca com a bola no jardim','Hoje eu vou digitar com calma, sem olhar para o teclado e sem pressa','A escola tem uma biblioteca grande e eu adoro ler histórias de aventura'],
  o:['Praticar a digitação todos os dias ajuda a escrever com mais rapidez, atenção e precisão no computador.','A internet permite pesquisar, aprender e conversar, mas é preciso ter cuidado com as informações e com a segurança.','Trabalhar em equipe é importante: cada pessoa tem ideias diferentes e juntas elas criam projetos incríveis.','Uma planilha organiza números em linhas e colunas e faz cálculos automáticos que economizam muito tempo.','Uma boa apresentação tem poucas palavras, imagens bem escolhidas e uma fala tranquila e clara.']};
-const pickTest=s=>{const l=TESTL[grp(s)];return l[Math.floor(Math.random()*l.length)]};
+/* módulo 1: a criança ainda não aprendeu Shift e acentos, então a frase é só em minúsculas e sem acento */
+const TESTL1={y:['o gato bebe leite na cozinha','a casa tem uma sala grande','eu gosto de jogar bola','a fada mora perto do lago','o sapo pula na lagoa'],
+ o:['eu gosto de aprender coisas novas no computador','o computador ajuda a escrever e a pesquisar','a turma vai fazer um projeto muito legal','o mouse e o teclado mandam ordens para o computador']};
+const pickTest=(s,m)=>{const l=(m===1?TESTL1:TESTL)[grp(s)];return l[Math.floor(Math.random()*l.length)]};
 const MHEX=['#3a86ff','#1fb5a3','#8a5cf6','#ff7a45','#17935a','#ff6fa5','#e8a400'];
 function stkInfo(id){let m;if(id==='seq')return {name:'3 acertos seguidos',c:'#ff7a45'};if(m=/^dig(\d)/.exec(id))return {name:'Meta de digitação do módulo '+m[1],c:MHEX[m[1]-1]};m=/^mod(\d)/.exec(id);return {name:'Módulo '+m[1]+' concluído',c:MHEX[m[1]-1]}}
 function stkSvg(id,big){const i=stkInfo(id);return `<span class="stk" title="${i.name}"><svg viewBox="0 0 48 48" width="${big?56:42}" height="${big?56:42}" role="img" aria-label="${i.name}"><circle cx="24" cy="24" r="22" fill="${i.c}"/><circle cx="24" cy="24" r="22" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="3 3"/><g transform="translate(10 10) scale(1.17)" fill="#fff"><polygon points="12 2.5 14.9 8.7 21.6 9.5 16.6 14.1 18 20.8 12 17.4 6 20.8 7.4 14.1 2.4 9.5 9.1 8.7"/></g></svg></span>`}
@@ -621,16 +638,18 @@ const attendance=s=>{const hs=s.hist;const t=today()[s.id];const list=[...hs,t&&
 
 /* ---------- componentes ---------- */
 function topbar(){
-  const u=V.role==='aluno'?me().name:V.role==='tutor'?'Tutora Marina':V.role==='gestor'?'Gestão':V.role==='pais'?'Responsável':'';
-  const rl={aluno:'Aluno',tutor:'Tutor',gestor:'Gestor',pais:'Responsável'}[V.role]||'';
+  const u=V.role==='aluno'?me().name:V.role==='tutor'?tutorName():V.role==='gestor'?'Gestão':'';
+  const rl={aluno:'Aluno',tutor:'Tutora',gestor:'Gestor'}[V.role]||'';
+  const lab=V.role==='pais'?'Família de '+((DB.students[V.parentSid]||{name:''}).name.split(' ')[0]):rl+': '+u;
   return `<header class="top"><div class="wrap">
    <div class="brand"><img src="${window.__LOGO__}" alt="Inspirar Informática" class="brandlogo"></div>
    <span class="grow"></span>
    ${V.role==='aluno'&&!window.__ALUNO__?`<label class="chip"><input type="checkbox" id="demo" data-act="demo" ${V.demo?'checked':''}> Modo demonstração: destravar tudo</label>`:''}
-   ${V.role?`<span class="chip">${esc(rl)}: ${esc(u)}</span><button class="btn ghost sm" data-act="logout">Sair</button>`:''}
+   ${V.role?`<span class="chip">${esc(lab)}</span><button class="btn ghost sm" data-act="logout">Sair</button>`:''}
   </div></header>`;
 }
-const foot=`<footer class="wrap">Inspirar Informática · primeira versão para demonstração. Personagens e textos são provisórios e os dados ficam apenas neste navegador.</footer>`;
+const foot=window.__ALUNO__?`<footer class="wrap">Inspirar Informática · O seu progresso fica guardado neste computador. A tutora faz a cópia de segurança.</footer>`:`<footer class="wrap">Inspirar Informática · Versão de demonstração da gestão: os alunos que aparecem em Tutora, Gestor e Pais são fictícios. Os dados ficam apenas neste navegador.</footer>`;
+const demoNote=()=>`<div class="note demo-note"><b>Dados de demonstração.</b> Os alunos desta tela são fictícios e ficam só neste navegador. Os alunos reais aparecerão aqui quando a plataforma tiver banco de dados (previsto para fevereiro).</div>`;
 
 /* ---------- LOGIN ---------- */
 function vLoginAluno(){
@@ -648,7 +667,7 @@ function vLoginAluno(){
    ${mine.length?`<h3 style="margin-top:18px">Já tem perfil neste computador?</h3><div class="picker" style="margin-top:10px">${mine.map(s=>`<button class="pick" data-act="pick" data-id="${s.id}"><b>${esc(s.name)}</b><br><span class="muted">${s.age} anos</span></button>`).join('')}</div>`:''}
   </div>
   <div class="chars"><div>${BR.miay}</div><div>${BR.teoy}</div></div></section>
-  <div class="note">Versão de teste. O seu progresso fica salvo só neste computador.</div></main>${foot}`;
+  <div class="note row" style="margin-top:16px"><span class="grow">O seu progresso fica salvo neste computador. Vai usar outro computador? Traga o seu progresso.</span><button class="btn ghost sm" data-act="restore">${ic('save')} Trazer meu progresso</button><button class="btn ghost sm" data-act="tutora">${ic('tutor')} Área da tutora</button></div></main>${foot}`;
 }
 function vLogin(){if(window.__ALUNO__)return vLoginAluno();
   const kids=Object.values(DB.students).filter(s=>s.polo==='Polo Pinhão');
@@ -668,7 +687,7 @@ function vLogin(){if(window.__ALUNO__)return vLoginAluno();
    <button class="role" data-act="rolePais"><span class="ico" style="background:var(--m3)">${ic('eye')}</span><h3>Pais e responsáveis</h3><span class="muted">Presença, progresso e notas, sem atividades</span></button>
   </div>
   ${V.pickFor?`<div class="card" style="margin-top:18px"><h3>${V.pickFor==='aluno'?'Qual aluno de demonstração?':'Qual filho(a)?'}</h3><div class="picker" style="margin-top:12px">${kids.map(s=>`<button class="pick" data-act="pick" data-id="${s.id}"><b>${esc(s.name)}</b><br><span class="muted">${s.age} anos</span></button>`).join('')}</div></div>`:''}
-  <p style="margin-top:20px"><button class="btn ghost sm" data-act="reset">${ic('undo')} Reiniciar dados de demonstração</button></p>
+  <p style="margin-top:20px" class="row"><button class="btn ghost sm" data-act="reset">${ic('undo')} Reiniciar dados de demonstração</button><button class="btn ghost sm" data-act="restore">${ic('save')} Trazer progresso de um aluno</button><button class="btn ghost sm" data-act="tutora">${ic('tutor')} Área da tutora</button></p>
   </main>${foot}`;
 }
 
@@ -676,7 +695,11 @@ function vLogin(){if(window.__ALUNO__)return vLoginAluno();
 function vHome(){
   const s=me(),st=stageOf(s),m=MODS[Math.min(st,6)];
   const meta=metaFor(s),lt=lastTyp(s);
-  const nextIdx=(()=>{const c=curMod(s);for(let l=1;l<=MODS[c-1].aulas.length;l++)if(!lessonDone(s,c,l))return [c,l];return [c,1]})();
+  const nextIdx=(()=>{const c=curMod(s);for(let l=1;l<=MODS[c-1].aulas.length;l++)if(!lessonDone(s,c,l))return [c,l];return [c,0]})();
+  const colN=colOn()?colNext(s):null;
+  const contBtn=colOn()?(colN?`<button class="btn" data-act="openLes" data-m="${colN[0]}" data-l="${colN[1]}">Continuar a missão: ${esc(MODS[colN[0]-1].aulas[colN[1]-1])} ${ic('arrow')}</button>`:''):
+    nextIdx[1]===0?(modPassed(s,nextIdx[0])?'':`<button class="btn" data-act="test" data-m="${nextIdx[0]}">Fazer o teste do módulo ${nextIdx[0]} ${ic('arrow')}</button>`):
+    `<button class="btn" data-act="openLes" data-m="${nextIdx[0]}" data-l="${nextIdx[1]}">Continuar: aula ${nextIdx[1]}, ${MODS[nextIdx[0]-1].name} ${ic('arrow')}</button>`;
   const bg=['#fff1c9','#d8f3ee','#e4dcff','#ffe3d6','#dff3e6','#ffe0ee','#fff0b8'][st];
   const nodes=MODS.map(mm=>{
     const un=modUnlocked(s,mm.n),d=modLessonsDone(s,mm.n),tot=mm.aulas.length,pass=modPassed(s,mm.n);
@@ -706,10 +729,12 @@ function vHome(){
      <p style="margin-top:10px"><button class="btn ghost sm" data-act="swapch">Trocar de personagem</button></p>
    </aside>
    <section class="stack">
-    <div class="card"><div class="row"><div class="grow"><h2>Olá, ${esc(s.name.split(' ')[0])}!</h2><p class="muted">${(today()[s.id]||{}).ok?'Sua presença de hoje foi confirmada pelo tutor.':'Sua presença foi enviada. Aguarde o tutor confirmar.'}</p></div>
-      <button class="btn" data-act="openLes" data-m="${nextIdx[0]}" data-l="${nextIdx[1]}">Continuar: aula ${nextIdx[1]}, ${MODS[nextIdx[0]-1].name} ${ic('arrow')}</button></div></div>
-    ${(sem1||sem2)?`<div class="card" style="border-color:var(--sun)"><div class="row"><div class="grow"><h3>Certificado disponível</h3><p class="muted">Você concluiu os módulos do ${sem2?'2º':'1º'} semestre.</p></div><button class="btn" data-act="cert" data-sem="${sem2?2:1}">${ic('cert')} Ver certificado</button></div></div>`:''}
-    <div class="trail">${nodes}</div>
+    <div class="card"><div class="row"><div class="grow"><h2>Olá, ${esc(s.name.split(' ')[0])}!</h2><p class="muted">${(today()[s.id]||{}).ok?'Sua presença de hoje foi confirmada pela tutora.':window.__ALUNO__?'Sua presença de hoje ficou registrada neste computador.':'Sua presença foi enviada. Aguarde a tutora confirmar.'}</p></div>
+      ${contBtn}</div></div>
+    ${colOn()?vColTrail(s):''}
+    ${!colOn()&&(sem1||sem2)?`<div class="card" style="border-color:var(--sun)"><div class="row"><div class="grow"><h3>Certificado disponível</h3><p class="muted">Você concluiu os módulos do ${sem2?'2º':'1º'} semestre.</p></div><button class="btn" data-act="cert" data-sem="${sem2?2:1}">${ic('cert')} Ver certificado</button></div></div>`:''}
+    ${colOn()?'':`<div class="trail">${nodes}</div>`}
+    <div class="row" style="justify-content:flex-end"><button class="btn ghost sm" data-act="mybackup">${ic('save')} Guardar meu progresso</button><button class="btn ghost sm" data-act="tutora">${ic('tutor')} Área da tutora</button></div>
    </section></div></main>${foot}`;
 }
 
@@ -736,16 +761,19 @@ function vLesson(){
   const s=me(),st=steps(V.mod,V.les),stp=st[V.step],mm=MODS[V.mod-1];
   const prog=st.map((_,i)=>`<i class="${i<V.step?'on':i===V.step?'now':''}"></i>`).join('');
   const head=`${topbar()}<main class="wrap"><div class="player" style="--c:${MCOL(V.mod)}">
-   <div class="crumb">${V.les===0?`<button data-act="home">${ic('back')} Trilha</button> / Aquecimento de digitação`:`<button data-act="openMod" data-m="${V.mod}">${ic('back')} ${mm.name}</button> / Aula ${V.les}: ${mm.aulas[V.les-1]}`}</div><div class="prog">${prog}</div><div class="card step" id="stepbox">`;
+   <div class="crumb">${V.les===0?`<button data-act="home">${ic('back')} Trilha</button> / Aquecimento de digitação`:`${colOn()&&colHas(V.mod+'.'+V.les)?`<button data-act="home">${ic('back')} Colônia Digital</button>`:`<button data-act="openMod" data-m="${V.mod}">${ic('back')} ${mm.name}</button>`} / Aula ${V.mod}.${V.les}: ${mm.aulas[V.les-1]}`}</div><div class="prog">${prog}</div><div class="card step" id="stepbox">`;
   const tail=`</div></div></main>`;
   let body='';
-  const talk=(inner)=>`<div class="talk"><div class="fig">${ch(s)}</div><div class="bubble">${inner}</div></div>`;
+  const talk=(inner)=>`<div class="talk"><div class="fig">${ch(s)}</div><div class="bubble">${inner}${canSay()?`<button class="btn ghost sm say" data-act="say" aria-label="Ouvir o texto">${ic('sound')} Ouvir</button>`:''}</div></div>`;
+  if(stp.bonus&&V.st.errs0===undefined)V.st.errs0=V.errs;
+  const bon=stp.bonus?`<div class="bonusbar"><span class="pill warn">${ic('star',1)} Desafio bônus</span><span class="muted grow">É opcional. Vale 1 estrela extra e erros aqui não tiram estrela.</span><button class="btn ghost sm" data-act="skipbonus">Pular desafio</button></div>`:'';
   if(stp.t==='info'){
     body=talk(`<h2>${stp.title}</h2><p>${tx(stp.x)}</p>`)+`<p style="margin-top:18px;text-align:right"><button class="btn" data-act="next">${stp.stub?'Marcar como concluída (demo)':'Entendi!'} ${ic('arrow')}</button></p>`;
   }else if(stp.t==='anim'){
     body=talk(`<h2>${stp.title}</h2><p>${tx(stp.x)}</p>`)+`<div class="scene">${animSvg(stp.kind)}</div><p style="margin-top:18px;text-align:right"><button class="btn" data-act="next">Entendi! ${ic('arrow')}</button></p>`;
   }else if(stp.t==='quiz'){
-    body=talk(`<h2>${stp.q}</h2>`)+`<div class="opts">${stp.opts.map((o,i)=>`<button class="opt" data-act="ans" data-i="${i}">${o}</button>`).join('')}</div><div class="feed" id="feed" role="status"></div>`;
+    const ord=V.st.qo||(V.st.qo=shuffle(stp.opts.map((_,i)=>i))); /* opções embaralhadas: a certa não fica sempre em 1º */
+    body=talk(`<h2>${stp.q}</h2>`)+`<div class="opts">${ord.map(i=>`<button class="opt" data-act="ans" data-i="${i}">${stp.opts[i]}</button>`).join('')}</div><div class="feed" id="feed" role="status"></div>`;
   }else if(stp.t==='hot'){
     body=talk(`<h2>${stp.q}</h2>`)+`<div class="scene"><svg viewBox="0 0 420 260" role="img" aria-label="Computador com monitor, teclado, mouse e gabinete">
       <g data-part="gabinete"><rect x="320" y="90" width="70" height="140" rx="8" fill="#6c78b8"/><rect x="332" y="104" width="46" height="8" rx="4" fill="#3a4580"/><circle cx="355" cy="205" r="8" fill="#ffc43d"/></g>
@@ -770,7 +798,7 @@ function vLesson(){
   }else if(stp.t==='check'){
     body=talk(`<h2>${stp.q}</h2>`)+`<div class="stack" style="margin-top:14px">${stp.items.map((x,i)=>`<label class="task" style="cursor:pointer"><input type="checkbox" data-ck="1" id="ck${i}"> ${x}</label>`).join('')}</div><p style="margin-top:14px;text-align:right"><button class="btn" id="ckbtn" data-act="next" disabled>Continuar ${ic('arrow')}</button></p>`;
   }
-  return head+body+tail+(V.leave?leaveModal():'');
+  return head+bon+body+tail+(V.leave?leaveModal():'');
 }
 function animSvg(k){
  if(k==='click')return `<svg viewBox="0 0 420 240" role="img" aria-label="Animação: o cursor vai até o ícone e clica duas vezes para abrir"><rect x="10" y="10" width="400" height="220" rx="14" fill="#9fd6ff"/><g><rect x="60" y="70" width="64" height="64" rx="14" fill="#ffc43d"/><rect x="74" y="86" width="36" height="8" rx="4" fill="#fff"/><rect x="74" y="102" width="26" height="8" rx="4" fill="#fff"/><text x="92" y="156" text-anchor="middle" font-size="14" font-weight="800" fill="#1c2452">Meu texto</text></g>
@@ -793,7 +821,7 @@ function typeBox(text,showKb){
 /* ---------- lógica da digitação ---------- */
 let TY=null;
 function tasksHtml(tasks){return `<div class="tasks" id="tasks">${tasks.map((t,i)=>`<div class="task" id="task${i}"><span>${ic('check')}</span><div>${t.tx}<div class="hint" id="hint${i}"></div></div><button class="btn ghost sm" data-act="hint" data-i="${i}" style="margin-left:auto">Dica</button></div>`).join('')}</div><div class="feed" id="feed" role="status"></div>`}
-function runTasks(arg){let all=true;WS.sim.tasks.forEach((t,i)=>{let ok=false;try{ok=!!t.ok(arg)}catch(e){}const el=document.getElementById('task'+i);if(el)el.classList.toggle('done',ok);if(!ok)all=false});
+function runTasks(arg){let all=true;WS.okd=WS.okd||{};WS.sim.tasks.forEach((t,i)=>{let ok=!!WS.okd[i];if(!ok){try{ok=!!t.ok(arg)}catch(e){}if(ok)WS.okd[i]=1}const el=document.getElementById('task'+i);if(el)el.classList.toggle('done',ok);if(!ok)all=false});
   if(all&&!WS.done){WS.done=true;V.errs+=WS.hints>2?2:WS.hints>0?1:0;const f=document.getElementById('feed');f.className='feed ok';f.textContent='Missão cumprida!';addNext(f)}}
 /* ---------- simulador de Excel ---------- */
 const XC=['A','B','C','D','E','F'],XR=8;let XS=null;
@@ -807,16 +835,17 @@ function xlNum(r){const v=xlRaw(r);return v===''?NaN:Number(String(v).replace(',
 function xlRange(a,b){const [c1,r1]=[a[0],+a.slice(1)],[c2,r2]=[b[0],+b.slice(1)],o=[];for(let c=XC.indexOf(c1);c<=XC.indexOf(c2);c++)for(let r=r1;r<=r2;r++)o.push(XC[c]+r);return o}
 function xlVal(r,d=0){const raw=xlRaw(r);if(raw==='')return '';if(raw[0]!=='='){const n=Number(String(raw).replace(',','.'));return isNaN(n)?raw:n}
   if(d>8)return '#ERRO';
-  try{let e=raw.slice(1).toUpperCase().replace(/M[ÉE]DIA/g,'F.M').replace(/SOMA/g,'F.S').replace(/M[ÁA]XIMO/g,'F.X').replace(/M[ÍI]NIMO/g,'F.N');
+  try{let e=raw.slice(1).toUpperCase().replace(/M[ÉE]DIA/g,'F.M').replace(/SOMA/g,'F.S').replace(/M[ÁA]XIMO/g,'F.X').replace(/M[ÍI]NIMO/g,'F.N')
+     .replace(/(\d),(\d)/g,'$1.$2').replace(/;/g,','); /* vírgula decimal e ; como separador (Excel em português) */
    const nv=x=>{const v=xlVal(x,d+1);return typeof v==='number'?v:0};
-   e=e.replace(/([A-F]\d):([A-F]\d)/g,(m,a,b)=>'['+xlRange(a,b).map(nv).join(',')+']').replace(/\b([A-F]\d)\b/g,(m,x)=>nv(x));
+   e=e.replace(/([A-F]\d):([A-F]\d)/g,(m,a,b)=>'['+xlRange(a,b).map(nv).join(',')+']').replace(/\b([A-F]\d)\b/g,(m,x)=>'('+nv(x)+')');
    if(!/^[0-9+\-*/().,\[\]\sFSMXN]*$/.test(e))return '#ERRO';
    const fl=a=>a.flat(),F={S:(...a)=>fl(a).reduce((x,y)=>x+y,0),M:(...a)=>fl(a).reduce((x,y)=>x+y,0)/fl(a).length,X:(...a)=>Math.max(...fl(a)),N:(...a)=>Math.min(...fl(a))};
    const v=new Function('F','return '+e)(F);return isFinite(v)?Math.round(v*100)/100:'#ERRO'}catch(err){return '#ERRO'}}
 function startXl(key){const cfg=SIMX[key];WS={sim:cfg,hints:0,done:false};
   XS={cells:{},sel:'A1',hit:new Set(['A1']),charted:false,cfg};
   for(const [k,v] of Object.entries(cfg.cells))XS.cells[k]={raw:v};
-  const X={hit:r=>XS.hit.has(r),raw:r=>xlRaw(r),val:r=>xlVal(r),num:r=>xlNum(r),bold:r=>!!(XS.cells[r]||{}).bold,fill:r=>(XS.cells[r]||{}).fill,charted:()=>XS.charted};
+  const X={hit:r=>XS.hit.has(r),raw:r=>xlRaw(r),val:r=>xlVal(r),num:r=>xlNum(r),isF:r=>/^=/.test(xlRaw(r))&&typeof xlVal(r)==='number',bold:r=>!!(XS.cells[r]||{}).bold,fill:r=>(XS.cells[r]||{}).fill,charted:()=>XS.charted};
   const tbl=document.getElementById('xl'),inp=document.getElementById('xin'),ref=document.getElementById('xref');
   const fmt=v=>typeof v==='number'?String(v).replace('.',','):String(v);
   const paint=()=>{let h='<tr><th></th>'+XC.map(c=>`<th>${c}</th>`).join('')+'</tr>';
@@ -830,9 +859,13 @@ function startXl(key){const cfg=SIMX[key];WS={sim:cfg,hints:0,done:false};
     runTasks(X)};
   const commit=()=>{const c=XS.cells[XS.sel]||(XS.cells[XS.sel]={});if(c.raw!==inp.value){c.raw=inp.value}};
   const select=r=>{commit();XS.sel=r;XS.hit.add(r);inp.value=xlRaw(r);paint();inp.focus();inp.select()};
-  tbl.addEventListener('click',e=>{const td=e.target.closest('td');if(td)select(td.dataset.ref)});
-  inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();commit();const c=XS.sel[0],r=+XS.sel.slice(1);XS.sel=c+Math.min(XR,r+1);XS.hit.add(XS.sel);inp.value=xlRaw(XS.sel);paint();inp.focus();inp.select()}});
-  inp.addEventListener('input',()=>{});inp.addEventListener('blur',()=>{commit();paint()});
+  /* correção do clique perdido: a célula é escolhida no mousedown (antes do blur redesenhar a tabela) */
+  tbl.addEventListener('mousedown',e=>{const td=e.target.closest('td');if(!td)return;e.preventDefault();select(td.dataset.ref)});
+  tbl.addEventListener('click',e=>{const td=e.target.closest('td');if(td&&td.dataset.ref!==XS.sel)select(td.dataset.ref)});
+  const move=(dc,dr)=>{commit();const ci=XC.indexOf(XS.sel[0]),r=+XS.sel.slice(1);XS.sel=XC[Math.max(0,Math.min(XC.length-1,ci+dc))]+Math.max(1,Math.min(XR,r+dr));XS.hit.add(XS.sel);inp.value=xlRaw(XS.sel);paint();inp.focus();inp.select()};
+  inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();move(0,1)}else if(e.key==='Tab'){e.preventDefault();move(e.shiftKey?-1:1,0)}else if(e.key==='Escape'){inp.value=xlRaw(XS.sel)}});
+  inp.addEventListener('input',()=>{const td=tbl.querySelector('td[data-ref="'+XS.sel+'"]');if(td)td.textContent=inp.value});
+  inp.addEventListener('blur',()=>{if(xlRaw(XS.sel)!==inp.value){commit();paint()}});
   document.getElementById('xrib').addEventListener('mousedown',e=>e.preventDefault());
   document.getElementById('xrib').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;commit();const c=XS.cells[XS.sel]||(XS.cells[XS.sel]={raw:''});
     if(b.dataset.xb)c.bold=!c.bold;if(b.dataset.xf)c.fill=b.dataset.xf;if(b.dataset.xchart)XS.charted=true;paint()});
@@ -876,17 +909,25 @@ function startTyping(onDone){
   paintType();
   const focus=()=>{inp.focus();box.classList.add('focus')};
   box.addEventListener('click',focus);inp.addEventListener('blur',()=>box.classList.remove('focus'));
-  inp.addEventListener('input',e=>{
-    if(e.isComposing||TY.done){return}
-    const v=inp.value;inp.value='';
+  const proc=()=>{
+    const v=inp.value;inp.value='';if(!v||!TY||TY.done)return;
+    const f=document.getElementById('feed');
     for(const c of v){ if(TY.done)break;
       if(!TY.t0)TY.t0=performance.now();
-      if(c===TY.text[TY.pos]){TY.pos++;TY.ok++;box.classList.remove('err')}
-      else{TY.bad++;box.classList.add('err');}
+      const ex=TY.text[TY.pos]||'';
+      if(c===ex){TY.pos++;TY.ok++;box.classList.remove('err');if(TY.hint&&f){f.textContent='';TY.hint=0}}
+      else{TY.bad++;box.classList.add('err');
+        const nf=ex.normalize('NFD');let h='';
+        if(ex!==ex.toLowerCase()&&c===ex.toLowerCase())h='Essa letra é maiúscula: segure a tecla Shift e aperte a letra.';
+        else if(nf.length>1&&nf[0]===c&&ex!=='ç')h='Essa letra tem acento: aperte primeiro a tecla do acento e depois a letra.';
+        else if(c!==c.toLowerCase()&&ex===c.toLowerCase())h='Essa letra é minúscula: solte o Shift (ou desligue o Caps Lock).';
+        if(h&&f){f.className='feed no';f.textContent=h;TY.hint=1}}
       if(TY.pos>=TY.text.length){finishType();break}
     }
     paintType();
-  });
+  };
+  inp.addEventListener('input',e=>{if(e.isComposing||!TY||TY.done)return;proc()});
+  inp.addEventListener('compositionend',()=>setTimeout(proc,0)); /* teclas "mortas" de acento (ABNT2) */
   setTimeout(focus,50);
 }
 function paintType(){
@@ -948,13 +989,14 @@ function wordSim(key){
    <div class="feed" id="feed" role="status"></div>`;
 }
 let WS=null;
+function selImg(sv){document.querySelectorAll('#paper svg.wsel').forEach(x=>x.classList.remove('wsel'));if(WS)WS.img=sv||null;if(sv)sv.classList.add('wsel')}
 function startWord(key){
   const paper=document.getElementById('paper');if(!paper)return;
   const sim=SIMS[key];WS={sim,hints:0,done:false};
   try{document.execCommand('styleWithCSS',false,true)}catch(e){}
   const check=()=>{
     let all=true;
-    sim.tasks.forEach((t,i)=>{const ok=!!t.ok(paper);const el=document.getElementById('task'+i);if(el)el.classList.toggle('done',ok);if(!ok)all=false});
+    WS.okd=WS.okd||{};sim.tasks.forEach((t,i)=>{let ok=!!WS.okd[i];if(!ok){try{ok=!!t.ok(paper)}catch(e){}if(ok)WS.okd[i]=1}const el=document.getElementById('task'+i);if(el)el.classList.toggle('done',ok);if(!ok)all=false});
     if(all&&!WS.done){WS.done=true;V.errs+=Math.min(2,WS.hints>2?2:WS.hints>0?1:0);
       const f=document.getElementById('feed');f.className='feed ok';f.innerHTML='Missão cumprida!';
       const p=document.createElement('p');p.style.cssText='margin-top:14px;text-align:right';p.innerHTML=`<button class="btn" data-act="next">${ic('arrow')} Continuar</button>`;f.after(p)}
@@ -965,12 +1007,24 @@ function startWord(key){
   rb.addEventListener('click',e=>{
     const b=e.target.closest('button');if(!b)return;
     paper.focus();
-    if(b.dataset.img){document.execCommand('insertHTML',false,'<div style="text-align:left"><svg viewBox="0 0 120 80" width="120" height="80" role="img" aria-label="Figura de um sol sobre a colina"><rect width="120" height="80" rx="8" fill="#9fd6ff"/><circle cx="90" cy="24" r="12" fill="#ffc43d"/><path d="M0 80V56c20-18 40-18 60 0s40 14 60-4v28z" fill="#17935a"/></svg></div>')}
+    const img=WS.img&&paper.contains(WS.img)?WS.img:null;
+    if(b.dataset.img){
+      /* a imagem entra numa linha nova DENTRO do parágrafo (como no Word) e fica escolhida: alinhar o parágrafo alinha a imagem */
+      document.execCommand('insertHTML',false,'<br><svg viewBox="0 0 120 80" width="120" height="80" role="img" aria-label="Figura de um sol sobre a colina"><rect width="120" height="80" rx="8" fill="#9fd6ff"/><circle cx="90" cy="24" r="12" fill="#ffc43d"/><path d="M0 80V56c20-18 40-18 60 0s40 14 60-4v28z" fill="#17935a"/></svg>');
+      /* o navegador às vezes coloca a imagem fora do parágrafo: junta a imagem ao parágrafo de cima */
+      paper.querySelectorAll(':scope > svg').forEach(sv=>{let pr=sv.previousSibling;while(pr&&(pr.nodeName==='BR'||(pr.nodeType===3&&!pr.textContent.trim()))){const x=pr.previousSibling;pr.remove();pr=x}
+        let blk=pr&&pr.nodeType===1&&/^(P|DIV|LI|UL|OL)$/.test(pr.nodeName)?pr:null;if(blk&&/^(UL|OL)$/.test(blk.nodeName))blk=blk.lastElementChild||blk;
+        if(!blk){blk=document.createElement('p');sv.before(blk)}blk.append(document.createElement('br'),sv)});
+      const all=paper.querySelectorAll('svg'),last=all[all.length-1];selImg(last);
+      if(last){const r=document.createRange();r.setStartAfter(last);r.collapse(true);const sl=getSelection();sl.removeAllRanges();sl.addRange(r)}}
+    else if(img&&/^justify/.test(b.dataset.cmd||'')){const bl=img.closest('p,div,li');if(bl&&bl!==paper)bl.style.textAlign={justifyCenter:'center',justifyRight:'right',justifyLeft:'left'}[b.dataset.cmd]||''}
     else if(b.dataset.cmd){document.execCommand(b.dataset.cmd,false,null)}
     else if(b.dataset.color){document.execCommand('foreColor',false,b.dataset.color)}
     check();
   });
   paper.addEventListener('input',check);paper.addEventListener('keyup',check);
+  paper.addEventListener('mousedown',e=>{const sv=e.target.closest&&e.target.closest('svg');selImg(sv&&paper.contains(sv)?sv:null)});
+  paper.addEventListener('keydown',()=>selImg(null));
   check();
 }
 
@@ -1016,7 +1070,7 @@ function vTest(){
        <h2 style="margin:12px 0">${ok?'Meta batida!':'Quase lá!'}</h2>
        <p class="muted">${ok?'Você alcançou a meta de digitação deste módulo.':`A meta é ${meta.wpm} palavras/min com ${meta.acc}% de precisão. ${r.wpm<meta.wpm?'Faltaram '+(meta.wpm-r.wpm)+' palavras por minuto. ':''}${r.acc<meta.acc?'A precisão ficou abaixo da meta. ':''}Tente de novo.`}</p>
        <div class="row" style="justify-content:center;margin-top:18px"><button class="btn" data-act="${ok?'test':'tpart'}" data-p="type">${ok?'Voltar ao teste':'Tentar de novo'}</button></div></div>`+end}
-    return hdr+back+`<div class="card step"><h2>Teste de digitação</h2><p class="muted">Meta: ${meta.wpm} palavras por minuto com ${meta.acc}% de precisão. Clique na caixa e digite.</p>${typeBox(V.ttext||(V.ttext=pickTest(s)),true)}</div>`+end;
+    return hdr+back+`<div class="card step"><h2>Teste de digitação</h2><p class="muted">Meta: ${meta.wpm} palavras por minuto com ${meta.acc}% de precisão. Clique na caixa e digite.</p>${typeBox(V.ttext||(V.ttext=pickTest(s,V.mod)),true)}</div>`+end;
   }
   // perguntas
   if(!TQ){const bank=BANK[V.mod];TQ={qs:shuffle(bank).slice(0,10).map(([q,o,a_])=>{const idx=shuffle(o.map((x,i)=>i));return {q,opts:idx.map(i=>o[i]),a:idx.indexOf(a_)}}),ans:[],i:0,done:false}}
@@ -1065,6 +1119,8 @@ function vTutor(){
      <td>${stuck?`<span class="pill bad">Precisa de apoio</span>`:''}</td>
      <td><div class="row" style="gap:6px">${p&&!p.ok?`<button class="btn sm" data-act="confirm" data-id="${s.id}">Confirmar</button>`:!p?`<button class="btn ghost sm" data-act="confirm" data-id="${s.id}">Marcar presente</button>`:''}${!modPassed(s,c)&&modComplete(s,c)?`<button class="btn ghost sm" data-act="relopen" data-id="${s.id}">Liberar módulo</button>`:''}</div></td></tr>`}).join('');
   return `${topbar()}<main class="wrap" style="padding-top:20px;padding-bottom:30px"><div class="stack">
+   ${demoNote()}
+   <div class="row"><button class="btn sm" data-act="tutora">${ic('tutor')} Área da tutora: Colônia, cópia de segurança e gabaritos</button></div>
    <div class="row"><h1 class="grow">Sala hoje · ${sl}</h1><div class="seg">${slots.map(t=>`<button class="${t===sl?'on':''}" data-act="slot" data-t="${t}">${t}</button>`).join('')}</div></div>
    <div class="tiles"><div class="tile"><b>${entered.length}/${cfgP(pol).pcs}</b><span>computadores em uso (${list.length} no horário)</span></div><div class="tile"><b>${conf.length}</b><span>presenças confirmadas</span></div><div class="tile"><b>${list.filter(s=>lessonsCount(s)<4&&s.hist.filter(x=>!x).length>=2).length}</b><span>alunos para observar</span></div></div>
    <div class="card"><p class="muted" style="margin-bottom:10px">Cada aluno segue o seu ritmo, de qualquer idade e em qualquer ponto do curso. A presença nasce quando ele entra; você confirma que está na sala.</p>
@@ -1094,12 +1150,13 @@ function vGestor(){
   const pcsCtl=pls.map(p=>`<div class="row" style="padding:6px 0;border-bottom:1px solid var(--line)"><b class="grow">${p}</b><button class="btn ghost sm" data-act="pcs" data-p="${p}" data-d="-1" aria-label="Menos um computador">−</button><b>${cfgP(p).pcs} computadores</b><button class="btn ghost sm" data-act="pcs" data-p="${p}" data-d="1" aria-label="Mais um computador">+</button></div>`).join('');
   const risk=list.filter(s=>attendance(s)<75||(lessonsCount(s)<3&&s.hist.filter(x=>!x).length>=2));
   return `${topbar()}<main class="wrap" style="padding-top:20px;padding-bottom:30px"><div class="stack">
+   ${demoNote()}
    <div class="row"><h1 class="grow">Visão geral</h1><div class="seg"><button class="${pol==='todos'?'on':''}" data-act="polo" data-p="todos">Todos os polos</button>${polos.map(p=>`<button class="${p===pol?'on':''}" data-act="polo" data-p="${p}">${p}</button>`).join('')}</div></div>
    <div class="tiles"><div class="tile"><b>${list.length}</b><span>alunos</span></div><div class="tile"><b>${pcsT}</b><span>computadores</span></div><div class="tile"><b>${avg(list,attendance)}%</b><span>presença média</span></div><div class="tile"><b>${avg(list,s=>lessonsCount(s)/40*100)}%</b><span>avanço médio no curso</span></div><div class="tile"><b>${risk.length}</b><span>alunos em atenção</span></div></div>
    <div class="card"><h2 style="margin-bottom:6px">Horários e computadores</h2><p class="muted" style="margin-bottom:10px">Sem turmas fixas: cada aluno começa do zero, no seu ritmo, com idades misturadas. O limite de cada horário é o número de computadores.</p><div class="tblwrap"><table class="tbl"><thead><tr><th>Horário</th><th>Computadores</th><th>Presença</th><th>Avanço</th><th>Digitação</th><th>Alunos</th></tr></thead><tbody>${rows}</tbody></table></div></div>
    <div class="card"><h2 style="margin-bottom:10px">Onde os alunos estão no curso</h2><div class="tiles">${dist}</div></div>
    <div class="card"><h2 style="margin-bottom:10px">Matricular aluno</h2><p class="muted" style="margin-bottom:10px">O aluno entra no módulo 1, aula 1, e pode começar em qualquer semana.</p>
-    <div class="row" style="gap:10px;flex-wrap:wrap"><input id="en" class="inp" placeholder="Nome do aluno" aria-label="Nome do aluno"><input id="ea" class="inp" type="number" min="8" max="12" value="9" style="width:80px" aria-label="Idade"><select id="es" class="sel" aria-label="Horário">${opts.map(o=>`<option value="${o.p}|${o.t}" ${o.full?'disabled':''}>${pls.length>1?o.p+' · ':''}${o.t}${o.full?' (lotado)':''}</option>`).join('')}</select><button class="btn" data-act="enroll">Matricular</button></div><div id="eerr" class="muted" style="margin-top:6px" role="status"></div></div>
+    <div class="row" style="gap:10px;flex-wrap:wrap"><input id="en" class="sel" placeholder="Nome do aluno" aria-label="Nome do aluno" style="flex:1;min-width:160px;width:auto;margin:0"><input id="ea" class="sel" type="number" min="8" max="12" value="9" style="width:90px;margin:0" aria-label="Idade"><select id="es" class="sel" aria-label="Horário" style="flex:1 1 180px;width:auto;min-width:0;max-width:100%;margin:0">${opts.map(o=>`<option value="${o.p}|${o.t}" ${o.full?'disabled':''}>${pls.length>1?o.p+' · ':''}${o.t}${o.full?' (lotado)':''}</option>`).join('')}</select><button class="btn" data-act="enroll">Matricular</button></div><div id="eerr" class="muted" style="margin-top:6px" role="status"></div></div>
    <div class="card"><h2 style="margin-bottom:6px">Computadores por polo</h2>${pcsCtl}</div>
    <div class="card"><h2 style="margin-bottom:10px">Liberações feitas pelos tutores</h2>${(()=>{const L=[];list.forEach(s=>Object.entries(s.tests).forEach(([m,t])=>{if(t.release)L.push([s,m,t.release])}));return L.length?L.map(([s,m,r])=>`<div class="row" style="padding:6px 0;border-bottom:1px solid var(--line)"><b class="grow">${esc(s.name)} <span class="muted">· módulo ${m}</span></b><span class="pill warn">${esc(r.why)}</span><span class="muted">${r.by}, ${r.at}</span></div>`).join(''):'<p class="muted">Nenhuma liberação até agora.</p>'})()}</div>
    <div class="card"><h2 style="margin-bottom:10px">Alunos em atenção</h2>${risk.length?risk.map(s=>`<div class="row" style="padding:6px 0;border-bottom:1px solid var(--line)"><b class="grow">${esc(s.name)} <span class="muted">· ${s.slot}</span></b><span class="pill bad">Presença ${attendance(s)}%</span><span class="pill">${lessonsCount(s)} aulas</span></div>`).join(''):'<p class="muted">Nenhum aluno em atenção.</p>'}</div>
@@ -1115,6 +1172,7 @@ function vPais(){
   const mods=MODS.map(m=>{const d=modLessonsDone(s,m.n),t=s.tests[m.n];
     return `<tr><td><b>${m.n}. ${m.name}</b></td><td>${d}/${m.aulas.length}<div class="bar" style="--c:${MCOL(m.n)}"><i style="width:${d/m.aulas.length*100}%"></i></div></td><td>${t?`<span class="pill ${t.score>=MIN?'ok':'bad'}">${t.score||0} pts</span> <span class="pill ${t.typOk?'ok':'bad'}">${t.typOk?'digitação na meta':'digitação pendente'}</span> ${t.release?'<span class="pill warn">liberado pelo tutor</span>':''}`:'<span class="muted">Ainda não fez</span>'}</td></tr>`}).join('');
   return `${topbar()}<main class="wrap" style="padding-top:20px;padding-bottom:30px"><div class="stack">
+   ${demoNote()}
    <div class="row"><h1 class="grow">Acompanhamento de ${esc(s.name.split(' ')[0])}</h1><span class="chip">${s.slot}</span></div>
    <div class="tiles"><div class="tile"><b>${attendance(s)}%</b><span>presença</span></div><div class="tile"><b>${lessonsCount(s)}/40</b><span>aulas concluídas</span></div><div class="tile"><b>${passedCount(s)}/7</b><span>módulos aprovados</span></div><div class="tile"><b>${bestWpm(s)}</b><span>melhor digitação (palavras/min)</span></div></div>
    <div class="card"><h2 style="margin-bottom:10px">Presença nas últimas semanas</h2><div class="row" style="gap:8px">${hist}</div></div>
@@ -1124,10 +1182,154 @@ function vPais(){
   </div></main>${foot}`;
 }
 
+/* ===================================================================================
+   COLÔNIA DIGITAL, ÁREA DA TUTORA, CÓPIA DE SEGURANÇA E GABARITOS (versão 20/11/2026)
+   Tudo funciona só no navegador (sem servidor). O PIN protege a área da tutora contra
+   cliques das crianças; não é uma senha de segurança forte.
+   =================================================================================== */
+const PIN_PADRAO='2501';
+const COL=[
+ {n:1,name:'Computador e teclado',dia:'Segunda',c:1,main:['1.1','1.2','1.3','1.4','2.1'],bonus:['2.2']},
+ {n:2,name:'Word',dia:'Terça',c:4,main:['4.1','4.2','4.3','4.4'],bonus:['4.5','4.6']},
+ {n:3,name:'Internet segura',dia:'Quarta',c:3,main:['3.1','3.2','3.3','3.4','3.5'],bonus:[]},
+ {n:4,name:'Excel',dia:'Quinta',c:5,main:['5.1','5.2','5.3','5.4','5.7'],bonus:['5.5','5.6']},
+ {n:5,name:'Projeto final e Mostra',dia:'Sexta',c:7,main:['7.1','7.2','7.3'],bonus:['2.3','5.8']}
+];
+const ROTEIRO={1:'Ligar os notebooks e abrir a plataforma. Cada criança cria o perfil (só o primeiro nome). Mostrar o touchpad e a posição das mãos. Bônus: digitação da fileira de cima.',
+ 2:'Liberar a Missão 2. Lembrar: clicar 3 vezes seleciona a linha. Se sobrar tempo, as aulas bônus 4.5 (imagem) e 4.6 (documento completo).',
+ 3:'Liberar a Missão 3. Conversar em roda sobre senhas e estranhos antes do notebook. Combinado da internet no fim.',
+ 4:'Liberar a Missão 4. No Excel, digitar na barra e apertar Enter. Bônus: fórmulas (5.5) e média (5.6).',
+ 5:'Liberar a Missão 5. Projeto: tema, plano, texto e planilha. Fazer a cópia de segurança antes da Mostra e mostrar o certificado da Colônia.'};
+const TRAVA={'1.3':'Duplo clique: algumas crianças clicam devagar demais. Mostrar o ritmo "tum-tum".','2.1':'Olham para o teclado. Cobrir as mãos com um pano ajuda.','2.4':'Acentos: no teclado ABNT2, aperta-se o acento, solta, e depois a letra.',
+ '4.3':'Selecionar o texto antes de clicar no botão (3 cliques seguidos).','4.4':'Para a lista, arrastar do 1º ao último item antes de clicar em Lista.','4.5':'Clicar na imagem (ganha borda) e depois em centralizar.',
+ '5.2':'Esquecem o Enter para confirmar a célula.','5.4':'Escrevem SOMA sem o sinal de igual (=).','5.5':'Usar * para multiplicar (não x).','7.3':'Texto com menos de 40 letras não conta: pedir duas ou três frases.'};
+const colCfg=()=>DB.config.colonia||(DB.config.colonia={on:false,open:[]});
+const colOn=()=>!!colCfg().on;
+const colHas=k=>COL.some(m=>m.main.includes(k)||m.bonus.includes(k));
+const colOpen=n=>colCfg().open.includes(n);
+const kOf=k=>k.split('.').map(Number);
+const colDone=(s,m)=>m.main.filter(k=>s.prog[k]).length;
+function colNext(s){for(const m of COL)if(colOpen(m.n))for(const k of m.main)if(!s.prog[k])return kOf(k);for(const m of COL)if(colOpen(m.n))for(const k of m.bonus)if(!s.prog[k])return kOf(k);return null}
+function vColTrail(s){
+  const all=COL.every(m=>colDone(s,m)===m.main.length);
+  const cards=COL.map(m=>{const op=colOpen(m.n),d=colDone(s,m),tot=m.main.length,ok=d===tot;
+    const les=(ks,b)=>ks.map(k=>{const [mm,l]=kOf(k);return `<button class="les" data-act="openLes" data-m="${mm}" data-l="${l}" style="--c:${MCOL(mm)}"><span class="n">${mm}.${l}</span><span class="grow"><b>${MODS[mm-1].aulas[l-1]}</b>${b?' <span class="pill warn">bônus</span>':''}</span>${s.prog[k]?stars(s.prog[k]):''}</button>`}).join('');
+    return `<div class="node ${ok?'done':op?'open':'locked'}" style="--c:${MCOL(m.c)}"><div class="spine"><div class="dot">${op?m.n:ic('lock')}</div><div class="line"></div></div>
+     <div class="mcard"><h3>Missão ${m.n}: ${m.name}</h3><div class="muted" style="font-weight:700">${m.dia}</div>
+      <div class="meta">${ok?`<span class="pill ok">${ic('check')} Missão cumprida</span>`:op?`<span class="pill">${d} de ${tot} aulas</span>`:`<span class="pill">${ic('lock')} A tutora libera esta missão</span>`}</div>
+      ${op?`<div class="bar"><i style="width:${d/tot*100}%"></i></div><div class="lessons">${les(m.main)}${les(m.bonus,1)}</div>`:''}</div></div>`}).join('');
+  return `<div class="card" style="border-color:var(--sun)"><div class="row"><div class="grow"><h2>${ic('flag')} Colônia Digital</h2><p class="muted">Uma missão por dia. A tutora libera a missão de hoje.</p></div>${all?`<button class="btn" data-act="colcert">${ic('cert')} Certificado da Colônia</button>`:''}</div></div><div class="trail">${cards}</div>`;
+}
+function vColCert(){const s=me();
+  return `${topbar()}<main class="wrap"><div class="crumb noprint"><button data-act="home">${ic('back')} Colônia</button> / Certificado</div>
+   <div class="cert"><div style="letter-spacing:.2em;font-weight:800">INSPIRAR INFORMÁTICA · COLÔNIA DIGITAL</div>
+    <h2 style="margin-top:10px">Certificado de Participação</h2><p style="margin-top:12px">Certificamos que</p>
+    <div class="name">${esc(s.name)}</div>
+    <p>participou da <b>Colônia Digital</b> e cumpriu as missões ${COL.map(m=>m.name).join(', ')}.</p>
+    <p style="margin-top:10px">${stars(3)} ${starsTotal(s)} estrelas conquistadas</p>
+    <p style="margin-top:14px;font-size:.9rem">Pinhão, ${new Date().toLocaleDateString('pt-BR')} · Tutora ${esc(tutorName())}</p></div>
+   <p class="noprint" style="text-align:center;margin-top:14px"><button class="btn" data-act="print">Imprimir</button></p></main>`;
+}
+/* ---------- cópia de segurança (arquivo JSON e código para copiar e colar) ---------- */
+const realStudents=()=>Object.values(DB.students).filter(x=>/^[tm]/.test(x.id));
+function packData(tipo,list){const ids=list.map(x=>x.id),pres={};
+  for(const [d,o] of Object.entries(DB.presence||{}))for(const id of ids)if(o[id]){(pres[d]=pres[d]||{})[id]=o[id]}
+  const o={app:'inspirar-informatica',v:1,tipo,em:new Date().toISOString(),students:Object.fromEntries(list.map(x=>[x.id,x])),presence:pres};
+  if(tipo==='computador')o.config={colonia:colCfg(),tutora:tutorName()};return o}
+async function toCode(obj){const j=JSON.stringify(obj);
+  try{if(window.CompressionStream){const cs=new Blob([j]).stream().pipeThrough(new CompressionStream('deflate-raw'));const b=new Uint8Array(await new Response(cs).arrayBuffer());let bin='';b.forEach(x=>bin+=String.fromCharCode(x));return 'TD1.'+btoa(bin)}}catch(e){}
+  return 'TD0.'+btoa(unescape(encodeURIComponent(j)))}
+async function fromText(t){t=String(t||'').trim();
+  if(t.startsWith('{'))return JSON.parse(t);
+  const c=t.replace(/\s+/g,'');
+  if(c.startsWith('TD0.'))return JSON.parse(decodeURIComponent(escape(atob(c.slice(4)))));
+  if(c.startsWith('TD1.')){const bin=atob(c.slice(4)),b=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)b[i]=bin.charCodeAt(i);
+    const ds=new Blob([b]).stream().pipeThrough(new DecompressionStream('deflate-raw'));return JSON.parse(await new Response(ds).text())}
+  throw new Error('formato')}
+function mergeStudent(a,b){if(!a)return b;const o=Object.assign({},a);
+  o.prog=Object.assign({},a.prog);for(const [k,v] of Object.entries(b.prog||{}))o.prog[k]=Math.max(o.prog[k]||0,v);
+  o.tests=Object.assign({},a.tests);for(const [m,t] of Object.entries(b.tests||{})){const x=o.tests[m];o.tests[m]=!x?t:Object.assign({},x,t,{score:Math.max(x.score||0,t.score||0),tries:Math.max(x.tries||0,t.tries||0),typOk:!!(x.typOk||t.typOk),release:x.release||t.release})}
+  const seen=new Set((a.typ||[]).map(x=>JSON.stringify(x)));o.typ=(a.typ||[]).concat((b.typ||[]).filter(x=>!seen.has(JSON.stringify(x))));
+  o.stk=[...new Set([...(a.stk||[]),...(b.stk||[])])];o.bonus=Math.max(a.bonus||0,b.bonus||0);o.proj=Object.assign({},b.proj||{},a.proj||{});return o}
+function importData(o){if(!o||o.app!=='inspirar-informatica'||!o.students)throw new Error('arquivo');let n=0;
+  for(const [id,st] of Object.entries(o.students)){if(!/^[tm]/.test(id)||!st||!st.prog)continue;DB.students[id]=mergeStudent(DB.students[id],st);n++}
+  for(const [d,ob] of Object.entries(o.presence||{})){const t=DB.presence[d]||(DB.presence[d]={});for(const [id,p] of Object.entries(ob))if(!t[id])t[id]=p}
+  if(o.config&&o.config.tutora&&!DB.config.tutoraSet)DB.config.tutora=o.config.tutora;
+  save();return n}
+function download(name,text){try{const b=new Blob([text],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);return true}catch(e){return false}}
+const slug=t=>easyTxt(t).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'aluno';
+async function doBackup(tipo){const list=tipo==='aluno'?[me()]:realStudents();const o=packData(tipo,list);
+  const name=(tipo==='aluno'?'progresso-'+slug(me().name):'copia-computador')+'-'+dayKey()+'.json';
+  const ok=download(name,JSON.stringify(o));const code=await toCode(o);
+  if(tipo==='computador'){DB.config.lastBackup=new Date().toLocaleString('pt-BR');save()}
+  V.modal={kind:'code',title:tipo==='aluno'?'Progresso guardado':'Cópia de segurança deste computador',file:ok?name:'',code,n:list.length};render()}
+function modalHtml(){const m=V.modal;let inner='';
+  if(m.kind==='code')inner=`<h2 id="mdt">${esc(m.title)}</h2>
+    <p class="muted" style="margin:8px 0">${m.file?`O arquivo <b>${esc(m.file)}</b> foi baixado (pasta Downloads). Guarde num pen drive ou na pasta da Colônia.`:'Este navegador não deixou baixar o arquivo.'} ${m.n} aluno(s). Se preferir, copie o código abaixo e guarde (por exemplo, mandando para você mesma no WhatsApp).</p>
+    <textarea id="codeout" class="sel" readonly rows="5" style="font-family:monospace;font-size:.8rem">${esc(m.code)}</textarea>
+    <div class="row" style="margin-top:12px;justify-content:flex-end"><button class="btn ghost" data-act="copycode">Copiar código</button><button class="btn" data-act="modalx">Fechar</button></div>`;
+  if(m.kind==='restore')inner=`<h2 id="mdt">Trazer progresso</h2>
+    <p class="muted" style="margin:8px 0">Escolha o arquivo de progresso (.json) ou cole o código. O progresso é somado ao que já existe neste computador: nada é apagado.</p>
+    <label style="font-weight:800">Arquivo<input type="file" id="rfile" accept=".json,.txt,application/json,text/plain" class="sel"></label>
+    <label style="font-weight:800;display:block;margin-top:10px">ou código<textarea id="rcode" class="sel" rows="4" style="font-family:monospace;font-size:.8rem" placeholder="TD1..."></textarea></label>
+    <div class="feed" id="rmsg" role="status">${esc(m.msg||'')}</div>
+    <div class="row" style="margin-top:8px;justify-content:flex-end"><button class="btn ghost" data-act="modalx">Fechar</button><button class="btn" data-act="restoredo">Trazer</button></div>`;
+  return `<div class="modal" role="dialog" aria-modal="true" aria-labelledby="mdt"><div class="card" style="max-width:560px;width:100%">${inner}</div></div>`}
+async function doRestore(){const f=document.getElementById('rfile'),c=document.getElementById('rcode').value,msg=document.getElementById('rmsg');
+  try{let t=c;if(f.files&&f.files[0])t=await f.files[0].text();if(!String(t).trim()){msg.className='feed no';msg.textContent='Escolha um arquivo ou cole um código.';return}
+    const o=await fromText(t),n=importData(o);msg.className='feed ok';msg.textContent=n?`Pronto! ${n} aluno(s) trazido(s) para este computador.`:'O arquivo não tinha alunos.';
+    const ids=Object.keys(o.students).filter(x=>/^[tm]/.test(x));
+    if(n===1&&window.__ALUNO__&&!V.role){V.modal=null;enter('aluno',ids[0]);return}
+    setTimeout(()=>{if(V.modal&&V.modal.kind==='restore'){V.modal=null;render()}},1400)}
+  catch(e){msg.className='feed no';msg.textContent='Não consegui ler. Confira se é o arquivo ou o código certo da Inspirar Informática.'}}
+/* ---------- ler em voz alta (voz do próprio computador, sem internet e sem custo) ---------- */
+function canSay(){try{return 'speechSynthesis' in window&&!!window.SpeechSynthesisUtterance}catch(e){return false}}
+function say(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='pt-BR';u.rate=.95;const vs=speechSynthesis.getVoices().filter(v=>/^pt(-|_)BR/i.test(v.lang));const v=vs.find(v=>v.localService)||vs[0];if(v)u.voice=v;speechSynthesis.speak(u)}catch(e){}}
+/* ---------- gabaritos para a tutora (gerados das próprias aulas) ---------- */
+function gabStep(p){
+  if(p.t==='quiz')return 'Pergunta: '+p.q+' Resposta: '+p.opts[p.a];
+  if(p.t==='order')return 'Ordem certa: '+p.items.join(' → ');
+  if(p.t==='hot')return 'Clicar na figura: '+p.a;
+  if(p.t==='targets')return 'Clicar em '+p.n+' bolinhas';
+  if(p.t==='type')return 'Digitar: "'+(typeof p.text==='string'?p.text:p.text.y+'" (8 a 10 anos) ou "'+p.text.o+'" (11 e 12 anos)')+(typeof p.text==='string'?'"':'');
+  if(p.t==='word'||p.t==='xl'||p.t==='ppt'){const sim=(p.t==='word'?SIMS:p.t==='xl'?SIMX:SIMP)[p.sim];return (p.t==='word'?'Word':p.t==='xl'?'Excel':'PowerPoint')+': '+sim.tasks.map((t,i)=>(i+1)+') '+t.tx+' Como: '+t.hint).join(' ')}
+  if(p.t==='check')return 'Marcar: '+p.items.join('; ');
+  if(p.t==='form')return 'Resposta livre (mínimo 3 letras por campo): '+p.fields.map(f=>f[1]).join(' / ');
+  return 'Leitura: '+(p.title||'');
+}
+function gabHtml(m){const mm=MODS[m-1];return `<h2 style="margin:10px 0">Módulo ${m}: ${mm.name}</h2>`+mm.aulas.map((t,i)=>{const k=m+'.'+(i+1);
+  return `<div class="card gab" style="margin-top:10px"><h3>Aula ${k}: ${t}</h3>${TRAVA[k]?`<p class="note" style="margin-top:6px"><b>Onde costuma travar:</b> ${esc(TRAVA[k])}</p>`:''}<ol style="margin:8px 0 0 18px;padding:0">${steps(m,i+1).map(p=>`<li>${p.bonus?'<b>[bônus]</b> ':''}${esc(gabStep(p))}</li>`).join('')}</ol></div>`}).join('')+
+  `<div class="card gab" style="margin-top:10px"><h3>Teste do módulo ${m}</h3><p class="muted">10 de ${BANK[m].length} perguntas sorteadas (opções embaralhadas). Respostas:</p><ol style="margin:8px 0 0 18px;padding:0">${BANK[m].map(([q,o,a])=>`<li>${esc(q)} <b>${esc(o[a])}</b></li>`).join('')}</ol></div>`}
+/* ---------- área da tutora ---------- */
+function vTutora(){
+  const back=`<button class="btn ghost sm" data-act="tutorax">${ic('back')} Sair da área da tutora</button>`;
+  if(!V.tutOk)return `${topbar()}<main class="wrap" style="padding-top:24px"><div class="card" style="max-width:420px;margin:0 auto"><h2>Área da tutora</h2>
+    <p class="muted" style="margin:8px 0">Digite o PIN da tutora.</p><input id="pin" class="sel" type="password" inputmode="numeric" autocomplete="off" maxlength="8" aria-label="PIN da tutora">
+    <div class="feed no" id="pinerr" role="status"></div><div class="row" style="margin-top:10px;justify-content:space-between">${back}<button class="btn" data-act="pinok">Entrar</button></div></div></main>`;
+  const tab=V.tabT||'colonia',cfg=colCfg(),kids=realStudents();
+  const tabs=[['colonia','Colônia'],['backup','Cópia de segurança'],['gabarito','Gabaritos'],['config','Ajustes']].map(([k,l])=>`<button class="${k===tab?'on':''}" data-act="tabT" data-t="${k}">${l}</button>`).join('');
+  let body='';
+  if(tab==='colonia')body=`<div class="card"><div class="row"><div class="grow"><h2>Modo Colônia neste computador</h2><p class="muted">Ligado: as crianças veem só as 5 missões e não precisam dos testes de digitação para chegar ao Word e ao Excel.</p></div>
+     <button class="btn ${cfg.on?'good':''}" data-act="colon">${cfg.on?'Ligado: clique para desligar':'Ligar o Modo Colônia'}</button></div></div>
+    <div class="card"><h2 style="margin-bottom:8px">Missões liberadas</h2>${COL.map(m=>`<label class="task" style="cursor:pointer;margin-top:8px"><input type="checkbox" data-act="colmis" data-n="${m.n}" ${colOpen(m.n)?'checked':''}> <span class="grow"><b>Missão ${m.n} (${m.dia}): ${m.name}</b><br><span class="muted" style="font-size:.88rem">Aulas ${m.main.join(', ')}${m.bonus.length?' · bônus '+m.bonus.join(', '):''}</span><br><span class="hint">${esc(ROTEIRO[m.n])}</span></span></label>`).join('')}</div>
+    <div class="card"><h2 style="margin-bottom:8px">Crianças neste computador</h2>${kids.length?`<div class="tblwrap"><table class="tbl"><thead><tr><th>Criança</th>${COL.map(m=>`<th>M${m.n}</th>`).join('')}<th>Estrelas</th></tr></thead><tbody>${kids.map(k=>`<tr><td><b>${esc(k.name)}</b></td>${COL.map(m=>`<td>${colDone(k,m)}/${m.main.length}</td>`).join('')}<td>${starsTotal(k)}</td></tr>`).join('')}</tbody></table></div>`:'<p class="muted">Nenhuma criança cadastrada neste computador ainda.</p>'}</div>`;
+  if(tab==='backup')body=`<div class="card"><h2>Cópia de segurança</h2><p class="muted" style="margin:6px 0 12px">Faça no fim de cada dia. Guarda o progresso de todas as crianças deste computador num arquivo. Se o navegador for limpo ou a criança trocar de notebook, é só trazer o arquivo de volta.</p>
+     <div class="row"><button class="btn" data-act="bkall">${ic('save')} Fazer a cópia de todas as crianças (${kids.length})</button><button class="btn ghost" data-act="restore">Trazer de um arquivo ou código</button></div>
+     <p class="muted" style="margin-top:10px">Última cópia feita aqui: ${esc(DB.config.lastBackup||'nunca')}</p></div>`;
+  if(tab==='gabarito'){const m=V.gabM||1;body=`<div class="card noprint"><div class="row"><div class="seg">${MODS.map(x=>`<button class="${x.n===m?'on':''}" data-act="gabM" data-m="${x.n}">${x.n}</button>`).join('')}</div><span class="grow"></span><button class="btn ghost sm" data-act="print">Imprimir</button></div></div>${gabHtml(m)}`}
+  if(tab==='config')body=`<div class="card"><h2>Ajustes</h2><div class="stack" style="margin-top:10px">
+     <label style="font-weight:800">Nome da tutora (aparece no certificado e nas liberações)<input id="tname" class="sel" value="${esc(tutorName())}" maxlength="30"></label>
+     <label style="font-weight:800">Novo PIN (4 a 8 números; deixe em branco para manter)<input id="tpin" class="sel" inputmode="numeric" maxlength="8" autocomplete="off"></label>
+     <div class="feed" id="cfgmsg" role="status"></div><div><button class="btn" data-act="cfgsave">Salvar</button></div>
+     <p class="muted" style="font-size:.88rem">O PIN fica guardado só neste computador. Troque o PIN em cada notebook.</p></div></div>`;
+  return `${topbar()}<main class="wrap" style="padding-top:20px;padding-bottom:30px"><div class="stack"><div class="row noprint"><h1 class="grow">Área da tutora ${esc(tutorName())}</h1>${back}</div><div class="seg noprint">${tabs}</div>${body}</div></main>`;
+}
+
 /* ---------- render e eventos ---------- */
 function render(){
   const v=V.view;
-  app.innerHTML=({login:vLogin,home:vHome,module:vModule,lesson:vLesson,test:vTest,cert:vCert,tutor:vTutor,gestor:vGestor,pais:vPais}[v])();
+  try{speechSynthesis.cancel()}catch(e){}
+  app.innerHTML=({login:vLogin,home:vHome,module:vModule,lesson:vLesson,test:vTest,cert:vCert,tutor:vTutor,gestor:vGestor,pais:vPais,tutora:vTutora,colcert:vColCert}[v]||vLogin)()+(V.modal?modalHtml():'');
   TY=null;WS=null;
   if(v==='lesson'){
     const stp=steps(V.mod,V.les)[V.step];
@@ -1151,7 +1353,8 @@ function enter(role,sid){
 function newStudent(){const n=document.getElementById('nn').value.trim();if(n.length<2){document.getElementById('nerr').textContent='Escreva o seu nome.';return}
   const id='t'+Date.now().toString(36);DB.students[id]={id,name:n,age:+document.getElementById('na').value,slot:'Sem horário (teste)',polo:'Polo Pinhão',ch:document.querySelector('input[name=nc]:checked').value,prog:{},tests:{},typ:[],hist:[],stk:[],bonus:0};save();enter('aluno',id)}
 function finishStep(){
-  const st=steps(V.mod,V.les);
+  const st=steps(V.mod,V.les),cur=st[V.step];
+  if(cur&&cur.bonus){if(V.st.errs0!==undefined)V.errs=V.st.errs0;if(!V.st.skipped&&V.sid&&me()){me().bonus=(me().bonus||0)+1;save()}}
   if(V.step<st.length-1){V.step++;V.st={};render();return}
   if(V.les===0){V.view='home';render();return}
   const s=me(),stars_=V.errs===0?3:V.errs<=2?2:1;
@@ -1160,7 +1363,8 @@ function finishStep(){
   app.innerHTML=`${topbar()}<main class="wrap"><div class="player" style="--c:${MCOL(V.mod)}"><div class="card step" style="text-align:center">
     <div class="fig" style="width:130px">${ch(s)}</div><h2 style="margin-top:8px">Aula concluída!</h2><div style="font-size:2rem;margin:8px 0">${stars(stars_)}</div>
     <p class="muted">${stars_===3?'Sem nenhum erro. Incrível!':'Você pode refazer a aula para ganhar mais estrelas.'}</p>
-    <div class="row" style="justify-content:center;margin-top:18px"><button class="btn" data-act="openMod" data-m="${V.mod}">Voltar ao módulo</button></div></div></div></main>${foot}`;
+    <div class="row" style="justify-content:center;margin-top:18px">${(()=>{const inCol=colOn()&&colHas(k);const nx=inCol?colNext(s):(V.les<MODS[V.mod-1].aulas.length?[V.mod,V.les+1]:null);
+      return (inCol?`<button class="btn ghost" data-act="home">Voltar à Colônia</button>`:`<button class="btn ghost" data-act="openMod" data-m="${V.mod}">Voltar ao módulo</button>`)+(nx?`<button class="btn" data-act="openLes" data-m="${nx[0]}" data-l="${nx[1]}">Próxima aula ${ic('arrow')}</button>`:'')})()}</div></div></div></main>${foot}`;
 }
 let warmI=0;
 function award_s(st,id){st.stk=st.stk||[];if(!st.stk.includes(id))st.stk.push(id)}
@@ -1187,7 +1391,7 @@ document.addEventListener('click',e=>{
    case 'reset':DB=seed();save();V={st:{},view:'login'};render();break;
    case 'logout':V={st:{},view:'login',role:null};render();break;
    case 'demo':V.demo=el.checked;render();break;
-   case 'home':if(V.view==='lesson'&&V.les===0&&V.step>0&&!V.leaveOk){V.leave={m:V.mod,home:1};render();break}V.leaveOk=false;V.view='home';TQ=null;render();break;
+   case 'home':if(V.view==='lesson'&&V.step>0&&!V.leaveOk){V.leave={m:V.mod,home:1};render();break}V.leaveOk=false;V.view='home';TQ=null;render();break;
    case 'swapch':s.ch=s.ch==='mia'?'teo':'mia';save();render();break;
    case 'openMod':if(V.view==='lesson'&&V.step>0&&!V.leaveOk){V.leave={m:el.dataset.m};render();break}V.leaveOk=false;V.mod=+el.dataset.m;V.view='module';render();break;
    case 'leaveno':V.leave=null;render();break;
@@ -1203,7 +1407,7 @@ document.addEventListener('click',e=>{
        if(V.st.n>=stp.items.length){f.className='feed ok';f.textContent='Na ordem certa!';addNext(f)}}
      else{V.errs++;el.classList.add('shake');f.className='feed no';f.textContent='Ainda não é esse. Pense no que vem primeiro.';setTimeout(()=>el.classList.remove('shake'),400)}break}
    case 'hint':{const i=+el.dataset.i;document.getElementById('hint'+i).textContent=WS.sim.tasks[i].hint;WS.hints++;break}
-   case 'test':TQ=null;V.tpart=null;V.tres=null;V.view='test';render();break;
+   case 'test':if(el.dataset.m&&V.view!=='test')V.mod=+el.dataset.m;TQ=null;V.tpart=null;V.tres=null;V.view='test';render();break;
    case 'tpart':V.tpart=el.dataset.p;V.tres=null;V.ttext=null;TQ=null;render();break;
    case 'tans':{const i=+el.dataset.i;TQ.ans.push(i);TQ.i++;
      if(TQ.i>=TQ.qs.length){TQ.done=true;const c=TQ.ans.filter((x,j)=>x===TQ.qs[j].a).length,sc=c*10;const t=s.tests[V.mod]||(s.tests[V.mod]={score:0,tries:0});
@@ -1211,12 +1415,12 @@ document.addEventListener('click',e=>{
      render();break}
    case 'cert':V.sem=+el.dataset.sem;V.view='cert';render();break;
    case 'warm':{V.view='lesson';V.mod=2;V.les=0;V.step=0;V.st={};V.errs=0;
-     LES['2.0']=[{t:'type',text:WARM[warmI%WARM.length],title:'Aquecimento do dia'}];warmI++;render();break}
+     const ez=!lessonDone(s,2,4);LES['2.0']=[0,1,2,3].map(i=>{const w=WARM[(warmI+i)%WARM.length];return {t:'type',text:ez?T(easyTxt(w.y),easyTxt(w.o)):w,title:'Aquecimento do dia: frase '+(i+1)+' de 4'}});warmI+=4;render();break}
    case 'confirm':{const p=today();const id=el.dataset.id;if(!p[id])p[id]={in:'-',ok:true};else p[id].ok=true;save();render();break}
    case 'relopen':V.rel=el.dataset.id;render();break;
    case 'relno':V.rel=null;render();break;
    case 'reldo':{const st=DB.students[V.rel],c=curMod(st);const t=st.tests[c]||(st.tests[c]={score:0,tries:0});
-     t.release={by:'Tutora Marina',at:dayKey(),why:document.getElementById('why').value};award_s(st,'mod'+c);save();V.rel=null;render();break}
+     t.release={by:'Tutora '+tutorName(),at:dayKey(),why:document.getElementById('why').value};award_s(st,'mod'+c);save();V.rel=null;render();break}
    case 'formok':{const stp=steps(V.mod,V.les)[V.step],pr=s.proj||(s.proj={});let ok=true;stp.fields.forEach(([k])=>{const v=document.getElementById('f_'+k).value.trim();if(v.length<3)ok=false;else pr[k]=v});
      const f=document.getElementById('feed');if(!ok){f.className='feed no';f.textContent='Escreva pelo menos uma frasezinha em cada campo.';break}save();finishStep();break}
    case 'slot':V.tutorSlot=el.dataset.t;render();break;
@@ -1226,7 +1430,28 @@ document.addEventListener('click',e=>{
      if(occ(p,t)>=cfgP(p).pcs){e.textContent='Esse horário está lotado.';break}
      const id='m'+Date.now().toString(36);DB.students[id]={id,name:n,age,slot:t,polo:p,ch:age%2?'teo':'mia',prog:{},tests:{},typ:[],hist:[],stk:[],bonus:0};save();render();break}
    case 'polo':V.poloSel=el.dataset.p;render();break;
+   case 'say':{const bb=el.closest('.bubble');if(bb)say([...bb.childNodes].filter(n=>n!==el).map(n=>n.textContent).join('. '));break}
+   case 'skipbonus':V.st.skipped=1;finishStep();break;
+   case 'colcert':V.view='colcert';render();break;
+   case 'print':try{window.print()}catch(e){}break;
+   case 'mybackup':doBackup('aluno');break;
+   case 'bkall':doBackup('computador');break;
+   case 'restore':V.modal={kind:'restore'};render();break;
+   case 'restoredo':doRestore();break;
+   case 'modalx':V.modal=null;render();break;
+   case 'copycode':{const t=document.getElementById('codeout');t.select();try{navigator.clipboard.writeText(t.value).catch(()=>document.execCommand('copy'))}catch(e){try{document.execCommand('copy')}catch(_){}}el.textContent='Copiado!';break}
+   case 'tutora':V.prevView=V.view;V.view='tutora';render();break;
+   case 'tutorax':V.tutOk=false;V.view=V.prevView&&V.prevView!=='tutora'?V.prevView:(V.role==='aluno'?'home':V.role==='tutor'?'tutor':'login');if(V.view==='lesson')V.view='home';render();break;
+   case 'pinok':{const v=document.getElementById('pin').value.trim();if(v===(DB.config.pin||PIN_PADRAO)){V.tutOk=true;render()}else{document.getElementById('pinerr').textContent='PIN errado.'}break}
+   case 'tabT':V.tabT=el.dataset.t;render();break;
+   case 'gabM':V.gabM=+el.dataset.m;render();break;
+   case 'colon':{const c=colCfg();c.on=!c.on;if(c.on&&!c.open.length)c.open=[1];save();render();break}
+   case 'colmis':{const c=colCfg(),n=+el.dataset.n;c.open=el.checked?[...new Set([...c.open,n])].sort():c.open.filter(x=>x!==n);save();break}
+   case 'cfgsave':{const n=document.getElementById('tname').value.trim(),pn=document.getElementById('tpin').value.trim(),m=document.getElementById('cfgmsg');
+     if(pn&&!/^\d{4,8}$/.test(pn)){m.className='feed no';m.textContent='O PIN precisa ter de 4 a 8 números.';break}
+     if(n.length>=2){DB.config.tutora=n;DB.config.tutoraSet=1}if(pn)DB.config.pin=pn;save();m.className='feed ok';m.textContent='Salvo.';break}
   }
 });
 document.addEventListener('change',e=>{if(e.target.dataset&&e.target.dataset.ck){const all=[...document.querySelectorAll('[data-ck]')].every(x=>x.checked);document.getElementById('ckbtn').disabled=!all}});
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target&&e.target.id==='pin'){const b=document.querySelector('[data-act=pinok]');if(b)b.click()}});
 loadSess();render();

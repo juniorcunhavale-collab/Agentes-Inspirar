@@ -1,0 +1,123 @@
+Bateria da plataforma · 2026-11-20T20:55:54.750Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
+
+=== Ponta a ponta · aluno · 1366x768 ===
+PASSOU · aluno 1366: com as aulas feitas, o botão principal leva ao teste (#22)
+PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o gato bebe leite na cozinha"
+PASSOU · aluno 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
+PASSOU · aluno 1366: aluno automático passa nos 7 testes · 7/7
+PASSOU · aluno 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
+PASSOU · aluno 1366: certificado disponível no fim
+PASSOU · sem rolagem lateral: aluno 1366 trilha final · 1366/1366
+PASSOU · aluno 1366: nenhum erro de console · []
+
+=== Ponta a ponta · gestao · 1366x768 ===
+PASSOU · gestao 1366: com as aulas feitas, o botão principal leva ao teste (#22)
+PASSOU · gestao 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o computador ajuda a escrever e a pesquisar"
+PASSOU · gestao 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
+PASSOU · gestao 1366: aluno automático passa nos 7 testes · 7/7
+PASSOU · gestao 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
+PASSOU · gestao 1366: certificado disponível no fim
+PASSOU · sem rolagem lateral: gestao 1366 trilha final · 1366/1366
+PASSOU · gestao 1366: nenhum erro de console · []
+
+=== Ponta a ponta · aluno · 390x844 ===
+PASSOU · aluno 390: com as aulas feitas, o botão principal leva ao teste (#22)
+PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a casa tem uma sala grande"
+PASSOU · aluno 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
+PASSOU · aluno 390: aluno automático passa nos 7 testes · 7/7
+PASSOU · aluno 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
+PASSOU · aluno 390: certificado disponível no fim
+PASSOU · sem rolagem lateral: aluno 390 trilha final · 390/390
+PASSOU · aluno 390: nenhum erro de console · []
+
+=== Ponta a ponta · gestao · 390x844 ===
+PASSOU · gestao 390: com as aulas feitas, o botão principal leva ao teste (#22)
+PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a turma vai fazer um projeto muito legal"
+PASSOU · gestao 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
+PASSOU · gestao 390: aluno automático passa nos 7 testes · 7/7
+PASSOU · gestao 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
+PASSOU · gestao 390: certificado disponível no fim
+PASSOU · sem rolagem lateral: gestao 390 trilha final · 390/390
+PASSOU · gestao 390: nenhum erro de console · []
+
+=== Testes de cada correção ===
+PASSOU · 4.5: imagem centralizada (clicar-imagem) conclui as 2 tarefas (#5)
+PASSOU · 4.5: imagem centralizada (direto) conclui as 2 tarefas (#5)
+PASSOU · 4.5: imagem centralizada (setas) conclui as 2 tarefas (#5)
+PASSOU · 5.5: tarefas coerentes mesmo fora de ordem (#6)
+PASSOU · Excel: 5 cliques seguidos sem perder clique nem digitação (#7) · ["Maçã","Pão","5","3,5","ok"]
+PASSOU · Excel: =SOMA(B2;B3), vírgula decimal e números negativos (#25) · [8.5,4.5,-5,6.5,8.5]
+PASSOU · Quiz das aulas com opções embaralhadas (#12) · primeiras opções vistas: 2,0,1
+PASSOU · Aulas 2.1 a 2.3 sem letra maiúscula (#13)
+PASSOU · Digitação: aviso de usar Shift quando falta a maiúscula
+PASSOU · Desafio bônus pode ser pulado sem perder estrela · estrelas 3
+PASSOU · Aquecimento com 4 frases e sem maiúscula antes da 2.4 (#26)
+PASSOU · Tutora Giovana no lugar de "Tutora Marina" (#16)
+PASSOU · Tela da tutora avisa que os dados são de demonstração
+PASSOU · Gestor: aviso de demonstração e liberação registrada como Tutora Giovana
+PASSOU · Gestor: campo de matrícula com estilo (#24)
+PASSOU · sem rolagem lateral: gestor 1366 · 1366/1366
+PASSOU · Pais: topo mostra "Família de Ana" (#23)
+PASSOU · Testes de correção (gestão): nenhum erro de console · []
+
+=== Trilha Colônia · aluno · 1366x768 ===
+PASSOU · 1366: PIN errado não entra
+PASSOU · 1366: PIN padrão 2501 abre a área da tutora
+PASSOU · sem rolagem lateral: 1366 área da tutora · 1366/1366
+PASSOU · 1366: com a missão 2 liberada, o Word abre no 1º dia, sem teste de digitação
+PASSOU · 1366: missão 4 (Excel) continua travada até a tutora liberar
+PASSOU · sem rolagem lateral: 1366 trilha Colônia · 1366/1366
+PASSOU · 1366: fim da aula volta para a Colônia
+PASSOU · 1366: as 22 aulas principais das 5 missões concluem · 22/22
+PASSOU · 1366: certificado da Colônia liberado no fim das missões (#21)
+PASSOU · 1366: certificado da Colônia com nome da tutora
+PASSOU · sem rolagem lateral: 1366 certificado Colônia · 1366/1366
+PASSOU · 1366: gabaritos do Excel com respostas e dicas (#17)
+PASSOU · sem rolagem lateral: 1366 gabaritos · 1366/1366
+PASSOU · 1366: PIN antigo deixa de valer depois da troca
+PASSOU · 1366: PIN novo e nome da tutora salvos
+PASSOU · 1366: Colônia sem erro de console · []
+
+=== Trilha Colônia · aluno · 390x844 ===
+PASSOU · 390: PIN errado não entra
+PASSOU · 390: PIN padrão 2501 abre a área da tutora
+PASSOU · sem rolagem lateral: 390 área da tutora · 390/390
+PASSOU · 390: com a missão 2 liberada, o Word abre no 1º dia, sem teste de digitação
+PASSOU · 390: missão 4 (Excel) continua travada até a tutora liberar
+PASSOU · sem rolagem lateral: 390 trilha Colônia · 390/390
+PASSOU · 390: fim da aula volta para a Colônia
+PASSOU · 390: as 22 aulas principais das 5 missões concluem · 22/22
+PASSOU · 390: certificado da Colônia liberado no fim das missões (#21)
+PASSOU · 390: certificado da Colônia com nome da tutora
+PASSOU · sem rolagem lateral: 390 certificado Colônia · 390/390
+PASSOU · 390: gabaritos do Excel com respostas e dicas (#17)
+PASSOU · sem rolagem lateral: 390 gabaritos · 390/390
+PASSOU · 390: PIN antigo deixa de valer depois da troca
+PASSOU · 390: PIN novo e nome da tutora salvos
+PASSOU · 390: Colônia sem erro de console · []
+
+=== Cópia de segurança (arquivo e código) ===
+PASSOU · Aluno: "Guardar meu progresso" baixa o arquivo e mostra o código · progresso-duda-2026-11-20.json · código 332 caracteres
+PASSOU · Tutora: cópia de todas as crianças do computador (2 crianças)
+PASSOU · Notebook novo: "Trazer meu progresso" pelo arquivo devolve a criança com as 2 aulas · {"name":"Duda","n":2}
+PASSOU · Navegador limpo: progresso volta pelo código colado
+PASSOU · Importar a cópia do computador junta as crianças sem apagar progresso · ["Duda:2","Enzo:1"]
+PASSOU · Código inválido mostra aviso e não quebra nada
+PASSOU · Cópia de segurança sem erro de console · []
+
+=== Dados salvos pela versão antiga ===
+PASSOU · Criança criada na versão antiga continua aparecendo na versão nova · ["Lia"]
+PASSOU · Progresso antigo preservado e tutora padrão Giovana
+PASSOU · Migração sem erro de console · []
+
+=== Telas no celular 390x844 ===
+PASSOU · sem rolagem lateral: 390 aula 4.5 passo 2 · 390/390
+PASSOU · sem rolagem lateral: 390 aula 5.5 passo 2 · 390/390
+PASSOU · sem rolagem lateral: 390 aula 6.2 passo 2 · 390/390
+PASSOU · sem rolagem lateral: 390 aula 2.4 passo 2 · 390/390
+PASSOU · sem rolagem lateral: 390 aula 1.1 passo 6 · 390/390
+PASSOU · sem rolagem lateral: 390 roleTutor · 390/390
+PASSOU · sem rolagem lateral: 390 roleGestor · 390/390
+PASSOU · Telas do celular sem erro de console · []
+
+RESUMO: 100 verificações passaram, 0 falharam.
