@@ -80,13 +80,15 @@
 | 73 | **6 decisões de estrutura da plataforma** (D1 nomes dos níveis/certificado; D2 carga horária no certificado; D3 testes antigos viram prova de validação; D4 limite de 1 módulo à frente duro ou flexível; D5 Giovana aprova conteúdo aula a aula; D6 artifact de teste e como as versões chegam aos notebooks) | Informática | Júnior (Telchar prepara 1 página) | 2026-11-27 | ⬜ | Plano de produção |
 | 74 | Decidir: contrato anual da Informática = 12 meses a partir da entrada ou ano civil; reposição; quem paga a impressão do portfólio; data de início (jan × fev) | Informática | Sócios (Fíli apoia) | 2026-12-05 | ⬜ | Currículo anual |
 | 75 | Instalar e testar Scratch (sem conta) e LibreOffice nos notebooks | Informática | Júnior | 2026-12-05 | ⬜ | Currículo anual |
-| 76 | Ficha do teste com crianças (8 medidas + cronometragem) e registro automático de tempo por passo (publicar só com OK do Júnior, até 04/12) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
-| 77 | Especificação técnica da versão Níveis (modelo de dados já pensando no banco, migração da Colônia, mapa aula-base → módulo) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
+| 76 | Ficha do teste com crianças (8 medidas + cronometragem) e registro automático de tempo por passo (publicar só com OK do Júnior, até 04/12) | Informática | Telchar | 2026-11-28 | ✅ pronto, aguardando OK de publicação (pend. 83) | Plano de produção |
+| 77 | Especificação técnica da versão Níveis (modelo de dados já pensando no banco, migração da Colônia, mapa aula-base → módulo) | Informática | Telchar | 2026-11-28 | ✅ `plataforma-informatica/ESPECIFICACAO-NIVEIS.md` | Plano de produção |
 | 78 | Roteiros do Bronze: parte 1 (B0–B3) até 11/12; ✅ parte 1 entregue em 21/11 (`relatorios/2026-11-21-roteiros-bronze-parte1.md`); parte 2 (B4, B5, Teste Bronze, caderno e rubrica) até 18/12 | Pedagógico | Pelennor | 2026-12-18 | 🔄 | Plano de produção |
 | 79 | Versão Níveis no ar para os alunos (Colônia congelada de 27/12 a 15/01) | Informática | Telchar + Júnior | 2027-01-25 | ⬜ | Plano de produção |
 | 80 | Configurar o teclado ABNT2 no Windows dos notebooks (sem isso, "ç" e acentos não funcionam no módulo B2) | Informática | Júnior | 2026-12-05 | ⬜ | Roteiros do Bronze |
 | 81 | Combinar com a Giovana o fluxo para relatos sensíveis das crianças (bullying, internet) — quem avisar e como registrar | Operações | Orthanc + Sam → sócios | 2026-12-18 | ⬜ | Roteiros do Bronze |
 | 82 | Custo de impressão do caderno, certificados e produtos do Bronze | Financeiro | Fíli | 2026-12-10 | ⬜ | Roteiros do Bronze |
+| 83 | **Responder ao Telchar:** D1–D6 (`relatorios/2026-11-21-decisoes-estrutura-plataforma.md`, recomendação = todas "A"), nome do certificado Ouro ("Mestre Digital" ou "Programador Digital"), atalho de salvar do Word nos notebooks, e **OK para publicar** o registro de tempos | Informática | Júnior | 2026-11-27 (publicar até 04/12) | ⬜ | Telchar |
+| 84 | Autorização dos responsáveis para o teste com crianças de 12/12 | Operações | Orthanc → Júnior | 2026-12-05 | ⬜ | Ficha de teste |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
