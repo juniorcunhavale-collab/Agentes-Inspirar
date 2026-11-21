@@ -141,11 +141,11 @@ const LES={
  BON({t:'check',q:'Desafio bônus no notebook de verdade, com a tutora:',items:['Abri o Word','Escrevi o meu nome na folha','Fechei o Word sem salvar (só treino)']})
 ],
 '4.2':[
- I('Digitar e salvar','Digite o texto na folha. Para salvar, clique no ícone de salvar ou use Ctrl + S. Dê um nome fácil para achar depois.','Para salvar use o botão Salvar ou Ctrl + S e escolha um nome claro e uma pasta organizada.'),
- AN('save','Como salvar','Aperte Ctrl e S juntas e pronto: seu trabalho fica guardado!','O atalho Ctrl + S salva o documento sem precisar procurar o botão.'),
+ Object.assign(I('Digitar e salvar','Digite o texto na folha. Para salvar, clique no ícone de salvar ou use Ctrl + S. Dê um nome fácil para achar depois.','Para salvar use o botão Salvar ou Ctrl + S e escolha um nome claro e uma pasta organizada.'),{atalho:'info'}),
+ Object.assign(AN('save','Como salvar','Aperte Ctrl e S juntas e pronto: seu trabalho fica guardado!','O atalho Ctrl + S salva o documento sem precisar procurar o botão.'),{atalho:'anim'}),
  TYP('Meu animal favorito é o gato.','Digite no Word'),
- Q('Qual atalho salva o documento?',['Ctrl + S','Ctrl + Z','Alt + F4'],0),
- SABIA('Em alguns computadores com o Word em português, o atalho de salvar é Ctrl + B. Se o Ctrl + S não salvar, use o botão do disquete: ele sempre funciona!','No Word em português, o atalho de salvar pode ser Ctrl + B (e Ctrl + S vira sublinhado). O ícone de disquete funciona em qualquer versão.'),
+ Object.assign(Q('Qual atalho salva o documento?',['Ctrl + S','Ctrl + Z','Alt + F4'],0),{atalho:'quiz'}),
+ Object.assign(SABIA('Em alguns computadores com o Word em português, o atalho de salvar é Ctrl + B. Se o Ctrl + S não salvar, use o botão do disquete: ele sempre funciona!','No Word em português, o atalho de salvar pode ser Ctrl + B (e Ctrl + S vira sublinhado). O ícone de disquete funciona em qualquer versão.'),{atalho:'sabia'}),
  Q('Qual é um bom nome para o arquivo do seu texto sobre o gato?',['Meu gato','documento1','aaaa'],0),
  BON({t:'check',q:'Desafio bônus no Word de verdade:',items:['Escrevi uma frase','Salvei o arquivo com um nome fácil','Mostrei para a tutora onde o arquivo ficou']})
 ],
@@ -244,7 +244,7 @@ Object.assign(LES,{
 '4.6':[
  I('Meu primeiro documento','Hora de juntar tudo o que você aprendeu no Word: título bonito, texto, lista e uma imagem!','Aplique tudo o que aprendeu: título formatado e centralizado, texto com destaque, lista e imagem.'),
  {t:'word',sim:'final',title:'Monte o seu primeiro documento'},
- Q('Qual atalho salva o seu documento?',['Ctrl + S','Ctrl + P','Ctrl + Q'],0),
+ Object.assign(Q('Qual atalho salva o seu documento?',['Ctrl + S','Ctrl + P','Ctrl + Q'],0),{atalho:'quiz2'}),
  BON({t:'check',q:'Desafio bônus: revise como um escritor',items:['Li o meu texto do começo ao fim','O título está em destaque','Tem uma imagem que combina com o texto']})
 ],
 '5.1':[
@@ -595,7 +595,67 @@ const WD=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 const SKEY=KEY+'-sessao';
 function saveSess(){try{if(!V.role){localStorage.removeItem(SKEY);return}const v=['lesson','test','lessonend','cert','tutora','colcert'].includes(V.view)?(V.view==='lesson'||V.view==='test'||V.view==='lessonend'?'module':'home'):V.view;localStorage.setItem(SKEY,JSON.stringify({role:V.role,sid:V.sid,parentSid:V.parentSid,view:v,mod:V.mod,tutorTurma:V.tutorTurma,poloSel:V.poloSel,demo:V.demo}))}catch(e){}}
 function loadSess(){try{const r=JSON.parse(localStorage.getItem(SKEY)||'null');if(r&&r.role&&(r.role!=='aluno'||DB.students[r.sid])&&(r.role!=='pais'||DB.students[r.parentSid])){Object.assign(V,r);if(V.view==='module'&&!V.mod)V.view='home'}}catch(e){}}
-load();
+/* ---------- atalho de salvar do Word (22/11): Ctrl + S (atalhos em inglês) ou Ctrl + B (Word em português) ----------
+   '?' = ainda não conferido no Office dos notebooks: ensina o botão do disquete, que funciona em qualquer versão.
+   Quando o Júnior confirmar, basta trocar ATALHO_PADRAO para 'S' ou 'B' (ou escolher em Área da tutora → Ajustes). */
+const ATALHO_PADRAO='?';
+const atalhoCfg=()=>{const a=DB&&DB.config&&DB.config.atalho;return a==='S'||a==='B'?a:a==='?'?'?':ATALHO_PADRAO};
+const atalhoLetra=()=>{const a=atalhoCfg();return a==='?'?'':a};
+function applyAtalho(){const L=atalhoLetra(),K='Ctrl + '+L;
+  const tx={
+   info:L?T(`Digite o texto na folha. Para salvar, clique no ícone de salvar (o disquete) ou use ${K}. Dê um nome fácil para achar depois.`,`Para salvar use o botão Salvar (disquete) ou ${K} e escolha um nome claro e uma pasta organizada.`)
+     :T('Digite o texto na folha. Para salvar, clique no botão do disquete, lá em cima. Dê um nome fácil para achar depois.','Para salvar use o botão Salvar (o disquete), que funciona em qualquer versão do Word, e escolha um nome claro e uma pasta organizada.'),
+   anim:L?T(`Aperte Ctrl e ${L} juntas e pronto: seu trabalho fica guardado!`,`O atalho ${K} salva o documento sem precisar procurar o botão.`)
+     :T('Clique no botão do disquete e pronto: seu trabalho fica guardado!','O botão do disquete salva o documento em qualquer versão do Word.'),
+   sabia:L==='B'?T('No Word em português, o atalho de salvar é Ctrl + B. Cuidado: Ctrl + S faz sublinhado! O botão do disquete sempre funciona.','No Word em português, Ctrl + B salva e Ctrl + S sublinha. Em Words com atalhos em inglês é o contrário: Ctrl + S salva. O disquete funciona em qualquer versão.')
+     :L==='S'?T('Em alguns computadores com o Word em português, o atalho de salvar é Ctrl + B. Aqui é Ctrl + S. E o botão do disquete sempre funciona!','No Word em português, o atalho de salvar pode ser Ctrl + B (e Ctrl + S vira sublinhado). Nestes notebooks é Ctrl + S. O disquete funciona em qualquer versão.')
+     :T('O atalho do teclado para salvar muda de um Word para outro: pode ser Ctrl + S ou Ctrl + B. Por isso o botão do disquete é o mais seguro: ele sempre funciona!','O atalho de salvar depende do Word: Ctrl + S (atalhos em inglês) ou Ctrl + B (Word em português, onde Ctrl + S sublinha). O ícone de disquete funciona em qualquer versão.')};
+  for(const k of ['4.2','4.6'])for(const st of LES[k]){const a=st.atalho;if(!a)continue;
+    if(a==='info'||a==='anim'||a==='sabia')st.x=tx[a];
+    if(a==='quiz'){if(L){st.q='Qual atalho salva o documento?';st.opts=[K,'Ctrl + Z','Alt + F4']}else{st.q='Qual botão salva o documento em qualquer Word?';st.opts=['O botão do disquete','O botão de imprimir','O X de fechar']}st.a=0}
+    if(a==='quiz2'){if(L){st.q='Qual atalho salva o seu documento?';st.opts=[K,'Ctrl + P','Ctrl + Q']}else{st.q='Como você salva o seu documento?';st.opts=['Clicando no disquete','Clicando no X','Desligando o computador']}st.a=0}}
+  const b=BANK[4].find(x=>/^(Ctrl \+ [SB]|O botão do disquete)\.\.\.$/.test(x[0]));if(b)b[0]=L?K+'...':'O botão do disquete...';}
+
+/* ---------- registro de tempo por passo (22/11, para o teste com crianças de dezembro) ----------
+   Grava, para cada passo concluído: aula, passo, tipo, início, segundos, erros, dicas e "ouvir".
+   Fica dentro do aluno (s.tlog), então vai junto na cópia de segurança. A tutora vê e exporta em Área da tutora → Tempos. */
+const TLOG_MAX=3000,TLOG_PAUSA=15*60;
+const tempoOn=()=>!(DB.config&&DB.config.tempoOff);
+const nowS=()=>Math.round(Date.now()/1000);
+function logStep(cur,flags){const s=V.sid&&me();if(!s||!cur||!tempoOn()||!V.st||!V.st.t0)return;
+  const ms=Date.now()-V.st.t0;s.tlog=s.tlog||[];
+  s.tlog.push({k:V.mod+'.'+V.les,r:V.run||Math.round(V.st.t0/1000),p:V.step,t:cur.t,i:Math.round(V.st.t0/1000),s:Math.max(0,Math.round(ms/1000)),e:Math.max(0,V.errs-(V.st.e0||0)),h:(WS&&WS.hints)||0,o:V.st.ouv||0,b:cur.bonus?1:0,x:flags&&flags.x?1:0,l:flags&&flags.l?1:0,m:(()=>{try{return Math.round(modelSec(cur))}catch(e){return null}})()});
+  if(s.tlog.length>TLOG_MAX)s.tlog=s.tlog.slice(-TLOG_MAX);V.st.t0=0;save()}
+/* tempo-modelo do passo (mesmas premissas de testes/tempo.js; hipótese, não medição) */
+function modelSec(st){const words=t=>String(t||'').split(/\s+/).filter(Boolean).length,y=x=>typeof x==='string'?x:(x&&x.y)||'';
+  const real=it=>/verdade|tutora|Explorador|Word de verdade|notebook/i.test(it);
+  switch(st.t){case 'info':return 20+words(y(st.x))/70*60;case 'anim':return 50+words(y(st.x))/70*60;case 'quiz':return 30;case 'order':return 15*st.items.length;case 'hot':return 20;case 'targets':return 5*st.n;
+   case 'type':return y(st.text).length/30*60*1.3;case 'word':return 90*SIMS[st.sim].tasks.length;case 'xl':return 90*SIMX[st.sim].tasks.length;case 'ppt':return 70*SIMP[st.sim].tasks.length;
+   case 'form':return 90*st.fields.length;case 'check':return st.items.reduce((a,it)=>a+(real(st.q+it)?90:20),0)}return 30}
+const TIPO={info:'leitura',anim:'animação',quiz:'pergunta',order:'ordenar',hot:'clicar na figura',targets:'bolinhas',type:'digitação',word:'Word',xl:'Excel',ppt:'PowerPoint',form:'formulário',check:'lista de marcar'};
+function tlogModel(e){if(e.m!=null)return e.m;const st=(LES[e.k]||[])[e.p];return st&&st.t===e.t?modelSec(st):null}
+function aulaNome(k){if(k==='2.0')return 'Aquecimento de digitação';const [m,l]=kOf(k);return (MODS[m-1]&&MODS[m-1].aulas[l-1])||k}
+function tempoRows(){const out=[];for(const s of realStudents())for(const e of (s.tlog||[]))out.push([s,e]);return out.sort((a,b)=>a[1].i-b[1].i)}
+function tempoCsv(){const f=n=>String(n).replace('.',','),hh=t=>{const d=new Date(t*1000);return [dayKey(d),String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+':'+String(d.getSeconds()).padStart(2,'0')]};
+  const head=['crianca','idade','data','hora_inicio','aula','titulo_aula','tentativa','passo','tipo_passo','bonus','pulou_bonus','saiu_da_aula','seg_real','seg_modelo','erros','dicas','ouvir'];
+  const q=v=>/[;"\n]/.test(String(v))?'"'+String(v).replace(/"/g,'""')+'"':String(v);
+  return '﻿'+[head.join(';')].concat(tempoRows().map(([s,e])=>{const [d,h]=hh(e.i),m=tlogModel(e);return [s.name.split(' ')[0],s.age,d,h,e.k==='2.0'?'aquecimento':e.k,aulaNome(e.k),hh(e.r)[1],e.p+1,TIPO[e.t]||e.t,e.b?'sim':'nao',e.x?'sim':'nao',e.l?'sim':'nao',e.s,m==null?'':f(Math.round(m)),e.e,e.h,e.o].map(q).join(';')})).join('\r\n')+'\r\n'}
+function tempoResumo(){const A={},P={};let pausas=0;
+  for(const [s,e] of tempoRows()){if(e.x)continue;if(e.s>TLOG_PAUSA){pausas++;continue}const m=tlogModel(e);
+    const a=A[e.k]||(A[e.k]={kids:new Set(),runs:new Set(),real:0,mod:0,e:0,h:0,o:0,l:0});a.kids.add(s.id);a.runs.add(s.id+'|'+e.r);a.real+=e.s;a.mod+=m||0;a.e+=e.e;a.h+=e.h;a.o+=e.o;a.l+=e.l;
+    if(m!=null&&!e.l){const t=TIPO[e.t]||e.t,p=P[t]||(P[t]={n:0,real:0,mod:0});p.n++;p.real+=e.s;p.mod+=m}}
+  return {A,P,pausas}}
+function vTempos(){const R=tempoResumo(),rows=Object.entries(R.A).sort((a,b)=>{const x=kOf(a[0]),y=kOf(b[0]);return x[0]-y[0]||x[1]-y[1]});
+  const mn=x=>(x/60).toFixed(1).replace('.',','),fx=(r,m)=>m?(r/m).toFixed(1).replace('.',','):'-';
+  const tR=rows.reduce((a,[,x])=>a+x.real,0),tM=rows.reduce((a,[,x])=>a+x.mod,0),n=tempoRows().length;
+  return `<div class="card"><div class="row"><div class="grow"><h2>Tempos por aula e por passo</h2><p class="muted">O tempo de cada passo é gravado sozinho neste computador quando a criança aperta Continuar. Serve para o teste com crianças: compara o tempo real com o tempo-modelo (fator F). Passos com mais de 15 minutos contam como pausa e ficam fora da conta.</p></div>
+     <button class="btn ${tempoOn()?'good':''}" data-act="tempoTog">${tempoOn()?'Registro ligado: clique para desligar':'Ligar o registro de tempo'}</button></div>
+    <div class="tiles" style="margin-top:12px"><div class="tile"><b>${n}</b><span>passos registrados</span></div><div class="tile"><b>${mn(tR)} min</b><span>tempo real somado</span></div><div class="tile"><b>${mn(tM)} min</b><span>tempo-modelo das mesmas aulas</span></div><div class="tile"><b>${fx(tR,tM)}</b><span>fator F (real ÷ modelo)</span></div></div>
+    <div class="row" style="margin-top:12px"><button class="btn" data-act="tempoCsv" ${n?'':'disabled'}>${ic('save')} Baixar a tabela (Excel)</button><button class="btn ghost" data-act="tempoCopy" ${n?'':'disabled'}>Copiar a tabela</button><span class="grow"></span>${V.tclr?`<button class="btn ghost sm" data-act="tempoClrNo">Cancelar</button><button class="btn sm" data-act="tempoClrYes">Sim, apagar os tempos</button>`:`<button class="btn ghost sm" data-act="tempoClr" ${n?'':'disabled'}>Apagar os tempos</button>`}</div>
+    ${R.pausas?`<p class="muted" style="margin-top:8px">${R.pausas} passo(s) acima de 15 minutos ficaram fora da conta (pausa ou criança longe do computador).</p>`:''}</div>
+   <div class="card"><h2 style="margin-bottom:8px">Por aula</h2>${rows.length?`<div class="tblwrap"><table class="tbl"><thead><tr><th>Aula</th><th>Crianças</th><th>Vezes</th><th>Min. real (média)</th><th>Min. modelo</th><th>F</th><th>Erros</th><th>Dicas</th><th>Ouvir</th><th>Saídas</th></tr></thead><tbody>${rows.map(([k,a])=>{const v=a.runs.size;return `<tr><td><b>${k==='2.0'?'Aquecimento':k}</b><br><span class="muted" style="font-size:.85rem">${esc(aulaNome(k))}</span></td><td>${a.kids.size}</td><td>${v}</td><td>${mn(a.real/v)}</td><td>${mn(a.mod/v)}</td><td>${fx(a.real,a.mod)}</td><td>${a.e}</td><td>${a.h}</td><td>${a.o}</td><td>${a.l}</td></tr>`}).join('')}</tbody></table></div>`:'<p class="muted">Nenhum tempo registrado ainda. Os tempos aparecem aqui assim que uma criança fizer uma aula neste computador.</p>'}</div>
+   <div class="card"><h2 style="margin-bottom:8px">Por tipo de passo</h2>${Object.keys(R.P).length?`<div class="tblwrap"><table class="tbl"><thead><tr><th>Tipo</th><th>Passos</th><th>Seg. real (média)</th><th>Seg. modelo (média)</th><th>F</th></tr></thead><tbody>${Object.entries(R.P).sort((a,b)=>b[1].real-a[1].real).map(([t,p])=>`<tr><td><b>${esc(t)}</b></td><td>${p.n}</td><td>${Math.round(p.real/p.n)}</td><td>${Math.round(p.mod/p.n)}</td><td>${fx(p.real,p.mod)}</td></tr>`).join('')}</tbody></table></div>`:'<p class="muted">Sem dados ainda.</p>'}</div>`}
+load();applyAtalho();
 
 /* ---------- estado de tela ---------- */
 let V={st:{},view:'login',role:null,sid:null,mod:null,les:null,step:0,errs:0,tutorSlot:null,poloSel:null,parentSid:null,tabMgr:'resumo'};
@@ -806,7 +866,9 @@ function animSvg(k){
   <g class="a-cur"><path d="M0 0L0 26L7 20L12 32L17 30L12 18L21 18Z" fill="#1c2452" stroke="#fff" stroke-width="2"/></g><text x="210" y="222" text-anchor="middle" font-size="14" font-weight="800" fill="#1c2452">1 clique escolhe · 2 cliques abrem</text></svg>`;
  if(k==='hands'){const L='asdf jkl',F=['mindinho','anelar','médio','indicador','','indicador','médio','anelar'];
   return `<svg viewBox="0 0 420 220" role="img" aria-label="Animação: as teclas A S D F J K L se acendem em sequência"><rect x="10" y="30" width="400" height="140" rx="18" fill="#e9ecfb"/>${[...L].map((ch,i)=>ch===' '?'':`<g class="a-key" style="animation-delay:${i*.45}s"><rect x="${24+i*48}" y="70" width="42" height="46" rx="9" fill="#fff" stroke="#8a93c8" stroke-width="3"/><text x="${45+i*48}" y="100" text-anchor="middle" font-size="22" font-weight="800" fill="#1c2452">${ch.toUpperCase()}</text><text x="${45+i*48}" y="140" text-anchor="middle" font-size="9" font-weight="700" fill="#5d668f">${F[i]}</text></g>`).join('')}<text x="210" y="205" text-anchor="middle" font-size="14" font-weight="800" fill="#1c2452">Os dedos descansam aqui e voltam sempre</text></svg>`}
- return `<svg viewBox="0 0 420 220" role="img" aria-label="Animação: apertar Ctrl e S salva o documento"><rect x="10" y="10" width="400" height="200" rx="14" fill="#eef1ff"/><g class="a-key"><rect x="70" y="50" width="100" height="56" rx="12" fill="#fff" stroke="#8a93c8" stroke-width="3"/><text x="120" y="86" text-anchor="middle" font-size="22" font-weight="800" fill="#1c2452">Ctrl</text></g><text x="198" y="88" font-size="28" font-weight="800" fill="#1c2452">+</text><g class="a-key"><rect x="230" y="50" width="56" height="56" rx="12" fill="#fff" stroke="#8a93c8" stroke-width="3"/><text x="258" y="88" text-anchor="middle" font-size="26" font-weight="800" fill="#1c2452">S</text></g><g class="a-ok"><circle cx="350" cy="78" r="26" fill="#17935a"/><path d="M338 78l9 9 17-18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><text x="210" y="160" text-anchor="middle" font-size="16" font-weight="800" fill="#1c2452">Salvo! O trabalho fica guardado.</text></svg>`}
+ const L=atalhoLetra();
+ if(!L)return `<svg viewBox="0 0 420 220" role="img" aria-label="Animação: clicar no botão do disquete salva o documento"><rect x="10" y="10" width="400" height="200" rx="14" fill="#eef1ff"/><g class="a-key"><rect x="150" y="40" width="76" height="76" rx="12" fill="#fff" stroke="#8a93c8" stroke-width="3"/><rect x="166" y="54" width="44" height="50" rx="5" fill="#3a4fd8"/><rect x="176" y="54" width="24" height="16" fill="#fff"/><rect x="174" y="82" width="28" height="18" rx="2" fill="#9fd6ff"/></g><g class="a-ok"><circle cx="290" cy="78" r="26" fill="#17935a"/><path d="M278 78l9 9 17-18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><text x="210" y="160" text-anchor="middle" font-size="16" font-weight="800" fill="#1c2452">Clique no disquete. Salvo!</text></svg>`;
+ return `<svg viewBox="0 0 420 220" role="img" aria-label="Animação: apertar Ctrl e ${L} salva o documento"><rect x="10" y="10" width="400" height="200" rx="14" fill="#eef1ff"/><g class="a-key"><rect x="70" y="50" width="100" height="56" rx="12" fill="#fff" stroke="#8a93c8" stroke-width="3"/><text x="120" y="86" text-anchor="middle" font-size="22" font-weight="800" fill="#1c2452">Ctrl</text></g><text x="198" y="88" font-size="28" font-weight="800" fill="#1c2452">+</text><g class="a-key"><rect x="230" y="50" width="56" height="56" rx="12" fill="#fff" stroke="#8a93c8" stroke-width="3"/><text x="258" y="88" text-anchor="middle" font-size="26" font-weight="800" fill="#1c2452">${L}</text></g><g class="a-ok"><circle cx="350" cy="78" r="26" fill="#17935a"/><path d="M338 78l9 9 17-18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><text x="210" y="160" text-anchor="middle" font-size="16" font-weight="800" fill="#1c2452">Salvo! O trabalho fica guardado.</text></svg>`}
 function leaveModal(){return `<div class="modal" role="dialog" aria-modal="true" aria-labelledby="lt"><div class="card" style="max-width:440px;width:100%"><h2 id="lt">Sair da aula agora?</h2><p class="muted" style="margin:8px 0">Se você sair, esta aula começa de novo quando você voltar. As estrelas já ganhas ficam guardadas.</p><div class="row" style="margin-top:14px;justify-content:flex-end"><button class="btn" data-act="leaveno">Continuar na aula</button><button class="btn ghost" data-act="leaveyes">Sair</button></div></div></div>`}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 const KB=['qwertyuiop','asdfghjklç','zxcvbnm'];
@@ -1235,7 +1297,7 @@ const realStudents=()=>Object.values(DB.students).filter(x=>/^[tm]/.test(x.id));
 function packData(tipo,list){const ids=list.map(x=>x.id),pres={};
   for(const [d,o] of Object.entries(DB.presence||{}))for(const id of ids)if(o[id]){(pres[d]=pres[d]||{})[id]=o[id]}
   const o={app:'inspirar-informatica',v:1,tipo,em:new Date().toISOString(),students:Object.fromEntries(list.map(x=>[x.id,x])),presence:pres};
-  if(tipo==='computador')o.config={colonia:colCfg(),tutora:tutorName()};return o}
+  if(tipo==='computador')o.config={colonia:colCfg(),tutora:tutorName(),atalho:DB.config.atalho};return o}
 async function toCode(obj){const j=JSON.stringify(obj);
   try{if(window.CompressionStream){const cs=new Blob([j]).stream().pipeThrough(new CompressionStream('deflate-raw'));const b=new Uint8Array(await new Response(cs).arrayBuffer());let bin='';b.forEach(x=>bin+=String.fromCharCode(x));return 'TD1.'+btoa(bin)}}catch(e){}
   return 'TD0.'+btoa(unescape(encodeURIComponent(j)))}
@@ -1250,13 +1312,15 @@ function mergeStudent(a,b){if(!a)return b;const o=Object.assign({},a);
   o.prog=Object.assign({},a.prog);for(const [k,v] of Object.entries(b.prog||{}))o.prog[k]=Math.max(o.prog[k]||0,v);
   o.tests=Object.assign({},a.tests);for(const [m,t] of Object.entries(b.tests||{})){const x=o.tests[m];o.tests[m]=!x?t:Object.assign({},x,t,{score:Math.max(x.score||0,t.score||0),tries:Math.max(x.tries||0,t.tries||0),typOk:!!(x.typOk||t.typOk),release:x.release||t.release})}
   const seen=new Set((a.typ||[]).map(x=>JSON.stringify(x)));o.typ=(a.typ||[]).concat((b.typ||[]).filter(x=>!seen.has(JSON.stringify(x))));
+  if(a.tlog||b.tlog){const kk=e=>e.k+'|'+e.r+'|'+e.p+'|'+e.i,sn=new Set((a.tlog||[]).map(kk));o.tlog=(a.tlog||[]).concat((b.tlog||[]).filter(e=>!sn.has(kk(e)))).sort((x,y)=>x.i-y.i).slice(-TLOG_MAX)}
   o.stk=[...new Set([...(a.stk||[]),...(b.stk||[])])];o.bonus=Math.max(a.bonus||0,b.bonus||0);o.proj=Object.assign({},b.proj||{},a.proj||{});return o}
 function importData(o){if(!o||o.app!=='inspirar-informatica'||!o.students)throw new Error('arquivo');let n=0;
   for(const [id,st] of Object.entries(o.students)){if(!/^[tm]/.test(id)||!st||!st.prog)continue;DB.students[id]=mergeStudent(DB.students[id],st);n++}
   for(const [d,ob] of Object.entries(o.presence||{})){const t=DB.presence[d]||(DB.presence[d]={});for(const [id,p] of Object.entries(ob))if(!t[id])t[id]=p}
   if(o.config&&o.config.tutora&&!DB.config.tutoraSet)DB.config.tutora=o.config.tutora;
+  if(o.config&&o.config.atalho&&!DB.config.atalho){DB.config.atalho=o.config.atalho;applyAtalho()}
   save();return n}
-function download(name,text){try{const b=new Blob([text],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);return true}catch(e){return false}}
+function download(name,text,type){try{const b=new Blob([text],{type:type||'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500);return true}catch(e){return false}}
 const slug=t=>easyTxt(t).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'aluno';
 async function doBackup(tipo){const list=tipo==='aluno'?[me()]:realStudents();const o=packData(tipo,list);
   const name=(tipo==='aluno'?'progresso-'+slug(me().name):'copia-computador')+'-'+dayKey()+'.json';
@@ -1268,6 +1332,10 @@ function modalHtml(){const m=V.modal;let inner='';
     <p class="muted" style="margin:8px 0">${m.file?`O arquivo <b>${esc(m.file)}</b> foi enviado para a pasta Downloads. Guarde num pen drive ou na pasta da Colônia.`:'Este navegador não deixou baixar o arquivo.'} ${m.n} aluno(s). <b>Se o arquivo não aparecer em Downloads</b> (por exemplo, quando a plataforma está aberta dentro do claude.ai), copie o código abaixo e guarde, por exemplo mandando para você mesma no WhatsApp.</p>
     <textarea id="codeout" class="sel" readonly rows="5" style="font-family:monospace;font-size:.8rem">${esc(m.code)}</textarea>
     <div class="row" style="margin-top:12px;justify-content:flex-end"><button class="btn ghost" data-act="copycode">Copiar código</button><button class="btn" data-act="modalx">Fechar</button></div>`;
+  if(m.kind==='tabela')inner=`<h2 id="mdt">Tabela de tempos</h2>
+    <p class="muted" style="margin:8px 0">${m.file?`O arquivo <b>${esc(m.file)}</b> foi para a pasta Downloads e abre no Excel.`:'Copie a tabela abaixo e cole no Excel (ou mande para você mesma no WhatsApp).'} Uma linha por passo, separada por ponto e vírgula.</p>
+    <textarea id="codeout" class="sel" readonly rows="6" style="font-family:monospace;font-size:.75rem">${esc(m.code)}</textarea>
+    <div class="row" style="margin-top:12px;justify-content:flex-end"><button class="btn ghost" data-act="copycode">Copiar a tabela</button><button class="btn" data-act="modalx">Fechar</button></div>`;
   if(m.kind==='restore')inner=`<h2 id="mdt">Trazer progresso</h2>
     <p class="muted" style="margin:8px 0">Escolha o arquivo de progresso (.json) ou cole o código. O progresso é somado ao que já existe neste computador: nada é apagado.</p>
     <label style="font-weight:800">Arquivo<input type="file" id="rfile" accept=".json,.txt,application/json,text/plain" class="sel"></label>
@@ -1307,7 +1375,7 @@ function vTutora(){
     <p class="muted" style="margin:8px 0">Digite o PIN da tutora.</p><input id="pin" class="sel" type="password" inputmode="numeric" autocomplete="off" maxlength="8" aria-label="PIN da tutora">
     <div class="feed no" id="pinerr" role="status"></div><div class="row" style="margin-top:10px;justify-content:space-between">${back}<button class="btn" data-act="pinok">Entrar</button></div></div></main>`;
   const tab=V.tabT||'colonia',cfg=colCfg(),kids=realStudents();
-  const tabs=[['colonia','Colônia'],['backup','Cópia de segurança'],['gabarito','Gabaritos'],['config','Ajustes']].map(([k,l])=>`<button class="${k===tab?'on':''}" data-act="tabT" data-t="${k}">${l}</button>`).join('');
+  const tabs=[['colonia','Colônia'],['backup','Cópia de segurança'],['gabarito','Gabaritos'],['tempos','Tempos'],['config','Ajustes']].map(([k,l])=>`<button class="${k===tab?'on':''}" data-act="tabT" data-t="${k}">${l}</button>`).join('');
   let body='';
   if(tab==='colonia')body=`<div class="card"><div class="row"><div class="grow"><h2>Modo Colônia neste computador</h2><p class="muted">Ligado: as crianças veem só as 5 missões e não precisam dos testes de digitação para chegar ao Word e ao Excel.</p></div>
      <button class="btn ${cfg.on?'good':''}" data-act="colon">${cfg.on?'Ligado: clique para desligar':'Ligar o Modo Colônia'}</button></div></div>
@@ -1317,9 +1385,12 @@ function vTutora(){
      <div class="row"><button class="btn" data-act="bkall">${ic('save')} Fazer a cópia de todas as crianças (${kids.length})</button><button class="btn ghost" data-act="restore">Trazer de um arquivo ou código</button></div>
      <p class="muted" style="margin-top:10px">Última cópia feita aqui: ${esc(DB.config.lastBackup||'nunca')}</p></div>`;
   if(tab==='gabarito'){const m=V.gabM||1;body=`<div class="card noprint"><div class="row"><div class="seg">${MODS.map(x=>`<button class="${x.n===m?'on':''}" data-act="gabM" data-m="${x.n}">${x.n}</button>`).join('')}</div><span class="grow"></span><button class="btn ghost sm" data-act="print">Imprimir</button></div></div>${gabHtml(m)}`}
+  if(tab==='tempos')body=vTempos();
   if(tab==='config')body=`<div class="card"><h2>Ajustes</h2><div class="stack" style="margin-top:10px">
      <label style="font-weight:800">Nome da tutora (aparece no certificado e nas liberações)<input id="tname" class="sel" value="${esc(tutorName())}" maxlength="30"></label>
      <label style="font-weight:800">Novo PIN (4 a 8 números; deixe em branco para manter)<input id="tpin" class="sel" inputmode="numeric" maxlength="8" autocomplete="off"></label>
+     <label style="font-weight:800">Atalho de salvar no Word deste notebook<select id="tatalho" class="sel">${[['?','Ainda não conferi: ensinar o botão do disquete'],['S','Ctrl + S (Word com atalhos em inglês)'],['B','Ctrl + B (Word em português)']].map(([v,l])=>`<option value="${v}" ${atalhoCfg()===v?'selected':''}>${l}</option>`).join('')}</select></label>
+     <p class="muted" style="font-size:.88rem;margin-top:-4px">Como conferir: abra o Word, digite uma palavra e aperte Ctrl + B. Se abrir a janela de salvar, escolha Ctrl + B. Se a palavra ficar em negrito, escolha Ctrl + S. As aulas 4.2 e 4.6, o teste do módulo 4 e os gabaritos mudam sozinhos.</p>
      <div class="feed" id="cfgmsg" role="status"></div><div><button class="btn" data-act="cfgsave">Salvar</button></div>
      <p class="muted" style="font-size:.88rem">O PIN fica guardado só neste computador. Troque o PIN em cada notebook.</p></div></div>`;
   return `${topbar()}<main class="wrap" style="padding-top:20px;padding-bottom:30px"><div class="stack"><div class="row noprint"><h1 class="grow">Área da tutora ${esc(tutorName())}</h1>${back}</div><div class="seg noprint">${tabs}</div>${body}</div></main>`;
@@ -1333,6 +1404,7 @@ function render(){
   TY=null;WS=null;
   if(v==='lesson'){
     const stp=steps(V.mod,V.les)[V.step];
+    if(!V.st.t0){V.st.t0=Date.now();V.st.e0=V.errs}
     if(stp.t==='type')startTyping();
     if(stp.t==='word')startWord(stp.sim);
     if(stp.t==='xl')startXl(stp.sim);
@@ -1354,6 +1426,7 @@ function newStudent(){const n=document.getElementById('nn').value.trim();if(n.le
   const id='t'+Date.now().toString(36);DB.students[id]={id,name:n,age:+document.getElementById('na').value,slot:'Sem horário (teste)',polo:'Polo Pinhão',ch:document.querySelector('input[name=nc]:checked').value,prog:{},tests:{},typ:[],hist:[],stk:[],bonus:0};save();enter('aluno',id)}
 function finishStep(){
   const st=steps(V.mod,V.les),cur=st[V.step];
+  logStep(cur,{x:cur&&cur.bonus&&V.st.skipped});
   if(cur&&cur.bonus){if(V.st.errs0!==undefined)V.errs=V.st.errs0;if(!V.st.skipped&&V.sid&&me()){me().bonus=(me().bonus||0)+1;save()}}
   if(V.step<st.length-1){V.step++;V.st={};render();return}
   if(V.les===0){V.view='home';render();return}
@@ -1395,8 +1468,8 @@ document.addEventListener('click',e=>{
    case 'swapch':s.ch=s.ch==='mia'?'teo':'mia';save();render();break;
    case 'openMod':if(V.view==='lesson'&&V.step>0&&!V.leaveOk){V.leave={m:el.dataset.m};render();break}V.leaveOk=false;V.mod=+el.dataset.m;V.view='module';render();break;
    case 'leaveno':V.leave=null;render();break;
-   case 'leaveyes':{const h=V.leave.home;V.mod=+V.leave.m;V.leave=null;V.view=h?'home':'module';render();break}
-   case 'openLes':V.mod=+el.dataset.m;V.les=+el.dataset.l;V.step=0;V.st={};V.errs=0;V.view='lesson';render();break;
+   case 'leaveyes':{logStep(steps(V.mod,V.les)[V.step],{l:1});const h=V.leave.home;V.mod=+V.leave.m;V.leave=null;V.view=h?'home':'module';render();break}
+   case 'openLes':V.mod=+el.dataset.m;V.les=+el.dataset.l;V.step=0;V.st={};V.errs=0;V.run=nowS();V.view='lesson';render();break;
    case 'next':finishStep();break;
    case 'typedone':finishStep();break;
    case 'ans':{const stp=steps(V.mod,V.les)[V.step],i=+el.dataset.i,f=document.getElementById('feed');
@@ -1414,7 +1487,7 @@ document.addEventListener('click',e=>{
        t.score=Math.max(sc,t.score||0);t.tries=(t.tries||0)+1;if(sc>=MIN&&modPassed(s,V.mod)){award(s,'mod'+V.mod)}save()}
      render();break}
    case 'cert':V.sem=+el.dataset.sem;V.view='cert';render();break;
-   case 'warm':{V.view='lesson';V.mod=2;V.les=0;V.step=0;V.st={};V.errs=0;
+   case 'warm':{V.view='lesson';V.mod=2;V.les=0;V.step=0;V.st={};V.errs=0;V.run=nowS();
      const ez=!lessonDone(s,2,4);LES['2.0']=[0,1,2,3].map(i=>{const w=WARM[(warmI+i)%WARM.length];return {t:'type',text:ez?T(easyTxt(w.y),easyTxt(w.o)):w,title:'Aquecimento do dia: frase '+(i+1)+' de 4'}});warmI+=4;render();break}
    case 'confirm':{const p=today();const id=el.dataset.id;if(!p[id])p[id]={in:'-',ok:true};else p[id].ok=true;save();render();break}
    case 'relopen':V.rel=el.dataset.id;render();break;
@@ -1430,7 +1503,7 @@ document.addEventListener('click',e=>{
      if(occ(p,t)>=cfgP(p).pcs){e.textContent='Esse horário está lotado.';break}
      const id='m'+Date.now().toString(36);DB.students[id]={id,name:n,age,slot:t,polo:p,ch:age%2?'teo':'mia',prog:{},tests:{},typ:[],hist:[],stk:[],bonus:0};save();render();break}
    case 'polo':V.poloSel=el.dataset.p;render();break;
-   case 'say':{const bb=el.closest('.bubble');if(bb)say([...bb.childNodes].filter(n=>n!==el).map(n=>n.textContent).join('. '));break}
+   case 'say':{if(V.view==='lesson'&&V.st)V.st.ouv=(V.st.ouv||0)+1;const bb=el.closest('.bubble');if(bb)say([...bb.childNodes].filter(n=>n!==el).map(n=>n.textContent).join('. '));break}
    case 'skipbonus':V.st.skipped=1;finishStep();break;
    case 'colcert':V.view='colcert';render();break;
    case 'print':try{window.print()}catch(e){}break;
@@ -1445,11 +1518,17 @@ document.addEventListener('click',e=>{
    case 'pinok':{const v=document.getElementById('pin').value.trim();if(v===(DB.config.pin||PIN_PADRAO)){V.tutOk=true;render()}else{document.getElementById('pinerr').textContent='PIN errado.'}break}
    case 'tabT':V.tabT=el.dataset.t;render();break;
    case 'gabM':V.gabM=+el.dataset.m;render();break;
+   case 'tempoTog':DB.config.tempoOff=tempoOn()?1:0;save();render();break;
+   case 'tempoCsv':{const t=tempoCsv(),name='tempos-'+dayKey()+'.csv',ok=download(name,t,'text/csv;charset=utf-8');V.modal={kind:'tabela',file:ok?name:'',code:t.replace(/^\ufeff/,'')};render();break}
+   case 'tempoCopy':V.modal={kind:'tabela',file:'',code:tempoCsv().replace(/^\ufeff/,'')};render();break;
+   case 'tempoClr':V.tclr=1;render();break;
+   case 'tempoClrNo':V.tclr=0;render();break;
+   case 'tempoClrYes':realStudents().forEach(x=>{x.tlog=[]});V.tclr=0;save();render();break;
    case 'colon':{const c=colCfg();c.on=!c.on;if(c.on&&!c.open.length)c.open=[1];save();render();break}
    case 'colmis':{const c=colCfg(),n=+el.dataset.n;c.open=el.checked?[...new Set([...c.open,n])].sort():c.open.filter(x=>x!==n);save();break}
    case 'cfgsave':{const n=document.getElementById('tname').value.trim(),pn=document.getElementById('tpin').value.trim(),m=document.getElementById('cfgmsg');
      if(pn&&!/^\d{4,8}$/.test(pn)){m.className='feed no';m.textContent='O PIN precisa ter de 4 a 8 números.';break}
-     if(n.length>=2){DB.config.tutora=n;DB.config.tutoraSet=1}if(pn)DB.config.pin=pn;save();m.className='feed ok';m.textContent='Salvo.';break}
+     if(n.length>=2){DB.config.tutora=n;DB.config.tutoraSet=1}if(pn)DB.config.pin=pn;const at=document.getElementById('tatalho');if(at){DB.config.atalho=at.value;applyAtalho()}save();m.className='feed ok';m.textContent='Salvo.';break}
   }
 });
 document.addEventListener('change',e=>{if(e.target.dataset&&e.target.dataset.ck){const all=[...document.querySelectorAll('[data-ck]')].every(x=>x.checked);document.getElementById('ckbtn').disabled=!all}});

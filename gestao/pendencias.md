@@ -82,8 +82,11 @@
 | 75 | Instalar e testar Scratch (sem conta) e LibreOffice nos notebooks | Informática | Júnior | 2026-12-05 | ⬜ | Currículo anual |
 | 76 | Ficha do teste com crianças (8 medidas + cronometragem) e registro automático de tempo por passo (publicar só com OK do Júnior, até 04/12) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
 | 77 | Especificação técnica da versão Níveis (modelo de dados já pensando no banco, migração da Colônia, mapa aula-base → módulo) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
-| 78 | Roteiros do Bronze: parte 1 (B0–B3) até 11/12; parte 2 (B4, B5, Teste Bronze, caderno e rubrica) até 18/12 | Pedagógico | Pelennor | 2026-12-18 | 🔄 | Plano de produção |
+| 78 | Roteiros do Bronze: parte 1 (B0–B3) até 11/12; ✅ parte 1 entregue em 21/11 (`relatorios/2026-11-21-roteiros-bronze-parte1.md`); parte 2 (B4, B5, Teste Bronze, caderno e rubrica) até 18/12 | Pedagógico | Pelennor | 2026-12-18 | 🔄 | Plano de produção |
 | 79 | Versão Níveis no ar para os alunos (Colônia congelada de 27/12 a 15/01) | Informática | Telchar + Júnior | 2027-01-25 | ⬜ | Plano de produção |
+| 80 | Configurar o teclado ABNT2 no Windows dos notebooks (sem isso, "ç" e acentos não funcionam no módulo B2) | Informática | Júnior | 2026-12-05 | ⬜ | Roteiros do Bronze |
+| 81 | Combinar com a Giovana o fluxo para relatos sensíveis das crianças (bullying, internet) — quem avisar e como registrar | Operações | Orthanc + Sam → sócios | 2026-12-18 | ⬜ | Roteiros do Bronze |
+| 82 | Custo de impressão do caderno, certificados e produtos do Bronze | Financeiro | Fíli | 2026-12-10 | ⬜ | Roteiros do Bronze |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
