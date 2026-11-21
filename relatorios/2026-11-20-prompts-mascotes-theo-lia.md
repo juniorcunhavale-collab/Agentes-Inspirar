@@ -36,6 +36,9 @@ Personalidade: vibra com cada acerto, sorri com o rosto todo e puxa o colega par
 
 ---
 
+> ✅ **Referência oficial da DUPLA aprovada pelo Júnior em 21/11/2026:** `plataforma-informatica/mascotes/dupla-referencia-oficial.jpg`
+> (anexar em toda imagem com os dois). Também aprovada como arte: `dupla-espaco-titulo.jpg` (espaço no meio para logo/título no Canva).
+>
 > ✅ **Referência oficial da Lia aprovada pelo Júnior em 20/11/2026:** `plataforma-informatica/mascotes/lia-referencia-oficial.jpg`
 > (1ª versão gerada no Gemini). Ficha ajustada: tênis amarelos com sola branca, sem sardas, barra amarela da camiseta.
 >

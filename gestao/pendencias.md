@@ -75,7 +75,7 @@
 | 68 | **Trocar o PIN padrão da Área da tutora** (Ajustes, em cada notebook) antes de qualquer criança usar — o link do aluno é aberto | Informática | Júnior | 2026-11-27 | ⬜ | Correções da plataforma |
 | 69 | Testar no claude.ai o backup por código, o Imprimir e o Ouvir; no notebook real, os acentos ABNT2 e o atalho de salvar do Word em português | Informática | Júnior + Giovana | 2026-12-06 | ⬜ | Correções da plataforma |
 | 70 | ~~Theo aprovado em 20/11 (`plataforma-informatica/mascotes/theo-referencia-oficial.jpg`)~~ → falta gerar e aprovar a **Lia**. Gerar no Gemini e aprovar os character sheets de Theo e Lia (referência da dupla); guardar na pasta "Inspirar Informática / Mascotes / Theo e Lia" | Marketing | Júnior (Merry apoia) | 2026-11-27 | ✅ Theo e Lia aprovados (20/11) | Prompts dos mascotes |
-| 71 | Gerar as cenas e as 4 figurinhas; Merry monta no Canva os posts da Colônia Digital (11–15/01) para aprovação | Marketing | Júnior + Merry | 2026-12-08 | ⬜ | Prompts dos mascotes |
+| 71 | Dupla aprovada em 21/11 (`plataforma-informatica/mascotes/`). Gerar as cenas (notebook, comemoração, internet segura, post da Colônia) e as 4 figurinhas; Merry monta no Canva os posts da Colônia Digital (11–15/01) para aprovação | Marketing | Júnior + Merry | 2026-12-08 | ⬜ | Prompts dos mascotes |
 | 72 | Trocar os mascotes antigos da plataforma por Theo e Lia (depois das imagens aprovadas) | Informática | Telchar + Júnior | após item 70 | ⬜ | Prompts dos mascotes |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
