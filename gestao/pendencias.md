@@ -77,6 +77,13 @@
 | 70 | ~~Theo aprovado em 20/11 (`plataforma-informatica/mascotes/theo-referencia-oficial.jpg`)~~ → falta gerar e aprovar a **Lia**. Gerar no Gemini e aprovar os character sheets de Theo e Lia (referência da dupla); guardar na pasta "Inspirar Informática / Mascotes / Theo e Lia" | Marketing | Júnior (Merry apoia) | 2026-11-27 | ✅ Theo e Lia aprovados (20/11) | Prompts dos mascotes |
 | 71 | Dupla aprovada em 21/11 (`plataforma-informatica/mascotes/`). Gerar as cenas (notebook, comemoração, internet segura, post da Colônia) e as 4 figurinhas; Merry monta no Canva os posts da Colônia Digital (11–15/01) para aprovação | Marketing | Júnior + Merry | 2026-12-08 | ⬜ | Prompts dos mascotes |
 | 72 | Trocar os mascotes antigos da plataforma por Theo e Lia (depois das imagens aprovadas) | Informática | Telchar + Júnior | após item 70 | ⬜ | Prompts dos mascotes |
+| 73 | **6 decisões de estrutura da plataforma** (D1 nomes dos níveis/certificado; D2 carga horária no certificado; D3 testes antigos viram prova de validação; D4 limite de 1 módulo à frente duro ou flexível; D5 Giovana aprova conteúdo aula a aula; D6 artifact de teste e como as versões chegam aos notebooks) | Informática | Júnior (Telchar prepara 1 página) | 2026-11-27 | ⬜ | Plano de produção |
+| 74 | Decidir: contrato anual da Informática = 12 meses a partir da entrada ou ano civil; reposição; quem paga a impressão do portfólio; data de início (jan × fev) | Informática | Sócios (Fíli apoia) | 2026-12-05 | ⬜ | Currículo anual |
+| 75 | Instalar e testar Scratch (sem conta) e LibreOffice nos notebooks | Informática | Júnior | 2026-12-05 | ⬜ | Currículo anual |
+| 76 | Ficha do teste com crianças (8 medidas + cronometragem) e registro automático de tempo por passo (publicar só com OK do Júnior, até 04/12) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
+| 77 | Especificação técnica da versão Níveis (modelo de dados já pensando no banco, migração da Colônia, mapa aula-base → módulo) | Informática | Telchar | 2026-11-28 | 🔄 | Plano de produção |
+| 78 | Roteiros do Bronze: parte 1 (B0–B3) até 11/12; parte 2 (B4, B5, Teste Bronze, caderno e rubrica) até 18/12 | Pedagógico | Pelennor | 2026-12-18 | 🔄 | Plano de produção |
+| 79 | Versão Níveis no ar para os alunos (Colônia congelada de 27/12 a 15/01) | Informática | Telchar + Júnior | 2027-01-25 | ⬜ | Plano de produção |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
 ## Concluídas
