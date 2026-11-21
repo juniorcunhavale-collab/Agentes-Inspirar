@@ -36,10 +36,17 @@
 ### Como chegar aos +R$ 10 mil/mês — cenário inicial (estimativas, a validar pelo Fíli)
 | Alavanca | Conta | Ganho/mês |
 |---|---|---|
-| Polo: bater as 69 matrículas e manter os alunos | 69 × ~R$ 60 | ~R$ 4.140 |
+| Polo: bater as 69 matrículas e manter os alunos | 69 × ~R$ 60 | ~R$ 4.140 ⚠️ revisado abaixo |
 | Inglês: 12ª turma | ~8 alunos × ~R$ 140 (ticket médio = R$ 12.000 ÷ 86) | ~R$ 1.120 |
 | **Subtotal** | | **~R$ 5.260** |
 | **Falta (Informática + cobrança + reajuste dos contratos antigos)** | | **~R$ 4.740** |
+
+> **🔄 Revisão do Fíli (20/11/2026, preços reais de Pinhão):** o teto dos 69 ativos e pagando em dia é ~R$ 4.581/mês
+> (ticket médio R$ 221,31; repasse R$ 66,39/aluno), mas com evasão realista (3% ao mês) o repasse novo chega a
+> ~R$ 3.821 em abr/27 e cai para ~R$ 2.916 em dez/27. Descontando a saída natural da base atual, o **ganho líquido do
+> polo fica em ~+R$ 1.250/mês** — com isso faltam ~R$ 7.631/mês para os +R$ 10 mil do Instituto. Caminho para o polo
+> entregar ~R$ 4.000 líquidos: 69 + 2º ciclo de ~40 matrículas em 2027.2 + evasão de 1,5% ao mês + 95% pagando em dia.
+> Detalhes: `relatorios/2026-11-20-projecao-meta-unicesumar.md`.
 
 Quantos alunos de Informática cobrem a diferença, conforme o preço (ainda não definido):
 | Mensalidade | Alunos necessários |

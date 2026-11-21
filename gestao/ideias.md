@@ -26,4 +26,20 @@
 | 19 | Usar a entrada do material (início e meio do ano) para criar a primeira reserva de caixa e/ou comprar notebooks | Financeiro | Entrevista bloco 6 | — | 💡 | ~R$ 13,7 mil por troca, menos o custo do material |
 | 20 | Contratos digitais com assinatura eletrônica (mais rápido na matrícula, menos papel, fácil de achar) | Operações | Entrevista bloco 7 | — | 💡 | Orthanc; validar a validade jurídica com o contador ou advogado |
 | 21 | Sistema simples de gestão escolar (alunos, contratos, cobrança) em vez de várias planilhas — avaliar quando a base crescer | Operações | Entrevista bloco 7 | — | 💡 | Orthanc + Fíli; custo × benefício |
+| 22 | **Kit do Aluno Inspirar Informática** (caderno de atividades + guia de consulta em casa) no lugar da taxa de matrícula | Informática | Júnior (2026-11-20) | — | 🔍 | Fíli calcula custo × preço; Pelennor cria |
+| 23 | **2º ano da Informática = programação com Scratch** (gratuito, do MIT, blocos de encaixar), com comandos e vocabulário em inglês; criação digital (design e vídeo) como módulo futuro para 13–15 anos | Informática | Telchar (2026-11-20) | — | 🔍 | Atenção à LGPD: conta de menor de 13 anos pede e-mail dos pais; dá para usar a versão instalada, sem conta |
+| 24 | Comunicar a simulação com honestidade ("simulador que ensina os mesmos comandos do Word e do Excel") e, no 2º semestre, praticar no LibreOffice (gratuito) | Informática | Telchar (2026-11-20) | — | 💡 | |
+| 25 | **Hora do Código Inspirar** (dez/2026, grátis) como gancho do Pacote Fundador | Informática | Nori (2026-11-20) | 23/25 | 🔍 | Decidir até 24/11 |
+| 26 | Colônia Digital também em julho (férias 12–25/07) | Informática | Nori | 21/25 | 💡 | |
+| 27 | B2B escolas particulares: "Computação BNCC" (aula na escola ou contraturno na Inspirar) | Informática | Nori | 20/25 | 💡 | Gargalo: quem dá a aula. Mercado pequeno em Pinhão (só 1 particular encontrada) |
+| 28 | **B2B prefeitura: (A) oficinas de computação na jornada ampliada das 4 escolas integrais, com os 45 notebooks comprados em out/2026; (B) formação de professores do 1º ao 3º ano** (Referencial PR), com piloto gratuito | Informática / Unicesumar | Nori (revisada após pesquisa) | — | 🔍 | O Estado já cobre robótica do 4º e 5º ano; gancho para pós e 2ª licenciatura (Ulmo) |
+| 29 | Clube Scratch de sábado (modelo Code Club) | Informática | Nori | 20/25 | 💡 | Funil do 2º ano |
+| 30 | Turma preparatória para a OBI (Iniciação) | Informática | Nori | 19/25 | 💡 | |
+| 31 | Celular e internet seguros 60+ | Informática | Nori | 18/25 | 💡 | Concorre com cursos gratuitos da Celepar |
+| 32 | Piloto de 2–3 kits micro:bit para o 2º ano | Informática | Telchar | — | 💡 | ~R$ 300 por kit (RoboCore) |
+| 33 | Robótica em escala, Jovem Aprendiz, licenciar a plataforma, franquia | Informática | Nori | — | ❌ não agora | Custo/burocracia; plataforma ainda em teste |
+| 34 | Vender robótica para a prefeitura | Informática | Nori | — | ❌ | O Estado já oferece de graça (Robótica Paraná Kids) |
+| 35 | Procurar o vereador Vinícius (autor das indicações de computadores e robótica nas escolas) como aliado da proposta à prefeitura | Informática | Nori (adendo INEP/Câmara) | — | 💡 | Só depois da conversa com a SMEC; tom institucional |
+| 36 | Oferta para escolas sem laboratório (ex.: EM Norberto, Indicação 848/2023): oficina com kits próprios ou computação desplugada | Informática | Nori | — | 💡 | Rede tem ~1 computador para 23 alunos |
+| 37 | **Formaturas Inspirar 2027** (polo + inglês): pacotes de fotos e celebração vendidos antecipadamente em 10 parcelas, com caixinha separada | Grupo | Júnior (2026-11-20) | — | 🔍 | Plano completo em `relatorios/2026-11-20-plano-formaturas-2027.md`; depende do sinal verde da Unicesumar |
 | 3 | Base única de clientes (todos os alunos/ex-alunos/leads de todas as frentes) | Grupo | Implantação | — | 💡 | Pré-requisito para cross-sell |

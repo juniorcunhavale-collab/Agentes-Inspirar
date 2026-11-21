@@ -97,8 +97,20 @@
   - **Adultos** (maioria das saídas): incompatibilidade de horário
   - **Crianças:** falta de adaptação nos primeiros meses
 - **Posição de mercado:** o dono considera que a Inspirar **já é referência em idiomas** na cidade
-- Metodologia / material didático (qual): [PREENCHER]
-- Grade de horários e nº de aulas por semana por turma: [PREENCHER]
+- Metodologia / material didático: método próprio, com apostilas e materiais criados pelo Júnior
+  (ver artifacts do dono, ex.: "Método de ensino de inglês", "Apostila A1 Adultos")
+- **Aulas:** 1 encontro de **1h30 por semana** por turma (36 horas por semestre)
+- **Calendário 2027.1:** início em **18/01/2027**, término em 09/07; férias de 12/07 a 25/07;
+  2º semestre a partir de 26/07; recesso de Carnaval em 08/02
+- **Grade (sala única — horários ocupados):**
+  - Seg: 9h00–10h30
+  - Ter: 9h00–10h30 · 18h00–19h30 · 19h40–21h10
+  - Qua: 9h00–10h30 · 13h30–15h00 · 18h00–19h30 · 19h40–21h10
+  - Qui: 9h00–10h30 · 13h30–15h00 · 15h10–16h40
+  - Sex e sáb: sem turmas
+  - Fonte: artifact "Horário das Turmas – Inspirar Idiomas" (os nomes dos alunos ficam só lá — LGPD)
+  - ⚠️ Confirmar: na entrevista a quinta ia "até as 20h"; a grade mostra a última turma às 16h40
+- **Espaço físico:** **uma sala só**, compartilhada por todas as frentes
 
 ### 3. Inspirar Informática — 🚀 EM LANÇAMENTO
 - **Status:** projeto novo; **lançamento no final de 2026**, com **turmas a partir de 2027**
@@ -111,8 +123,23 @@
 - **Giovana** acompanha os alunos como **tutora** em sala (não é aula expositiva).
 - **Entrada contínua:** o aluno pode começar a qualquer momento, sem esperar formar turma.
   "Turma" aqui significa **horário de atendimento** com tutora presente.
-- Melhorias na plataforma: o dono quer desenvolvê-la junto com a equipe de agentes
-  (acesso/link da plataforma: [PREENCHER]).
+- Melhorias na plataforma: o dono quer desenvolvê-la junto com a equipe de agentes.
+  A plataforma está nos artifacts do dono: "Inspirar Informática" e "Inspirar Informática Aluno";
+  há também "Ementa do curso de informática básica (8 a 12 anos)" e o "Rascunho do termo de
+  consentimento dos pais (LGPD)".
+
+- **Status da plataforma (check-up do Telchar, 20/11/2026):** a parte do aluno tem **40 aulas e 7 testes** e roda até
+  offline, mas **funciona como demonstração**: o progresso fica salvo só no navegador de cada notebook. **Correções de 20/11:** as 40 aulas e os 7 testes passam na bateria automática;
+  Trilha Colônia com Área da tutora (PIN) pronta; backup do progresso por arquivo ou código; conteúdo ampliado
+  (110 → 191 passos). Ainda faltam o painel real dos pais/tutora (banco de dados) e mais conteúdo para o ano. Ver
+  `relatorios/2026-11-20-correcoes-plataforma-informatica.md`. Código-fonte versionado em `plataforma-informatica/`.
+- **Acompanhamento dos pais:** ponto considerado importantíssimo pelo dono, **mas ainda não existe de verdade** — a
+  tela dos pais só mostra alunos fictícios. Depende de banco de dados com login (meta: 31/01/2027). **Não prometer
+  na venda até estar no ar.**
+- **Word e Excel:** são **simulações dentro da plataforma** (evita custo e questões de licença).
+- **Gabaritos e apoio à tutora:** previstos, ainda **não implementados** (a tela da tutora usa dados fictícios).
+- **Substituto da tutora:** o próprio Júnior cobre as faltas da Giovana (no dia a dia ele não fica
+  em sala).
 
 #### Público (em fases)
 1. **Fase 1:** crianças de **8 a 12 anos** (público inicial)
@@ -121,10 +148,12 @@
 
 #### Conteúdo (em fases)
 1. **Fase 1 — Inspirar Informática:** informática básica, **Word**, **Excel** etc.
-2. **Futuro:** programação e, possivelmente, robótica (a definir junto com a equipe)
+2. **Futuro (2º ano em diante):** programação e/ou outras trilhas — o dono quer sugestões da equipe
 
 #### Estrutura
-- Hoje: **2 computadores** disponíveis
+- Hoje: **2 notebooks HP** (bons) e internet boa
+- Próximas compras: **notebooks Dell recondicionados**, ~R$ 900 cada (não foi encontrado o mesmo
+  modelo HP recondicionado)
 - Plano: comprar notebooks até chegar a **10 notebooks** (= até 10 alunos simultâneos por horário)
 
 #### Formato comercial
@@ -163,7 +192,8 @@
 - **Atendimento:** balcão, telefone e WhatsApp.
   - Inglês: **Indianara** (principalmente)
   - Unicesumar: **Giovana** (principalmente)
-- **Registro de interessados (leads):** não há CRM nem planilha informada [CONFIRMAR]
+- **Registro de interessados (leads):** existe o artifact "Leads Polo Pinhão: matrículas 2026/27"
+  (polo). Para o inglês e a informática: [CONFIRMAR]
 - **Redes sociais:**
   - Inglês: Instagram **@inspirar.idioma** [confirmar o @ exato] e canal no YouTube
   - Polo: Instagram próprio e página no Facebook **"Unicesumar Pinhão"**
