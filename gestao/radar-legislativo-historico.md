@@ -1,6 +1,6 @@
 # Radar Legislativo — itens já vistos
 
-> Mantido pela rotina `/radar-legislativo` (Nori, toda terça de manhã). Serve para não repetir
+> Mantido pela rotina `/radar-legislativo` (Nori, dias 1 e 15 de cada mês). Serve para não repetir
 > itens de uma semana para outra.
 
 | Visto em | Esfera | Item | Link | Observação |

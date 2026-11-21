@@ -469,7 +469,7 @@ async function tempoAtalho(browser) {
   ({ ctx, page } = await mk(browser, VPS[0]));
   await page.goto(URL.aluno); await newKid(page, 'Teo', '11');
   const at0 = await ev(page, () => ({ q: LES['4.2'].find(x => x.atalho === 'quiz'), b: BANK[4].map(x => x[0]), i: tx(LES['4.2'][0].x) }));
-  ok(/disquete/.test(at0.q.q) && at0.q.opts[at0.q.a] === 'O botão do disquete' && at0.b.includes('O botão do disquete...') && !/Ctrl \+ S/.test(at0.i), 'Atalho: sem conferir o Office, as aulas ensinam o botão do disquete', at0.q.q);
+  ok(/salva/.test(at0.q.q) && at0.q.opts[at0.q.a] === 'O botão do disquete' && at0.b.includes('O botão do disquete...') && !/Ctrl \+ S/.test(at0.i), 'Atalho: sem conferir o Office, as aulas ensinam o botão do disquete', at0.q.q);
   await openTutora(page); await page.click('[data-act=tabT][data-t=config]');
   await page.selectOption('#tatalho', 'B'); await page.click('[data-act=cfgsave]');
   const atB = await ev(page, () => ({ q: LES['4.2'].find(x => x.atalho === 'quiz'), q2: LES['4.6'].find(x => x.atalho === 'quiz2'), b: BANK[4].map(x => x[0]), s: tx(LES['4.2'].find(x => x.atalho === 'sabia').x), a: animSvg('save') }));

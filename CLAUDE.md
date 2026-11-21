@@ -97,6 +97,18 @@ reais da equipe são identificadas pela função ou pelo nome real, nunca confun
 
 ---
 
+## 3.1 Modo econômico (decisão do dono, 21/11/2026)
+
+O uso de tokens precisa ser controlado. Por isso:
+1. **Durin responde direto** o que for simples ou já estiver em `contexto/`, `gestao/` ou `relatorios/`.
+   Só aciona agente quando a tarefa exigir análise ou produção nova.
+2. **No máximo 1 agente por vez**, salvo pedido do dono. Nada de acionar 3–4 em paralelo.
+3. **Relatórios com até 1 página** (tabelas curtas, sem repetir contexto). Resposta ao dono em até ~15 linhas.
+4. **Pesquisa na web só quando o dono pedir** ou quando a decisão depender dela.
+5. **Central de Documentos: republicar no máximo uma vez por dia** (no fim do trabalho do dia), não a cada mudança.
+6. **Conversas curtas, uma por assunto.** A memória fica nos arquivos; não é preciso manter conversas longas.
+7. Agentes de rotina (Valinor, Merry, Sam, Orthanc) usam modelo mais leve (`model: sonnet` no arquivo do agente).
+
 ## 4. Rotinas (comandos disponíveis)
 
 | Comando | Quando usar | O que faz |
@@ -108,7 +120,7 @@ reais da equipe são identificadas pela função ou pelo nome real, nunca confun
 | `/ideias <tema opcional>` | Quando quiser crescer/melhorar | Estrategista + Novos Negócios geram e avaliam oportunidades |
 | `/plano-captacao <unidade>` | Antes de cada ciclo de matrícula | Plano comercial + marketing + financeiro para captação |
 | `/atualizar-contexto` | Quando algo mudar no negócio | Entrevista o dono e atualiza `contexto/` |
-| `/radar-legislativo` | **Toda terça de manhã (agendado)** | Nori varre leis de Pinhão, do Paraná e do Brasil em busca de oportunidades e riscos |
+| `/radar-legislativo` | **Dias 1 e 15 de cada mês, de manhã (agendado)** | Nori varre as manchetes de leis de Pinhão, do Paraná e do Brasil em busca de oportunidades e riscos (até 1 página) |
 
 ---
 
