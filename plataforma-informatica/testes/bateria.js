@@ -256,6 +256,8 @@ async function specific(browser) {
   const tt = await page.locator('main').innerText();
   ok(/Giovana/.test(await page.locator('.top').innerText()) && !/Marina/.test(tt), 'Tutora Giovana no lugar de "Tutora Marina" (#16)');
   ok(await page.locator('.demo-note').count() === 1, 'Tela da tutora avisa que os dados são de demonstração');
+  // horário fixo com aluno para liberar (antes dependia do dia da semana: falhava aos sábados e domingos)
+  await page.click('[data-act=slot][data-t="Qui 10h45"]');
   const rel = page.locator('[data-act=relopen]');
   if (await rel.count()) { await rel.first().click(); await page.click('[data-act=reldo]'); }
   await page.click('[data-act=logout]'); await page.click('[data-act=roleGestor]');
@@ -400,6 +402,92 @@ async function mobileScreens(browser) {
   await ctx.close();
 }
 
+// ======================= 7. registro de tempo por passo e atalho de salvar (22/11) =======================
+async function tempoAtalho(browser) {
+  L('\n=== Registro de tempo por passo e atalho de salvar ===');
+  let { ctx, page } = await mk(browser, VPS[0]);
+  await page.goto(URL.aluno); await newKid(page, 'Rafa', '9');
+  const r1 = await doLesson(page, 1, 1);
+  const lg = await ev(page, () => ({ n: (me().tlog || []).length, steps: steps(1, 1).length, e: me().tlog }));
+  ok(r1.ok && lg.n === lg.steps && lg.e.every(x => x.k === '1.1' && x.s >= 0 && typeof x.m === 'number' && x.r > 0), 'Tempo: cada passo da aula 1.1 vira 1 registro (aula, passo, segundos, tempo-modelo)', `${lg.n}/${lg.steps}`);
+  ok(lg.e.every((x, i) => x.p === i) && new Set(lg.e.map(x => x.r)).size === 1, 'Tempo: passos em ordem e na mesma tentativa');
+  ok(lg.e.some(x => x.t === 'quiz') && lg.e.some(x => x.b === 1), 'Tempo: guarda o tipo do passo e marca o desafio bônus');
+  // erros contados no passo certo
+  await ev(page, () => { V.view = 'module'; V.mod = 1; render(); });
+  await page.click('[data-act=openLes][data-m="1"][data-l="1"]'); await clickNext(page);
+  const qa = await ev(page, () => steps(1, 1)[V.step].a);
+  const wrong = await page.locator(`.opt:not([data-i="${qa}"])`).first(); await wrong.click(); await page.click(`.opt[data-i="${qa}"]`); await clickNext(page);
+  const le = await ev(page, () => me().tlog.slice(-1)[0]);
+  ok(le.p === 1 && le.e === 1, 'Tempo: erro registrado no passo onde aconteceu', JSON.stringify({ p: le.p, e: le.e }));
+  // sair no meio da aula fica marcado
+  await page.click('.crumb [data-act=openMod]'); await page.click('[data-act=leaveyes]');
+  const lv = await ev(page, () => me().tlog.slice(-1)[0]);
+  ok(lv.l === 1 && lv.p === 2, 'Tempo: saída no meio da aula fica registrada com o passo onde parou', JSON.stringify({ p: lv.p, l: lv.l }));
+  // aquecimento também conta
+  await ev(page, () => { V.view = 'home'; render(); });
+  if (await page.locator('[data-act=warm]').count()) {
+    await page.click('[data-act=warm]');
+    for (let i = 0; i < 4; i++) { const t = await ev(page, () => document.getElementById('tbox').dataset.text); await typeText(page, t); await clickNext(page); }
+    ok(await ev(page, () => me().tlog.filter(x => x.k === '2.0').length === 4), 'Tempo: aquecimento de digitação registrado (4 frases)');
+  }
+  // área da tutora: aba Tempos
+  await openTutora(page); await page.click('[data-act=tabT][data-t=tempos]');
+  const tt = await page.locator('main').innerText();
+  ok(/Tempos por aula/.test(tt) && /1\.1/.test(tt) && /Aquecimento/.test(tt) && /fator F/.test(tt), 'Tutora: aba Tempos mostra as aulas, o aquecimento e o fator F');
+  await overflow(page, '1366 aba Tempos');
+  const [dl] = await Promise.all([page.waitForEvent('download'), page.click('[data-act=tempoCsv]')]);
+  const f = path.join(TMP, dl.suggestedFilename()); await dl.saveAs(f);
+  const csv = fs.readFileSync(f, 'utf8').replace(/^﻿/, '').trim().split(/\r?\n/);
+  const nlog = await ev(page, () => me().tlog.length);
+  ok(/^tempos-\d{4}-\d\d-\d\d\.csv$/.test(dl.suggestedFilename()) && csv[0].startsWith('crianca;idade;data;hora_inicio;aula') && csv.length === nlog + 1 && csv[1].startsWith('Rafa;9;'), 'Tutora: baixa a tabela de tempos (CSV para Excel), 1 linha por passo', `${dl.suggestedFilename()} · ${csv.length - 1} linhas`);
+  ok(await page.locator('#codeout').count() === 1 && (await page.locator('#codeout').inputValue()).startsWith('crianca;'), 'Tutora: a tabela também aparece para copiar (claude.ai não baixa arquivo)');
+  await page.click('[data-act=modalx]');
+  // desligar o registro
+  await page.click('[data-act=tempoTog]'); await page.click('[data-act=tutorax]');
+  const n0 = await ev(page, () => me().tlog.length); await doLesson(page, 1, 2);
+  ok(await ev(page, n0 => me().tlog.length === n0, n0), 'Tempo: com o registro desligado, nada é gravado');
+  await ev(page, () => { DB.config.tempoOff = 0; save(); });
+  // cópia de segurança leva os tempos e a junção não duplica
+  await ev(page, () => { V.view = 'home'; render(); });
+  const [bk] = await Promise.all([page.waitForEvent('download'), page.click('[data-act=mybackup]')]);
+  const code = await page.locator('#codeout').inputValue(); await page.click('[data-act=modalx]');
+  const fb = path.join(TMP, 'tempo-' + bk.suggestedFilename()); await bk.saveAs(fb);
+  await page.click('[data-act=restore]'); await page.fill('#rcode', code); await page.click('[data-act=restoredo]'); await page.waitForTimeout(400);
+  ok(await ev(page, n => me().tlog.length === n, nlog), 'Tempo: trazer a mesma cópia de novo não duplica os registros');
+  await ctx.close();
+  ({ ctx, page } = await mk(browser, VPS[1]));
+  await page.goto(URL.aluno); await page.click('[data-act=restore]'); await page.setInputFiles('#rfile', fb); await page.click('[data-act=restoredo]'); await page.waitForTimeout(400);
+  ok(await ev(page, n => !!me() && me().tlog.length === n, nlog), 'Tempo: os registros vão junto na cópia de segurança para outro notebook');
+  await openTutora(page); await page.click('[data-act=tabT][data-t=tempos]'); await overflow(page, '390 aba Tempos');
+  await page.click('[data-act=tempoClr]'); await page.click('[data-act=tempoClrYes]');
+  ok(await ev(page, () => realStudents().every(x => !(x.tlog || []).length) && Object.keys(me().prog).length > 0), 'Tutora: "Apagar os tempos" limpa só os tempos, não o progresso');
+  ok(page.errs.length === 0, 'Tempo no celular sem erro de console', JSON.stringify(page.errs.slice(0, 5)));
+  await ctx.close();
+
+  // atalho de salvar
+  ({ ctx, page } = await mk(browser, VPS[0]));
+  await page.goto(URL.aluno); await newKid(page, 'Teo', '11');
+  const at0 = await ev(page, () => ({ q: LES['4.2'].find(x => x.atalho === 'quiz'), b: BANK[4].map(x => x[0]), i: tx(LES['4.2'][0].x) }));
+  ok(/disquete/.test(at0.q.q) && at0.q.opts[at0.q.a] === 'O botão do disquete' && at0.b.includes('O botão do disquete...') && !/Ctrl \+ S/.test(at0.i), 'Atalho: sem conferir o Office, as aulas ensinam o botão do disquete', at0.q.q);
+  await openTutora(page); await page.click('[data-act=tabT][data-t=config]');
+  await page.selectOption('#tatalho', 'B'); await page.click('[data-act=cfgsave]');
+  const atB = await ev(page, () => ({ q: LES['4.2'].find(x => x.atalho === 'quiz'), q2: LES['4.6'].find(x => x.atalho === 'quiz2'), b: BANK[4].map(x => x[0]), s: tx(LES['4.2'].find(x => x.atalho === 'sabia').x), a: animSvg('save') }));
+  ok(atB.q.opts[atB.q.a] === 'Ctrl + B' && atB.q2.opts[atB.q2.a] === 'Ctrl + B' && atB.b.includes('Ctrl + B...') && /sublinha/.test(atB.s) && />B</.test(atB.a), 'Atalho: com "Ctrl + B" escolhido, aulas 4.2 e 4.6, teste do módulo 4 e animação mudam');
+  await page.click('[data-act=tabT][data-t=gabarito]'); await page.click('[data-act=gabM][data-m="4"]');
+  ok(/Resposta: Ctrl \+ B/.test(await page.locator('main').innerText()), 'Atalho: gabarito da tutora acompanha (Ctrl + B)');
+  await page.reload();
+  ok(await ev(page, () => LES['4.2'].find(x => x.atalho === 'quiz').opts[0] === 'Ctrl + B'), 'Atalho: escolha fica guardada depois de recarregar');
+  await ev(page, () => { DB.config.atalho = 'S'; applyAtalho(); });
+  ok(await ev(page, () => LES['4.6'].find(x => x.atalho === 'quiz2').opts[0] === 'Ctrl + S' && BANK[4].some(x => x[0] === 'Ctrl + S...')), 'Atalho: com "Ctrl + S" volta ao conteúdo original');
+  // aula 4.2 de ponta a ponta com o atalho configurado
+  await ev(page, () => { V.demo = true; V.role = 'aluno'; V.sid = realStudents()[0].id; V.view = 'module'; V.mod = 4; render(); });
+  await page.click('[data-act=openLes][data-m="4"][data-l="2"]');
+  const r42 = await solveLesson(page, '4.2-atalho');
+  ok(r42.ok, 'Atalho: aula 4.2 completa com o atalho configurado', r42.issues.join(' ; '));
+  ok(page.errs.length === 0, 'Atalho sem erro de console', JSON.stringify(page.errs.slice(0, 5)));
+  await ctx.close();
+}
+
 (async () => {
   L('Bateria da plataforma · ' + new Date().toISOString() + ' · pasta ' + BASE);
   const browser = await chromium.launch();
@@ -410,6 +498,7 @@ async function mobileScreens(browser) {
     await backup(browser);
     await migration(browser);
     await mobileScreens(browser);
+    await tempoAtalho(browser);
   } catch (e) { ok(false, 'bateria terminou sem exceção', e.message.split('\n')[0]); }
   await browser.close();
   L(`\nRESUMO: ${OUT.filter(x => x.startsWith('PASSOU')).length} verificações passaram, ${FAILS.length} falharam.`);
