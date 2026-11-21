@@ -452,6 +452,7 @@ async function tempoAtalho(browser) {
   const [bk] = await Promise.all([page.waitForEvent('download'), page.click('[data-act=mybackup]')]);
   const code = await page.locator('#codeout').inputValue(); await page.click('[data-act=modalx]');
   const fb = path.join(TMP, 'tempo-' + bk.suggestedFilename()); await bk.saveAs(fb);
+  await page.click('[data-act=logout]');
   await page.click('[data-act=restore]'); await page.fill('#rcode', code); await page.click('[data-act=restoredo]'); await page.waitForTimeout(400);
   ok(await ev(page, n => me().tlog.length === n, nlog), 'Tempo: trazer a mesma cópia de novo não duplica os registros');
   await ctx.close();

@@ -1,8 +1,8 @@
-Bateria da plataforma · 2026-11-21T18:02:41.102Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
+Bateria da plataforma · 2026-11-21T18:09:11.769Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
 
 === Ponta a ponta · aluno · 1366x768 ===
 PASSOU · aluno 1366: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o gato bebe leite na cozinha"
+PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "a casa tem uma sala grande"
 PASSOU · aluno 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 1366: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -22,7 +22,7 @@ PASSOU · gestao 1366: nenhum erro de console · []
 
 === Ponta a ponta · aluno · 390x844 ===
 PASSOU · aluno 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a casa tem uma sala grande"
+PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "o sapo pula na lagoa"
 PASSOU · aluno 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -32,7 +32,7 @@ PASSOU · aluno 390: nenhum erro de console · []
 
 === Ponta a ponta · gestao · 390x844 ===
 PASSOU · gestao 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "o computador ajuda a escrever e a pesquisar"
+PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "eu gosto de aprender coisas novas no computador"
 PASSOU · gestao 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · gestao 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · gestao 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -97,7 +97,7 @@ PASSOU · 390: PIN novo e nome da tutora salvos
 PASSOU · 390: Colônia sem erro de console · []
 
 === Cópia de segurança (arquivo e código) ===
-PASSOU · Aluno: "Guardar meu progresso" baixa o arquivo e mostra o código · progresso-duda-2026-11-21.json · código 600 caracteres
+PASSOU · Aluno: "Guardar meu progresso" baixa o arquivo e mostra o código · progresso-duda-2026-11-21.json · código 592 caracteres
 PASSOU · Tutora: cópia de todas as crianças do computador (2 crianças)
 PASSOU · Notebook novo: "Trazer meu progresso" pelo arquivo devolve a criança com as 2 aulas · {"name":"Duda","n":2}
 PASSOU · Navegador limpo: progresso volta pelo código colado
@@ -125,7 +125,14 @@ PASSOU · Tempo: cada passo da aula 1.1 vira 1 registro (aula, passo, segundos, 
 PASSOU · Tempo: passos em ordem e na mesma tentativa
 PASSOU · Tempo: guarda o tipo do passo e marca o desafio bônus
 PASSOU · Tempo: erro registrado no passo onde aconteceu · {"p":1,"e":1}
+PASSOU · Tempo: saída no meio da aula fica registrada com o passo onde parou · {"p":2,"l":1}
+PASSOU · Tempo: aquecimento de digitação registrado (4 frases)
+PASSOU · Tutora: aba Tempos mostra as aulas, o aquecimento e o fator F
+PASSOU · sem rolagem lateral: 1366 aba Tempos · 1366/1366
+PASSOU · Tutora: baixa a tabela de tempos (CSV para Excel), 1 linha por passo · tempos-2026-11-21.csv · 15 linhas
+PASSOU · Tutora: a tabela também aparece para copiar (claude.ai não baixa arquivo)
+PASSOU · Tempo: com o registro desligado, nada é gravado
 FALHOU · bateria terminou sem exceção · page.click: Timeout 30000ms exceeded.
 
-RESUMO: 104 verificações passaram, 1 falharam.
+RESUMO: 111 verificações passaram, 1 falharam.
 Falhas: bateria terminou sem exceção
