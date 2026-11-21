@@ -1,8 +1,8 @@
-Bateria da plataforma · 2026-11-21T18:15:54.787Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
+Bateria da plataforma · 2026-11-21T18:21:56.670Z · pasta /home/user/Agentes-Inspirar/plataforma-informatica/atual
 
 === Ponta a ponta · aluno · 1366x768 ===
 PASSOU · aluno 1366: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "eu gosto de jogar bola"
+PASSOU · aluno 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "a fada mora perto do lago"
 PASSOU · aluno 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 1366: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -12,7 +12,7 @@ PASSOU · aluno 1366: nenhum erro de console · []
 
 === Ponta a ponta · gestao · 1366x768 ===
 PASSOU · gestao 1366: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · gestao 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "o computador ajuda a escrever e a pesquisar"
+PASSOU · gestao 1366: teste do módulo 1 sem maiúscula nem acento (#13) · "eu gosto de aprender coisas novas no computador"
 PASSOU · gestao 1366: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · gestao 1366: aluno automático passa nos 7 testes · 7/7
 PASSOU · gestao 1366: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -22,7 +22,7 @@ PASSOU · gestao 1366: nenhum erro de console · []
 
 === Ponta a ponta · aluno · 390x844 ===
 PASSOU · aluno 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "o gato bebe leite na cozinha"
+PASSOU · aluno 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a casa tem uma sala grande"
 PASSOU · aluno 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · aluno 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · aluno 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -32,7 +32,7 @@ PASSOU · aluno 390: nenhum erro de console · []
 
 === Ponta a ponta · gestao · 390x844 ===
 PASSOU · gestao 390: com as aulas feitas, o botão principal leva ao teste (#22)
-PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "o mouse e o teclado mandam ordens para o computador"
+PASSOU · gestao 390: teste do módulo 1 sem maiúscula nem acento (#13) · "a turma vai fazer um projeto muito legal"
 PASSOU · gestao 390: aluno automático completa as 40 aulas (inclusive desafios bônus) · 40/40
 PASSOU · gestao 390: aluno automático passa nos 7 testes · 7/7
 PASSOU · gestao 390: nenhum clique perdido no Excel (sem clicar de novo) (#7) · perdidos: 0
@@ -47,7 +47,7 @@ PASSOU · 4.5: imagem centralizada (setas) conclui as 2 tarefas (#5)
 PASSOU · 5.5: tarefas coerentes mesmo fora de ordem (#6)
 PASSOU · Excel: 5 cliques seguidos sem perder clique nem digitação (#7) · ["Maçã","Pão","5","3,5","ok"]
 PASSOU · Excel: =SOMA(B2;B3), vírgula decimal e números negativos (#25) · [8.5,4.5,-5,6.5,8.5]
-PASSOU · Quiz das aulas com opções embaralhadas (#12) · primeiras opções vistas: 1,2
+PASSOU · Quiz das aulas com opções embaralhadas (#12) · primeiras opções vistas: 0,2
 PASSOU · Aulas 2.1 a 2.3 sem letra maiúscula (#13)
 PASSOU · Digitação: aviso de usar Shift quando falta a maiúscula
 PASSOU · Desafio bônus pode ser pulado sem perder estrela · estrelas 3
@@ -97,7 +97,7 @@ PASSOU · 390: PIN novo e nome da tutora salvos
 PASSOU · 390: Colônia sem erro de console · []
 
 === Cópia de segurança (arquivo e código) ===
-PASSOU · Aluno: "Guardar meu progresso" baixa o arquivo e mostra o código · progresso-duda-2026-11-21.json · código 600 caracteres
+PASSOU · Aluno: "Guardar meu progresso" baixa o arquivo e mostra o código · progresso-duda-2026-11-21.json · código 596 caracteres
 PASSOU · Tutora: cópia de todas as crianças do computador (2 crianças)
 PASSOU · Notebook novo: "Trazer meu progresso" pelo arquivo devolve a criança com as 2 aulas · {"name":"Duda","n":2}
 PASSOU · Navegador limpo: progresso volta pelo código colado
@@ -137,7 +137,7 @@ PASSOU · Tempo: os registros vão junto na cópia de segurança para outro note
 PASSOU · sem rolagem lateral: 390 aba Tempos · 390/390
 PASSOU · Tutora: "Apagar os tempos" limpa só os tempos, não o progresso
 PASSOU · Tempo no celular sem erro de console · []
-FALHOU · Atalho: sem conferir o Office, as aulas ensinam o botão do disquete · Qual botão salva o documento em qualquer Word?
+PASSOU · Atalho: sem conferir o Office, as aulas ensinam o botão do disquete · Qual botão salva o documento em qualquer Word?
 PASSOU · Atalho: com "Ctrl + B" escolhido, aulas 4.2 e 4.6, teste do módulo 4 e animação mudam
 PASSOU · Atalho: gabarito da tutora acompanha (Ctrl + B)
 PASSOU · Atalho: escolha fica guardada depois de recarregar
@@ -145,5 +145,4 @@ PASSOU · Atalho: com "Ctrl + S" volta ao conteúdo original
 PASSOU · Atalho: aula 4.2 completa com o atalho configurado
 PASSOU · Atalho sem erro de console · []
 
-RESUMO: 122 verificações passaram, 1 falharam.
-Falhas: Atalho: sem conferir o Office, as aulas ensinam o botão do disquete
+RESUMO: 123 verificações passaram, 0 falharam.

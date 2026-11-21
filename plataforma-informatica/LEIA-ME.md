@@ -12,3 +12,8 @@
 
 Para usar sem claude.ai (Colônia): copiar `atual/aluno/index.html` para cada notebook e abrir no Edge.
 PIN padrão da área da tutora: **2501** (trocar em Área da tutora → Ajustes, em cada notebook).
+
+Registro de tempo (desde 21/11, ainda não publicado): cada passo concluído grava os segundos no próprio aluno.
+A tutora vê o fator F e baixa ou copia a tabela em Área da tutora → **Tempos**. Atalho de salvar do Word:
+Área da tutora → **Ajustes** (ou a constante `ATALHO_PADRAO` em `app.js`). Histórico de lotes: `CHANGELOG.md`.
+Especificação da versão Níveis: `ESPECIFICACAO-NIVEIS.md`.
