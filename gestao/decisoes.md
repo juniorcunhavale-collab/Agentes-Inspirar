@@ -5,6 +5,9 @@
 
 | Data | Decisão | Motivo | Alternativas descartadas | Como mediremos | Revisar em |
 |---|---|---|---|---|---|
+| 2026-11-22 | **Não fazer a Hora do Código em dezembro** | Foco na Colônia Digital de janeiro | Evento de captação em dezembro | — | — |
+| 2026-11-22 | **A meta de +R$ 10 mil é mensal**; o Fíli divide a meta por frente | Confirmação do dono | Meta anual | Faturamento mensal vs. ~R$ 27 mil | Mensal |
+| 2026-11-22 | **A Giovana assume o contato diário com os leads do polo**; o Júnior liga para o consultor da Unicesumar em 23/11 | Destravar a Black Week | Indianara ou divisão entre as duas | Leads tirados de "Novo" por semana | 2026-11-30 |
 | 2026-11-20 | **Pacote Fundador aprovado** para os 10 primeiros alunos da Informática, até 15/12 | Juntar caixa rápido para comprar notebooks | Só taxa de matrícula | Nº de pacotes vendidos até 15/12 | 2026-12-15 |
 | 2026-11-21 | **Modo econômico de tokens:** Durin responde direto o simples, 1 agente por vez, relatórios de 1 página, Central 1x por dia, conversas curtas por assunto, agentes de rotina no Sonnet, Radar Legislativo quinzenal | Uso alto de tokens | Manter o ritmo atual | Uso semanal de tokens | 2026-12-21 |
 | 2026-11-20 | **Mascotes da plataforma de Informática: Theo e Lia** (provisório) — dupla de ~10 anos, roupa do dia a dia, 3D estilo animação, personalidade de diversão + curiosidade; Theo em turquesa e marinho, Lia em coral e amarelo; **os dois brancos — Theo de cabelo preto, Lia loira** (ajuste do Júnior) | Aproximar dos alunos de 8–12 anos e da marca | Personagens anteriores da plataforma | Aceitação das crianças no teste de dezembro | 2026-12-12 |

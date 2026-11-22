@@ -27,7 +27,7 @@
 | 20 | Medir a inadimplência do inglês: lista de quem está em atraso e há quanto tempo (exportar a planilha para `dados/`) | Financeiro | Júnior → Fíli | 2026-11-27 | ⬜ | Entrevista bloco 6 |
 | 21 | Confirmar se os ~R$ 12 mil do inglês são o valor cobrado ou o efetivamente recebido | Financeiro | Júnior | 2026-11-27 | ⬜ | Entrevista bloco 6 |
 | 22 | **Conversar sobre a visão de 3 anos** com os sócios (o dono pediu para ser perguntado depois) | Grupo | Durin puxa o assunto | 2026-12-10 | ⬜ | Entrevista bloco 7 |
-| 23 | Confirmar se a meta de +R$ 10 mil é **por mês** e desdobrá-la em metas por frente | Grupo | Júnior + Fíli | 2026-11-27 | ⬜ | Entrevista bloco 7 |
+| 23 | ~~Confirmar se a meta é por mês~~ → **sim, +R$ 10 mil por mês** (22/11). Falta desdobrar em metas por frente | Grupo | Fíli | 2026-11-27 | ⬜ | Entrevista bloco 7 |
 | 24 | Mapear o que depende só da Indianara (e quem a substitui) | Operações | Indianara + Orthanc | 2026-12-05 | ⬜ | Entrevista bloco 7 |
 | 25 | **Decidir:** preço (R$ 150 + matrícula ou kit de material), formato e preço da Colônia Digital (ver `relatorios/2026-11-20-colonia-digital-e-grade-informatica.md`). Pacote Fundador já aprovado | Informática | Sócios | 2026-11-27 | 🔄 | Plano de equipamento |
 | 26 | Abrir conta/caixinha Pix separada para as pré-matrículas antes da 1ª venda | Financeiro | Sócios | 2026-11-30 | ⬜ | Plano de equipamento |
@@ -39,8 +39,8 @@
 | 32 | **Montar as missões da Colônia (1 semana, 11–15/01)** a partir da ementa existente de informática básica (8 a 12 anos) — o dono delegou à equipe | Pedagógico | Telchar + Pelennor → Júnior aprova | 2026-12-10 | ⬜ | Colônia Digital |
 | 33 | Confirmar o horário de quinta à noite do inglês (entrevista: até 20h; grade: última turma 15h10–16h40) | Idiomas | Júnior | 2026-11-27 | ⬜ | Colônia Digital |
 | 34 | Propor a trilha do 2º ano da Informática (programação/Scratch e alternativas) | Informática | Telchar + Nori | 2026-12-15 | 🔄 | Conversa com Telchar |
-| 35 | **Decidir:** regra do Fundo de Equipamentos, Hora do Código em dezembro, destino da sobra (reserva + micro:bit) | Informática | Sócios | 2026-11-24 | ⬜ | Plano 2027 da Informática |
-| 36 | Abrir 2 caixinhas Pix ("Fundo de Equipamentos" e "Operacional Informática") antes da 1ª venda do Pacote Fundador | Financeiro | Júnior | 2026-11-25 | ⬜ | Plano 2027 da Informática |
+| 35 | **Decidir:** regra do Fundo de Equipamentos e destino da sobra (reserva + micro:bit). ~~Hora do Código em dezembro~~ → **não fazer** (22/11) | Informática | Sócios | 2026-11-24 | ⬜ | Plano 2027 da Informática |
+| 36 | Abrir 2 caixinhas Pix ("Fundo de Equipamentos" e "Operacional Informática") antes da 1ª venda do Pacote Fundador — **Júnior confirmou o prazo (22/11)** | Financeiro | Júnior | 2026-11-25 | ⬜ | Plano 2027 da Informática |
 | 37 | Contador: regime e alíquota da receita nova + cláusula de reembolso do Pacote Fundador | Financeiro | Fíli + Júnior | 2026-12-05 | ⬜ | Plano 2027 da Informática |
 | 38 | Informar modelo e configuração dos 2 HP e do Dell cotado (validar slot de memória e SSD M.2) | Informática | Júnior → Telchar | Antes da 1ª compra | ⬜ | Plano 2027 da Informática |
 | 39 | Cliente oculto no Raniel (preço, formato, idade, carga horária) | Comercial | Celeborn | 2026-11-27 | ⬜ | Plano 2027 da Informática |
@@ -51,10 +51,10 @@
 | 44 | Calcular preço e custo da formação e das oficinas (referência: R$ 1.900–2.750/mês pagos hoje na jornada ampliada) e confirmar o teto vigente de dispensa | Financeiro | Fíli | 2026-12-10 | ⬜ | Pesquisa Pinhão |
 | 45 | **Decidir se seguimos com os Produtos A (oficinas na jornada ampliada) e B (formação de professores)** para a prefeitura | Informática | Sócios | 2026-11-27 | ⬜ | Pesquisa Pinhão v2 |
 | 46 | ~~Rascunhar o pedido de audiência~~ → pronto; falta o Júnior aprovar e preencher telefone, e-mail e nº do ofício do Instituto | Comercial | Celeborn → Júnior aprova | 2026-11-30 | 🔄 | Pesquisa Pinhão v2 |
-| 47 | **URGENTE: retorno aos leads do polo** — 34 leads, 33 ainda como "Novo" (26 pré-inscrições antigas, de abr a set, + 7 de 18/11). Começar pelos 7 de 18/11; definir quem faz contato todo dia; preencher origem, responsável e próximo follow-up | Unicesumar | Indianara + Giovana (Celeborn acompanha) | **2026-11-23** | ⬜ | Status comercial 20/11 (antecipado pela Black Week) |
-| 48 | Reunião de 30 min dos sócios: Hora do Código, preço do Pacote Fundador e da Colônia, Produtos A/B da prefeitura | Grupo | Júnior + Indianara | 2026-11-24 | ⬜ | Status comercial 20/11 |
+| 47 | **URGENTE: retorno aos leads do polo** — 34 leads, 33 ainda como "Novo" (26 pré-inscrições antigas, de abr a set, + 7 de 18/11). Começar pelos 7 de 18/11; definir quem faz contato todo dia; preencher origem, responsável e próximo follow-up | Unicesumar | **Giovana faz o contato diário** (decidido em 22/11; Celeborn acompanha) | **2026-11-23** | ⬜ | Status comercial 20/11 (antecipado pela Black Week) |
+| 48 | Reunião de 30 min dos sócios — pauta: preço da Informática e da Colônia (#25), Produtos A/B da prefeitura (#45), regra do Fundo e destino da sobra (#35), aprovação da Black Week (#52) e da reabertura para ex-alunos (#51) | Grupo | Júnior + Indianara | 2026-11-24 | ⬜ | Status comercial 20/11 |
 | 49 | Indicar quem faz a ligação de cliente oculto no Raniel (roteiro do Celeborn) | Comercial | Júnior | 2026-11-27 | ⬜ | Status comercial 20/11 |
-| 50 | **HOJE:** consultor da Unicesumar — vigência da Black Week 2026, 1ª mensalidade de aluno novo, desconto vale o curso todo?, peças oficiais, frequência dos encontros das licenciaturas, repasse sobre o valor com desconto, reabertura conta na meta? | Unicesumar | Giovana (Ulmo acompanha) | 2026-11-20 | ⬜ | Plano Black Week |
+| 50 | **HOJE:** consultor da Unicesumar — vigência da Black Week 2026, 1ª mensalidade de aluno novo, desconto vale o curso todo?, peças oficiais, frequência dos encontros das licenciaturas, repasse sobre o valor com desconto, reabertura conta na meta? | Unicesumar | **Júnior liga** (Ulmo acompanha) — decidido em 22/11 | 2026-11-23 | ⬜ | Plano Black Week |
 | 51 | Reabertura de matrícula para ex-alunos (1ª mensalidade R$ 19,90) — chamar os evadidos do polo | Unicesumar | Giovana + Indianara (Sam acompanha) | **2026-11-23** | ⬜ | Plano Black Week |
 | 52 | Aprovar o plano Black Week, as mensagens e as publicações; combinar as artes com a Tânia | Unicesumar | Júnior | 2026-11-21 | ⬜ | Plano Black Week |
 | 53 | Perguntar ao consultor: repasse sobre a 1ª mensalidade, se o desconto vale o curso todo, condições do contrato novo | Unicesumar | Giovana/Júnior (Ulmo acompanha) | 2026-11-25 | ⬜ | Projeção do Fíli |
@@ -87,7 +87,7 @@
 | 80 | Configurar o teclado ABNT2 no Windows dos notebooks (sem isso, "ç" e acentos não funcionam no módulo B2) | Informática | Júnior | 2026-12-05 | ⬜ | Roteiros do Bronze |
 | 81 | Combinar com a Giovana o fluxo para relatos sensíveis das crianças (bullying, internet) — quem avisar e como registrar | Operações | Orthanc + Sam → sócios | 2026-12-18 | ⬜ | Roteiros do Bronze |
 | 82 | Custo de impressão do caderno, certificados e produtos do Bronze | Financeiro | Fíli | 2026-12-10 | ⬜ | Roteiros do Bronze |
-| 83 | **Responder ao Telchar:** D1–D6 (`relatorios/2026-11-21-decisoes-estrutura-plataforma.md`, recomendação = todas "A"), nome do certificado Ouro ("Mestre Digital" ou "Programador Digital"), atalho de salvar do Word nos notebooks, e **OK para publicar** o registro de tempos | Informática | Júnior | 2026-11-27 (publicar até 04/12) | ⬜ | Telchar |
+| 83 | **Responder ao Telchar** (Júnior vai ler o relatório antes de decidir, 22/11): D1–D6 (`relatorios/2026-11-21-decisoes-estrutura-plataforma.md`, recomendação = todas "A"), nome do certificado Ouro ("Mestre Digital" ou "Programador Digital"), atalho de salvar do Word nos notebooks, e **OK para publicar** o registro de tempos | Informática | Júnior | 2026-11-27 (publicar até 04/12) | ⬜ | Telchar |
 | 84 | Autorização dos responsáveis para o teste com crianças de 12/12 | Operações | Orthanc → Júnior | 2026-12-05 | ⬜ | Ficha de teste |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
 
