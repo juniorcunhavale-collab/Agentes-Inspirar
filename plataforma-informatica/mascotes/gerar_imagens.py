@@ -66,8 +66,8 @@ ITENS = [
         "under her feet. Vertical framing with space around her.")),
     ("e-dupla-comemorando", "02-cenas", "dupla", "4:3", cena("dupla",
         "Theo and Lia celebrating an achievement: Lia jumps with both arms up, wearing a shiny gold medal with a turquoise "
-        "ribbon; Theo proudly holds up a blank certificate (plain paper with a simple decorative border and a small ribbon "
-        "seal, no writing at all). Colorful confetti in coral, yellow and turquoise falling around them. Joyful, proud "
+        "ribbon; Theo proudly holds up a certificate paper with only a simple decorative border and a small ribbon "
+        "seal, its surface completely empty with no words or letters. Colorful confetti in coral, yellow and turquoise falling around them. Joyful, proud "
         "expressions. Plain white or very light turquoise background. Full body. No text on the certificate or medal.")),
     ("f-dupla-notebook", "02-cenas", "dupla", "4:3", cena("dupla",
         "Theo and Lia sitting together at a light wooden desk in front of an open laptop, seen from a three-quarter front "
