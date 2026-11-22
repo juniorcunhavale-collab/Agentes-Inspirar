@@ -102,7 +102,7 @@ ITENS = [
     ("i-dupla-toca-aqui", "03-figurinhas", "dupla", "1:1", cena("dupla", STICKER.format(who="Theo and Lia",
         expr="Theo and Lia giving each other a high five, cheering"))),
     ("j-colorir-acenando", "04-colorir", "dupla", "3:4", COLORIR.format(cena="standing side by side, waving hello and smiling")),
-    ("j-colorir-medalha", "04-colorir", "dupla", "3:4", COLORIR.format(cena="celebrating, Lia wearing a medal and Theo holding a blank certificate")),
+    ("j-colorir-medalha", "04-colorir", "dupla", "3:4", COLORIR.format(cena="celebrating, Lia wearing a medal and Theo holding a certificate paper with only a border and a ribbon seal, no words")),
     ("j-colorir-escudo", "04-colorir", "dupla", "3:4", COLORIR.format(cena="standing in front of a friendly shield with a padlock, giving thumbs-up")),
     ("j-colorir-computadores", "04-colorir", "dupla", "3:4", COLORIR.format(cena="each sitting at their own computer, smiling at each other")),
 ]

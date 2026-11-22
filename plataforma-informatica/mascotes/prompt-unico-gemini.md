@@ -22,7 +22,7 @@ LIA: 10-year-old Brazilian girl, fair (white) skin with a warm tone and rosy che
 SCENES (3D style):
 #1 Theo waving (vertical 3:4): full body, three-quarters toward the viewer, waving hello with his right hand, confident smile, curious sparkle as if he just had an idea. Plain white background, soft shadow under his feet.
 #2 Lia waving (vertical 3:4): full body, three-quarters toward the viewer, waving enthusiastically with her left hand raised high, big joyful smile, small happy bounce. Plain white background, soft shadow under her feet.
-#3 Celebrating (horizontal 4:3): Lia jumps with both arms up wearing a shiny gold medal with a turquoise ribbon; Theo proudly holds up a BLANK certificate (simple decorative border, small ribbon seal, no writing). Coral, yellow and turquoise confetti. Full body. White or very light turquoise background.
+#3 Celebrating (horizontal 4:3): Lia jumps with both arms up wearing a shiny gold medal with a turquoise ribbon; Theo proudly holds up a certificate paper that has ONLY a simple decorative border and a small ribbon seal; the paper surface is completely empty, with no words or letters of any kind. Coral, yellow and turquoise confetti. Full body. White or very light turquoise background.
 #4 Laptop (horizontal 4:3): both sitting at a light wooden desk in front of an open laptop, three-quarter front view. Theo points at the screen explaining; Lia leans in excited. Screen shows only an abstract spreadsheet of colored cells, a small bar chart and gray lines for text, nothing readable. Bright cozy classroom, softly blurred turquoise-and-white background.
 #5 Safe internet (horizontal 4:3): both standing confidently in front of a large glowing friendly shield in turquoise and navy with a simple padlock in the center. Lia holds a tablet showing only a green check mark; Theo gives a thumbs-up. Small floating padlock, key and check mark icons. Calm, safe, positive mood.
 
@@ -39,7 +39,7 @@ STICKERS (3D style, square 1:1, head and upper body, thick clean white die-cut o
 
 COLORING PAGES (#13 to #16): IGNORE the 3D style. Black-and-white line art for children 8 to 12, vertical A4 proportion. Same characters, faces, hair and outfits as the references. Clean bold smooth black outlines of uniform thickness, simple closed shapes easy to color, no shading, no gray, no hatching, no filled black areas, pure white background, few background elements.
 #13 Coloring: Theo and Lia side by side, waving and smiling.
-#14 Coloring: celebrating, Lia with a medal, Theo holding a blank certificate.
+#14 Coloring: celebrating, Lia with a medal, Theo holding a certificate paper with only a border and a ribbon seal, no words.
 #15 Coloring: in front of a friendly shield with a padlock, thumbs-up.
 #16 Coloring: each sitting at their own computer, smiling at each other.
 
