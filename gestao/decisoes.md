@@ -5,6 +5,7 @@
 
 | Data | Decisão | Motivo | Alternativas descartadas | Como mediremos | Revisar em |
 |---|---|---|---|---|---|
+| 2026-11-24 | **Carrossel de gestão: selo preto "60% OFF" (sem "ATÉ")**, protegido por: (1) legenda do post abrindo com "Até 60% de desconto: 50% da campanha promocional + 10% por pontualidade" e (2) nota completa do desconto na tela 4. Telas 1 a 3 sem rodapé e sem numeração; endereço e WhatsApp só na tela 4; sem "EAD" nos títulos | Visual mais limpo; desconto real de Adm./Contábeis/tecnólogos 24 m é 55% e o "60%" é o anunciado pelo site | "ATÉ 60% OFF" em faixa coral; rodapé em todas as telas | Leads vindos do carrossel (palavra GESTÃO) | 2026-11-27 |
 | 2026-11-22 | **Não fazer a Hora do Código em dezembro** | Foco na Colônia Digital de janeiro | Evento de captação em dezembro | — | — |
 | 2026-11-22 | **A meta de +R$ 10 mil é mensal**; o Fíli divide a meta por frente | Confirmação do dono | Meta anual | Faturamento mensal vs. ~R$ 27 mil | Mensal |
 | 2026-11-22 | **A Giovana assume o contato diário com os leads do polo**; o Júnior liga para o consultor da Unicesumar em 23/11 | Destravar a Black Week | Indianara ou divisão entre as duas | Leads tirados de "Novo" por semana | 2026-11-30 |
