@@ -90,9 +90,9 @@
 | 83 | **Responder ao Telchar:** D1–D6 (`relatorios/2026-11-21-decisoes-estrutura-plataforma.md`, recomendação = todas "A"), nome do certificado Ouro ("Mestre Digital" ou "Programador Digital"), atalho de salvar do Word nos notebooks, e **OK para publicar** o registro de tempos | Informática | Júnior | 2026-11-27 (publicar até 04/12) | ⬜ | Telchar |
 | 84 | Autorização dos responsáveis para o teste com crianças de 12/12 | Operações | Orthanc → Júnior | 2026-12-05 | ⬜ | Ficha de teste |
 | 3 | Rodar o primeiro `/diagnostico` geral do negócio após o contexto preenchido | Grupo | Durin | [definir] | ⬜ | Implantação |
-| 40 | Piloto do mapa mental (apostila A1): Júnior escolhe a turma A1 e a data | Idiomas | Júnior | 2026-12-01 | ⬜ | Ideia #38 |
-| 41 | Piloto do mapa mental: preparar quiz de 5 questões e gabarito | Idiomas | Pelennor | 2026-11-28 | ⬜ | Ideia #38 |
-| 42 | Piloto do mapa mental: aplicar o quiz (antes e 1 semana depois) e devolver a média da turma | Idiomas | Isengard + Júnior | 2026-12-15 | ⬜ | Ideia #38 |
+| 85 | Piloto do mapa mental (apostila A1): Júnior escolhe a turma A1 e a data | Idiomas | Júnior | 2026-12-01 | ⬜ | Ideia #38 |
+| 86 | Piloto do mapa mental: preparar quiz de 5 questões e gabarito | Idiomas | Pelennor | 2026-11-28 | ⬜ | Ideia #38 |
+| 87 | Piloto do mapa mental: aplicar o quiz (antes e 1 semana depois) e devolver a média da turma | Idiomas | Isengard + Júnior | 2026-12-15 | ⬜ | Ideia #38 |
 
 ## Concluídas
 | # | Ação | Concluída em | Resultado |
