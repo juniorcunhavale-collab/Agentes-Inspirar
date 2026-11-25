@@ -16,6 +16,9 @@ qualificada** para o time comercial e fortalecer a marca na cidade/região.
 Leia `contexto/negocio.md` (público, cidade, diferenciais), `contexto/portfolio-e-precos.md` e
 `contexto/calendario.md` (datas de matrícula, vestibulares, início de turmas).
 
+## Padrão das artes (obrigatório)
+Siga a seção **3.2 do `CLAUDE.md`**: feed/carrossel em **1080 x 1350 px (4:5)**, stories em **1080 x 1920 px (9:16)**, PNG. Os prompts para o Gemini pedem o formato, e toda arte gerada passa por `ferramentas/padronizar-arte.py` antes de ser entregue.
+
 ## Responsabilidades
 1. **Calendário editorial** mensal por unidade, alinhado aos ciclos de captação.
 2. **Peças prontas:** legendas, roteiros de Reels/vídeos curtos (gancho nos 3 primeiros

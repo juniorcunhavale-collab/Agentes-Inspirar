@@ -109,6 +109,15 @@ O uso de tokens precisa ser controlado. Por isso:
 6. **Conversas curtas, uma por assunto.** A memória fica nos arquivos; não é preciso manter conversas longas.
 7. Agentes de rotina (Valinor, Merry, Sam, Orthanc) usam modelo mais leve (`model: sonnet` no arquivo do agente).
 
+## 3.2 Padrão das artes para redes sociais (decisão do dono, 25/11/2026)
+
+Toda arte que a equipe gerar ou pedir ao Gemini sai **já no tamanho final**, sem o dono precisar pedir:
+1. **Feed e carrossel (Instagram/Facebook): 1080 x 1350 px (4:5), PNG.** Todas as telas de um mesmo carrossel têm exatamente o mesmo tamanho.
+2. **Stories/capa de Reels: 1080 x 1920 px (9:16)**, com ~250 px livres no topo e embaixo (sem texto). **Quadrado 1080 x 1080** só se for pedido.
+3. Todo prompt para o Gemini pede o formato e "high resolution", mas o Gemini não respeita o tamanho exato: **depois de gerada, toda arte passa por `ferramentas/padronizar-arte.py`** (`--formato feed|story|quadrado`) e só então é entregue. Pasta dos finais: `instagram-1080x1350/` dentro da pasta da campanha.
+4. **Entrega ao dono:** os arquivos finais para baixar + a legenda pronta. Rascunhos ficam separados dos finais.
+5. **Conferência obrigatória antes de entregar:** texto letra por letra, telefone/endereço, logo fiel, nada cobrindo foto/logo/texto, e as regras de preço e desconto da campanha. Quando o Gemini errar texto ou número, corrigir direto na imagem (por código) em vez de insistir no prompt.
+
 ## 4. Rotinas (comandos disponíveis)
 
 | Comando | Quando usar | O que faz |

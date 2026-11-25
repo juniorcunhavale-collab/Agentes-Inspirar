@@ -5,6 +5,7 @@
 
 | Data | Decisão | Motivo | Alternativas descartadas | Como mediremos | Revisar em |
 |---|---|---|---|---|---|
+| 2026-11-25 | **Padrão fixo das artes:** feed/carrossel 1080 x 1350 px (4:5), stories 1080 x 1920 px (9:16), PNG; toda arte passa por `ferramentas/padronizar-arte.py` antes de ser entregue | As artes do Gemini vieram em tamanhos diferentes (825, 928 e 1611 px de largura) | Aceitar o tamanho que o Gemini entregar | Artes entregues já em 1080 px de largura, sem retrabalho | 2026-12-25 |
 | 2026-11-24 | **Carrossel de gestão: selo preto "60% OFF" (sem "ATÉ")**, protegido por: (1) legenda do post abrindo com "Até 60% de desconto: 50% da campanha promocional + 10% por pontualidade" e (2) nota completa do desconto na tela 4. Telas 1 a 3 sem rodapé e sem numeração; endereço e WhatsApp só na tela 4; sem "EAD" nos títulos | Visual mais limpo; desconto real de Adm./Contábeis/tecnólogos 24 m é 55% e o "60%" é o anunciado pelo site | "ATÉ 60% OFF" em faixa coral; rodapé em todas as telas | Leads vindos do carrossel (palavra GESTÃO) | 2026-11-27 |
 | 2026-11-22 | **Não fazer a Hora do Código em dezembro** | Foco na Colônia Digital de janeiro | Evento de captação em dezembro | — | — |
 | 2026-11-22 | **A meta de +R$ 10 mil é mensal**; o Fíli divide a meta por frente | Confirmação do dono | Meta anual | Faturamento mensal vs. ~R$ 27 mil | Mensal |
