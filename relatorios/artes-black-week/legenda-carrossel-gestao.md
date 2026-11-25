@@ -7,7 +7,7 @@ Até 60% de desconto: 50% da campanha promocional + 10% por pontualidade.
 A Black Week UniCesumar chegou ao Polo Pinhão com condição especial nos cursos de gestão! 🎓
 
 👉 Ciências Contábeis
-👉 Tecnólogos de 24 meses, como Gestão de RH, Logística, Gestão Comercial e Marketing
+👉 Tecnólogos de 24 meses, como Recursos Humanos, Logística, Comercial e Marketing
 
 Dá para fazer uma graduação em 2 anos, estudando pelo celular, no seu horário, com o apoio do polo aqui em Pinhão.
 
@@ -19,4 +19,4 @@ Rua XV de Novembro, nº 54, Sala 2, Centro, Pinhão, Paraná
 
 Condição válida enquanto a campanha estiver no ar. O valor de cada curso é informado no atendimento. Desconto de 10% por pontualidade para pagamento em dia.
 
-#BlackWeek #UniCesumar #Pinhão #Paraná #EAD #Graduação #CiênciasContábeis #GestãoDeRH #Logística #Marketing
+#BlackWeek #UniCesumar #Pinhão #Paraná #EAD #Graduação #CiênciasContábeis #RecursosHumanos #Logística #Marketing
